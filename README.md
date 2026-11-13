@@ -19,9 +19,10 @@ are stored in this repository or in the deployed site**, only the index
 | :--- | :--- | :--- |
 | GRETIL: Göttingen Register of Electronic Texts in Indian Languages | [meobtis/gretil](https://github.com/meobtis/gretil) | <https://gretil.sub.uni-goettingen.de/gretil.html> |
 | DSBC: Digital Sanskrit Buddhist Canon (IAST and Devanāgarī) | [meobtis/dsbc](https://github.com/meobtis/dsbc) | <https://www.dsbcproject.org> |
+| SARIT: Search and Retrieval of Indic Texts (TEI critical editions) | [meobtis/sarit](https://github.com/meobtis/sarit) | <https://sarit.indology.info> |
 
 The texts are subject to their sources' terms. GRETIL texts carry a licence in each file,
-mostly CC BY-NC-SA 4.0. DSBC texts are for non-commercial educational and research use;
+mostly CC BY-NC-SA 4.0. SARIT texts are CC BY-SA 4.0 or 3.0. DSBC texts are for non-commercial educational and research use;
 see the [DSBC usage policy](https://www.dsbcproject.org/pages/usage-policy).
 
 ## How it works
@@ -220,6 +221,9 @@ added, removed or renamed.
     Electronic Texts in Indian Languages, maintained by the Göttingen State and University
     Library (SUB Göttingen), and its contributors. The licence is given in each text, mostly
     CC BY-NC-SA 4.0.
+  - [SARIT](https://sarit.indology.info), Search and Retrieval of Indic Texts, developed with funding from the German
+    Research Foundation (DFG) and the US National Endowment for the Humanities (NEH), and its editors and contributors.
+    The texts are CC BY-SA 4.0 or 3.0.
   - The [Digital Sanskrit Buddhist Canon](https://www.dsbcproject.org), a project of the
     University of the West with the Nagarjuna Institute, Kathmandu, and its input and
     proof-reading staff. For non-commercial educational and research use; see the

@@ -1,6 +1,6 @@
 ---
 title: MEOBTIS
-description: An index of over 600 Buddhist texts in Sanskrit from GRETIL and the Digital Sanskrit Buddhist Canon, converted to Markdown and readable online in IAST and Devanāgarī.
+description: An index of over 600 Buddhist texts in Sanskrit from GRETIL, the Digital Sanskrit Buddhist Canon and SARIT, converted to Markdown and readable online in IAST and Devanāgarī.
 template: splash
 head:
   - tag: title
@@ -30,6 +30,7 @@ hero:
 
 import catalog from '../../data/catalog.json';
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { listOf } from '../../lib/catalog';
 
 export const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
 export const groups = catalog.groups.filter((g) => g.count > 0);
@@ -39,10 +40,10 @@ export const groups = catalog.groups.filter((g) => g.count > 0);
 		{editions} Markdown editions, each listed once however many sources have it.
 	</Card>
 	<Card title={`${catalog.sources.length} sources`} icon="list-format">
-		{catalog.sources.map((s) => s.name).join(' and ')}, with more to come.
+		{listOf(catalog.sources.map((s) => s.name))}, with more to come.
 	</Card>
 	<Card title="IAST and Devanāgarī" icon="translate">
-		Every link names its source and script, such as GRETIL, DSBC or DSBC देवनागरी.
+		Every link names its source and script, such as GRETIL, DSBC, SARIT or DSBC देवनागरी.
 	</Card>
 	<Card title="Open on GitHub" icon="github">
 		The texts are plain Markdown in the [meobtis](https://github.com/meobtis) repositories.

@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 import { classifyGretil } from './classify.mjs';
 import { CATEGORY_OVERRIDES, EDITION_NOTES, MERGE, SPLIT, TITLE_OVERRIDES } from './overrides.mjs';
 import { SOURCES, checkout } from './sources.mjs';
-import { CATEGORY_IDS, TAXONOMY, classifyVinaya, isVinayaPitaka, mapDsbcCategory } from './taxonomy.mjs';
+import { CATEGORY_IDS, TAXONOMY, classifyVinaya, isVinayaPitaka, mapDsbcCategory, mapSaritCategory } from './taxonomy.mjs';
 import { capitalise, devaToIast, titleKey } from './text.mjs';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
@@ -104,7 +104,7 @@ for (const eds of groups.values()) {
 		capitalise(best ? stripNotes(best.title) : devaToIast(stripNotes(deva.title))).replace(/\s+/g, ' ');
 	const author = eds.find((e) => e.author)?.author;
 
-	// Category: manual override › DSBC (IAST, then Devanāgarī) › GRETIL rules › DSBC "vividha".
+	// Category: manual override › DSBC (IAST, then Devanāgarī) › SARIT › GRETIL rules › DSBC "vividha".
 	let placement = override(CATEGORY_OVERRIDES);
 	let fallback = null;
 	for (const e of eds) {
@@ -115,6 +115,7 @@ for (const eds of groups.values()) {
 		if (p?.category === 'other/miscellaneous') fallback ??= p;
 		else if (p) placement = p;
 	}
+	for (const e of eds) if (!placement && e.saritCategory) placement = mapSaritCategory(e.saritCategory);
 	for (const e of eds) if (!placement && e.source === 'gretil') placement = classifyGretil(e);
 	placement ??= fallback;
 	if (typeof placement === 'string') placement = { category: placement };

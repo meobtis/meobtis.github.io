@@ -2,7 +2,7 @@
 // One page per category of the catalogue, e.g. /texts/sutra/prajnaparamita/.
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import WorkList from '../../../components/WorkList.astro';
-import { catalog, readerUrl, sectionsOf, slugify, worksIn, type Category, type Group } from '../../../lib/catalog';
+import { catalog, listOf, readerUrl, sectionsOf, slugify, worksIn, type Category, type Group } from '../../../lib/catalog';
 
 export function getStaticPaths() {
 	return catalog.groups.flatMap((group) =>
@@ -63,7 +63,7 @@ const jsonLd = {
 <StarlightPage
 	frontmatter={{
 		title: category.label,
-		description: `${category.description} ${works.length} texts in Sanskrit, with Markdown editions from ${catalog.sources.map((s) => s.label).join(' and ')}.`,
+		description: `${category.description} ${works.length} texts in Sanskrit, with Markdown editions from ${listOf(catalog.sources.map((s) => s.label))}.`,
 		head: [
 			{ tag: 'title', content: `${category.label}: Buddhist texts in Sanskrit | MEOBTIS` },
 			{ tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify(jsonLd) },

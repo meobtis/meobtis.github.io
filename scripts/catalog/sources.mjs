@@ -153,4 +153,30 @@ export const SOURCES = [
 				});
 		},
 	},
+	{
+		id: 'sarit',
+		label: 'SARIT',
+		name: 'Search and Retrieval of Indic Texts',
+		homepage: 'https://sarit.indology.info',
+		repo: 'meobtis/sarit',
+		publisher: 'the SARIT project',
+		credit:
+			'Text from SARIT (Search and Retrieval of Indic Texts), a library of TEI-encoded Indic texts developed with ' +
+			'funding from the German Research Foundation (DFG) and the US National Endowment for the Humanities (NEH), ' +
+			'with the editors and the data-entry and encoding contributors named in the edition details.',
+		terms: 'Licence as stated in each text: CC BY-SA 4.0 or 3.0 (attribution and share-alike). Changes made in converting it are listed in the edition details.',
+		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'sarit',
+				sourceId: String(data.sarit_id),
+				title: String(data.title).trim(),
+				author: data.author ? String(data.author).trim() : undefined,
+				script: data.script === 'devanagari' ? 'deva' : 'iast',
+				path,
+				originalUrl: data.source_url,
+				saritCategory: data.category,
+			}));
+		},
+	},
 ];

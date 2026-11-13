@@ -8,7 +8,7 @@ const catalog = JSON.parse(readFileSync(new URL('./src/data/catalog.json', impor
 
 const SITE = 'https://meobtis.github.io';
 const DESCRIPTION =
-	'An index of Buddhist texts in Sanskrit from GRETIL and the Digital Sanskrit Buddhist Canon, ' +
+	'An index of Buddhist texts in Sanskrit from GRETIL, the Digital Sanskrit Buddhist Canon and SARIT, ' +
 	'converted to Markdown and readable online in IAST and Devanāgarī.';
 const OG_IMAGE = { url: `${SITE}/meobtis-og.jpeg`, alt: 'Sanskrit manuscript of the Heart Sūtra in Siddhaṃ script' };
 // The logo and share image: a public-domain photograph from Wikimedia Commons (see About › Image credit).

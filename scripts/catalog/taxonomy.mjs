@@ -202,3 +202,19 @@ export function classifyVinaya(title) {
 		return { category: 'vinaya/pratimoksa' };
 	return { category: 'vinaya/vinaya-other' };
 }
+
+/** Map the category a SARIT text carries in its front matter to the MEOBTIS taxonomy. */
+export function mapSaritCategory(category) {
+	switch (category) {
+		case 'Buddhist Epistemology and Logic':
+			return { category: 'sastra/pramana' };
+		case 'Buddhist Philosophy':
+			return { category: 'sastra/madhyamaka-yogacara' };
+		case 'Buddhist Tantra':
+			return { category: 'tantra/sadhana' };
+		case 'Poetics':
+			return { category: 'sciences/alamkara' };
+		default:
+			return null;
+	}
+}

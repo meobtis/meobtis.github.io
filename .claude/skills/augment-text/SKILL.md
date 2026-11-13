@@ -38,6 +38,8 @@ Fetch each edition's Markdown URL and read only its YAML front matter (stop at t
   revised and encoded it), `licence`.
 - DSBC: `bibliography` (title, editor, publisher, place, year), `technical_details`
   (input personnel and date, proof-reader, supplier, sponsor).
+- SARIT: `source_edition` (the printed edition the text was keyed from), `contributors`
+  (data entry and encoding), `funder`, `licence`.
 
 These are the facts for each edition's history. Also look at the first lines of the text
 to confirm which work it is.

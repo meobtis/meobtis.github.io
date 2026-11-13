@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-13T04:26:51.318Z",
+	"generated": "2026-11-13T05:10:09.613Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -28,6 +28,20 @@
 			"url": "https://github.com/meobtis/dsbc",
 			"editions": 902,
 			"works": 455
+		},
+		{
+			"id": "sarit",
+			"label": "SARIT",
+			"name": "Search and Retrieval of Indic Texts",
+			"homepage": "https://sarit.indology.info",
+			"repo": "meobtis/sarit",
+			"publisher": "the SARIT project",
+			"credit": "Text from SARIT (Search and Retrieval of Indic Texts), a library of TEI-encoded Indic texts developed with funding from the German Research Foundation (DFG) and the US National Endowment for the Humanities (NEH), with the editors and the data-entry and encoding contributors named in the edition details.",
+			"terms": "Licence as stated in each text: CC BY-SA 4.0 or 3.0 (attribution and share-alike). Changes made in converting it are listed in the edition details.",
+			"termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+			"url": "https://github.com/meobtis/sarit",
+			"editions": 23,
+			"works": 23
 		}
 	],
 	"groups": [
@@ -134,13 +148,13 @@
 					"id": "madhyamaka-yogacara",
 					"label": "Madhyamaka–Yogācāra",
 					"description": "Works synthesising Madhyamaka and Yogācāra, and treatises on the bodhisattva path.",
-					"count": 17
+					"count": 18
 				},
 				{
 					"id": "pramana",
 					"label": "Pramāṇa",
 					"description": "Epistemology and logic (pramāṇa, hetuvidyā).",
-					"count": 51
+					"count": 62
 				},
 				{
 					"id": "prajnaparamita-sastra",
@@ -161,7 +175,7 @@
 					"count": 1
 				}
 			],
-			"count": 169
+			"count": 181
 		},
 		{
 			"id": "tantra",
@@ -262,7 +276,7 @@
 					"id": "alamkara",
 					"label": "Alaṃkāra and chandas",
 					"description": "Poetics and metrics.",
-					"count": 2
+					"count": 3
 				},
 				{
 					"id": "jyotisa",
@@ -283,7 +297,7 @@
 					"count": 6
 				}
 			],
-			"count": 14
+			"count": 15
 		},
 		{
 			"id": "other",
@@ -2445,6 +2459,7 @@
 		},
 		{
 			"title": "Avayavinirākaraṇa",
+			"titleDeva": "Avayavinirākaraṇa",
 			"author": "Paṇḍitāśoka",
 			"category": "sastra/pramana",
 			"editions": [
@@ -2471,6 +2486,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/Avayavinir%C4%81kara%E1%B9%87am.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/Avayavinir%C4%81kara%E1%B9%87am.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/287"
+				},
+				{
+					"ref": "sarit:avayavinirakarana",
+					"source": "sarit",
+					"sourceId": "avayavinirakarana",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Avayavinirākaraṇa",
+					"slug": "sarit/avayavinirakarana",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Avayavinir%C4%81kara%E1%B9%87a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Avayavinir%C4%81kara%E1%B9%87a.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/avayavinirakarana.xml"
 				}
 			]
 		},
@@ -4205,7 +4232,7 @@
 			]
 		},
 		{
-			"title": "Caryāmelāvaṇapradīpa",
+			"title": "Caryāmelāpakapradīpa",
 			"author": "Āryadeva",
 			"category": "tantra/sadhana",
 			"editions": [
@@ -4220,6 +4247,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Cary%C4%81mel%C4%81va%E1%B9%87aprad%C4%ABpa.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Cary%C4%81mel%C4%81va%E1%B9%87aprad%C4%ABpa.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_Aryadeva-caryAmelAvaNapradIpa.xml"
+				},
+				{
+					"ref": "sarit:caryamelapakapradipa",
+					"source": "sarit",
+					"sourceId": "caryamelapakapradipa",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Caryāmelāpakapradīpa",
+					"slug": "sarit/caryamelapakapradipa",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Cary%C4%81mel%C4%81pakaprad%C4%ABpa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Cary%C4%81mel%C4%81pakaprad%C4%ABpa.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/caryamelapakapradipa.xml"
 				}
 			]
 		},
@@ -5328,6 +5367,7 @@
 		},
 		{
 			"title": "Dharmottarapradīpa",
+			"titleDeva": "Dharmottarapradīpa",
 			"author": "Durvekamiśra",
 			"category": "sastra/pramana",
 			"editions": [
@@ -5342,6 +5382,36 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Dharmottaraprad%C4%ABpa%20subcommentary%20on%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81%20on%20Dharmak%C4%ABrti's%20Ny%C4%81yabindu.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Dharmottaraprad%C4%ABpa%20subcommentary%20on%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81%20on%20Dharmak%C4%ABrti's%20Ny%C4%81yabindu.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_durvekamizra-dharmottarapradIpa.xml"
+				},
+				{
+					"ref": "sarit:dharmottarapradipa",
+					"source": "sarit",
+					"sourceId": "dharmottarapradipa",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Dharmottarapradīpa",
+					"slug": "sarit/dharmottarapradipa",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Dharmottaraprad%C4%ABpa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Dharmottaraprad%C4%ABpa.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/dharmottarapradipa.xml"
+				}
+			]
+		},
+		{
+			"title": "Dharmottaraṭippanaka",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:dharmottaratippanaka",
+					"source": "sarit",
+					"sourceId": "dharmottaratippanaka",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Dharmottaraṭippanaka",
+					"slug": "sarit/dharmottaratippanaka",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Dharmottara%E1%B9%ADippanaka.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Dharmottara%E1%B9%ADippanaka.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/dharmottaratippanaka.xml"
 				}
 			]
 		},
@@ -6520,6 +6590,25 @@
 			]
 		},
 		{
+			"title": "Īśvaravādimataparīkṣā",
+			"author": "Jitāri",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:jitari-isvaravadimatapariksa",
+					"source": "sarit",
+					"sourceId": "jitari-isvaravadimatapariksa",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Īśvaravādimataparīkṣā",
+					"slug": "sarit/jitari-isvaravadimatapariksa",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/%C4%AA%C5%9Bvarav%C4%81dimatapar%C4%ABk%E1%B9%A3%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/%C4%AA%C5%9Bvarav%C4%81dimatapar%C4%ABk%E1%B9%A3%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jitari-isvaravadimatapariksa.xml"
+				}
+			]
+		},
+		{
 			"title": "Jambhalastotra",
 			"titleDeva": "जम्भलस्तोत्र",
 			"category": "stotra/stotra-deity",
@@ -6655,6 +6744,7 @@
 		{
 			"title": "Jātinirākṛti",
 			"titleDeva": "जातिनिराकृति",
+			"author": "Jitāri",
 			"category": "sastra/pramana",
 			"editions": [
 				{
@@ -6680,6 +6770,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%9C%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/507"
+				},
+				{
+					"ref": "sarit:jitari-jatinirakrti",
+					"source": "sarit",
+					"sourceId": "jitari-jatinirakrti",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Jātinirākṛti",
+					"slug": "sarit/jitari-jatinirakrti",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/J%C4%81tinir%C4%81k%E1%B9%9Bti.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/J%C4%81tinir%C4%81k%E1%B9%9Bti.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jitari-jatinirakrti.xml"
 				}
 			]
 		},
@@ -6761,6 +6863,26 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%BE/%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A4%BF%E0%A4%95%E0%A4%BE/%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BF%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/861"
+				}
+			]
+		},
+		{
+			"title": "Jñānaśrīmitranibandhāvali",
+			"titleDeva": "Jñānaśrīmitranibandhāvali",
+			"author": "Jñānaśrīmitra",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:jnanasrimitra-nibandhavali",
+					"source": "sarit",
+					"sourceId": "jnanasrimitra-nibandhavali",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Jñānaśrīmitranibandhāvali",
+					"slug": "sarit/jnanasrimitra-nibandhavali",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/J%C3%B1%C4%81na%C5%9Br%C4%ABmitranibandh%C4%81vali.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/J%C3%B1%C4%81na%C5%9Br%C4%ABmitranibandh%C4%81vali.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jnanasrimitra-nibandhavali.xml"
 				}
 			]
 		},
@@ -7326,6 +7448,26 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE/%E0%A4%95%E0%A5%8C%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE/%E0%A4%95%E0%A5%8C%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/399"
+				}
+			]
+		},
+		{
+			"title": "Kāvyādarśa with Ratnaśrī",
+			"titleDeva": "Kāvyādarśa with Ratnaśrī",
+			"author": "Daṇḍin; Ratnaśrījñāna",
+			"category": "sciences/alamkara",
+			"editions": [
+				{
+					"ref": "sarit:ratnasritika-dn",
+					"source": "sarit",
+					"sourceId": "ratnasritika-dn",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Kāvyādarśa with Ratnaśrī",
+					"slug": "sarit/ratnasritika-dn",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/K%C4%81vy%C4%81dar%C5%9Ba%20with%20Ratna%C5%9Br%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/K%C4%81vy%C4%81dar%C5%9Ba%20with%20Ratna%C5%9Br%C4%AB.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/ratnasritika-dn.xml"
 				}
 			]
 		},
@@ -10288,6 +10430,25 @@
 			]
 		},
 		{
+			"title": "Nairātmyasiddhi",
+			"author": "Jitāri",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:jitari-nairatmyasiddhi",
+					"source": "sarit",
+					"sourceId": "jitari-nairatmyasiddhi",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Nairātmyasiddhi",
+					"slug": "sarit/jitari-nairatmyasiddhi",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Nair%C4%81tmyasiddhi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Nair%C4%81tmyasiddhi.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jitari-nairatmyasiddhi.xml"
+				}
+			]
+		},
+		{
 			"title": "Nairātmyāyā Bhagavatyā Āśīḥstutiḥ",
 			"titleDeva": "नैरात्म्याया भगवत्या आशीःस्तुतिः",
 			"category": "tantra/tantra-commentary",
@@ -10511,25 +10672,6 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_religious_literature/Nava%C5%9Blok%C4%AB.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_religious_literature/Nava%C5%9Blok%C4%AB.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kambalapAda-navazlokI.xml"
-				}
-			]
-		},
-		{
-			"title": "Nibandhāvalī",
-			"author": "Ratnakīrti",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_ratnakIrti-nibandhAvalI",
-					"source": "gretil",
-					"sourceId": "sa_ratnakIrti-nibandhAvalI",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Nibandhāvalī",
-					"slug": "gretil/sa_ratnakIrti-nibandhAvalI",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Nibandh%C4%81val%C4%AB.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Nibandh%C4%81val%C4%AB.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-nibandhAvalI.xml"
 				}
 			]
 		},
@@ -11948,6 +12090,24 @@
 			]
 		},
 		{
+			"title": "Pramāṇāntarbhāva",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:pramanantarbhava",
+					"source": "sarit",
+					"sourceId": "pramanantarbhava",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Pramāṇāntarbhāva",
+					"slug": "sarit/pramanantarbhava",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanantarbhava.xml"
+				}
+			]
+		},
+		{
 			"title": "Pramāṇavārtikam",
 			"titleDeva": "प्रमाणवार्तिकम्",
 			"category": "sastra/pramana",
@@ -11997,6 +12157,26 @@
 			]
 		},
 		{
+			"title": "Pramāṇavārttika Pariśiṣṭa",
+			"titleDeva": "Pramāṇavārttika Pariśiṣṭa",
+			"author": "Vibhūticandra",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:pramanavarttikaparisista-1",
+					"source": "sarit",
+					"sourceId": "pramanavarttikaparisista-1",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Pramāṇavārttika Pariśiṣṭa 1",
+					"slug": "sarit/pramanavarttikaparisista-1",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikaparisista-1.xml"
+				}
+			]
+		},
+		{
 			"title": "Pramāṇavārttikakārikā",
 			"author": "Dharmakīrti",
 			"category": "sastra/pramana",
@@ -12012,6 +12192,26 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-pramANavArttikakArikA.xml"
+				}
+			]
+		},
+		{
+			"title": "Pramāṇavārttikālaṅkārabhāṣya",
+			"titleDeva": "Pramāṇavārttikālaṅkārabhāṣya",
+			"author": "Prajñākaragupta",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:pramanavarttikalankarabhasya",
+					"source": "sarit",
+					"sourceId": "pramanavarttikalankarabhasya",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Pramāṇavārttikālaṅkārabhāṣya",
+					"slug": "sarit/pramanavarttikalankarabhasya",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttik%C4%81la%E1%B9%85k%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttik%C4%81la%E1%B9%85k%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikalankarabhasya.xml"
 				}
 			]
 		},
@@ -12035,6 +12235,26 @@
 			]
 		},
 		{
+			"title": "Pramāṇavārttikasvavṛttiṭīkā",
+			"titleDeva": "Pramāṇavārttikasvavṛttiṭīkā",
+			"author": "Dharmakīrti; Karṇakagomin",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:pramanavarttikasvavrttitika",
+					"source": "sarit",
+					"sourceId": "pramanavarttikasvavrttitika",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Pramāṇavārttikasvavṛttiṭīkā",
+					"slug": "sarit/pramanavarttikasvavrttitika",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttikasvav%E1%B9%9Btti%E1%B9%AD%C4%ABk%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttikasvav%E1%B9%9Btti%E1%B9%AD%C4%ABk%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikasvavrttitika.xml"
+				}
+			]
+		},
+		{
 			"title": "Pramāṇavārttikaṭīkā",
 			"author": "Śākyabuddhi",
 			"category": "sastra/pramana",
@@ -12050,6 +12270,26 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Pram%C4%81%E1%B9%87av%C4%81rttika%E1%B9%AD%C4%ABk%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Pram%C4%81%E1%B9%87av%C4%81rttika%E1%B9%AD%C4%ABk%C4%81.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zAkyabuddhi-pramANavArttikaTIkA.xml"
+				}
+			]
+		},
+		{
+			"title": "Pramāṇavārttikavṛtti",
+			"titleDeva": "Pramāṇavārttikavṛtti",
+			"author": "Dharmakīrti; Manorathanandin",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:pramanavarttikavrtti",
+					"source": "sarit",
+					"sourceId": "pramanavarttikavrtti",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Pramāṇavārttikavṛtti",
+					"slug": "sarit/pramanavarttikavrtti",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttikav%E1%B9%9Btti.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttikav%E1%B9%9Btti.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikavrtti.xml"
 				}
 			]
 		},
@@ -12832,10 +13072,23 @@
 			]
 		},
 		{
-			"title": "Ratnakīrti nibandhāvalī",
+			"title": "Ratnakīrtinibandhāvali",
 			"titleDeva": "रत्नकीर्तिनिबन्धावली",
+			"author": "Ratnakīrti",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "gretil:sa_ratnakIrti-nibandhAvalI",
+					"source": "gretil",
+					"sourceId": "sa_ratnakIrti-nibandhAvalI",
+					"label": "GRETIL",
+					"script": "iast",
+					"title": "Nibandhāvalī",
+					"slug": "gretil/sa_ratnakIrti-nibandhAvalI",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Nibandh%C4%81val%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Nibandh%C4%81val%C4%AB.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-nibandhAvalI.xml"
+				},
 				{
 					"ref": "dsbc:300",
 					"source": "dsbc",
@@ -12859,6 +13112,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%A8%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%A8%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/515"
+				},
+				{
+					"ref": "sarit:ratnakirti-nibandhavali",
+					"source": "sarit",
+					"sourceId": "ratnakirti-nibandhavali",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Ratnakīrtinibandhāvali",
+					"slug": "sarit/ratnakirti-nibandhavali",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Ratnak%C4%ABrtinibandh%C4%81vali.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Ratnak%C4%ABrtinibandh%C4%81vali.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/ratnakirti-nibandhavali.xml"
 				}
 			]
 		},
@@ -13977,6 +14242,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%A6%E0%A5%82%E0%A4%B7%E0%A4%A3%E0%A4%A6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%A6%E0%A5%82%E0%A4%B7%E0%A4%A3%E0%A4%A6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/523"
+				},
+				{
+					"ref": "sarit:samanyadusana",
+					"source": "sarit",
+					"sourceId": "samanyadusana",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Sāmānyadūṣaṇa",
+					"slug": "sarit/samanyadusana",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/S%C4%81m%C4%81nyad%C5%AB%E1%B9%A3a%E1%B9%87a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/S%C4%81m%C4%81nyad%C5%AB%E1%B9%A3a%E1%B9%87a.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/samanyadusana.xml"
 				}
 			]
 		},
@@ -14833,6 +15110,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AF%E0%A5%8B%E0%A4%97%20%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4%E0%A4%BF%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AF%E0%A5%8B%E0%A4%97%20%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%A6%E0%A5%81%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4%E0%A4%BF%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8%20%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/753"
+				}
+			]
+		},
+		{
+			"title": "Sarvajñasiddhi",
+			"author": "Jitāri",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:jitari-sarvajnasiddhi",
+					"source": "sarit",
+					"sourceId": "jitari-sarvajnasiddhi",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Sarvajñasiddhi",
+					"slug": "sarit/jitari-sarvajnasiddhi",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Sarvaj%C3%B1asiddhi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Sarvaj%C3%B1asiddhi.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jitari-sarvajnasiddhi.xml"
 				}
 			]
 		},
@@ -17101,6 +17397,7 @@
 		{
 			"title": "Tarkabhāṣā",
 			"titleDeva": "तर्कभाषा",
+			"author": "Mokṣākaragupta",
 			"category": "sastra/pramana",
 			"editions": [
 				{
@@ -17138,6 +17435,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/508"
+				},
+				{
+					"ref": "sarit:tarkabhasa",
+					"source": "sarit",
+					"sourceId": "tarkabhasa",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Tarkabhāṣā",
+					"slug": "sarit/tarkabhasa",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Tarkabh%C4%81%E1%B9%A3%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Tarkabh%C4%81%E1%B9%A3%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tarkabhasa.xml"
 				}
 			]
 		},
@@ -17187,6 +17496,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Tarkarahasya.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Tarkarahasya.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_tarkarahasya.xml"
+				},
+				{
+					"ref": "sarit:tarkarahasya",
+					"source": "sarit",
+					"sourceId": "tarkarahasya",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Tarkarahasya",
+					"slug": "sarit/tarkarahasya",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Tarkarahasya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Tarkarahasya.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tarkarahasya.xml"
 				}
 			]
 		},
@@ -17458,6 +17779,26 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Tattvasa%E1%B9%83graha.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Tattvasa%E1%B9%83graha.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zAntarakSita-tattvasaMgraha.xml"
+				}
+			]
+		},
+		{
+			"title": "Tattvasaṅgrahapañjikā",
+			"titleDeva": "Tattvasaṅgrahapañjikā",
+			"author": "Śāntarakṣita; Kamalaśīla",
+			"category": "sastra/madhyamaka-yogacara",
+			"editions": [
+				{
+					"ref": "sarit:tattvasangrahapanjika",
+					"source": "sarit",
+					"sourceId": "tattvasangrahapanjika",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Tattvasaṅgrahapañjikā",
+					"slug": "sarit/tattvasangrahapanjika",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Tattvasa%E1%B9%85grahapa%C3%B1jik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Tattvasa%E1%B9%85grahapa%C3%B1jik%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tattvasangrahapanjika.xml"
 				}
 			]
 		},
@@ -17956,6 +18297,7 @@
 		{
 			"title": "Vādanyāyaṭīkā",
 			"titleDeva": "वादन्यायटीका",
+			"author": "Śāntarakṣita",
 			"category": "sastra/pramana",
 			"editions": [
 				{
@@ -17981,6 +18323,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/518"
+				},
+				{
+					"ref": "sarit:vadanyayatika",
+					"source": "sarit",
+					"sourceId": "vadanyayatika",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
+					"title": "Vādanyāyaṭīkā Vipañcitārthā",
+					"slug": "sarit/vadanyayatika",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/V%C4%81dany%C4%81ya%E1%B9%AD%C4%ABk%C4%81%20Vipa%C3%B1cit%C4%81rth%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/V%C4%81dany%C4%81ya%E1%B9%AD%C4%ABk%C4%81%20Vipa%C3%B1cit%C4%81rth%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/vadanyayatika.xml"
 				}
 			]
 		},
@@ -18000,6 +18354,25 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/V%C4%81darahasya%20also%20known%20as%20Udayananir%C4%81kara%E1%B9%87a.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/V%C4%81darahasya%20also%20known%20as%20Udayananir%C4%81kara%E1%B9%87a.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-vAdarahasya.xml"
+				}
+			]
+		},
+		{
+			"title": "Vādasthānāni",
+			"author": "Jitāri",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:vadasthana",
+					"source": "sarit",
+					"sourceId": "vadasthana",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Vādasthānāni",
+					"slug": "sarit/vadasthana",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/vadasthana.xml"
 				}
 			]
 		},
@@ -18874,6 +19247,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/vasudh%C4%81r%C4%81/Vasudh%C4%81r%C4%81stotram.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/vasudh%C4%81r%C4%81/Vasudh%C4%81r%C4%81stotram.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/219"
+				}
+			]
+		},
+		{
+			"title": "Vedāprāmāṇyasiddhi",
+			"author": "Jitāri",
+			"category": "sastra/pramana",
+			"editions": [
+				{
+					"ref": "sarit:jitari-vedapramanyasiddhi",
+					"source": "sarit",
+					"sourceId": "jitari-vedapramanyasiddhi",
+					"label": "SARIT",
+					"script": "iast",
+					"title": "Vedāprāmāṇyasiddhi",
+					"slug": "sarit/jitari-vedapramanyasiddhi",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Ved%C4%81pr%C4%81m%C4%81%E1%B9%87yasiddhi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Ved%C4%81pr%C4%81m%C4%81%E1%B9%87yasiddhi.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jitari-vedapramanyasiddhi.xml"
 				}
 			]
 		},

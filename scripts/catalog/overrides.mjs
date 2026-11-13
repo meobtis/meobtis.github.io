@@ -27,6 +27,11 @@ export const MERGE = [
 	['gretil:sa_yazomitra-sphuTArthA-abhidharmakozavyAkhyA', 'dsbc:870'],
 	['dsbc:332', 'dsbc:573'], // Mahāyānasūtrālaṃkāra, kārikās
 	['gretil:sa_nAgArjuna-mUlamadhyamakakArikA', 'dsbc:931'], // Mūlamadhyamakakārikā (prajñā nāma)
+	// SARIT editions whose titles differ from the same work in GRETIL or DSBC:
+	['gretil:sa_paNDitAzoka-sAmAnyadUSaNadikprasAritA', 'sarit:samanyadusana'],
+	['dsbc:282', 'sarit:vadanyayatika'], // Vādanyāyaṭīkā (Vipañcitārthā)
+	['gretil:sa_ratnakIrti-nibandhAvalI', 'dsbc:300', 'sarit:ratnakirti-nibandhavali'],
+	['gretil:sa_Aryadeva-caryAmelAvaNapradIpa', 'sarit:caryamelapakapradipa'], // GRETIL's title is a misspelling
 ];
 
 /** Edition notes shown in link labels where one source has several editions of a work. */
@@ -84,6 +89,10 @@ export const TITLE_OVERRIDES = {
 	'dsbc:131': 'Rakṣākarastava',
 	'dsbc:751': 'Samāhitā Bhūmi',
 	'dsbc:876': 'Bauddhatantrokta Siddhauṣadhisaṅgraha',
+	'sarit:caryamelapakapradipa': 'Caryāmelāpakapradīpa',
+	'sarit:vadanyayatika': 'Vādanyāyaṭīkā',
+	'sarit:ratnakirti-nibandhavali': 'Ratnakīrtinibandhāvali',
+	'sarit:samanyadusana': 'Sāmānyadūṣaṇadikprasāritā',
 };
 
 // Three different works called Jātakamālā (Āryaśūra's is the one DSBC also has).

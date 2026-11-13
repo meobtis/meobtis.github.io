@@ -34,6 +34,7 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 <script>
 	import DOMPurify from 'dompurify';
 	import { Marked } from 'marked';
+	import markedFootnote from 'marked-footnote';
 	import { parse as parseYaml } from 'yaml';
 
 	// Labels for the front-matter fields worth showing; others are listed under their own names.
@@ -45,6 +46,13 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 		bibliography: 'Bibliography',
 		technical_details: 'Technical details',
 		keywords: 'Keywords',
+		funder: 'Funder',
+		copyright: 'Copyright',
+		licence_url: 'Licence link',
+		changes: 'Changes made',
+		note: 'Note',
+		sarit_id: 'SARIT file',
+		sarit_commit: 'SARIT commit',
 		gretil_id: 'GRETIL ID',
 		book_id: 'DSBC book',
 		source_url: 'Source file',
@@ -65,7 +73,10 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 			// The page title is the <h1>; shift the text's own headings down a level.
 			if (token.type === 'heading') token.depth = Math.min(token.depth + 1, 6);
 		},
-	});
+	}).use(
+		// Critical editions (e.g. SARIT) put their apparatus in footnotes.
+		markedFootnote({ description: 'Notes', headingClass: 'notes-heading', prefixId: 'note-' }),
+	);
 
 	const slug = (s: string, n: number) =>
 		`t-${n}-${s
@@ -112,7 +123,10 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 				// Drop the leading "# Title", which repeats the page title.
 				content = content.replace(/^\s*#\s+[^\n]*\n/, '');
 
-				body.innerHTML = DOMPurify.sanitize(await marked.parse(content));
+				const html = (await marked.parse(content))
+					// Back-links: "↑" (in Noto Sans) instead of "↩", which falls back to an emoji font.
+					.replace(/(data-note-backref[^>]*>)↩/g, '$1↑');
+				body.innerHTML = DOMPurify.sanitize(html);
 				this.buildToc(body);
 				status.remove();
 			} catch (err) {
@@ -213,6 +227,24 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 	}
 	.text-body {
 		overflow-wrap: anywhere;
+	}
+	/* Apparatus notes of critical editions. */
+	.text-body :global(.footnotes) {
+		margin-top: 2rem;
+		font-size: var(--sl-text-sm);
+	}
+	.text-body :global(.footnotes ol) {
+		padding-inline-start: 1.5rem;
+	}
+	.text-body :global(.footnotes li p) {
+		margin: 0.15rem 0;
+	}
+	.text-body :global(a[data-note-ref]),
+	.text-body :global(a[data-note-backref]) {
+		text-decoration: none;
+	}
+	.text-body :global(blockquote) {
+		margin-inline: 0;
 	}
 	.text-body:lang(sa-Deva) {
 		font-size: 1.1em;

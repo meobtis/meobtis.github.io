@@ -128,3 +128,6 @@ export function categoryOf(work: Work): { group: Group; category: Category } | u
 	const category = group?.categories.find((x) => x.id === c);
 	return group && category ? { group, category } : undefined;
 }
+
+/** "A, B and C" */
+export const listOf = (items: string[]) => new Intl.ListFormat('en', { style: 'long', type: 'conjunction' }).format(items);

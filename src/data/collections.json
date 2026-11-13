@@ -124,7 +124,7 @@
 					"name": "Schøyen Collection: Buddhist manuscripts",
 					"summary": "A private collection with early Sanskrit Buddhist manuscripts, including an Aśoka legend (6th century), Abhidharma texts, a Mahāsaṃghika-Lokottaravāda Pratimokṣa-vibhaṅga, Bamiyan birch-bark manuscripts of the Bhaiṣajyaguru and Vajracchedikā, and a Guhyasamāja and Saṃpuṭodbhava Tantra manuscript of 1801. They are edited in Braarvig (ed.), Buddhist Manuscripts in the Schøyen Collection, four volumes published by Hermes in Oslo, 2000–2016, with editions of about 55 texts and fragments in Sanskrit and Gāndhārī, among them a Kuṣāṇa-period Aṣṭasāhasrikā, the Vajracchedikā, Samādhirāja and Larger Sukhāvatīvyūha, and a Gāndhārī Ekottarikāgama and Bodhisattvapiṭaka. The publisher offers all four volumes, and the exhibition catalogue Traces of Gandharan Buddhism, as free PDF downloads.",
 					"access": "Catalogue entries and images online; the printed editions free to download as PDF",
-					"why": "The volumes are free to download but marked all rights reserved, so we cannot republish converted text without the publisher's permission. They are also editions of fragments with introductions, translations and notes, not continuous texts.",
+					"why": "The volumes are free to download but marked all rights reserved, so we cannot republish converted text without the publisher's permission. They are also editions of fragments with introductions, translations and notes, not continuous texts. One exception is indexed: the Sanskrit of the Sarvadharmāpravṛttinirdeśa from volume i (see Sources).",
 					"links": [
 						{
 							"label": "Schøyen Collection: Buddhism",
@@ -138,7 +138,63 @@
 							"label": "Buddhist Manuscripts project (CAS Norway)",
 							"url": "https://cas-nor.no/index.php/project/buddhist-manuscripts-schoyen-collection"
 						}
-					]
+					],
+					"contents": {
+						"label": "Texts edited in the volumes that MEOBTIS does not index",
+						"note": "All are fragments, not complete texts. Titles follow the volumes' tables of contents; the volume number is given in brackets.",
+						"groups": [
+							{
+								"heading": "Early discourses (Āgama)",
+								"entries": [
+									"Caṅgīsūtra of the Mahāsāṃghika-Lokottaravādins (i, ii)",
+									"*Andhasūtra, the sūtra on the three moral defects of Devadatta, and the Kavikumārāvadāna (ii)",
+									"A version of the Śikhālakasūtra (Siṅgālovādasutta) (iii)",
+									"Itivṛttaka (iv)",
+									"A parallel to the Śalyasūtra or Sunakkhattasutta (iv)",
+									"A possible Sanskrit parallel to the Pali Uruvelasutta (iv)"
+								]
+							},
+							{
+								"heading": "Mahāyāna sūtras",
+								"entries": [
+									"Śrīmālādevīsiṃhanādanirdeśa (i)",
+									"A Mahāyāna version of the Pravāraṇāsūtra (i)",
+																		"Ajātaśatrukaukṛtyavinodanāsūtra (i, ii)",
+									"Candrottarādārikāvyākaraṇa (ii)",
+									"Bodhisattvapiṭakasūtra, in Sanskrit (iii) and in Gāndhārī (iv)",
+									"Bhadrakalpikasūtra, in Gāndhārī (iv)",
+									"Sarvapuṇyasamuccayasamādhisūtra, in Gāndhārī (iv)"
+								]
+							},
+							{
+								"heading": "Vinaya and Abhidharma",
+								"entries": [
+									"Prātimokṣa-Vibhaṅga of the Mahāsāṃghika-Lokottaravādins (i, ii, iii, iv)",
+									"Karmavācanā collections, including the karmavācanā for ordination (ii, iii)",
+									"A Vinaya fragment on the qualifications of a vinayadhara (iii)",
+									"Three fragments related to the Śāriputra-Abhidharma (ii)"
+								]
+							},
+							{
+								"heading": "Other",
+								"entries": [
+									"Fragments of an early commentary (ii)",
+									"A commentary (?) on an unknown recension of the Mahāsamājasūtra (iii)",
+									"A Kuṣāṇa Brāhmī fragment of a commentary on aśubhabhāvanā and the formation of the foetus (iv)",
+									"A collection of Buddhist legends mentioning King Huviṣka (ii)",
+									"Jyotiṣkāvadāna (ii, iv)",
+									"Mātṛceṭa's Varṇārhavarṇa (ii)",
+									"Stories about Saṅgha and his pupil (iv)",
+									"Two Mahādeva fragments (iv)",
+									"Diśāsauvastikagāthā, protective verses for travellers (iv)",
+									"A fragment of a play (iii)",
+									"Three fragments on the relationship between word and object (ii)",
+									"Thirty-two fragments written by Bamiyan Kharoṣṭhī scribe 7 (iv)",
+									"A Bactrian Buddhist manuscript (i)"
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "British Library Endangered Archives Programme: Nepal",

@@ -21,6 +21,22 @@ import data from '../data/collections.json';
 								<dt>Not indexed because</dt>
 								<dd>{c.why}</dd>
 							</dl>
+							{c.contents && (
+								<details class="contents">
+									<summary>{c.contents.label}</summary>
+									<p class="contents-note">{c.contents.note}</p>
+									{c.contents.groups.map((cg) => (
+										<>
+											<h4>{cg.heading}</h4>
+											<ul class="entries">
+												{cg.entries.map((e) => (
+													<li>{e}</li>
+												))}
+											</ul>
+										</>
+									))}
+								</details>
+							)}
 							<p class="links">
 								{c.links.map((l) => (
 									<a href={l.url} rel="noopener">
@@ -87,5 +103,27 @@ import data from '../data/collections.json';
 		dl {
 			grid-template-columns: 1fr;
 		}
+	}
+	.contents {
+		margin: 0.75rem 0;
+		font-size: var(--sl-text-sm);
+	}
+	.contents summary {
+		cursor: pointer;
+		color: var(--sl-color-text-accent);
+		width: fit-content;
+	}
+	.contents-note {
+		color: var(--sl-color-gray-2);
+		margin: 0.5rem 0;
+	}
+	.contents h4 {
+		margin: 0.75rem 0 0.25rem;
+		font-size: var(--sl-text-sm);
+	}
+	.contents .entries {
+		list-style: disc;
+		padding-inline-start: 1.25rem;
+		display: block;
 	}
 </style>

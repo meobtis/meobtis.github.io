@@ -21,6 +21,7 @@ are stored in this repository or in the deployed site**, only the index
 | GRETIL: Göttingen Register of Electronic Texts in Indian Languages | [meobtis/gretil](https://github.com/meobtis/gretil) | <https://gretil.sub.uni-goettingen.de/gretil.html> |
 | DSBC: Digital Sanskrit Buddhist Canon (IAST and Devanāgarī) | [meobtis/dsbc](https://github.com/meobtis/dsbc) | <https://www.dsbcproject.org> |
 | SARIT: Search and Retrieval of Indic Texts (TEI critical editions) | [meobtis/sarit](https://github.com/meobtis/sarit) | <https://sarit.indology.info> |
+| Schøyen: one text transcribed from *Buddhist Manuscripts in the Schøyen Collection* (ed. J. Braarvig) | [meobtis/schoyen](https://github.com/meobtis/schoyen) | <https://www.hermesbooks.no/downloads> |
 
 **The source repositories are complete; this website decides what to show.** A repository has every text of its source,
 whatever the subject, with the metadata a site needs, for example `buddhist: true` or `false` in `meobtis/sarit`. The
@@ -32,7 +33,7 @@ Other collections that are not indexed (IRIAB and the Gilgit facsimiles, the Sch
 
 The texts are subject to their sources' terms. GRETIL texts carry a licence in each file,
 mostly CC BY-NC-SA 4.0. SARIT texts are CC BY-SA 4.0 or 3.0. DSBC texts are for non-commercial educational and research use;
-see the [DSBC usage policy](https://www.dsbcproject.org/pages/usage-policy).
+see the [DSBC usage policy](https://www.dsbcproject.org/pages/usage-policy). The Schøyen text is transcribed from an edition in copyright (all rights reserved) and is offered for research and study only.
 
 ## How it works
 

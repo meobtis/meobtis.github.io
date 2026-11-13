@@ -219,4 +219,29 @@ export const SOURCES = [
 			}));
 		},
 	},
+	{
+		id: 'schoyen',
+		label: 'Schøyen',
+		name: 'Buddhist Manuscripts in the Schøyen Collection',
+		homepage: 'https://www.hermesbooks.no/downloads',
+		repo: 'meobtis/schoyen',
+		publisher: 'Hermes Publishing, Oslo',
+		credit:
+			'Text transcribed from an edition in Buddhist Manuscripts in the Schøyen Collection (general editor Jens Braarvig; ' +
+			'Hermes Publishing, Oslo). The readings and restorations are the work of the editor named in the edition details; ' +
+			'the edition\'s introduction, notes, parallel texts and translation are not reproduced.',
+		terms: 'The edition is in copyright, all rights reserved. The transcription is offered for research and study; no licence is granted. Cite the printed edition.',
+		termsUrl: 'https://github.com/meobtis/schoyen/blob/main/LICENSE.md',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'schoyen',
+				sourceId: String(data.schoyen_id),
+				title: String(data.title).trim(),
+				author: data.author ? String(data.author).trim() : undefined,
+				script: data.script === 'devanagari' ? 'deva' : 'iast',
+				path,
+				originalUrl: data.source_url,
+			}));
+		},
+	},
 ];

@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-13T19:37:39.388Z",
+	"generated": "2026-11-13T23:33:57.010Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -44,6 +44,20 @@
 			"url": "https://github.com/meobtis/sarit",
 			"editions": 37,
 			"works": 23
+		},
+		{
+			"id": "schoyen",
+			"label": "Schøyen",
+			"name": "Buddhist Manuscripts in the Schøyen Collection",
+			"homepage": "https://www.hermesbooks.no/downloads",
+			"repo": "meobtis/schoyen",
+			"publisher": "Hermes Publishing, Oslo",
+			"credit": "Text transcribed from an edition in Buddhist Manuscripts in the Schøyen Collection (general editor Jens Braarvig; Hermes Publishing, Oslo). The readings and restorations are the work of the editor named in the edition details; the edition's introduction, notes, parallel texts and translation are not reproduced.",
+			"terms": "The edition is in copyright, all rights reserved. The transcription is offered for research and study; no licence is granted. Cite the printed edition.",
+			"termsUrl": "https://github.com/meobtis/schoyen/blob/main/LICENSE.md",
+			"url": "https://github.com/meobtis/schoyen",
+			"editions": 1,
+			"works": 1
 		}
 	],
 	"groups": [
@@ -62,7 +76,7 @@
 					"id": "mahayana-sutra",
 					"label": "Mahāyāna sūtras",
 					"description": "Mahāyāna sūtras other than the Prajñāpāramitā.",
-					"count": 53
+					"count": 54
 				},
 				{
 					"id": "prajnaparamita",
@@ -95,7 +109,7 @@
 					"count": 0
 				}
 			],
-			"count": 153
+			"count": 154
 		},
 		{
 			"id": "vinaya",
@@ -15346,6 +15360,24 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/419"
+				}
+			]
+		},
+		{
+			"title": "Sarvadharmāpravṛttinirdeśa",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "schoyen:sarvadharmapravrttinirdesa",
+					"source": "schoyen",
+					"sourceId": "sarvadharmapravrttinirdesa",
+					"label": "Schøyen",
+					"script": "iast",
+					"title": "Sarvadharmāpravṛttinirdeśa",
+					"slug": "schoyen/sarvadharmapravrttinirdesa",
+					"url": "https://github.com/meobtis/schoyen/blob/main/texts/romanized/sarvadharmapravrttinirdesa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/schoyen/main/texts/romanized/sarvadharmapravrttinirdesa.md",
+					"originalUrl": "http://hermesorder.no/docs/bmsc1.pdf"
 				}
 			]
 		},

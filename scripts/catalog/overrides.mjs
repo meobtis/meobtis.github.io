@@ -72,6 +72,7 @@ export const CATEGORY_OVERRIDES = {
 	'dsbc:832': 'other/modern', // Vajrayāna darśana mīmāṃsā
 	'gretil:sa_dignAga-yogAvatAra': 'sastra/yogacara',
 	'gretil:sa_dramatic-fragments-buddhist': 'literature/nataka',
+	'schoyen:sarvadharmapravrttinirdesa': 'sutra/mahayana-sutra',
 	// Early discourses with Pāli or Āgama parallels that DSBC files under Mahāyāna sūtras (or the fallback rule did).
 	'gretil:sa_mahAvadAnasUtra': 'sutra/agama', // Mahāvadānasūtra
 	'gretil:sa_mahAparinirvANasUtra': 'sutra/agama', // Mahāparinirvāṇasūtra

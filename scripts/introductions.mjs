@@ -36,18 +36,40 @@ function loadIntroductions() {
 }
 
 /** Validate introductions; returns { errors, covered: Map<work, file> }. */
+const DEFINITION = /^\[\^([^\]\s]+)\]:[ \t]+(.+)$/gm;
+const MARKER = /\[\^([^\]\s]+)\](?!:)/g;
+const warnings = [];
+
 function check() {
 	const errors = [];
 	const covered = new Map();
 	for (const { file, data, body } of loadIntroductions()) {
 		const err = (msg) => errors.push(`${file}: ${msg}`);
+		const warn = (msg) => warnings.push(`${file}: ${msg}`);
 		if (!data) {
 			err('missing YAML front matter');
 			continue;
 		}
-		for (const key of ['title', 'refs', 'summary', 'sources', 'updated'])
+		for (const key of ['title', 'refs', 'summary', 'updated'])
 			if (data[key] == null) err(`missing "${key}"`);
-		if (!body || body.split(/\s+/).length < 80) err('the description (body) should be at least a few paragraphs');
+		if (!data.englishTitle) warn(`no "englishTitle" (add the best-known English title, if there is one)`);
+		if (data.sources) err('"sources" is no longer used: cite with Markdown footnotes in APA 7 format');
+
+		// Citations: Markdown footnotes whose definitions (APA 7 references) end the body.
+		const definitions = new Map([...body.matchAll(DEFINITION)].map((m) => [m[1], m[2].trim()]));
+		const text = body.replace(DEFINITION, '').trim();
+		const cited = new Set([...text.matchAll(MARKER)].map((m) => m[1]));
+		for (const e of data.editions ?? []) for (const m of String(e.history).matchAll(MARKER)) cited.add(m[1]);
+		if (text.split(/\s+/).length < 80) err('the description (body) should be at least a few paragraphs');
+		if ([...text.matchAll(MARKER)].length === 0) err('the description cites no sources: add footnotes like [^nattier1992]');
+		if (definitions.size === 0) err('no references: define footnotes at the end of the body, e.g. [^nattier1992]: Nattier, J. (1992). …');
+		for (const k of cited) if (!definitions.has(k)) err(`footnote [^${k}] is cited but has no reference`);
+		for (const [k, ref] of definitions) {
+			if (!cited.has(k)) err(`reference [^${k}] is never cited`);
+			// APA 7 shape: "Author. (Year). Title. …" with a date in parentheses and a DOI or URL.
+			if (!/\((\d{4}[a-z]?|n\.d\.)(, [^)]+)?\)\./.test(ref)) err(`reference [^${k}] has no APA 7 date such as "(1992)." or "(n.d.).": ${ref.slice(0, 60)}…`);
+			if (!/https?:\/\/\S+$/.test(ref)) warn(`reference [^${k}] does not end with a DOI or URL: ${ref.slice(0, 60)}…`);
+		}
 		const refs = [...(data.refs ?? []), ...(data.editions ?? []).map((e) => e.ref)];
 		const works = new Set();
 		for (const ref of refs) {
@@ -61,7 +83,6 @@ function check() {
 			if (covered.has(work)) err(`"${work.title}" already has an introduction (${covered.get(work)})`);
 			else covered.set(work, file);
 		}
-		for (const s of data.sources ?? []) if (!/^https?:\/\//.test(s.url ?? '')) err(`source without a URL: ${s.title}`);
 	}
 	return { errors, covered };
 }
@@ -112,6 +133,10 @@ switch (cmd) {
 		process.exit(2);
 }
 
+if (warnings.length) {
+	console.error(`\n${warnings.length} warning(s):`);
+	warnings.forEach((w) => console.error(`  ! ${w}`));
+}
 if (errors.length) {
 	console.error(`\n${errors.length} problem(s) in src/content/introductions:`);
 	errors.forEach((e) => console.error(`  ✗ ${e}`));

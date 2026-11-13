@@ -7,7 +7,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { Aside } from '@astrojs/starlight/components';
 import Introduction from '../../components/Introduction.astro';
 import TextReader from '../../components/TextReader.astro';
-import { introductions } from '../../lib/introductions';
+import { introductions, referencesOf } from '../../lib/introductions';
 import {
 	catalog,
 	categoryOf,
@@ -39,7 +39,8 @@ const intro = (await introductions()).get(work);
 const searchable = Boolean(intro) && edition === work.editions[0];
 
 // SEO: several editions share a work title, so the <title> names the edition too.
-const pageTitle = `${work.title} – ${edition.label}`;
+const english = intro?.data.englishTitle;
+const pageTitle = `${work.title}${english ? ` (${english})` : ''} – ${edition.label}`;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
 const jsonLd = {
 	'@context': 'https://schema.org',
@@ -48,6 +49,8 @@ const jsonLd = {
 	url: pageUrl,
 	name: work.title,
 	...(intro && { description: intro.data.summary }),
+	...(intro?.data.englishTitle && { alternativeHeadline: intro.data.englishTitle }),
+	...(intro && { citation: referencesOf(intro) }),
 	...(work.titleDeva && { alternateName: work.titleDeva }),
 	...(work.author && { author: { '@type': 'Person', name: work.author } }),
 	inLanguage: edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn',
@@ -85,6 +88,7 @@ const jsonLd = {
 	}}
 >
 	<div class="meta" data-pagefind-ignore>
+		{intro?.data.englishTitle && <p class="english-title">{intro.data.englishTitle}</p>}
 		{work.titleDeva && <p class="deva" lang="sa-Deva">{work.titleDeva}</p>}
 		<dl>
 			{
@@ -151,6 +155,11 @@ const jsonLd = {
 </StarlightPage>
 
 <style>
+	.meta .english-title {
+		font-size: var(--sl-text-xl);
+		font-style: italic;
+		margin: 0;
+	}
 	.meta .deva {
 		font-size: var(--sl-text-xl);
 		color: var(--sl-color-gray-2);

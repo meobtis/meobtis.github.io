@@ -90,28 +90,39 @@ deliberate:
 
 Each file is validated against the schema in `src/content.config.ts`:
 
-```yaml
+```markdown
+---
 title: Prajñāpāramitāhṛdayasūtra
-refs: [gretil:sa_…, dsbc:70, dsbc:71]   # editions of the work; all must be in one work
+englishTitle: The Heart Sūtra            # best-known English title
+refs: [gretil:sa_…, dsbc:70, dsbc:71]    # editions of the work; all must be in one work
 summary: One sentence, shown in text lists and as the page description.
-editions:                               # optional history of individual editions
+editions:                                # optional history of individual editions
   - ref: dsbc:70
-    history: Based on P. L. Vaidya's edition (1961) …
-sources:                                # works consulted; at least one
-  - { title: …, url: https://…, note: … }
+    history: Based on P. L. Vaidya's edition (1961).[^vaidya1961] …
 updated: 2026-11-13
+---
+
+A few paragraphs describing the work, citing sources as footnotes.[^nattier1992]
+
+[^nattier1992]: Nattier, J. (1992). The Heart Sūtra: A Chinese apocryphal text? *Journal of the International Association of Buddhist Studies, 15*(2), 153–223. https://…
+[^vaidya1961]: Vaidya, P. L. (Ed.). (1961). *Mahāyāna-sūtra-saṃgrahaḥ* (Pt. 1; Buddhist Sanskrit Texts 17). Mithila Institute …
 ```
 
-The body is a few paragraphs describing the work. Reader pages show the introduction above
-the text: the description, the history of the edition being read, and the sources, with a
-note that introductions are based on internet research and may be inaccurate (explained on
-the About page). Text lists show the summary under the title. The build fails if an
-introduction names an unknown edition, spans two works, or duplicates another.
+The body describes the work. Sources are cited as **Markdown footnotes** whose
+definitions, at the end of the body, are full **APA 7** references; edition histories cite
+the same footnotes. Reader pages show the English title under the
+Sanskrit title, and the introduction above the text: the description, the history of the
+edition being read, and a numbered **References** list of only the sources cited there
+(rendered with `marked-footnote`), with a note that introductions are based on internet
+research and may be inaccurate (explained on the About page). Text lists show the English
+title and the summary. The build fails if an introduction names an unknown edition, spans
+two works, duplicates another, cites a footnote without a reference, or defines a
+reference it never cites; `pnpm intros check` also checks the APA 7 shape of each reference.
 
 Introductions are written with the **`augment-text`** Claude Code skill
 (`.claude/skills/augment-text/`). It finds the work and its editions, reads each edition's
-own metadata, researches the work on the web, and writes the file with sources for every
-claim. Run it with `/augment-text <title>`, or ask for, e.g.,
+own metadata, researches the work on the web, and writes the file with the English title
+and an APA 7 footnote for every claim. Run it with `/augment-text <title>`, or ask for, e.g.,
 "introductions for the next 5 texts in sutra/prajnaparamita".
 
 ### Taxonomy

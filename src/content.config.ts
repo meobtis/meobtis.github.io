@@ -13,26 +13,28 @@ export const collections = {
 	/**
 	 * Introductions: researched descriptions of a work and the history of its editions.
 	 * One Markdown file per work, kept here so the source texts stay untouched. The body is
-	 * the description of the work; front matter holds a one-line summary, per-edition history,
-	 * and the sources the research is based on. Written with the `augment-text` skill.
+	 * the description of the work, citing its sources as Markdown footnotes ([^key]) whose
+	 * definitions at the end of the body are references in APA 7 format. Front matter holds
+	 * the English title, a one-line summary and per-edition history (which may cite the same
+	 * footnotes). Written with the `augment-text` skill; citations are checked in
+	 * src/lib/introductions.ts.
 	 */
 	introductions: defineCollection({
 		loader: glob({ base: './src/content/introductions', pattern: '**/*.md' }),
 		schema: z.object({
 			/** Title of the work, for people reading the file; the catalogue's title is shown on the site. */
 			title: z.string(),
+			/** The best-known English translation of the title, e.g. "The Heart Sūtra". */
+			englishTitle: z.string().optional(),
 			/** Editions this introduction covers. All must belong to the same work in the catalogue. */
 			refs: z.array(editionRef).min(1),
 			/** One sentence shown under the title in text lists and used as the page description. */
 			summary: z.string().min(20).max(300),
-			/** History of particular editions: what each digital text is based on and how it came about. */
+			/** History of particular editions: what each digital text is based on and how it came about.
+			 *  May cite the body's footnotes, e.g. "… (Darbhanga, 1961).[^vaidya1961]" */
 			editions: z
 				.array(z.object({ ref: editionRef, history: z.string().min(20) }))
 				.default([]),
-			/** Works consulted. Every factual claim in the introduction must be traceable to one of these. */
-			sources: z
-				.array(z.object({ title: z.string(), url: z.url(), note: z.string().optional() }))
-				.min(1),
 			/** Date the introduction was written or last revised. */
 			updated: z.coerce.date(),
 		}),

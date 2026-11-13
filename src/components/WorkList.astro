@@ -22,6 +22,7 @@ const intros = await introductions();
 					<span class="iast" lang="sa-Latn">
 						{w.title}
 					</span>
+					{intros.get(w)?.data.englishTitle && <span class="english">{intros.get(w)!.data.englishTitle}</span>}
 					{w.titleDeva && (
 						<span class="deva" lang="sa-Deva">
 							{w.titleDeva}
@@ -90,6 +91,10 @@ const intros = await introductions();
 		font-weight: 600;
 		color: var(--sl-color-white);
 		overflow-wrap: anywhere;
+	}
+	.english {
+		font-style: italic;
+		color: var(--sl-color-gray-2);
 	}
 	.deva {
 		color: var(--sl-color-gray-2);

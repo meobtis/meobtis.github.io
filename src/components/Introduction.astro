@@ -1,9 +1,9 @@
 ---
 // The introduction to a work (src/content/introductions), shown above the text on reader pages:
-// a description of the work, the history of this edition, and the sources consulted.
-import { render } from 'astro:content';
-import { marked } from 'marked';
-import { editionHistory, type Introduction } from '../lib/introductions';
+// a description of the work and the history of this edition, with footnoted APA 7 references.
+import { Marked } from 'marked';
+import markedFootnote from 'marked-footnote';
+import { composeIntroduction, type Introduction } from '../lib/introductions';
 
 interface Props {
 	intro: Introduction;
@@ -13,40 +13,25 @@ interface Props {
 }
 
 const { intro, editionRef, editionLabel } = Astro.props;
-const { Content } = await render(intro);
-const history = editionHistory(intro, editionRef);
+
 // Introductions are files in this repository, so their Markdown is trusted.
-const historyHtml = history ? await marked.parse(history) : undefined;
-const { sources, updated } = intro.data;
-const date = updated.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
+const marked = new Marked().use(
+	markedFootnote({ description: 'References', headingClass: 'references-heading', prefixId: 'ref-' }),
+);
+const html = (await marked.parse(composeIntroduction(intro, editionRef, editionLabel)))
+	// The footnotes heading is an <h2>; inside the Introduction (itself an <h2>) it belongs at <h3>.
+	// (Keep its id: the footnote markers point to it with aria-describedby.)
+	.replace(/<h2 id="ref-label" class="references-heading">(.*?)<\/h2>/, '<h3 id="ref-label">$1</h3>')
+	// Directly adjacent citations read "2,3", not "23".
+	.replace(/<\/sup><sup>/g, '</sup><sup aria-hidden="true">,</sup><sup>')
+	// Back-links: "↑" (in Noto Sans) instead of "↩", which falls back to an emoji font.
+	.replace(/(data-ref-backref[^>]*>)↩/g, '$1↑');
+const date = intro.data.updated.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
 <section class="introduction" aria-labelledby="introduction">
 	<h2 id="introduction">Introduction</h2>
-	<Content />
-
-	{
-		historyHtml && (
-			<>
-				<h3 id="about-this-edition">About this edition: {editionLabel}</h3>
-				<Fragment set:html={historyHtml} />
-			</>
-		)
-	}
-
-	<details class="intro-sources">
-		<summary>Sources ({sources.length})</summary>
-		<ol>
-			{
-				sources.map((s) => (
-					<li>
-						<a href={s.url}>{s.title}</a>
-						{s.note && <span class="note"> – {s.note}</span>}
-					</li>
-				))
-			}
-		</ol>
-	</details>
+	<Fragment set:html={html} />
 	<p class="intro-status">
 		Based on research on the internet; it may contain inaccuracies. <a href="/about/#introductions"
 			>About the introductions</a
@@ -61,16 +46,28 @@ const date = updated.toLocaleDateString('en-GB', { year: 'numeric', month: 'long
 	.introduction {
 		margin-top: 2rem;
 	}
-	.intro-sources {
+	/* References (APA 7) as footnotes. */
+	.introduction :global(.footnotes) {
 		margin-top: 1.5rem;
 		font-size: var(--sl-text-sm);
 	}
-	.intro-sources summary {
-		cursor: pointer;
-		font-weight: 600;
+	.introduction :global(.footnotes ol) {
+		padding-inline-start: 1.5rem;
 	}
-	.intro-sources .note {
-		color: var(--sl-color-gray-3);
+	.introduction :global(.footnotes li) {
+		overflow-wrap: anywhere;
+	}
+	/* APA hanging indent is not used in a numbered list; keep references compact instead. */
+	.introduction :global(.footnotes li p) {
+		margin: 0.25rem 0;
+	}
+	.introduction :global(sup a[data-ref-ref]) {
+		text-decoration: none;
+		padding-inline: 0.1em;
+	}
+	.introduction :global(a[data-ref-backref]) {
+		text-decoration: none;
+		margin-inline-start: 0.25em;
 	}
 	.intro-status {
 		font-size: var(--sl-text-xs);

@@ -30,10 +30,35 @@ hero:
 
 import catalog from '../../data/catalog.json';
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
-import { listOf } from '../../lib/catalog';
+import { listOf, readerUrl } from '../../lib/catalog';
 
 export const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
 export const groups = catalog.groups.filter((g) => g.count > 0);
+export const starters = [
+	['Vajracchedikā Prajñāpāramitā', 'The Diamond Sūtra'],
+	['Mūlamadhyamakakārikā', 'Fundamental Verses on the Middle Way'],
+	['Bodhicaryāvatāra', 'A Guide to the Bodhisattva Way of Life'],
+].map(([title, english]) => ({ work: catalog.works.find((w) => w.title === title), english })).filter((s) => s.work);
+
+## Browse by category
+
+<CardGrid>
+	{groups.map((g) => (
+		<LinkCard
+			title={`${g.label} (${g.count})`}
+			description={g.categories.filter((c) => c.count > 0).map((c) => c.label).join(' · ')}
+			href={`/texts/#${g.label.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()}`}
+		/>
+	))}
+</CardGrid>
+
+## Start with
+
+<CardGrid>
+	{starters.map((s) => (
+		<LinkCard title={s.work.title} description={`${s.english}. ${s.work.author ? s.work.author + ', ' : ''}${s.work.editions.length} editions.`} href={readerUrl(s.work.editions[0])} />
+	))}
+</CardGrid>
 
 <CardGrid stagger>
 	<Card title={`${catalog.works.length} texts`} icon="open-book">
@@ -48,18 +73,6 @@ export const groups = catalog.groups.filter((g) => g.count > 0);
 	<Card title="Open on GitHub" icon="github">
 		The texts are plain Markdown in the [meobtis](https://github.com/meobtis) repositories.
 	</Card>
-</CardGrid>
-
-## Browse by category
-
-<CardGrid>
-	{groups.map((g) => (
-		<LinkCard
-			title={`${g.label} (${g.count})`}
-			description={g.categories.filter((c) => c.count > 0).map((c) => c.label).join(' · ')}
-			href={`/texts/#${g.label.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()}`}
-		/>
-	))}
 </CardGrid>
 
 <p class="image-credit">Image: Sanskrit manuscript of the Heart Sūtra in Siddhaṃ script, Bibliothèque nationale de France, via <a href="https://commons.wikimedia.org/wiki/File:Prajnyaapaaramitaa_Hridaya_Pel.sogd.jpg">Wikimedia Commons</a> (public domain). <a href="/about/#image-credit">Credits</a></p>

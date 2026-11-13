@@ -50,6 +50,10 @@
 .hero > img {
 	border-radius: 1rem;
 	box-shadow: var(--sl-shadow-md);
+	/* Smaller than Starlight's default so the catalogue starts higher on the page. */
+	width: min(100%, 18rem);
+	max-height: 18rem;
+	object-fit: cover;
 }
 
 /* Image credit on the home page. */

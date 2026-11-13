@@ -33,6 +33,17 @@ const { work, edition } = Astro.props;
 const source = sourceById[edition.source];
 const place = categoryOf(work);
 const others = work.editions.filter((e) => e !== edition);
+// Switches: the editions in the current script, and the same text in the other script (same source first).
+const sameScript = work.editions.filter((e) => e.script === edition.script);
+const otherScript = (edition.script === 'deva' ? 'iast' : 'deva') as 'iast' | 'deva';
+const counterpart =
+	work.editions.find((e) => e.script === otherScript && e.source === edition.source && (e.transliteratedFrom === edition.ref || edition.transliteratedFrom === e.ref)) ??
+	work.editions.find((e) => e.script === otherScript && e.source === edition.source) ??
+	work.editions.find((e) => e.script === otherScript);
+const scripts = [
+	{ id: 'iast', label: 'IAST', lang: 'sa-Latn' },
+	{ id: 'deva', label: 'देवनागरी', lang: 'sa-Deva' },
+] as const;
 const devaSource = edition.transliterated ? work.editions.find((e) => e.ref === edition.transliteratedFrom) : undefined;
 const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
 const intro = (await introductions()).get(work);
@@ -100,9 +111,9 @@ const jsonLd = {
 					</>
 				)
 			}
-			<dt>Edition</dt>
+			<dt>Source</dt>
 			<dd>
-				<strong>{edition.label}</strong>: {source.name} ({script}{edition.transliterated ? ', transliterated' : ''})
+				<strong>{edition.label}</strong>: {source.name}{edition.transliterated ? ' (transliterated)' : ''}
 			</dd>
 			{
 				place && (
@@ -119,22 +130,43 @@ const jsonLd = {
 			<dd>
 				<a href={edition.url}>Markdown on GitHub</a> · <a href={edition.originalUrl}>Original on {source.label}</a>
 			</dd>
-			{
-				others.length > 0 && (
-					<>
-						<dt>Other editions</dt>
-						<dd>
-							{others.map((e, i) => (
-								<>
-									{i > 0 && ' · '}
-									<a href={readerUrl(e)}>{e.label}</a>
-								</>
-							))}
-						</dd>
-					</>
-				)
-			}
 		</dl>
+		{
+			(sameScript.length > 1 || counterpart) && (
+				<div class="switches">
+					{sameScript.length > 1 && (
+						<div class="switch">
+							<span class="switch-label" id="edition-label">Edition</span>
+							<ul class="segmented" aria-labelledby="edition-label">
+								{sameScript.map((e) => (
+									<li>
+										<a href={readerUrl(e)} aria-current={e === edition ? 'page' : undefined}>
+											{e.label}
+										</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					)}
+					{(counterpart || work.editions.some((e) => e.script !== edition.script)) && (
+						<div class="switch">
+							<span class="switch-label" id="script-label">Script</span>
+							<ul class="segmented" aria-labelledby="script-label">
+								{scripts.map((sc) => (
+									<li>
+										{sc.id === edition.script ? (
+											<a href={readerUrl(edition)} aria-current="page" lang={sc.lang}>{sc.label}</a>
+										) : counterpart ? (
+											<a href={readerUrl(counterpart)} lang={sc.lang}>{sc.label}</a>
+										) : null}
+									</li>
+								))}
+							</ul>
+						</div>
+					)}
+				</div>
+			)
+		}
 	</div>
 
 	{intro && <Introduction intro={intro} editionRef={edition.ref} editionLabel={edition.label} />}
@@ -190,6 +222,57 @@ const jsonLd = {
 	.meta dt,
 	.meta dd {
 		margin: 0;
+	}
+	.switches {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem 2rem;
+		margin-top: 1rem;
+	}
+	.switch {
+		display: grid;
+		gap: 0.375rem;
+	}
+	.switch-label {
+		font-size: var(--sl-text-xs);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: var(--sl-color-gray-3);
+	}
+	.segmented {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-flex;
+		flex-wrap: wrap;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.5rem;
+		overflow: hidden;
+		font-size: var(--sl-text-sm);
+	}
+	.segmented li {
+		margin: 0;
+	}
+	.segmented li + li {
+		border-inline-start: 1px solid var(--sl-color-accent);
+	}
+	.segmented a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2.5rem;
+		padding: 0 1rem;
+		text-decoration: none;
+		color: var(--sl-color-white);
+	}
+	.segmented a:hover,
+	.segmented a:focus-visible {
+		background: var(--sl-color-accent-low);
+	}
+	.segmented a[aria-current='page'] {
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+		font-weight: 600;
 	}
 	@media (max-width: 30rem) {
 		.meta dl {

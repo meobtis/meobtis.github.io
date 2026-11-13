@@ -24,16 +24,15 @@ parallels:
     ref: EA 24.1 (T 125)
     title: 增壹阿含經
     url: https://cbetaonline.dila.edu.tw/en/T0125_014
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Dhvajāgrasūtra* ("Discourse on the Top of the Banner") is a very short discourse in the Sanskrit text transmitted here, set at Śrāvastī in the Jetavana. The Buddha tells the monks that if fear, trembling or horripilation arises while they are in the forest, at the foot of a tree or in an empty dwelling, they should recall him through the traditional epithets of a Buddha.[^gretil-dhvajagra]
 
 He illustrates this with an old story: when the gods and asuras were about to fight, Śakra, lord of the gods, told the Trāyastriṃśa gods to recall the banner of Vaijayanta if they felt fear. The Buddha then explains why recalling him is the better refuge. Śakra is still subject to passion, hatred, delusion and suffering, and so can himself be afraid, whereas the Buddha is free of them and fearless.[^gretil-dhvajagra]
 
-The work has parallels in other traditions. SuttaCentral lists Chinese parallels, both titled 幢 ("banner"), at Saṃyukta-āgama no. 981 (T 99) and Ekottarika-āgama 24.1 (T 125); a Tibetan text in the Degé Kangyur (D 292) whose title corresponds to *Dhvajāgra-nāma-mahāsūtra*; and a Sanskrit fragment of the *Dhvajāgra* edited by Lore Sander.[^sc-parallels] The Pali counterpart is the *Dhajaggasutta* (SN 11.3), translated by Bhikkhu Sujato as "The Banner's Crest".[^sc-sn11-3] The Tibetan text is longer than the short version here: in the 84000 translation, the Buddha teaches merchants about to travel, and the discourse ends with verses of blessing for a safe journey. That translation also notes a second, shorter text with the same title.[^84000toh292] Little else about the date or transmission of the Sanskrit version is documented in the sources consulted.
+The work has parallels in other traditions. The Pali counterpart is the *Dhajaggasutta* (SN 11.3). Anālayo lists its parallels as Chinese discourses in the *Saṃyukta-āgama* (SĀ 980 and SĀ 981) and the *Ekottarika-āgama* (EĀ 24.1), together with Sanskrit fragments published by Waldschmidt, Sander and others.[^analayo2016] A Tibetan text in the Degé Kangyur (D 292) corresponds to the *Dhvajāgra-nāma-mahāsūtra*.[^84000toh292] The Tibetan text is longer than the short version here: in the 84000 translation, the Buddha teaches merchants about to travel, and the discourse ends with verses of blessing for a safe journey. That translation also notes a second, shorter text with the same title.[^84000toh292] Little else about the date or transmission of the Sanskrit version is documented in the sources consulted.
 
 [^gretil-dhvajagra]: Göttingen State and University Library. (n.d.). *Dhvajāgrasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dhvajAgrasUtra.xml
-[^sc-parallels]: SuttaCentral. (n.d.). *Parallels of SN 11.3*. Retrieved November 13, 2026, from https://suttacentral.net/api/parallels/sn11.3
-[^sc-sn11-3]: Sujato, B. (Trans.). (2018). *The banner's crest* (SN 11.3). SuttaCentral. Retrieved November 13, 2026, from https://suttacentral.net/sn11.3/en/sujato
 [^84000toh292]: Cook, L. (Trans.). (n.d.). *The mahāsūtra "The crest insignia" (1)* (Toh 292). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh292
+[^analayo2016]: Anālayo. (2016). *Ekottarika-āgama studies*. Dharma Drum Publishing Corporation. https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/ekottarikastudies.pdf

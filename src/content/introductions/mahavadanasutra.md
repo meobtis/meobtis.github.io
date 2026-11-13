@@ -40,21 +40,20 @@ parallels:
     ref: T 4
     title: 七佛父母姓字經
     url: https://cbetaonline.dila.edu.tw/en/T0004_001
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
-The *Mahāvadānasūtra* is a Sanskrit sūtra about the Buddhas of the past. It is the counterpart of the Pali *Mahāpadāna Sutta* (Dīgha Nikāya 14), which Bhikkhu Sujato renders "The Great Discourse on Traces Left Behind" and summarises as a teaching about the six Buddhas preceding Gotama, with a long account of one of them, Vipassī.[^sujato-dn14] The Sanskrit text, known from manuscripts, opens with monks gathered at Śrāvastī discussing how the Buddha can know so much about the Buddhas of earlier ages, after which the Buddha himself takes up the question.[^gretil-mav]
+The *Mahāvadānasūtra* is a Sanskrit sūtra about the Buddhas of the past. It is the counterpart of the Pali *Mahāpadāna Sutta* (Dīgha Nikāya 14), an account of the Buddhas who preceded Gotama, with a long narrative of one of them, Vipassī.[^bucknell2014] The Sanskrit text, known from manuscripts, opens with monks gathered at Śrāvastī discussing how the Buddha can know so much about the Buddhas of earlier ages, after which the Buddha himself takes up the question.[^gretil-mav]
 
-SuttaCentral lists the Pali discourse's parallels as the Chinese *Dīrghāgama* sūtra *Dàběn* (大本, DA 1), the Chinese texts T 2, T 3 and T 4, an *Ekottarikāgama* sūtra (EA 48.4), an Uighur fragment, and Sanskrit manuscript fragments, including a Sanskrit edition titled *Mahāvadāna*.[^sc-parallels] These show that the narrative circulated in several Buddhist traditions. The present details of date, authorship and school affiliation are not documented in the sources consulted here, and no claim is made about them.
+Anālayo cites as counterparts of DN 14 the Chinese *Dīrgha-āgama* discourse DĀ 1 (*Dàběn*, 大本), the *Ekottarika-āgama* discourse EĀ 48.4, and the separately translated T 2 and T 4, alongside Fukita's Sanskrit edition.[^analayo2017a] These show that the narrative circulated in several Buddhist traditions. The present details of date, authorship and school affiliation are not documented in the sources consulted here, and no claim is made about them.
 
 The work is best known in the Sanskrit form edited by Takamichi Fukita from manuscripts found in Northern Turkestan.[^gretil-mav] The second Sanskrit version in the Digital Sanskrit Buddhist Canon begins differently and lacks edition details, so its relation to Fukita's edition is unclear.[^dsbc49] Little further reliable information on this text could be gathered, and the introduction is correspondingly short.
 
-In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins the *Mahāvadāna-sūtra* is the fifth discourse, in the opening *Ṣaṭsūtraka-nipāta* beside the *Mahāparinirvāṇa-sūtra* (sixth) and the *Catuṣpariṣat-sūtra* (fourth); Bucknell sets it against the Pali *Mahāpadāna* (DN 14).[^bucknell2014][^analayo2017a]
+In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins the *Mahāvadāna-sūtra* is the fifth discourse, in the opening *Ṣaṭsūtraka-nipāta* beside the *Mahāparinirvāṇa-sūtra* (sixth) and the *Catuṣpariṣat-sūtra* (fourth); Bucknell sets it against the Pali *Mahāpadāna* (DN 14).[^bucknell2014][^analayo2017a] Hartmann notes that the last three discourses of this section, the *Catuṣpariṣat*, the *Mahāvadāna* and the *Mahāparinirvāṇa*, together form a consecutive biography of the Buddha, and that the *Mahāvadāna* uses the career of Vipaśyin as the model for all Buddhas, including Śākyamuni.[^hartmann2014]
 
 [^gretil-mav]: Göttingen State and University Library. (n.d.). *Mahāvadānasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAvadAnasUtra.xml
 [^dsbc49]: University of the West. (n.d.). *Mahāvadānasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/49
 [^dsbc435]: University of the West. (n.d.). *महावदानसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/435
-[^sujato-dn14]: Sujato, B. (Trans.). (2018). The great discourse on traces left behind (DN 14). SuttaCentral. Retrieved November 13, 2026, from https://suttacentral.net/dn14/en/sujato
-[^sc-parallels]: SuttaCentral. (n.d.). Parallels of DN 14. Retrieved November 13, 2026, from https://suttacentral.net/api/parallels/dn14
-[^bucknell2014]: Bucknell, R. S. (2014). The structure of the Sanskrit Dīrgha-āgama from Gilgit vis-à-vis the Pali Dīgha-nikāya. In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 77–154). Dharma Drum Publishing Corporation.
+[^bucknell2014]: Bucknell, R. S. (2014). The structure of the Sanskrit Dīrgha-āgama from Gilgit vis-à-vis the Pali Dīgha-nikāya. In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 57–101). Dharma Drum Publishing Corporation.
 [^analayo2017a]: Anālayo. (2017). *Dīrgha-āgama studies* (DILA Research Series 6). Dharma Drum Publishing Corporation. https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/dastudies.pdf
+[^hartmann2014]: Hartmann, J.-U. (2014). The Dīrgha-āgama of the (Mūla-)Sarvāstivādins: What was the purpose of this collection? In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 135–166). Dharma Drum Publishing Corporation.

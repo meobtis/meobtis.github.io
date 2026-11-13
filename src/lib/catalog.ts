@@ -9,6 +9,9 @@ export interface Edition {
 	/** Link text naming the source, e.g. "GRETIL", "DSBC देवनागरी", "DSBC (Vol 2)". */
 	label: string;
 	script: 'iast' | 'deva';
+	/** A machine transliteration (Aksharamukha) of the Devanāgarī edition `transliteratedFrom` of the same source. */
+	transliterated?: boolean;
+	transliteratedFrom?: string;
 	title: string;
 	/** Reader page path segment: "<source>/<sourceId>", see readerUrl(). */
 	slug: string;

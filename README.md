@@ -8,7 +8,8 @@ collection is converted to Markdown in its own repository in the
 merges them into one catalogue, organised by category, and lets you read every text.
 
 Each text is listed **once**, with a link to every edition of it, and each link names its
-source (`GRETIL`, `DSBC`, `DSBC देवनागरी`, …). An edition link opens a reader page that
+source (`GRETIL`, `DSBC`, `DSBC देवनागरी`, …). IAST versions of Devanāgarī texts that were made by machine, with
+[Aksharamukha](https://www.aksharamukha.com/python), are labelled `(transliterated)` (`DSBC (transliterated)`). An edition link opens a reader page that
 fetches the Markdown from the source repository and renders it in the browser. **No texts
 are stored in this repository or in the deployed site**, only the index
 (`src/data/catalog.json`: titles, categories and links).
@@ -233,6 +234,8 @@ added, removed or renamed.
   ([Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8305799x)). Public domain, via
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prajnyaapaaramitaa_Hridaya_Pel.sogd.jpg). Used as `public/meobtis-square.jpeg` (logo and icons) and
   `public/meobtis-og.jpeg` (Open Graph image).
+- **Transliteration:** [Aksharamukha](https://www.aksharamukha.com/python) by Vinodh Rajan, used by the source repositories
+  to make IAST versions of Devanāgarī texts.
 - **Theme:** [Rosely](https://rosely.hellotham.com) palette.
 - **Fonts:** Noto Sans, Noto Sans Devanagari and Noto Sans Mono (SIL Open Font License).
 

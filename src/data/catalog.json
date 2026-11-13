@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-13T05:10:09.613Z",
+	"generated": "2026-11-13T05:24:53.018Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -26,7 +26,7 @@
 			"terms": "For non-commercial educational and research use, under the DSBC usage policy.",
 			"termsUrl": "https://www.dsbcproject.org/pages/usage-policy",
 			"url": "https://github.com/meobtis/dsbc",
-			"editions": 902,
+			"editions": 912,
 			"works": 455
 		},
 		{
@@ -40,7 +40,7 @@
 			"terms": "Licence as stated in each text: CC BY-SA 4.0 or 3.0 (attribution and share-alike). Changes made in converting it are listed in the edition details.",
 			"termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 			"url": "https://github.com/meobtis/sarit",
-			"editions": 23,
+			"editions": 37,
 			"works": 23
 		}
 	],
@@ -558,6 +558,20 @@
 			"category": "sastra/abhidharma",
 			"editions": [
 				{
+					"ref": "dsbc:872-iast",
+					"source": "dsbc",
+					"sourceId": "872-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Abhidharmakośavyākhyāyām",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:872",
+					"slug": "dsbc/872-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%C5%9Bavy%C4%81khy%C4%81y%C4%81m.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%C5%9Bavy%C4%81khy%C4%81y%C4%81m.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/872"
+				},
+				{
 					"ref": "dsbc:872",
 					"source": "dsbc",
 					"sourceId": "872",
@@ -1037,6 +1051,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/praj%C3%B1%C4%81p%C4%81ramit%C4%81/Adhyardha%C5%9Batik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/praj%C3%B1%C4%81p%C4%81ramit%C4%81/Adhyardha%C5%9Batik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/66"
+				},
+				{
+					"ref": "dsbc:845-iast",
+					"source": "dsbc",
+					"sourceId": "845-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Adhyardhaśatikā prajñāpāramitā (New Edition)",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:845",
+					"slug": "dsbc/845-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/praj%C3%B1%C4%81p%C4%81ramit%C4%81/Adhyardha%C5%9Batik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81%20(New%20Edition).md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/praj%C3%B1%C4%81p%C4%81ramit%C4%81/Adhyardha%C5%9Batik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81%20(New%20Edition).md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/845"
 				},
 				{
 					"ref": "dsbc:396",
@@ -2041,6 +2069,20 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_azokAvadAna.xml"
 				},
 				{
+					"ref": "dsbc:362-iast",
+					"source": "dsbc",
+					"sourceId": "362-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Aśokāvadānam",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:362",
+					"slug": "dsbc/362-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/A%C5%9Bok%C4%81vad%C4%81nam.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/A%C5%9Bok%C4%81vad%C4%81nam.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/362"
+				},
+				{
 					"ref": "dsbc:362",
 					"source": "dsbc",
 					"sourceId": "362",
@@ -2197,6 +2239,20 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kSemendra-avadAnakalpalatA.xml"
 				},
 				{
+					"ref": "dsbc:360-iast",
+					"source": "dsbc",
+					"sourceId": "360-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Avadānakalpalatā",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:360",
+					"slug": "dsbc/360-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Avad%C4%81nakalpalat%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Avad%C4%81nakalpalat%C4%81.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/360"
+				},
+				{
 					"ref": "dsbc:360",
 					"source": "dsbc",
 					"sourceId": "360",
@@ -2226,6 +2282,20 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_religious_literature/Avad%C4%81na%C5%9Bataka.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_religious_literature/Avad%C4%81na%C5%9Bataka.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_avadAnazataka.xml"
+				},
+				{
+					"ref": "dsbc:361-iast",
+					"source": "dsbc",
+					"sourceId": "361-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Avadānaśatakam",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:361",
+					"slug": "dsbc/361-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Avad%C4%81na%C5%9Batakam.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Avad%C4%81na%C5%9Batakam.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/361"
 				},
 				{
 					"ref": "dsbc:361",
@@ -2486,6 +2556,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/Avayavinir%C4%81kara%E1%B9%87am.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/Avayavinir%C4%81kara%E1%B9%87am.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/287"
+				},
+				{
+					"ref": "sarit:avayavinirakarana-iast",
+					"source": "sarit",
+					"sourceId": "avayavinirakarana-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Avayavinirākaraṇa",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:avayavinirakarana",
+					"slug": "sarit/avayavinirakarana-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Avayavinir%C4%81kara%E1%B9%87a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Avayavinir%C4%81kara%E1%B9%87a.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/avayavinirakarana.xml"
 				},
 				{
 					"ref": "sarit:avayavinirakarana",
@@ -5384,6 +5468,20 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_durvekamizra-dharmottarapradIpa.xml"
 				},
 				{
+					"ref": "sarit:dharmottarapradipa-iast",
+					"source": "sarit",
+					"sourceId": "dharmottarapradipa-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Dharmottarapradīpa",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:dharmottarapradipa",
+					"slug": "sarit/dharmottarapradipa-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Dharmottaraprad%C4%ABpa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Dharmottaraprad%C4%ABpa.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/dharmottarapradipa.xml"
+				},
+				{
 					"ref": "sarit:dharmottarapradipa",
 					"source": "sarit",
 					"sourceId": "dharmottarapradipa",
@@ -5479,6 +5577,20 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_religious_literature/Divy%C4%81vad%C4%81na.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_religious_literature/Divy%C4%81vad%C4%81na.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_divyAvadAna.xml"
+				},
+				{
+					"ref": "dsbc:364-iast",
+					"source": "dsbc",
+					"sourceId": "364-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Divyāvadānam",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:364",
+					"slug": "dsbc/364-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Divy%C4%81vad%C4%81nam.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/avad%C4%81na/Divy%C4%81vad%C4%81nam.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/364"
 				},
 				{
 					"ref": "dsbc:364",
@@ -6873,6 +6985,20 @@
 			"category": "sastra/pramana",
 			"editions": [
 				{
+					"ref": "sarit:jnanasrimitra-nibandhavali-iast",
+					"source": "sarit",
+					"sourceId": "jnanasrimitra-nibandhavali-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Jñānaśrīmitranibandhāvali",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:jnanasrimitra-nibandhavali",
+					"slug": "sarit/jnanasrimitra-nibandhavali-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/J%C3%B1%C4%81na%C5%9Br%C4%ABmitranibandh%C4%81vali.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/J%C3%B1%C4%81na%C5%9Br%C4%ABmitranibandh%C4%81vali.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/jnanasrimitra-nibandhavali.xml"
+				},
+				{
 					"ref": "sarit:jnanasrimitra-nibandhavali",
 					"source": "sarit",
 					"sourceId": "jnanasrimitra-nibandhavali",
@@ -7457,6 +7583,20 @@
 			"author": "Daṇḍin; Ratnaśrījñāna",
 			"category": "sciences/alamkara",
 			"editions": [
+				{
+					"ref": "sarit:ratnasritika-dn-iast",
+					"source": "sarit",
+					"sourceId": "ratnasritika-dn-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Kāvyādarśa with Ratnaśrī",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:ratnasritika-dn",
+					"slug": "sarit/ratnasritika-dn-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/K%C4%81vy%C4%81dar%C5%9Ba%20with%20Ratna%C5%9Br%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/K%C4%81vy%C4%81dar%C5%9Ba%20with%20Ratna%C5%9Br%C4%AB.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/ratnasritika-dn.xml"
+				},
 				{
 					"ref": "sarit:ratnasritika-dn",
 					"source": "sarit",
@@ -8917,6 +9057,20 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_religious_literature/Mah%C4%81pratisar%C4%81vidy%C4%81dh%C4%81ra%E1%B9%87%C4%AB.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_religious_literature/Mah%C4%81pratisar%C4%81vidy%C4%81dh%C4%81ra%E1%B9%87%C4%AB.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahApratisarAvidyAdhAraNI.xml"
+				},
+				{
+					"ref": "dsbc:381-iast",
+					"source": "dsbc",
+					"sourceId": "381-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Āryamahāpratisarāvidyā dhāraṇī",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:381",
+					"slug": "dsbc/381-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80ryamah%C4%81pratisar%C4%81vidy%C4%81%20dh%C4%81ra%E1%B9%87%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80ryamah%C4%81pratisar%C4%81vidy%C4%81%20dh%C4%81ra%E1%B9%87%C4%AB.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/381"
 				},
 				{
 					"ref": "dsbc:381",
@@ -12091,18 +12245,33 @@
 		},
 		{
 			"title": "Pramāṇāntarbhāva",
+			"titleDeva": "Pramāṇāntarbhāva",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "sarit:pramanantarbhava-iast",
+					"source": "sarit",
+					"sourceId": "pramanantarbhava-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Pramāṇāntarbhāva",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:pramanantarbhava",
+					"slug": "sarit/pramanantarbhava-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanantarbhava.xml"
+				},
 				{
 					"ref": "sarit:pramanantarbhava",
 					"source": "sarit",
 					"sourceId": "pramanantarbhava",
-					"label": "SARIT",
-					"script": "iast",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
 					"title": "Pramāṇāntarbhāva",
 					"slug": "sarit/pramanantarbhava",
-					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87%C4%81ntarbh%C4%81va.md",
 					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanantarbhava.xml"
 				}
 			]
@@ -12163,6 +12332,20 @@
 			"category": "sastra/pramana",
 			"editions": [
 				{
+					"ref": "sarit:pramanavarttikaparisista-1-iast",
+					"source": "sarit",
+					"sourceId": "pramanavarttikaparisista-1-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Pramāṇavārttika Pariśiṣṭa 1",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:pramanavarttikaparisista-1",
+					"slug": "sarit/pramanavarttikaparisista-1-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikaparisista-1.xml"
+				},
+				{
 					"ref": "sarit:pramanavarttikaparisista-1",
 					"source": "sarit",
 					"sourceId": "pramanavarttikaparisista-1",
@@ -12201,6 +12384,20 @@
 			"author": "Prajñākaragupta",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "sarit:pramanavarttikalankarabhasya-iast",
+					"source": "sarit",
+					"sourceId": "pramanavarttikalankarabhasya-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Pramāṇavārttikālaṅkārabhāṣya",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:pramanavarttikalankarabhasya",
+					"slug": "sarit/pramanavarttikalankarabhasya-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttik%C4%81la%E1%B9%85k%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttik%C4%81la%E1%B9%85k%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikalankarabhasya.xml"
+				},
 				{
 					"ref": "sarit:pramanavarttikalankarabhasya",
 					"source": "sarit",
@@ -12241,6 +12438,20 @@
 			"category": "sastra/pramana",
 			"editions": [
 				{
+					"ref": "sarit:pramanavarttikasvavrttitika-iast",
+					"source": "sarit",
+					"sourceId": "pramanavarttikasvavrttitika-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Pramāṇavārttikasvavṛttiṭīkā",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:pramanavarttikasvavrttitika",
+					"slug": "sarit/pramanavarttikasvavrttitika-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttikasvav%E1%B9%9Btti%E1%B9%AD%C4%ABk%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttikasvav%E1%B9%9Btti%E1%B9%AD%C4%ABk%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikasvavrttitika.xml"
+				},
+				{
 					"ref": "sarit:pramanavarttikasvavrttitika",
 					"source": "sarit",
 					"sourceId": "pramanavarttikasvavrttitika",
@@ -12279,6 +12490,20 @@
 			"author": "Dharmakīrti; Manorathanandin",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "sarit:pramanavarttikavrtti-iast",
+					"source": "sarit",
+					"sourceId": "pramanavarttikavrtti-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Pramāṇavārttikavṛtti",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:pramanavarttikavrtti",
+					"slug": "sarit/pramanavarttikavrtti-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttikav%E1%B9%9Btti.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Pram%C4%81%E1%B9%87av%C4%81rttikav%E1%B9%9Btti.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikavrtti.xml"
+				},
 				{
 					"ref": "sarit:pramanavarttikavrtti",
 					"source": "sarit",
@@ -13057,6 +13282,20 @@
 			"titleDeva": "रत्नकरण्डोद्घाट - मध्यमनामोपदेशः",
 			"category": "sastra/madhyamaka-yogacara",
 			"editions": [
+				{
+					"ref": "dsbc:892-iast",
+					"source": "dsbc",
+					"sourceId": "892-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Ratnakaraṇḍodghāṭa - madhyamanāmopadeśaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:892",
+					"slug": "dsbc/892-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka-yog%C4%81c%C4%81ra/Ratnakara%E1%B9%87%E1%B8%8Dodgh%C4%81%E1%B9%ADa%20-%20madhyaman%C4%81mopade%C5%9Ba%E1%B8%A5.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka-yog%C4%81c%C4%81ra/Ratnakara%E1%B9%87%E1%B8%8Dodgh%C4%81%E1%B9%ADa%20-%20madhyaman%C4%81mopade%C5%9Ba%E1%B8%A5.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/892"
+				},
 				{
 					"ref": "dsbc:892",
 					"source": "dsbc",
@@ -14242,6 +14481,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%A6%E0%A5%82%E0%A4%B7%E0%A4%A3%E0%A4%A6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%A6%E0%A5%82%E0%A4%B7%E0%A4%A3%E0%A4%A6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/523"
+				},
+				{
+					"ref": "sarit:samanyadusana-iast",
+					"source": "sarit",
+					"sourceId": "samanyadusana-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Sāmānyadūṣaṇa",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:samanyadusana",
+					"slug": "sarit/samanyadusana-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/S%C4%81m%C4%81nyad%C5%AB%E1%B9%A3a%E1%B9%87a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/S%C4%81m%C4%81nyad%C5%AB%E1%B9%A3a%E1%B9%87a.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/samanyadusana.xml"
 				},
 				{
 					"ref": "sarit:samanyadusana",
@@ -15963,6 +16216,20 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_yazomitra-sphuTArthA-abhidharmakozavyAkhyA.xml"
 				},
 				{
+					"ref": "dsbc:870-iast",
+					"source": "dsbc",
+					"sourceId": "870-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Sphuṭārthābhidharmakośavyākhyāyām",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:870",
+					"slug": "dsbc/870-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Sphu%E1%B9%AD%C4%81rth%C4%81bhidharmako%C5%9Bavy%C4%81khy%C4%81y%C4%81m.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Sphu%E1%B9%AD%C4%81rth%C4%81bhidharmako%C5%9Bavy%C4%81khy%C4%81y%C4%81m.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/870"
+				},
+				{
 					"ref": "dsbc:870",
 					"source": "dsbc",
 					"sourceId": "870",
@@ -17437,6 +17704,20 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/508"
 				},
 				{
+					"ref": "sarit:tarkabhasa-iast",
+					"source": "sarit",
+					"sourceId": "tarkabhasa-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Tarkabhāṣā",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:tarkabhasa",
+					"slug": "sarit/tarkabhasa-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Tarkabh%C4%81%E1%B9%A3%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Tarkabh%C4%81%E1%B9%A3%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tarkabhasa.xml"
+				},
+				{
 					"ref": "sarit:tarkabhasa",
 					"source": "sarit",
 					"sourceId": "tarkabhasa",
@@ -17788,6 +18069,20 @@
 			"author": "Śāntarakṣita; Kamalaśīla",
 			"category": "sastra/madhyamaka-yogacara",
 			"editions": [
+				{
+					"ref": "sarit:tattvasangrahapanjika-iast",
+					"source": "sarit",
+					"sourceId": "tattvasangrahapanjika-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Tattvasaṅgrahapañjikā",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:tattvasangrahapanjika",
+					"slug": "sarit/tattvasangrahapanjika-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/Tattvasa%E1%B9%85grahapa%C3%B1jik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/Tattvasa%E1%B9%85grahapa%C3%B1jik%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tattvasangrahapanjika.xml"
+				},
 				{
 					"ref": "sarit:tattvasangrahapanjika",
 					"source": "sarit",
@@ -18325,6 +18620,20 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/518"
 				},
 				{
+					"ref": "sarit:vadanyayatika-iast",
+					"source": "sarit",
+					"sourceId": "vadanyayatika-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Vādanyāyaṭīkā Vipañcitārthā",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:vadanyayatika",
+					"slug": "sarit/vadanyayatika-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/V%C4%81dany%C4%81ya%E1%B9%AD%C4%ABk%C4%81%20Vipa%C3%B1cit%C4%81rth%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/V%C4%81dany%C4%81ya%E1%B9%AD%C4%ABk%C4%81%20Vipa%C3%B1cit%C4%81rth%C4%81.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/vadanyayatika.xml"
+				},
+				{
 					"ref": "sarit:vadanyayatika",
 					"source": "sarit",
 					"sourceId": "vadanyayatika",
@@ -18359,19 +18668,34 @@
 		},
 		{
 			"title": "Vādasthānāni",
+			"titleDeva": "Vādasthānāni",
 			"author": "Jitāri",
 			"category": "sastra/pramana",
 			"editions": [
 				{
+					"ref": "sarit:vadasthana-iast",
+					"source": "sarit",
+					"sourceId": "vadasthana-iast",
+					"label": "SARIT (transliterated)",
+					"script": "iast",
+					"title": "Vādasthānāni",
+					"transliterated": true,
+					"transliteratedFrom": "sarit:vadasthana",
+					"slug": "sarit/vadasthana-iast",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/vadasthana.xml"
+				},
+				{
 					"ref": "sarit:vadasthana",
 					"source": "sarit",
 					"sourceId": "vadasthana",
-					"label": "SARIT",
-					"script": "iast",
+					"label": "SARIT देवनागरी",
+					"script": "deva",
 					"title": "Vādasthānāni",
 					"slug": "sarit/vadasthana",
-					"url": "https://github.com/meobtis/sarit/blob/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/romanized/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/V%C4%81dasth%C4%81n%C4%81ni.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/V%C4%81dasth%C4%81n%C4%81ni.md",
 					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/vadasthana.xml"
 				}
 			]
@@ -20018,6 +20342,20 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/buddhist_philosophy/Yog%C4%81vat%C4%81ra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/buddhist_philosophy/Yog%C4%81vat%C4%81ra.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dignAga-yogAvatAra.xml"
+				},
+				{
+					"ref": "dsbc:486-iast",
+					"source": "dsbc",
+					"sourceId": "486-iast",
+					"label": "DSBC (transliterated)",
+					"script": "iast",
+					"title": "Yogāvatāraḥ",
+					"transliterated": true,
+					"transliteratedFrom": "dsbc:486",
+					"slug": "dsbc/486-iast",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/dar%C5%9Bana/Yog%C4%81vat%C4%81ra%E1%B8%A5.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/dar%C5%9Bana/Yog%C4%81vat%C4%81ra%E1%B8%A5.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/486"
 				},
 				{
 					"ref": "dsbc:486",

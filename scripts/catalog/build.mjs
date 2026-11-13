@@ -73,6 +73,7 @@ const SOURCE_ORDER = Object.fromEntries(SOURCES.map((s, i) => [s.id, i]));
 const editionOrder = (a, b) =>
 	SOURCE_ORDER[a.source] - SOURCE_ORDER[b.source] ||
 	(a.script === b.script ? 0 : a.script === 'iast' ? -1 : 1) ||
+	(a.transliterated ? 1 : 0) - (b.transliterated ? 1 : 0) ||
 	(a.note ? 1 : 0) - (b.note ? 1 : 0) ||
 	a.sourceId.localeCompare(b.sourceId);
 
@@ -130,7 +131,7 @@ for (const eds of groups.values()) {
 	const counts = {};
 	const editionsOut = eds.map((e) => {
 		const source = SOURCES.find((s) => s.id === e.source);
-		const base = source.label + (e.script === 'deva' ? ' देवनागरी' : '');
+		const base = e.transliterated ? `${source.label} (transliterated)` : source.label + (e.script === 'deva' ? ' देवनागरी' : '');
 		counts[base] = (counts[base] ?? 0) + 1;
 		return {
 			ref: e.ref,
@@ -141,6 +142,7 @@ for (const eds of groups.values()) {
 			title: e.title,
 			note: EDITION_NOTES[e.ref] ?? e.note ?? titleNote(e.title),
 			n: counts[base],
+			...(e.transliterated && { transliterated: true, transliteratedFrom: e.transliteratedFrom }),
 			slug: e.slug,
 			url: e.url,
 			rawUrl: e.rawUrl,

@@ -33,6 +33,7 @@ const { work, edition } = Astro.props;
 const source = sourceById[edition.source];
 const place = categoryOf(work);
 const others = work.editions.filter((e) => e !== edition);
+const devaSource = edition.transliterated ? work.editions.find((e) => e.ref === edition.transliteratedFrom) : undefined;
 const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
 const intro = (await introductions()).get(work);
 // Index an introduction once in the site search: on the reader page of the work's first edition.
@@ -101,7 +102,7 @@ const jsonLd = {
 			}
 			<dt>Edition</dt>
 			<dd>
-				<strong>{edition.label}</strong>: {source.name} ({script})
+				<strong>{edition.label}</strong>: {source.name} ({script}{edition.transliterated ? ', transliterated' : ''})
 			</dd>
 			{
 				place && (
@@ -140,6 +141,18 @@ const jsonLd = {
 
 	{intro && <h2 id="text">Text</h2>}
 	<div data-pagefind-ignore>
+	{
+		edition.transliterated && (
+			<Aside type="note" title="Transliterated edition">
+				<p>
+					This is a machine transliteration into IAST of the Devanāgarī edition
+					{devaSource ? <> (<a href={readerUrl(devaSource)}>{devaSource.label}</a>)</> : ''}, made with{' '}
+					<a href="https://www.aksharamukha.com/python">Aksharamukha</a>. The Devanāgarī text is the authoritative one.
+				</p>
+			</Aside>
+		)
+	}
+
 	<Aside type="note" title="Source and terms of use">
 		<p>
 			{source.credit} <a href={edition.originalUrl}>View this text on the {source.label} website</a>.

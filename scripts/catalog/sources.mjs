@@ -54,6 +54,14 @@ function readTexts(dir) {
 }
 
 /**
+ * Some IAST editions are machine transliterations of a Devanāgarī edition from the same source (made with
+ * Aksharamukha). They say so in their front matter (`transliterated_from`); `original` is the id of that edition.
+ */
+function transliteration(data, source, original) {
+	return data.transliterated_from ? { transliterated: true, transliteratedFrom: `${source}:${original}` } : {};
+}
+
+/**
  * GRETIL titles often carry edition notes and descriptions, e.g.
  * "Prajñāpāramitāhṛdayasūtra, saṃkṣiptamātṛkā", "Vasudhārādhāraṇī-Gilgit",
  * "Jñānālokālaṃkārasūtra = JĀA", "Śarīrārthagāthā a chapter of his Yogācārabhūmi".
@@ -149,6 +157,7 @@ export const SOURCES = [
 						path,
 						originalUrl: data.source_url,
 						dsbcCategory: script === 'deva' ? parts.map(devaToIast) : parts,
+						...transliteration(data, 'dsbc', data.transliterated_from_book_id),
 					};
 				});
 		},
@@ -176,6 +185,7 @@ export const SOURCES = [
 				path,
 				originalUrl: data.source_url,
 				saritCategory: data.category,
+				...transliteration(data, 'sarit', String(data.sarit_id).replace(/-iast$/, '')),
 			}));
 		},
 	},

@@ -15,6 +15,31 @@ editions:
   - ref: dsbc:435
     history: >-
       This is the Devanagari presentation of the same Digital Sanskrit Buddhist Canon text, listed as the parallel version of the romanised file, again without edition details.[^dsbc435]
+parallels:
+  - tradition: pali
+    ref: DN 14
+    title: Mahāpadānasutta
+    url: https://tipitaka2500.github.io/tipitaka/7D/1.html
+  - tradition: chinese
+    ref: DA 1 (T 1)
+    title: 大本經
+    url: https://cbetaonline.dila.edu.tw/en/T0001_001
+  - tradition: chinese
+    ref: EA 48.4 (T 125)
+    title: 增壹阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0125_045
+  - tradition: chinese
+    ref: T 2
+    title: 七佛經
+    url: https://cbetaonline.dila.edu.tw/en/T0002_001
+  - tradition: chinese
+    ref: T 3
+    title: 毘婆尸佛經
+    url: https://cbetaonline.dila.edu.tw/en/T0003_001
+  - tradition: chinese
+    ref: T 4
+    title: 七佛父母姓字經
+    url: https://cbetaonline.dila.edu.tw/en/T0004_001
 updated: 2026-11-13
 ---
 
@@ -24,8 +49,12 @@ SuttaCentral lists the Pali discourse's parallels as the Chinese *Dīrghāgama* 
 
 The work is best known in the Sanskrit form edited by Takamichi Fukita from manuscripts found in Northern Turkestan.[^gretil-mav] The second Sanskrit version in the Digital Sanskrit Buddhist Canon begins differently and lacks edition details, so its relation to Fukita's edition is unclear.[^dsbc49] Little further reliable information on this text could be gathered, and the introduction is correspondingly short.
 
+In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins the *Mahāvadāna-sūtra* is the fifth discourse, in the opening *Ṣaṭsūtraka-nipāta* beside the *Mahāparinirvāṇa-sūtra* (sixth) and the *Catuṣpariṣat-sūtra* (fourth); Bucknell sets it against the Pali *Mahāpadāna* (DN 14).[^bucknell2014][^analayo2017a]
+
 [^gretil-mav]: Göttingen State and University Library. (n.d.). *Mahāvadānasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAvadAnasUtra.xml
 [^dsbc49]: University of the West. (n.d.). *Mahāvadānasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/49
 [^dsbc435]: University of the West. (n.d.). *महावदानसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/435
 [^sujato-dn14]: Sujato, B. (Trans.). (2018). The great discourse on traces left behind (DN 14). SuttaCentral. Retrieved November 13, 2026, from https://suttacentral.net/dn14/en/sujato
 [^sc-parallels]: SuttaCentral. (n.d.). Parallels of DN 14. Retrieved November 13, 2026, from https://suttacentral.net/api/parallels/dn14
+[^bucknell2014]: Bucknell, R. S. (2014). The structure of the Sanskrit Dīrgha-āgama from Gilgit vis-à-vis the Pali Dīgha-nikāya. In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 77–154). Dharma Drum Publishing Corporation.
+[^analayo2017a]: Anālayo. (2017). *Dīrgha-āgama studies* (DILA Research Series 6). Dharma Drum Publishing Corporation. https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/dastudies.pdf

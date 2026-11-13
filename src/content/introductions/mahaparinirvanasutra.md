@@ -15,6 +15,27 @@ editions:
   - ref: dsbc:433
     history: >-
       The Devanāgarī version of the same DSBC text.[^dsbc433]
+parallels:
+  - tradition: pali
+    ref: DN 16
+    title: Mahāparinibbānasutta
+    url: https://tipitaka2500.github.io/tipitaka/7D/3.html
+  - tradition: chinese
+    ref: DA 2 (T 1)
+    title: 遊行經
+    url: https://cbetaonline.dila.edu.tw/en/T0001_002
+  - tradition: chinese
+    ref: T 5
+    title: 佛般泥洹經
+    url: https://cbetaonline.dila.edu.tw/en/T0005_001
+  - tradition: chinese
+    ref: T 6
+    title: 般泥洹經
+    url: https://cbetaonline.dila.edu.tw/en/T0006_001
+  - tradition: chinese
+    ref: T 7
+    title: 大般涅槃經
+    url: https://cbetaonline.dila.edu.tw/en/T0007_001
 updated: 2026-11-13
 ---
 
@@ -24,9 +45,13 @@ The Sanskrit text survives only in fragments, and the edition is a reconstructio
 
 Little more is documented in the sources consulted here: they do not settle the school affiliation, date or place of composition of the Sanskrit recension, and these points are left open.
 
+In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins this is the sixth discourse, the last of the opening *Ṣaṭsūtraka-nipāta*, placed after the *Mahāvadāna-sūtra* (fifth) and the *Catuṣpariṣat-sūtra* (fourth); Bucknell pairs it with the Pali *Mahāparinibbāna* (DN 16).[^bucknell2014] Anālayo notes that it may originally have been a Vinaya narrative later moved into the discourse collection.[^analayo2017a]
+
 [^gretil-mps]: Göttingen State and University Library. (n.d.). *Mahāparinirvāṇasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAparinirvANasUtra.xml
 [^dsbc48]: University of the West. (n.d.). *Mahāparinirvāṇa sūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/48
 [^dsbc433]: University of the West. (n.d.). *महापरिनिर्वाणसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/433
 [^sc-dn16]: SuttaCentral. (n.d.). *Parallels of DN 16 (Mahāparinibbāna Sutta)*. Retrieved November 13, 2026, from https://suttacentral.net/api/parallels/dn16
 [^wiki-pali]: Wikipedia contributors. (n.d.). Mahāparinibbāna Sutta. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mahaparinibbana_Sutta
 [^wiki-mahayana]: Wikipedia contributors. (n.d.). Mahāparinirvāṇa Sūtra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra
+[^bucknell2014]: Bucknell, R. S. (2014). The structure of the Sanskrit Dīrgha-āgama from Gilgit vis-à-vis the Pali Dīgha-nikāya. In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 77–154). Dharma Drum Publishing Corporation.
+[^analayo2017a]: Anālayo. (2017). *Dīrgha-āgama studies* (DILA Research Series 6). Dharma Drum Publishing Corporation. https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/dastudies.pdf

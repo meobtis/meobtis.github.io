@@ -4,6 +4,9 @@ import { z } from 'astro/zod';
 import { docsLoader } from '@astrojs/starlight/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
 
+/** Parallels may link only to the Pāli on tipitaka2500.github.io or the Chinese on CBETA. */
+const PARALLEL_HOSTS = ['tipitaka2500.github.io', 'cbetaonline.dila.edu.tw'];
+
 /** An edition reference as used in src/data/catalog.json: "<source>:<sourceId>", e.g. "gretil:sa_…", "dsbc:22". */
 const editionRef = z.string().regex(/^[a-z]+:[^\s]+$/, 'Expected "<source>:<sourceId>", e.g. "dsbc:22"');
 
@@ -34,6 +37,21 @@ export const collections = {
 			 *  May cite the body's footnotes, e.g. "… (Darbhanga, 1961).[^vaidya1961]" */
 			editions: z
 				.array(z.object({ ref: editionRef, history: z.string().min(20) }))
+				.default([]),
+			/** Pāli and Chinese parallels (e.g. "DN 14", "DA 1 (T 1)"), each linking to the text itself. */
+			parallels: z
+				.array(
+					z.object({
+						tradition: z.enum(['pali', 'chinese']),
+						/** Conventional reference, e.g. "DN 14" or "SĀ 287 (T 99)". */
+						ref: z.string().min(2),
+						/** Title in the original language, e.g. "Mahāpadānasutta" or 大本經. */
+						title: z.string().optional(),
+						url: z.url().refine((u) => PARALLEL_HOSTS.includes(new URL(u).hostname), {
+							message: `Link parallels to ${PARALLEL_HOSTS.join(' or ')}`,
+						}),
+					}),
+				)
 				.default([]),
 			/** Date the introduction was written or last revised. */
 			updated: z.coerce.date(),

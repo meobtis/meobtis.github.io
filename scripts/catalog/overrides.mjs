@@ -72,6 +72,19 @@ export const CATEGORY_OVERRIDES = {
 	'dsbc:832': 'other/modern', // Vajrayāna darśana mīmāṃsā
 	'gretil:sa_dignAga-yogAvatAra': 'sastra/yogacara',
 	'gretil:sa_dramatic-fragments-buddhist': 'literature/nataka',
+	// Early discourses with Pāli or Āgama parallels that DSBC files under Mahāyāna sūtras (or the fallback rule did).
+	'gretil:sa_mahAvadAnasUtra': 'sutra/agama', // Mahāvadānasūtra
+	'gretil:sa_mahAparinirvANasUtra': 'sutra/agama', // Mahāparinirvāṇasūtra
+	'gretil:sa_nagaropamasUtra': 'sutra/agama', // Nagaropamasūtra
+	'gretil:sa_dhvajAgrasUtra': 'sutra/agama', // Dhvajāgrasūtra
+	'gretil:sa_candrasUtra': 'sutra/agama', // Candrasūtra
+	'gretil:sa_pratItyasamutpAdavibhaGgasUtra': 'sutra/agama', // Pratītyasamutpādavibhaṅgasūtra
+	'dsbc:38': 'sutra/agama', // Catuṣpariṣat sūtram
+	'gretil:sa_satyasUtra': 'sutra/agama', // Satyasūtra
+	'gretil:sa_svAgatasUtra': 'sutra/agama', // Svāgatasūtra
+	'gretil:sa_dazabalasUtra-1-4': 'sutra/agama', // Daśabalasūtra
+	'gretil:sa_devatAsUtra-and-alpadevatAsUtra': 'sutra/agama', // Devatāsūtra and Alpadevatāsūtra
+	'gretil:sa_anityatAsUtra': 'sutra/agama', // Anityatāsūtra
 };
 
 /** Display title for an edition's work. */

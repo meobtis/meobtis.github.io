@@ -7,6 +7,23 @@ editions:
   - ref: gretil:sa_dhvajAgrasUtra
     history: >-
       The text follows Ernst Waldschmidt's edition of a small Brāhmī scroll (Göttingen, 1959; reprinted in his collected papers, 1967), and its notes record variants from other manuscript fragments. The data was entered by Klaus Wille and later converted and encoded for GRETIL.[^gretil-dhvajagra]
+parallels:
+  - tradition: pali
+    ref: SN 11.3
+    title: Dhajaggasutta
+    url: https://tipitaka2500.github.io/tipitaka/12S1/11/11.1/11.1.3.html
+  - tradition: chinese
+    ref: SA 980 (T 99)
+    title: 雜阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0099_035
+  - tradition: chinese
+    ref: SA 981 (T 99)
+    title: 雜阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0099_035
+  - tradition: chinese
+    ref: EA 24.1 (T 125)
+    title: 增壹阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0125_014
 updated: 2026-11-13
 ---
 

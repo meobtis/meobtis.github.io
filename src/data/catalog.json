@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-13T17:51:16.799Z",
+	"generated": "2026-11-13T19:37:39.388Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -56,13 +56,13 @@
 					"id": "agama",
 					"label": "Āgama",
 					"description": "Early discourses from the Āgama collections.",
-					"count": 8
+					"count": 20
 				},
 				{
 					"id": "mahayana-sutra",
 					"label": "Mahāyāna sūtras",
 					"description": "Mahāyāna sūtras other than the Prajñāpāramitā.",
-					"count": 65
+					"count": 53
 				},
 				{
 					"id": "prajnaparamita",
@@ -1760,7 +1760,7 @@
 		},
 		{
 			"title": "Anityatāsūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_anityatAsUtra",
@@ -4308,7 +4308,7 @@
 		},
 		{
 			"title": "Candrasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_candrasUtra",
@@ -4577,7 +4577,7 @@
 		{
 			"title": "Catuṣpariṣat sūtram",
 			"titleDeva": "चतुष्परिषत् सूत्रम्",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "dsbc:38",
@@ -4934,7 +4934,7 @@
 		},
 		{
 			"title": "Daśabalasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_dazabalasUtra-1-4",
@@ -5121,7 +5121,7 @@
 		},
 		{
 			"title": "Devatāsūtra and Alpadevatāsūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_devatAsUtra-and-alpadevatAsUtra",
@@ -5572,7 +5572,7 @@
 		},
 		{
 			"title": "Dhvajāgrasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_dhvajAgrasUtra",
@@ -8947,7 +8947,7 @@
 		{
 			"title": "Mahāparinirvāṇasūtra",
 			"titleDeva": "महापरिनिर्वाणसूत्रम्",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_mahAparinirvANasUtra",
@@ -9335,7 +9335,7 @@
 		{
 			"title": "Mahāvadānasūtra",
 			"titleDeva": "महावदानसूत्रम्",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_mahAvadAnasUtra",
@@ -10525,7 +10525,7 @@
 		},
 		{
 			"title": "Nagaropamasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_nagaropamasUtra",
@@ -13006,7 +13006,7 @@
 		},
 		{
 			"title": "Pratītyasamutpādavibhaṅgasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_pratItyasamutpAdavibhaGgasUtra",
@@ -15827,7 +15827,7 @@
 		},
 		{
 			"title": "Satyasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_satyasUtra",
@@ -17296,7 +17296,7 @@
 		},
 		{
 			"title": "Svāgatasūtra",
-			"category": "sutra/mahayana-sutra",
+			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "gretil:sa_svAgatasUtra",

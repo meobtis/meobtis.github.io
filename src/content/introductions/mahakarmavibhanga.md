@@ -8,6 +8,15 @@ editions:
   - ref: gretil:sa_mahAkarmavibhaGga
     history: >-
       The GRETIL text follows Sylvain Lévi's 1932 edition (Paris, pp. 21–105) and also refers to Noriyuki Kudo's 2004 transliteration of the Nepalese manuscripts. Klaus Wille keyed the text, Reinhold Grünendahl converted it to the older GRETIL formats, and Maximilian Mehner produced the TEI version, published in 2020.[^gretil-mkv]
+parallels:
+  - tradition: pali
+    ref: MN 136
+    title: Mahākammavibhaṅgasutta
+    url: https://tipitaka2500.github.io/tipitaka/11M/4/4.6.html
+  - tradition: chinese
+    ref: MA 171 (T 26)
+    title: 中阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0026_044
 updated: 2026-11-13
 ---
 

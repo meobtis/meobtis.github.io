@@ -32,6 +32,25 @@ const date = intro.data.updated.toLocaleDateString('en-GB', { year: 'numeric', m
 <section class="introduction" aria-labelledby="introduction">
 	<h2 id="introduction">Introduction</h2>
 	<Fragment set:html={html} />
+	{
+		intro.data.parallels.length > 0 && (
+			<div class="parallels">
+				<h3 id="parallels">Parallels</h3>
+				<ul>
+					{intro.data.parallels.map((p) => (
+						<li>
+							<span class="tradition">{p.tradition === 'pali' ? 'Pāli' : 'Chinese'}</span>
+							<a href={p.url} lang={p.tradition === 'pali' ? 'pi-Latn' : 'zh-Hant'}>
+								{p.ref}
+								{p.title && ` · ${p.title}`}
+							</a>
+							<span class="host">{p.tradition === 'pali' ? 'World Tipiṭaka Edition' : 'CBETA'} ↗</span>
+						</li>
+					))}
+				</ul>
+			</div>
+		)
+	}
 	<p class="intro-status">
 		Based on research on the internet; it may contain inaccuracies. <a href="/about/#introductions"
 			>About the introductions</a
@@ -68,6 +87,30 @@ const date = intro.data.updated.toLocaleDateString('en-GB', { year: 'numeric', m
 	.introduction :global(a[data-ref-backref]) {
 		text-decoration: none;
 		margin-inline-start: 0.25em;
+	}
+	.parallels ul {
+		list-style: none;
+		padding: 0;
+		margin: 0.5rem 0 0;
+		display: grid;
+		gap: 0.25rem;
+	}
+	.parallels li {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0 0.75rem;
+	}
+	.tradition {
+		min-width: 4.5rem;
+		font-size: var(--sl-text-xs);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: var(--sl-color-gray-3);
+	}
+	.host {
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
 	}
 	.intro-status {
 		font-size: var(--sl-text-xs);

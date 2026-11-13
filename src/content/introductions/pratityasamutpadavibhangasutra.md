@@ -8,6 +8,15 @@ editions:
   - ref: gretil:sa_pratItyasamutpAdavibhaGgasUtra
     history: >-
       The GRETIL text follows Jin-il Chung's 2017 edition of "Brick Inscription B" from Nālandā, published in the International Journal of Buddhist Thought & Culture. Chung keyed the text and contributed it to GRETIL; Reinhold Grünendahl made the initial normalisation and conversion, and Maximilian Mehner the TEI-conformant markup.[^gretil-pvs]
+parallels:
+  - tradition: pali
+    ref: SN 12.2
+    title: Vibhaṅgasutta
+    url: https://tipitaka2500.github.io/tipitaka/12S2/1/1.1/1.1.2.html
+  - tradition: chinese
+    ref: SA 298 (T 99)
+    title: 雜阿含經
+    url: https://cbetaonline.dila.edu.tw/en/T0099_012
 updated: 2026-11-13
 ---
 

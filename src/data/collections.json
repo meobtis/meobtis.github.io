@@ -68,14 +68,47 @@
 				{
 					"name": "Institute for Advanced Buddhology, Soka University (IRIAB)",
 					"summary": "Publishes the annual report ARIRIAB, the Bibliotheca Philologica et Philosophica Buddhica series, the British Library and St Petersburg Sanskrit fragment series, and the facsimile edition of the Gilgit manuscripts in the National Archives of India, edited by Oskar von Hinüber, Seishi Karashima and Noriyuki Kudo. DSBC cites ARIRIAB (Soka University, 2013) as the source of some of its texts.",
-					"access": "PDFs from the institute's website; we found no licence statement",
+					"access": "PDFs from the institute's website; each article is marked © IRIAB, Soka University, and we found no licence statement",
 					"why": "We would need the institute's permission before reusing its transcriptions. Its website could not be reached when we last checked, so the link below is the announcement on the Indology list.",
 					"links": [
 						{
 							"label": "Announcement on the Indology list (May 2019)",
 							"url": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 						}
-					]
+					],
+					"contents": {
+						"label": "Sanskrit text editions in the annual report (ARIRIAB)",
+						"note": "Compiled from the report's contents lists for volumes I–XXIX (1998–2026); volume and year in brackets. Most are transcriptions of single manuscripts or fragments. Material in Gāndhārī, Khotanese, Tocharian, Uyghur, Tibetan and Chinese is left out.",
+						"groups": [
+							{
+								"heading": "Texts MEOBTIS does not have",
+								"entries": [
+									"Buddhapālita's commentary on the Mūlamadhyamakakārikā, with the kārikās, from 14 folios found in Tibet, by Ye Shaoyong (X 2007, XI 2008)",
+									"Abhidharmasamuccayavyākhyā, a diplomatic transcription in yearly parts, by Li Xuezhu (XVIII 2015 to XXIX 2026, continuing)",
+									"Catuḥstotravivaraṇa, a commentary on Nāgārjuna's hymns (Lokātītastava, Niraupamyastava, Acintyastava), by Lumucao (XXIV 2021, XXVI–XXVIII 2023–2025)",
+									"Sūtrasamuccaya attributed to Nāgārjuna, six folios of a newly found manuscript, by Saerji and bShad sgrub rgya mtsho (XXIX 2026)",
+									"An Uṣṇīṣavijayā-dhāraṇī text from Nepal, by Akira Yuyama (III 2000)",
+									"A fragment of Haribhadra's Ratnaguṇasaṃcayagāthāvyākhyā, by Jiang Zhongxin (III 2000)",
+									"A folio of the Yuktiṣaṣṭikāvṛtti found in Tibet, by Li Xuezhu, Kazuo Kano and Ye Shaoyong (XVII 2014)"
+								]
+							},
+							{
+								"heading": "Further editions and witnesses of texts in the index",
+								"entries": [
+									"Saṃghāṭasūtra, editio maior by Oskar von Hinüber (supplement to XXIV, 2021)",
+									"Mahāprātihāryasūtra, a critical edition and translation from a Gilgit manuscript, by Natchapol Sirisawad (XXIV 2021)",
+									"Maitreyavyākaraṇa, an improved critical edition of the Gilgit manuscript, by Liu Zhen (XXII 2019)",
+									"Mahākarmavibhaṅga and Karmavibhaṅgasūtra, transliterations of Nepalese manuscripts, by Noriyuki Kudo and others (II–VI 1999–2003, IX–X 2006–2007)",
+									"Karmavibhaṅgopadeśa, a transliteration of Nepalese manuscript A, by Noriyuki Kudo (XII–XVII 2009–2014)",
+									"Lotus Sūtra, a trilingual edition of the Sanskrit, Tibetan and Chinese, by Seishi Karashima (VI–IX 2003–2006)",
+									"Prātimokṣasūtra of the Mahāsāṃghika-Lokottaravādins, manuscript fragments, by Seishi Karashima (XI 2008, XVI 2013)",
+									"Abhidharmasamuccaya, newly available leaves, by Li Xuezhu (XVI 2013, XVII 2014)",
+									"Pāramitāsamāsa, a newly identified Gilgit manuscript, by Noriyuki Kudo (XVI 2013)",
+									"Ratnaketuparivarta, fragments, by Saerji (XI 2008, XIII–XIV 2010–2011)"
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Saktumiva wiki: Gilgit Samādhirājasūtra",
@@ -159,7 +192,7 @@
 								"entries": [
 									"Śrīmālādevīsiṃhanādanirdeśa (i)",
 									"A Mahāyāna version of the Pravāraṇāsūtra (i)",
-																		"Ajātaśatrukaukṛtyavinodanāsūtra (i, ii)",
+									"Ajātaśatrukaukṛtyavinodanāsūtra (i, ii)",
 									"Candrottarādārikāvyākaraṇa (ii)",
 									"Bodhisattvapiṭakasūtra, in Sanskrit (iii) and in Gāndhārī (iv)",
 									"Bhadrakalpikasūtra, in Gāndhārī (iv)",

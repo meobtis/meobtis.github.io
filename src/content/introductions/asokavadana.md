@@ -16,7 +16,7 @@ editions:
   - ref: dsbc:362-iast
     history: >-
       A romanised version of the Devanāgarī text of the same record.[^dsbc362]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Aśokāvadāna* ("Narrative of Aśoka"), known in English as *The Legend of King Aśoka*, is a Sanskrit Buddhist avadāna describing the birth and reign of the Mauryan emperor Aśoka as a devoted Buddhist ruler. In Sanskrit it survives as part of the *Divyāvadāna*, an anthology of Buddhist narratives.[^wiki-ashokavadana] John S. Strong's *The Legend of King Aśoka: A Study and Translation of the Aśokāvadāna* is the standard English-language study and translation.[^strong1983]
@@ -27,8 +27,13 @@ The work is probably by Buddhist monks of the Mathura region, judging by its pra
 
 Little more could be verified from the sources consulted here; Tibetan versions and details of the manuscript tradition are not covered.
 
+### Manuscripts in the Schøyen Collection
+
+Klaus Wille identified 47 small palm-leaf fragments in the Schøyen Collection, written in the same script, as belonging to the Aśoka legend. He notes that the legend as preserved in the *Divyāvadāna* consists of four avadānas (the 26th to 29th), which Mukhopadhyaya re-edited under the title *Aśokāvadāna*, and that the two Chinese translations (T 2042, made between 281 and 306 CE, and T 2043, of 512 CE) contain more text than the *Divyāvadāna* and are differently arranged.[^wille2000]
+
 [^wiki-ashokavadana]: Wikipedia contributors. (n.d.). Ashokavadana. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Ashokavadana
 [^strong1983]: National Institute of Informatics. (n.d.). *The legend of King Aśoka: A study and translation of the Aśokāvadāna* [Catalogue record BB28522411]. CiNii Books. Retrieved November 13, 2026, from https://ci.nii.ac.jp/ncid/BB28522411?l=en
 [^nii-strong]: Strong, J. S. (1983). *The legend of King Aśoka: A study and translation of the Aśokāvadāna*. Princeton University Press. Retrieved November 13, 2026, from https://ci.nii.ac.jp/ncid/BB28522411?l=en
 [^gretil-asoka]: Göttingen State and University Library. (n.d.). *Aśokāvadāna* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_azokAvadAna.xml
 [^dsbc362]: University of the West. (n.d.). *Aśokāvadānam*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/362
+[^wille2000]: Wille, K. (2000). Fragments from the Aśoka legend. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 1, pp. 219–231). Hermes Publishing. http://hermesorder.no/docs/bmsc1.pdf

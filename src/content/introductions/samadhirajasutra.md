@@ -20,7 +20,7 @@ editions:
   - ref: dsbc:443
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text is catalogued separately by the project.[^dsbc443]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The King of Samādhis Sūtra (*Samādhirājasūtra*), also known as the *Candrapradīpa-samādhi-sūtra*, is a Mahāyāna sūtra that teaches emptiness, bodhisattva conduct and mendicancy, and includes stories of past lives and prophecies. Its title refers to a samādhi, and the sūtra lists over three hundred qualities of it.[^84000toh127]
@@ -31,8 +31,13 @@ The sūtra is thought to have been compiled from earlier, shorter works, so the 
 
 Narendrayaśas translated the sūtra into Chinese in 557 as the *Candrapradīpa-samādhi-sūtra* in ten chapters, and fragments of three Central Asian Sanskrit manuscripts correspond to this version. The Tibetan translation in the Kangyur was made in the ninth century, in the reign of Ralpachen, by Śīlendrabodhi and Chönyi Tsultrim from a Sanskrit text that no longer survives. The Gilgit manuscript is shorter than the Tibetan, while twelve later Nepalese manuscripts are much closer to it.[^84000toh127] A complete English translation from the Tibetan by Peter Alan Roberts is available from 84000.[^84000toh127]
 
+### Manuscripts in the Schøyen Collection
+
+Andrew Skilton identified twenty-four pieces of the sūtra in the Schøyen Collection, all from a single manuscript in the script classified as Gilgit/Bamiyan Type I, the same script as the Gilgit manuscript of this text. Fragments of the *Ratnaketuparivarta* share the manuscript's distinguishing features, so the remains probably come from a composite manuscript.[^skilton2002]
+
 [^84000toh127]: Roberts, P. A. (Trans.). (n.d.). *The King of Samādhis Sūtra* (Toh 127). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh127
 [^gretil-samadhiraja]: Göttingen State and University Library. (n.d.). *Samādhirājasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_samAdhirAjasUtra.xml
 [^gretil-samadhiraja-translit]: Göttingen State and University Library. (n.d.). *Samādhirājasūtra, transliteration 1-11, 13, 15-22* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_samAdhirAjasUtratransliteration-1-111315-22.xml
 [^dsbc56]: University of the West. (n.d.). *Samādhirājasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/56
 [^dsbc443]: University of the West. (n.d.). *समाधिराजसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/443
+[^skilton2002]: Skilton, A. (2002). Samādhirājasūtra. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 2, pp. 97–177). Hermes Publishing. https://hermesorder.no/docs/BMSC_2_2002.pdf

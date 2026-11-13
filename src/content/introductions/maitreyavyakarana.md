@@ -22,7 +22,7 @@ editions:
   - ref: dsbc:850
     history: >-
       The DSBC record gives as its source a Soka University publication of 2013, listed under the title "Aririab" (the record gives no further bibliographic detail). It was input and proofread by Miroj Shakya in 2019.[^dsbc850]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Maitreyavyākaraṇa* ("Prophecy of Maitreya") is a short Sanskrit sūtra, composed in verse, about the future Buddha Maitreya. The 84000 project describes it as one of several brief sūtras on Maitreya's path, setting out the circumstances leading to his awakening.[^84000toh198] In the Gilgit version the text opens with the arhat Śāriputra asking the Buddha, out of compassion for the world, to explain the coming Buddha Maitreya, his power and his influence, after which the Buddha agrees to answer.[^gretil-mvy-alt]
@@ -33,9 +33,14 @@ Scholarship on the text is mainly philological. The 84000 translation of a relat
 
 The Sanskrit text survives in more than one manuscript. The GRETIL record lists the incomplete Gilgit manuscript (edited by Majumder in 1959 and also included in Dutt's *Gilgit Manuscripts*), an incomplete Calcutta manuscript and a complete Kathmandu manuscript (edited by Ishigami).[^gretil-mvy] The several digital versions on this site derive from these editions or from a different recension, which opens with "Thus have I heard" at Rājagṛha rather than with the verses found in the Gilgit text.[^dsbc850-text]
 
+### Manuscripts in the Schøyen Collection
+
+A birch-bark fragment in the Schøyen Collection preserves the remains of four verses of the text. Jens-Uwe Hartmann identified it because the wording and order of the verses match the three other Sanskrit versions: the Pāla-period manuscript in Calcutta published by Sylvain Lévi, the Gilgit manuscript published by Majumder in 1959, and the complete Nepalese manuscript edited by Ishigami in 1989. In one reading the fragment agrees with the Calcutta and Kathmandu manuscripts and in another with the Gilgit text. Hartmann describes the work as a short text of slightly more than a hundred verses, the number varying between versions, in the form of a prophecy made by Śākyamuni to Śāriputra.[^hartmann2006]
+
 [^84000toh198]: Collet-Cassart, B. (Trans.). (n.d.). *Maitreya's setting out* (Toh 198). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh198.html
 [^gretil-mvy]: Göttingen State and University Library. (n.d.). *Maitreyavyākaraṇa* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_maitreyavyAkaraNa.xml
 [^gretil-mvy-alt]: Göttingen State and University Library. (n.d.). *Maitreyavyākaraṇa* (alternative version) [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_maitreyavyAkaraNa-alt.xml
 [^dsbc26]: University of the West. (n.d.). *Ārya ṃaitreya-vyākaraṇaṃ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/26
 [^dsbc850]: University of the West. (n.d.). *Maitreyavyākaraṇa*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/850
 [^dsbc850-text]: University of the West. (n.d.). *Maitreyavyākaraṇa* [Text opening, book 850]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/850#opening
+[^hartmann2006]: Hartmann, J.-U. (2006). Maitreyavyākaraṇa. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 3, pp. 7–9). Hermes Publishing. https://hermesorder.no/docs/BMSC_3_2006.pdf

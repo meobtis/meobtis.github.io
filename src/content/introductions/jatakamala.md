@@ -16,7 +16,7 @@ editions:
   - ref: dsbc:368
     history: >-
       This is the Devanagari version of the same Digital Sanskrit Buddhist Canon text as the romanised edition, so it rests on the same 1959 Vaidya edition.[^dsbc22]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Jātakamālā* ("Garland of Birth Stories"), also called the *Bodhisattvāvadānamālā*, is a collection of thirty-four Jātaka stories, tales of the Buddha's earlier lives as a bodhisattva, composed in Sanskrit and attributed to Āryaśūra (also Ārya Śūra).[^abt-index] The two titles appear together at the head of the text itself.[^gretil-jm] It was the first Sanskrit Jātaka collection to be edited critically, and the English translation by J. S. Speyer, first published in 1895, brought it to a wide readership.[^abt-index]
@@ -27,7 +27,13 @@ Little is securely known about the author. Tibetan tradition knew Śūra as a fa
 
 The *editio princeps* was Hendrik Kern's, published at the end of 1891 as the first volume of the Harvard Oriental Series and based on two manuscripts in Cambridge and one in Paris.[^speyer-intro] The digital texts here, however, follow P. L. Vaidya's later Indian edition of 1959. Speyer's translation, based on Kern's text, is available online in a digital version transcribed by Ānandajoti Bhikkhu.[^abt-index] The collection was imitated by later authors, among them Haribhaṭṭa and Gopadatta, whose works are indexed separately.
 
+### Manuscripts in the Schøyen Collection
+
+The Schøyen Collection contains at least seventeen fragments of Āryaśūra's *Jātakamālā* from five different manuscripts; two of these are in the Gilgit/Bamiyan Type I script and, according to Jens-Uwe Hartmann, not earlier than the sixth century. Apart from a few verses painted below scenes in cave 2 at Ajanta, the earliest witnesses previously known were two manuscripts found in Central Asia by the Prussian Turfan expeditions.[^hartmann2002ajm] A further folio holds part of the *Śarabhajātaka*, the twenty-fifth chapter, continued without a gap by a folio in the Hayashidera Collection in Japan; its other side carries an otherwise unknown collection of short stories in a different script.[^hartmannmatsuda2016]
+
 [^abt-index]: Ānandajoti Bhikkhu. (2009). *Jātakamālā, or Garland of Birth Stories* (J. S. Speyer, Trans.) [Digital edition]. Ancient Buddhist Texts. Retrieved November 13, 2026, from https://www.ancient-buddhist-texts.net/English-Texts/Garland-of-Birth-Stories/index.htm
 [^speyer-intro]: Speyer, J. S. (n.d.). Introduction. In *Jātakamālā, or Garland of Birth Stories*. Ancient Buddhist Texts. Retrieved November 13, 2026, from https://www.ancient-buddhist-texts.net/English-Texts/Garland-of-Birth-Stories/00-Introduction.htm
 [^gretil-jm]: Göttingen State and University Library. (n.d.). *Jātakamālā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AryazUra-jAtakamAlA.xml
 [^dsbc22]: University of the West. (n.d.). *Jātakamālā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/22
+[^hartmann2002ajm]: Hartmann, J.-U. (2002). Āryaśūra's Jātakamālā. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 2, pp. 313–322). Hermes Publishing. https://hermesorder.no/docs/BMSC_2_2002.pdf
+[^hartmannmatsuda2016]: Hartmann, J.-U., & Matsuda, K. (2016). Āryaśūra's Jātakamālā and another story collection. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 4, pp. 333–344). Hermes Publishing. https://hermesorder.no/docs/BMSC_4_2016.pdf

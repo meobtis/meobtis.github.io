@@ -122,13 +122,17 @@
 			"items": [
 				{
 					"name": "Schøyen Collection: Buddhist manuscripts",
-					"summary": "A private collection with early Sanskrit Buddhist manuscripts, including an Aśoka legend (6th century), Abhidharma texts, a Mahāsaṃghika-Lokottaravāda Pratimokṣa-vibhaṅga, Bamiyan birch-bark manuscripts of the Bhaiṣajyaguru and Vajracchedikā, and a Guhyasamāja and Saṃpuṭodbhava Tantra manuscript of 1801. They are edited in Braarvig (ed.), Buddhist Manuscripts, published by Hermes in Oslo, 2000–2006.",
-					"access": "Catalogue entries and images online; editions in print",
-					"why": "We found no free transcriptions or licence for reuse.",
+					"summary": "A private collection with early Sanskrit Buddhist manuscripts, including an Aśoka legend (6th century), Abhidharma texts, a Mahāsaṃghika-Lokottaravāda Pratimokṣa-vibhaṅga, Bamiyan birch-bark manuscripts of the Bhaiṣajyaguru and Vajracchedikā, and a Guhyasamāja and Saṃpuṭodbhava Tantra manuscript of 1801. They are edited in Braarvig (ed.), Buddhist Manuscripts in the Schøyen Collection, four volumes published by Hermes in Oslo, 2000–2016, with editions of about 55 texts and fragments in Sanskrit and Gāndhārī, among them a Kuṣāṇa-period Aṣṭasāhasrikā, the Vajracchedikā, Samādhirāja and Larger Sukhāvatīvyūha, and a Gāndhārī Ekottarikāgama and Bodhisattvapiṭaka. The publisher offers all four volumes, and the exhibition catalogue Traces of Gandharan Buddhism, as free PDF downloads.",
+					"access": "Catalogue entries and images online; the printed editions free to download as PDF",
+					"why": "The volumes are free to download but marked all rights reserved, so we cannot republish converted text without the publisher's permission. They are also editions of fragments with introductions, translations and notes, not continuous texts.",
 					"links": [
 						{
 							"label": "Schøyen Collection: Buddhism",
 							"url": "https://www.schoyencollection.com/22-buddhism-collection"
+						},
+						{
+							"label": "Hermes Academic Publishing: free downloads",
+							"url": "https://www.hermesbooks.no/downloads"
 						},
 						{
 							"label": "Buddhist Manuscripts project (CAS Norway)",

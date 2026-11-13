@@ -47,6 +47,10 @@ Little more is documented in the sources consulted here: they do not settle the 
 
 In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins this is the sixth discourse, the last of the opening *Ṣaṭsūtraka-nipāta*, placed after the *Mahāvadāna-sūtra* (fifth) and the *Catuṣpariṣat-sūtra* (fourth); Bucknell pairs it with the Pali *Mahāparinibbāna* (DN 16).[^bucknell2014] Hartmann describes the *Catuṣpariṣat*, *Mahāvadāna* and *Mahāparinirvāṇa* as a deliberately arranged consecutive biography of the Buddha, ending with this account of his last days.[^hartmann2014] Anālayo notes that it may originally have been a Vinaya narrative later moved into the discourse collection.[^analayo2017a]
 
+### Manuscripts in the Schøyen Collection
+
+The Schøyen Collection has added two kinds of witness. Six Kharoṣṭhī fragments of a palm-leaf manuscript, with a seventh from outside the collection, preserve a previously unknown Gāndhārī version of the sūtra, which Allon and Salomon edited and compared chiefly with the Sanskrit and Pali texts.[^allonsalomon2000] Wille published further fragments of the Sanskrit text, noting that Waldschmidt's edition rests on numerous fragmentary Central Asian manuscripts whose gaps he filled from the Pali and from the Tibetan *Kṣudrakavastu*, and that many new fragments have been identified since.[^wille2002]
+
 [^gretil-mps]: Göttingen State and University Library. (n.d.). *Mahāparinirvāṇasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAparinirvANasUtra.xml
 [^dsbc48]: University of the West. (n.d.). *Mahāparinirvāṇa sūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/48
 [^dsbc433]: University of the West. (n.d.). *महापरिनिर्वाणसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/433
@@ -55,3 +59,5 @@ In the Sanskrit *Dīrgha-āgama* of the (Mūla-)Sarvāstivādins this is the six
 [^bucknell2014]: Bucknell, R. S. (2014). The structure of the Sanskrit Dīrgha-āgama from Gilgit vis-à-vis the Pali Dīgha-nikāya. In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 57–101). Dharma Drum Publishing Corporation.
 [^analayo2017a]: Anālayo. (2017). *Dīrgha-āgama studies* (DILA Research Series 6). Dharma Drum Publishing Corporation. https://www.buddhismuskunde.uni-hamburg.de/pdf/5-personen/analayo/dastudies.pdf
 [^hartmann2014]: Hartmann, J.-U. (2014). The Dīrgha-āgama of the (Mūla-)Sarvāstivādins: What was the purpose of this collection? In Dhammadinnā (Ed.), *Research on the Dīrgha-āgama* (pp. 135–166). Dharma Drum Publishing Corporation.
+[^allonsalomon2000]: Allon, M., & Salomon, R. (2000). Kharoṣṭhī fragments of a Gāndhārī version of the Mahāparinirvāṇasūtra. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 1, pp. 243–273). Hermes Publishing. http://hermesorder.no/docs/bmsc1.pdf
+[^wille2002]: Wille, K. (2002). Fragments of the Mahāparinirvāṇasūtra. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 2, pp. 17–24). Hermes Publishing. https://hermesorder.no/docs/BMSC_2_2002.pdf

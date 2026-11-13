@@ -24,7 +24,7 @@ editions:
   - ref: dsbc:403
     history: >-
       The Devanāgarī version of the same DSBC input, produced in 2004 by the DSBC staff and proof-read by Miroj Shakya. Its record gives no separate bibliographic data and pairs it with the romanised text.[^dsbc403]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The Vajracchedikā Prajñāpāramitā, usually called the Diamond Sūtra in English, is a short Mahāyāna sūtra of the perfection-of-wisdom (*prajñāpāramitā*) literature. Its Sanskrit title is often given in full as *Vajracchedikā nāma triśatikā prajñāpāramitā*, "the Perfection of Wisdom in Three Hundred Lines", and the text is set at Śrāvastī in the Jeta Grove, as the opening of the Sanskrit editions shows.[^dsbc76] It is a dialogue in which the Buddha answers the elder Subhūti's question about how a bodhisattva should practise and how the mind should be settled.[^wiki-diamond]
@@ -33,9 +33,14 @@ Its teaching proceeds largely by negation: beings, marks, qualities and even the
 
 The date of composition is uncertain. Reference works summarised on Wikipedia place it between the first and fifth centuries CE, and the first Chinese translation is traditionally attributed to Kumārajīva in 401 CE; several later Chinese translations followed, and the text was also translated into Tibetan (Toh 16 in the Kangyur).[^wiki-diamond] I could not consult the primary scholarship on these points, so they should be checked against specialist sources. Sanskrit witnesses include the Gilgit manuscript edited by Schopen (1989) and fragments in the Schøyen Collection edited by Harrison and Watanabe (2006).[^gretil-gilgit][^gretil-frag] The most widely used printed Sanskrit text is Vaidya's 1961 edition.[^gretil-vajra]
 
+### Manuscripts in the Schøyen Collection
+
+A manuscript in the Schøyen Collection (MS 2385) contains two sūtras: the *Bhaiṣajyagurusūtra* on folios 1 to 26, followed directly by the *Vajracchedikā* on folios 26 to 46. Harrison and Watanabe, who edited it, take this to suggest that when the manuscript was made some Mahāyāna Buddhists treated the *Vajracchedikā* as one of a set of Mahāyāna sūtras and not as an independent work; the Gilgit manuscript of the text presents a similar situation. Before their edition the Sanskrit text had been available in nine published editions of all or substantial parts of the work.[^harrisonwatanabe2006]
+
 [^gretil-vajra]: Göttingen State and University Library. (n.d.). *Vajracchedikā prajñāpāramitā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajracchedikA-prajJApAramitA.xml
 [^gretil-frag]: Göttingen State and University Library. (n.d.). *Vajracchedika Prajñāpāramitā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajracchedikA-prajJApAramitA-frag.xml
 [^gretil-gilgit]: Göttingen State and University Library. (n.d.). *Vajracchedikā Prajñāpāramitā-Gilgit* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajracchedikA-prajJApAramitA-gilgit.xml
 [^dsbc76]: University of the West. (n.d.). *Vajracchedikā nāma triśatikā prajñāpāramitā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/76
 [^dsbc403]: University of the West. (n.d.). *Vajracchedikā nāma triśatikā prajñāpāramitā* [Devanāgarī]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/403
 [^wiki-diamond]: Wikipedia contributors. (n.d.). Diamond Sutra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Diamond_Sutra
+[^harrisonwatanabe2006]: Harrison, P., & Watanabe, S. (2006). Vajracchedikā Prajñāpāramitā. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 3, pp. 89–132). Hermes Publishing. https://hermesorder.no/docs/BMSC_3_2006.pdf

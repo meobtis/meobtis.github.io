@@ -16,7 +16,7 @@ editions:
   - ref: dsbc:441
     history: >-
       The Devanāgarī version of the same Digital Sanskrit Buddhist Canon text, which is the Vaidya edition of 1960 presented in Devanāgarī script.[^dsbc441]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Saddharmapuṇḍarīkasūtra* ("the sūtra of the white lotus of the true Dharma") is one of the most influential Mahāyāna scriptures and is widely known in English as the Lotus Sūtra.[^wiki-lotus] The Sanskrit text is arranged in 27 chapters, and 84000's Tibetan translation, which Peter Alan Roberts made with reference to the Sanskrit, is titled *The White Lotus of the Good Dharma*.[^84000toh113]
@@ -27,8 +27,13 @@ The date and authorship are not settled. Scholars generally think the work grew 
 
 Sanskrit manuscripts survive from Central Asia (Khotan, the so-called Kashgar manuscripts), from Gilgit (sixth to eighth century) and from Nepal, where more than thirty palm-leaf copies reach back to the eleventh century.[^84000toh113] Kern's English translation of 1884 was made from two Nepalese manuscripts, and the standard Sanskrit editions are those of Kern and Nanjio (1908–1912) and Vaidya (1960).[^wiki-lotus] Chinese translations include Dharmarakṣa's of 286 CE, Kumārajīva's of 406 CE, which became the standard version in East Asia, and that of Jñānagupta and Dharmagupta (601–602 CE), which restores material absent from Kumārajīva's. The Tibetan translation was made in the reign of Ralpachen (r. 815–838) by Yeshé Dé and Surendrabodhi and is closest to the latter Chinese version and the Nepalese Sanskrit.[^84000toh113][^wiki-lotus]
 
+### Manuscripts in the Schøyen Collection
+
+The Schøyen Collection holds 44 fragments of the sūtra, carrying 27 passages, from several palm-leaf and birch-bark manuscripts. Hirofumi Toda found that their text generally runs parallel to the Gilgit and Nepalese recensions, while some readings are peculiar to these fragments and others agree with the Kashgar manuscript and manuscripts like it.[^toda2002]
+
 [^84000toh113]: Roberts, P. A. (Trans.). (n.d.). *The white lotus of the good Dharma* (Toh 113). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh113.html
 [^wiki-lotus]: Wikipedia contributors. (n.d.). Lotus Sutra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Lotus_Sutra
 [^gretil-saddhp]: Göttingen State and University Library. (n.d.). *Saddharmapuṇḍarīkasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_saddharmapuNDarIkasUtra.xml
 [^dsbc54]: University of the West. (n.d.). *Saddharmapuṇḍarīkasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/54
 [^dsbc441]: University of the West. (n.d.). *सद्धर्मपुण्डरीकसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/441
+[^toda2002]: Toda, H. (2002). Saddharmapuṇḍarīkasūtra. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 2, pp. 69–95). Hermes Publishing. https://hermesorder.no/docs/BMSC_2_2002.pdf

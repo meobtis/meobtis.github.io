@@ -16,7 +16,7 @@ editions:
   - ref: dsbc:397
     history: >-
       This is the Devanagari version of the same text in the Digital Sanskrit Buddhist Canon, with the same 32-chapter structure and opening as the romanised version; its own record gives no bibliographic details.[^dsbc397]
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 The *Aṣṭasāhasrikā prajñāpāramitā*, usually rendered in English as "The Perfection of Wisdom in Eight Thousand Lines" (the Padmakara Translation Group's 84000 version is titled *The Transcendent State of Wisdom in Eight Thousand Lines*), is a Mahāyāna sūtra in 32 chapters.[^84000toh12] It is counted among the Prajñāpāramitā ("perfection of wisdom") scriptures, and the 84000 introduction calls it a keystone of that literature and one of its "mother" texts.[^84000toh12] The Sanskrit opens, like many sūtras, in Rājagṛha on the Vulture Peak, where the Buddha asks Subhūti to speak on the perfection of wisdom, and the exposition unfolds mostly as a dialogue between Subhūti, Śāriputra and the Buddha (as the editions listed here show).
@@ -29,6 +29,10 @@ The work was translated into Chinese several times. The 84000 introduction lists
 
 Modern Sanskrit editions rest on late Nepalese manuscripts: Rajendralala Mitra (1888), Unrai Wogihara (1932–35, with Haribhadra's commentary) and P. L. Vaidya (1960), the last being the basis of the digital texts here.[^84000toh12][^gretil-asp] The 84000 introduction lists among the commentaries Haribhadra's *Light on the Ornament* (ninth century) and Ratnākaraśānti's *Quintessence of the Eight Thousand* (eleventh century).[^84000toh12]
 
+### Manuscripts in the Schøyen Collection
+
+Fragments of a palm-leaf manuscript of the *Aṣṭasāhasrikā* from the Kuṣāṇa period, most probably from a deposit near Bamiyan, were published by Lore Sander in 2000 as the oldest traces then known of a manuscript of the text in an Indian language. They confirmed the long-held assumption that such early Indian manuscripts existed, since Lokakṣema's Chinese translation dates to 179–180 CE. The text is remarkably close to the Sanskrit edition based on Nepalese manuscripts of the eleventh and twelfth centuries, although the language partly differs, and Sander takes this to suggest that more than one Indian recension already existed in the second to third century.[^sander2000] Twenty further small fragments of the same manuscript followed in 2002, four of which could be placed in chapters 7–8, 15–16, 16 and 20.[^sander2002]
+
 [^84000toh12]: Padmakara Translation Group. (n.d.). *The transcendent state of wisdom in eight thousand lines* (Toh 12). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh12
 [^wiki-asp]: Wikipedia contributors. (n.d.). Aṣṭasāhasrikā Prajñāpāramitā Sūtra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/A%E1%B9%A3%E1%B9%ADas%C4%81hasrik%C4%81_Praj%C3%B1%C4%81p%C4%81ramit%C4%81_S%C5%ABtra
 [^falk2012]: Falk, H., & Karashima, S. (2012). A first-century Prajñāpāramitā manuscript from Gandhāra: Parivarta 1 (Texts from the Split Collection 1). *Annual Report of the International Research Institute for Advanced Buddhology at Soka University, 15*, 19–61. https://www.en.gandhara.indologie.uni-muenchen.de/publications/index.html
@@ -37,3 +41,5 @@ Modern Sanskrit editions rest on late Nepalese manuscripts: Rajendralala Mitra (
 [^gretil-asp]: Göttingen State and University Library. (n.d.). *Aṣṭasāhasrikā Prajñāpāramitā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_aSTasAhasrikA-prajJApAramitA.xml
 [^dsbc68]: University of the West. (n.d.). *Aṣṭasāhasrikā prajñāpāramitā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/68
 [^dsbc397]: University of the West. (n.d.). *अष्टसाहस्रिका प्रज्ञापारमिता*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/397
+[^sander2000]: Sander, L. (2000). Fragments of an Aṣṭasāhasrikā manuscript from the Kuṣāṇa period. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 1, pp. 1–51). Hermes Publishing. http://hermesorder.no/docs/bmsc1.pdf
+[^sander2002]: Sander, L. (2002). New fragments of the Aṣṭasāhasrikā Prajñāpāramitā of the Kuṣāṇa period. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 2, pp. 37–44). Hermes Publishing. https://hermesorder.no/docs/BMSC_2_2002.pdf

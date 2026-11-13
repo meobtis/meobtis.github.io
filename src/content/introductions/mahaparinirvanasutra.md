@@ -1,0 +1,32 @@
+---
+title: Mahāparinirvāṇasūtra
+refs:
+  - gretil:sa_mahAparinirvANasUtra
+  - dsbc:48
+  - dsbc:433
+summary: The Sanskrit Mahāparinirvāṇasūtra as reconstructed by Ernst Waldschmidt from fragmentary manuscripts, an account of the Buddha's last journey and death that parallels the Pāli Mahāparinibbāna Sutta.
+editions:
+  - ref: gretil:sa_mahAparinirvANasUtra
+    history: >-
+      The text follows Ernst Waldschmidt's three-part edition, *Das Mahaparinirvanasutra* (Berlin, 1950–1951), with a few sections taken from other publications by Waldschmidt and Matsumura. The data were entered by Klaus Wille and converted for GRETIL by Reinhold Grünendahl and, to TEI markup in 2020, by Maximilian Mehner.[^gretil-mps]
+  - ref: dsbc:48
+    history: >-
+      Listed in the Digital Sanskrit Buddhist Canon as an edition by Ernst Waldschmidt, published by Akademie-Verlag in Berlin in 1950; it was keyed by DSBC staff in 2008 and proofread by Milan Shakya.[^dsbc48]
+  - ref: dsbc:433
+    history: >-
+      The Devanāgarī version of the same DSBC text.[^dsbc433]
+updated: 2026-11-13
+---
+
+The Mahāparinirvāṇasūtra in these editions is the Sanskrit version of the account of the Buddha's last journey, illness and death, and not the later Mahāyāna *Mahāparinirvāṇa Sūtra* with its teaching on buddha-nature, even though the DSBC files it among the Mahāyāna sūtras.[^wiki-mahayana] It opens in Rājagṛha, where King Ajātaśatru, who is at odds with the Vṛjis, sends his minister Varṣākāra to ask the Buddha about the prospects of his campaign; the surviving text is full of lacunae, marked by brackets in the digital editions.[^gretil-mps] This is the framework of the Pāli *Mahāparinibbāna Sutta* (Dīghanikāya 16), the best-known version of the narrative.[^wiki-pali]
+
+The Sanskrit text survives only in fragments, and the edition is a reconstruction. SuttaCentral lists Waldschmidt's edition as a full parallel of Dīghanikāya 16, together with further Sanskrit fragments published by Waldschmidt and Wille, many Turfan fragments, and related Chinese versions (T 1, T 5, T 6, T 7) and passages in the Mūlasarvāstivāda Vinaya.[^sc-dn16] The GRETIL text marks passages found only in the Tibetan or only in the Chinese version, which shows that Waldschmidt drew on those translations to complete the Sanskrit.[^gretil-mps]
+
+Little more is documented in the sources consulted here: they do not settle the school affiliation, date or place of composition of the Sanskrit recension, and these points are left open.
+
+[^gretil-mps]: Göttingen State and University Library. (n.d.). *Mahāparinirvāṇasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAparinirvANasUtra.xml
+[^dsbc48]: University of the West. (n.d.). *Mahāparinirvāṇa sūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/48
+[^dsbc433]: University of the West. (n.d.). *महापरिनिर्वाणसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/433
+[^sc-dn16]: SuttaCentral. (n.d.). *Parallels of DN 16 (Mahāparinibbāna Sutta)*. Retrieved November 13, 2026, from https://suttacentral.net/api/parallels/dn16
+[^wiki-pali]: Wikipedia contributors. (n.d.). Mahāparinibbāna Sutta. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mahaparinibbana_Sutta
+[^wiki-mahayana]: Wikipedia contributors. (n.d.). Mahāparinirvāṇa Sūtra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra

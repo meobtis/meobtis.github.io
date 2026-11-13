@@ -73,6 +73,47 @@ editions the key misses, split editions it wrongly joins, and override a categor
 title or an edition label. `pnpm catalog --report` lists every work merged across sources
 and any work that could not be classified.
 
+### Introductions
+
+Researched introductions to works, covering what a text is and the history of each digital
+edition, live in **this** repository as sidecar files, one per work, in
+`src/content/introductions/`. The texts in the source repositories stay untouched. This is
+deliberate:
+
+- **Not in the texts' front matter:** that would change the converted texts, and mix
+  researched prose with the metadata copied from GRETIL or the DSBC.
+- **Not beside the texts in the source repositories:** an introduction describes a *work*,
+  which this site defines by merging editions, while its editions are spread across
+  several repositories.
+- **Rendered at build time,** unlike the texts, so introductions are in the static HTML and
+  can be found by search engines and the site search.
+
+Each file is validated against the schema in `src/content.config.ts`:
+
+```yaml
+title: Prajñāpāramitāhṛdayasūtra
+refs: [gretil:sa_…, dsbc:70, dsbc:71]   # editions of the work; all must be in one work
+summary: One sentence, shown in text lists and as the page description.
+editions:                               # optional history of individual editions
+  - ref: dsbc:70
+    history: Based on P. L. Vaidya's edition (1961) …
+sources:                                # works consulted; at least one
+  - { title: …, url: https://…, note: … }
+updated: 2026-11-13
+```
+
+The body is a few paragraphs describing the work. Reader pages show the introduction above
+the text: the description, the history of the edition being read, and the sources, with a
+note that introductions are based on internet research and may be inaccurate (explained on
+the About page). Text lists show the summary under the title. The build fails if an
+introduction names an unknown edition, spans two works, or duplicates another.
+
+Introductions are written with the **`augment-text`** Claude Code skill
+(`.claude/skills/augment-text/`). It finds the work and its editions, reads each edition's
+own metadata, researches the work on the web, and writes the file with sources for every
+claim. Run it with `/augment-text <title>`, or ask for, e.g.,
+"introductions for the next 5 texts in sutra/prajnaparamita".
+
 ### Taxonomy
 
 | Group | Categories |
@@ -112,11 +153,16 @@ Empty categories are hidden.
 │   ├── classify.mjs               #   rules for texts without a source category
 │   ├── overrides.mjs              #   manual merges, splits, categories, titles
 │   └── text.mjs                   #   Devanāgarī → IAST, title normalisation
+├── .claude/skills/augment-text/   # Claude Code skill that writes introductions
+├── scripts/introductions.mjs      # find/missing/check/status helper for introductions
 ├── src/
+│   ├── content/introductions/     # researched introductions, one Markdown file per work
 │   ├── data/catalog.json          # generated catalogue (committed)
 │   ├── lib/catalog.ts             # typed access to the catalogue
 │   ├── components/
+│   │   ├── Footer.astro           # Starlight footer plus source credits
 │   │   ├── Head.astro             # adds the Noto fonts (Astro Fonts API)
+│   │   ├── Introduction.astro     # introduction section on reader pages
 │   │   ├── TextReader.astro       # fetches and renders an edition's Markdown in the browser
 │   │   └── WorkList.astro         # list of works with their edition links
 │   ├── pages/texts/               # /texts/, /texts/all/, /texts/<group>/<category>/
@@ -138,6 +184,10 @@ Devanagari and Noto Sans Mono fonts.
 | `pnpm catalog` | Fetch the source repositories and regenerate `src/data/catalog.json` |
 | `pnpm catalog --offline` | Regenerate from the existing checkouts in `.cache/sources/` |
 | `pnpm catalog --report` | Also list merges across sources and unclassified works |
+| `pnpm intros find <title>` | Show a work's edition refs and Markdown URLs (for introductions) |
+| `pnpm intros missing [group/category]` | List works without an introduction |
+| `pnpm intros check` | Validate all introductions |
+| `pnpm intros status` | Introduction coverage by category |
 | `pnpm dev` | Start the dev server at `localhost:4321` |
 | `pnpm build` | Build the site to `./dist/`, including the search index |
 | `pnpm preview` | Preview the build locally (search works only in a build) |

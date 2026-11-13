@@ -2,6 +2,7 @@
 // A list of works. Each work shows its title (IAST, plus Devanāgarī where a source has it),
 // author, and one link per edition naming its source.
 import { readerUrl, sourceById, type Work } from '../lib/catalog';
+import { introductions } from '../lib/introductions';
 
 interface Props {
 	works: Work[];
@@ -10,6 +11,7 @@ interface Props {
 }
 
 const { works, categoryLabels } = Astro.props;
+const intros = await introductions();
 ---
 
 <ul class="works not-content">
@@ -26,6 +28,12 @@ const { works, categoryLabels } = Astro.props;
 						</span>
 					)}
 				</div>
+				{intros.get(w) && (
+					<p class="summary">
+						{intros.get(w)!.data.summary}{' '}
+						<a href={`${readerUrl(w.editions[0])}#introduction`}>Introduction</a>
+					</p>
+				)}
 				{(w.author || categoryLabels) && (
 					<div class="work-meta">
 						{w.author && <span lang="sa-Latn">{w.author}</span>}
@@ -86,6 +94,11 @@ const { works, categoryLabels } = Astro.props;
 	.deva {
 		color: var(--sl-color-gray-2);
 		overflow-wrap: anywhere;
+	}
+	.summary {
+		margin: 0;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
 	}
 	.work-meta {
 		display: flex;

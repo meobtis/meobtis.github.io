@@ -2,6 +2,8 @@
 import data from '../data/catalog.json';
 
 export interface Edition {
+	/** Stable reference "<source>:<sourceId>", used by introductions (src/content/introductions). */
+	ref: string;
 	source: string;
 	sourceId: string;
 	/** Link text naming the source, e.g. "GRETIL", "DSBC देवनागरी", "DSBC (Vol 2)". */

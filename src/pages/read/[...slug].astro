@@ -5,7 +5,9 @@
 // in this repository or in the built site.
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { Aside } from '@astrojs/starlight/components';
+import Introduction from '../../components/Introduction.astro';
 import TextReader from '../../components/TextReader.astro';
+import { introductions } from '../../lib/introductions';
 import {
 	catalog,
 	categoryOf,
@@ -32,6 +34,9 @@ const source = sourceById[edition.source];
 const place = categoryOf(work);
 const others = work.editions.filter((e) => e !== edition);
 const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
+const intro = (await introductions()).get(work);
+// Index an introduction once in the site search: on the reader page of the work's first edition.
+const searchable = Boolean(intro) && edition === work.editions[0];
 
 // SEO: several editions share a work title, so the <title> names the edition too.
 const pageTitle = `${work.title} – ${edition.label}`;
@@ -42,6 +47,7 @@ const jsonLd = {
 	'@id': `${pageUrl}#text`,
 	url: pageUrl,
 	name: work.title,
+	...(intro && { description: intro.data.summary }),
 	...(work.titleDeva && { alternateName: work.titleDeva }),
 	...(work.author && { author: { '@type': 'Person', name: work.author } }),
 	inLanguage: edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn',
@@ -63,9 +69,11 @@ const jsonLd = {
 <StarlightPage
 	frontmatter={{
 		title: work.title,
-		description: `${work.title}${work.author ? ` by ${work.author}` : ''}: Sanskrit text (${script}) from ${source.name}, rendered from Markdown.`,
+		description: intro
+			? `${intro.data.summary} Sanskrit text (${script}) from ${source.name}.`
+			: `${work.title}${work.author ? ` by ${work.author}` : ''}: Sanskrit text (${script}) from ${source.name}, rendered from Markdown.`,
 		tableOfContents: false,
-		pagefind: false,
+		pagefind: searchable,
 		editUrl: false,
 		lastUpdated: false,
 		head: [
@@ -76,7 +84,7 @@ const jsonLd = {
 		],
 	}}
 >
-	<div class="meta">
+	<div class="meta" data-pagefind-ignore>
 		{work.titleDeva && <p class="deva" lang="sa-Deva">{work.titleDeva}</p>}
 		<dl>
 			{
@@ -124,6 +132,10 @@ const jsonLd = {
 		</dl>
 	</div>
 
+	{intro && <Introduction intro={intro} editionRef={edition.ref} editionLabel={edition.label} />}
+
+	{intro && <h2 id="text">Text</h2>}
+	<div data-pagefind-ignore>
 	<Aside type="note" title="Source and terms of use">
 		<p>
 			{source.credit} <a href={edition.originalUrl}>View this text on the {source.label} website</a>.
@@ -133,6 +145,7 @@ const jsonLd = {
 			source edition given in the edition details and {source.label}.
 		</p>
 	</Aside>
+	</div>
 
 	<TextReader rawUrl={edition.rawUrl} githubUrl={edition.url} lang={edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn'} />
 </StarlightPage>

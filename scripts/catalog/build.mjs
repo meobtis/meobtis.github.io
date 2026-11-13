@@ -132,6 +132,7 @@ for (const eds of groups.values()) {
 		const base = source.label + (e.script === 'deva' ? ' देवनागरी' : '');
 		counts[base] = (counts[base] ?? 0) + 1;
 		return {
+			ref: e.ref,
 			source: e.source,
 			sourceId: e.sourceId,
 			label: base,

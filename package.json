@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "catalog": "node scripts/catalog/build.mjs"
+    "catalog": "node scripts/catalog/build.mjs",
+    "intros": "node scripts/introductions.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.10",

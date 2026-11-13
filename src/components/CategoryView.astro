@@ -1,0 +1,116 @@
+---
+// The page of one category, shown by /texts/<group>/<category>/ (A–Z) and, where src/data/orders.json defines
+// an order, by /texts/<group>/<category>/<order>/.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import WorkList from './WorkList.astro';
+import OrderSwitch from './OrderSwitch.astro';
+import { ordersOf } from '../lib/orders';
+import { catalog, listOf, readerUrl, sectionsOf, slugify, worksIn, type Category, type Group } from '../lib/catalog';
+
+interface Props {
+	group: Group;
+	category: Category;
+	/** Id of the reading order to show; omitted for the default A–Z list. */
+	orderId?: string;
+}
+
+const { group, category, orderId } = Astro.props;
+const works = worksIn(group, category);
+const orders = ordersOf(`${group.id}/${category.id}`, works);
+const order = orders.find((o) => o.id === orderId);
+const sections = order ? order.groups : sectionsOf(works);
+// Works in display order, for the structured data.
+const listed = order ? order.groups.flatMap((g) => g.works) : sections.flatMap((s) => s.works);
+const headings = sections
+	.filter((s) => s.heading)
+	.map((s) => ({ depth: 2, slug: slugify(s.heading!), text: `${s.heading} (${s.works.length})` }));
+const editions = works.reduce((n, w) => n + w.editions.length, 0);
+
+// SEO: a collection page with breadcrumbs (Texts › group › category) and its list of works.
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'CollectionPage',
+			'@id': pageUrl,
+			url: pageUrl,
+			name: `${category.label}: Buddhist texts in Sanskrit`,
+			description: category.description,
+			isPartOf: { '@id': 'https://meobtis.github.io/#website' },
+			mainEntity: {
+				'@type': 'ItemList',
+				numberOfItems: works.length,
+				itemListElement: listed.map((w, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: w.title,
+					url: new URL(readerUrl(w.editions[0]), Astro.site).href,
+				})),
+			},
+		},
+		{
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: 'Texts', item: new URL('/texts/', Astro.site).href },
+				{ '@type': 'ListItem', position: 2, name: group.label, item: new URL(`/texts/#${slugify(group.label)}`, Astro.site).href },
+				{ '@type': 'ListItem', position: 3, name: category.label, item: pageUrl },
+			],
+		},
+	],
+};
+---
+
+<StarlightPage
+	frontmatter={{
+		title: order ? `${category.label}: ${order.label.toLowerCase()}` : category.label,
+		description: `${category.description} ${works.length} texts in Sanskrit, with Markdown editions from ${listOf(catalog.sources.map((s) => s.label))}.`,
+		head: [
+			{ tag: 'title', content: `${category.label}${order ? ` (${order.label.toLowerCase()})` : ''}: Buddhist texts in Sanskrit | MEOBTIS` },
+			{ tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify(jsonLd) },
+		],
+	}}
+	headings={headings}
+>
+	<p>
+		{
+			`${category.description} ${works.length} ${works.length === 1 ? 'text' : 'texts'} in ${editions} ${editions === 1 ? 'edition' : 'editions'}. `
+		}
+		Each link opens an edition to read here and names its source; ↗ opens the text on the source’s website.
+	</p>
+	<p class="breadcrumb"><a href="/texts/">Texts</a> › {group.label}</p>
+	{orders.length > 0 && <OrderSwitch group={group} category={category} orders={orders} current={order} />}
+	{order && <p class="order-note">{order.note}</p>}
+	{
+		order
+			? order.groups.map((g) => (
+					<>
+						<h2 id={slugify(g.heading)}>{g.heading}</h2>
+						{g.note && <p class="group-note">{g.note}</p>}
+						<WorkList works={g.works} badges={g.badges} />
+					</>
+				))
+			: sections.map((s) =>
+					s.heading ? (
+						<>
+							<h2 id={slugify(s.heading)}>{s.heading}</h2>
+							<WorkList works={s.works} />
+						</>
+					) : (
+						<WorkList works={s.works} />
+					),
+				)
+	}
+</StarlightPage>
+
+<style>
+	.order-note,
+	.group-note {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+	}
+	.breadcrumb {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+</style>

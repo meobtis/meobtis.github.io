@@ -1,0 +1,27 @@
+---
+// A reading order of a category (src/data/orders.json), e.g. /texts/sastra/madhyamaka/reading-path/.
+import CategoryView from '../../../../components/CategoryView.astro';
+import { catalog, worksIn, type Category, type Group } from '../../../../lib/catalog';
+import { ordersOf } from '../../../../lib/orders';
+
+export function getStaticPaths() {
+	return catalog.groups.flatMap((group) =>
+		group.categories.flatMap((category) =>
+			ordersOf(`${group.id}/${category.id}`, worksIn(group, category)).map((order) => ({
+				params: { group: group.id, category: category.id, order: order.id },
+				props: { group, category, orderId: order.id },
+			})),
+		),
+	);
+}
+
+interface Props {
+	group: Group;
+	category: Category;
+	orderId: string;
+}
+
+const { group, category, orderId } = Astro.props;
+---
+
+<CategoryView group={group} category={category} orderId={orderId} />

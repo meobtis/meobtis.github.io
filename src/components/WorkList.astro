@@ -9,9 +9,11 @@ interface Props {
 	works: Work[];
 	/** Show each work's category under its title (used on the A–Z page). */
 	categoryLabels?: Record<string, string>;
+	/** Short label shown before a work's title, e.g. its position in a collection ("DĀ (Skt) 4"). */
+	badges?: Map<Work, string>;
 }
 
-const { works, categoryLabels } = Astro.props;
+const { works, categoryLabels, badges } = Astro.props;
 const intros = await introductions();
 
 /** Sources of a work in order of first appearance, e.g. ["GRETIL", "DSBC"]. */
@@ -24,6 +26,7 @@ const sourcesOf = (w: Work) => [...new Set(w.editions.map((e) => sourceById[e.so
 			<li class="work">
 				<div class="work-main">
 					<div class="work-title">
+						{badges?.get(w) && <span class="badge">{badges.get(w)}</span>}
 						<span class="iast" lang="sa-Latn">
 							{w.title}
 						</span>
@@ -113,6 +116,15 @@ const sourcesOf = (w: Work) => [...new Set(w.editions.map((e) => sourceById[e.so
 		font-size: var(--sl-text-lg);
 		color: var(--sl-color-white);
 		overflow-wrap: anywhere;
+	}
+	.badge {
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		white-space: nowrap;
+		padding: 0.1rem 0.5rem;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.375rem;
+		color: var(--sl-color-text-accent);
 	}
 	.deva {
 		color: var(--sl-color-gray-2);

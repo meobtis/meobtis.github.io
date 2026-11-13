@@ -1,0 +1,82 @@
+---
+// Switch between a category's default A–Z list and its reading orders (src/data/orders.json).
+import { categoryUrl, type Category, type Group } from '../lib/catalog';
+import type { Order } from '../lib/orders';
+
+interface Props {
+	group: Group;
+	category: Category;
+	orders: Order[];
+	/** The order being shown; undefined for A–Z. */
+	current?: Order;
+}
+
+const { group, category, orders, current } = Astro.props;
+const base = categoryUrl(group, category);
+---
+
+<div class="switch">
+	<span class="switch-label" id="order-label">Order</span>
+	<ul class="segmented" aria-labelledby="order-label">
+		<li><a href={base} aria-current={current ? undefined : 'page'}>A–Z</a></li>
+		{
+			orders.map((o) => (
+				<li>
+					<a href={`${base}${o.id}/`} aria-current={current === o ? 'page' : undefined}>
+						{o.label}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
+
+<style>
+	.switch {
+		display: grid;
+		gap: 0.375rem;
+		margin: 1rem 0;
+	}
+	.switch-label {
+		font-size: var(--sl-text-xs);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		font-weight: 600;
+		color: var(--sl-color-gray-3);
+	}
+	.segmented {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: inline-flex;
+		flex-wrap: wrap;
+		width: fit-content;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 0.5rem;
+		overflow: hidden;
+		font-size: var(--sl-text-sm);
+	}
+	.segmented li {
+		margin: 0;
+	}
+	.segmented li + li {
+		border-inline-start: 1px solid var(--sl-color-accent);
+	}
+	.segmented a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2.5rem;
+		padding: 0 1rem;
+		text-decoration: none;
+		color: var(--sl-color-white);
+	}
+	.segmented a:hover,
+	.segmented a:focus-visible {
+		background: var(--sl-color-accent-low);
+	}
+	.segmented a[aria-current='page'] {
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+		font-weight: 600;
+	}
+</style>

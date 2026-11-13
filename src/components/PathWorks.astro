@@ -1,0 +1,36 @@
+---
+// The texts of one stage of the reading path (src/content/docs/path.mdx), named by edition reference,
+// shown as the usual list of works with links to the category pages for more.
+import WorkList from './WorkList.astro';
+import { catalog, type Work } from '../lib/catalog';
+
+interface Props {
+	refs: string[];
+	more?: { label: string; href: string }[];
+}
+
+const { refs, more = [] } = Astro.props;
+const byRef = new Map<string, Work>();
+for (const w of catalog.works) for (const e of w.editions) byRef.set(e.ref, w);
+const works = refs.map((ref) => {
+	const w = byRef.get(ref);
+	if (!w) throw new Error(`PathWorks: unknown edition "${ref}"`);
+	return w;
+});
+---
+
+<WorkList works={works} />
+{
+	more.length > 0 && (
+		<p class="more not-content">
+			More: {more.map((m, i) => (<>{i > 0 && ' · '}<a href={m.href}>{m.label}</a></>))}
+		</p>
+	)
+}
+
+<style>
+	.more {
+		font-size: var(--sl-text-sm);
+		margin: 0.75rem 0 0;
+	}
+</style>

@@ -139,6 +139,7 @@ export default defineConfig({
 					label: 'Texts',
 					items: [
 						{ label: 'Overview', link: '/texts/' },
+						{ label: 'Reading path', link: '/path/' },
 						{ label: 'All texts A–Z', link: '/texts/all/', badge: String(catalog.works.length) },
 						// One group per section of the catalogue, one link per category (see scripts/catalog).
 						...catalog.groups

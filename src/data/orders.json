@@ -1,0 +1,98 @@
+{
+	"sastra/madhyamaka": {
+		"orders": [
+			{
+				"id": "reading-path",
+				"label": "Reading path",
+				"note": "Madhyamaka texts in the order of their authors, from Nāgārjuna to Atīśa, so that each later author can be read against the earlier ones. Dates are approximate and are not shown. Several works are attributed to authors whose authorship is disputed; where the introductions say so, the work is placed under the traditional attribution. Texts that fit no author or period are listed last.",
+				"groups": [
+					{
+						"heading": "Nāgārjuna",
+						"note": "The root verses first, then the shorter treatises, then works attributed to him whose authorship is less certain.",
+						"works": [
+							{ "ref": "gretil:sa_nAgArjuna-mUlamadhyamakakArikA" },
+							{ "ref": "gretil:sa_nAgArjuna-madhyamakazAstra" },
+							{ "ref": "gretil:sa_nAgArjuna-vigrahavyAvartanI" },
+							{ "ref": "gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA" },
+							{ "ref": "gretil:sa_nAgArjuna-zUnyatAsaptati" },
+							{ "ref": "gretil:sa_nAgArjuna-yuktiSaSTikakArikA" },
+							{ "ref": "dsbc:255" },
+							{ "ref": "gretil:sa_nAgArjuna-pratItyasamutpAdahRdayakArikA" },
+							{ "ref": "gretil:sa_nAgArjuna-pratItyasamutpAdahRdayavyAkhyAna" },
+							{ "ref": "gretil:sa_nAgArjuna-zAlistambakakArikA" },
+							{ "ref": "gretil:sa_nAgArjuna-zAlistambakamahAyAnasUtraTIkA" },
+							{ "ref": "gretil:sa_nAgArjuna-bodhicittavivaraNa-fragments" },
+							{ "ref": "gretil:sa_nAgArjuna-mahAyAnaviMzikA" }
+						]
+					},
+					{
+						"heading": "Āryadeva",
+						"note": "The Catuḥśatikā, followed by the Hastavālaprakaraṇa, whose authorship is disputed between Āryadeva and Dignāga.",
+						"works": [
+							{ "ref": "gretil:sa_Aryadeva-catuHzatikA" },
+							{ "ref": "dsbc:238" },
+							{ "ref": "gretil:sa_hastavAlaprakaraNavRtti" }
+						]
+					},
+					{
+						"heading": "Bhāviveka (Bhavya)",
+						"note": "Both works are attributed to him; the Madhyamārthasaṃgraha only by the colophon of the digital text.",
+						"works": [{ "ref": "dsbc:240" }, { "ref": "dsbc:244" }]
+					},
+					{
+						"heading": "Candrakīrti",
+						"note": "The Prasannapadā is a commentary on Nāgārjuna's root verses and is best read with them; the Madhyamakāvatāra then presents the same view as part of the bodhisattva path.",
+						"works": [
+							{ "ref": "gretil:sa_candrakIrti-prasannapada" },
+							{ "ref": "dsbc:852" },
+							{ "ref": "dsbc:887" },
+							{ "ref": "gretil:sa_madhyamakAvatAra-1-5" }
+						]
+					},
+					{
+						"heading": "Kamalaśīla and Atīśa",
+						"note": "Later Indian Madhyamaka: Kamalaśīla in the eighth century, and Atīśa (Dīpaṃkaraśrījñāna), who carried the tradition to Tibet.",
+						"works": [
+							{ "ref": "gretil:sa_kamalazIla-madhyamakAloka" },
+							{ "ref": "gretil:sa_dIpaMkara-satyadvayAvatAranAma" },
+							{ "ref": "gretil:sa_dIpaMkarazrIjJAna-zaraNagamanadezanA" },
+							{ "ref": "gretil:sa_dIpaMkarazrIjJAna-sUtrArthasamuccayopadeza" }
+						]
+					}
+				]
+			}
+		]
+	},
+	"sutra/agama": {
+		"orders": [
+			{
+				"id": "collections",
+				"label": "By collection",
+				"note": "Early discourses grouped by the Āgama collection they belong to, in the collection's own order where it is known. The Sanskrit Dīrgha-āgama of the (Mūla-)Sarvāstivādins opens with the six-sūtra section (Ṣaṭsūtraka-nipāta): Daśottara, Arthavistara, Saṅgīti, Catuṣpariṣat, Mahāvadāna and Mahāparinirvāṇa. Only the last three are indexed here. Texts whose collection is not stated in the sources consulted are listed last.",
+				"groups": [
+					{
+						"heading": "Dīrgha-āgama (Sanskrit, Gilgit)",
+						"note": "Positions in the Sanskrit collection, after Bucknell (2014) and Hartmann (2014): together these three form a consecutive biography of the Buddha.",
+						"works": [
+							{ "ref": "dsbc:38", "label": "DĀ (Skt) 4" },
+							{ "ref": "gretil:sa_mahAvadAnasUtra", "label": "DĀ (Skt) 5" },
+							{ "ref": "gretil:sa_mahAparinirvANasUtra", "label": "DĀ (Skt) 6" }
+						]
+					},
+					{
+						"heading": "Saṃyukta-āgama",
+						"works": [
+							{ "ref": "gretil:sa_saMyuktAgama-966-972-according-to-the-chinese-canon" },
+							{ "ref": "gretil:sa_nidAnasaMyukta" },
+							{ "ref": "gretil:sa_nagaropamasUtra" }
+						]
+					},
+					{
+						"heading": "Ekottarika-āgama",
+						"works": [{ "ref": "gretil:sa_ekottarAgamafragments" }]
+					}
+				]
+			}
+		]
+	}
+}

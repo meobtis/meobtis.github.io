@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-13T04:06:15.987Z",
+	"generated": "2026-11-13T04:20:28.760Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -7,6 +7,10 @@
 			"name": "Göttingen Register of Electronic Texts in Indian Languages",
 			"homepage": "https://gretil.sub.uni-goettingen.de/gretil.html",
 			"repo": "meobtis/gretil",
+			"publisher": "Göttingen State and University Library",
+			"credit": "Text from GRETIL, the Göttingen Register of Electronic Texts in Indian Languages, maintained by the Göttingen State and University Library (SUB Göttingen), and its contributors named in the edition details.",
+			"terms": "Licence as stated in each text; most are licensed CC BY-NC-SA 4.0.",
+			"termsUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 			"url": "https://github.com/meobtis/gretil",
 			"editions": 347,
 			"works": 315
@@ -17,6 +21,10 @@
 			"name": "Digital Sanskrit Buddhist Canon",
 			"homepage": "https://www.dsbcproject.org",
 			"repo": "meobtis/dsbc",
+			"publisher": "University of the West",
+			"credit": "Text from the Digital Sanskrit Buddhist Canon (DSBC), a project of the University of the West with the Nagarjuna Institute, Kathmandu, and the input and proof-reading staff named in the edition details.",
+			"terms": "For non-commercial educational and research use, under the DSBC usage policy.",
+			"termsUrl": "https://www.dsbcproject.org/pages/usage-policy",
 			"url": "https://github.com/meobtis/dsbc",
 			"editions": 902,
 			"works": 455

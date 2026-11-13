@@ -1,0 +1,30 @@
+---
+// Starlight's footer plus a credit line for the text sources, generated from the catalogue
+// so that new sources are credited automatically.
+import Default from '@astrojs/starlight/components/Footer.astro';
+import { catalog } from '../lib/catalog';
+---
+
+<Default />
+<p class="source-credits">
+	Texts from{' '}
+	{
+		catalog.sources.map((s, i) => (
+			<>
+				{i > 0 && (i === catalog.sources.length - 1 ? ' and ' : ', ')}
+				<a href={s.homepage} title={s.name}>{s.label}</a> ({s.publisher})
+			</>
+		))
+	}, converted to Markdown by MEOBTIS. Each text is subject to its source’s terms. <a href="/about/#credits">Credits</a>
+</p>
+
+<style>
+	.source-credits {
+		margin-top: 1.5rem;
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+	}
+	.source-credits a {
+		color: inherit;
+	}
+</style>

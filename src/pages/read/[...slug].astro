@@ -4,6 +4,7 @@
 // repository on GitHub and rendered in the browser by TextReader, so no texts are stored
 // in this repository or in the built site.
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { Aside } from '@astrojs/starlight/components';
 import TextReader from '../../components/TextReader.astro';
 import {
 	catalog,
@@ -31,6 +32,32 @@ const source = sourceById[edition.source];
 const place = categoryOf(work);
 const others = work.editions.filter((e) => e !== edition);
 const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
+
+// SEO: several editions share a work title, so the <title> names the edition too.
+const pageTitle = `${work.title} – ${edition.label}`;
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@type': 'Book',
+	'@id': `${pageUrl}#text`,
+	url: pageUrl,
+	name: work.title,
+	...(work.titleDeva && { alternateName: work.titleDeva }),
+	...(work.author && { author: { '@type': 'Person', name: work.author } }),
+	inLanguage: edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn',
+	...(place && { genre: `${place.group.label} › ${place.category.label}` }),
+	about: 'Buddhism',
+	bookFormat: 'https://schema.org/EBook',
+	isAccessibleForFree: true,
+	provider: { '@type': 'Organization', name: source.name, url: source.homepage },
+	publisher: { '@type': 'Organization', name: source.publisher },
+	creditText: source.credit,
+	usageInfo: source.termsUrl,
+	isBasedOn: edition.originalUrl,
+	encoding: { '@type': 'MediaObject', contentUrl: edition.rawUrl, encodingFormat: 'text/markdown' },
+	isPartOf: { '@id': 'https://meobtis.github.io/#website' },
+	workExample: others.map((e) => ({ '@type': 'Book', name: e.title, url: new URL(readerUrl(e), Astro.site).href })),
+};
 ---
 
 <StarlightPage
@@ -41,6 +68,12 @@ const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
 		pagefind: false,
 		editUrl: false,
 		lastUpdated: false,
+		head: [
+			{ tag: 'title', content: `${pageTitle} | MEOBTIS` },
+			{ tag: 'meta', attrs: { property: 'og:title', content: pageTitle } },
+			{ tag: 'meta', attrs: { property: 'og:type', content: 'book' } },
+			{ tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify(jsonLd) },
+		],
 	}}
 >
 	<div class="meta">
@@ -90,6 +123,16 @@ const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
 			}
 		</dl>
 	</div>
+
+	<Aside type="note" title="Source and terms of use">
+		<p>
+			{source.credit} <a href={edition.originalUrl}>View this text on the {source.label} website</a>.
+		</p>
+		<p>
+			{source.terms} <a href={source.termsUrl}>Terms</a>. When you quote or reuse this text, please cite the
+			source edition given in the edition details and {source.label}.
+		</p>
+	</Aside>
 
 	<TextReader rawUrl={edition.rawUrl} githubUrl={edition.url} lang={edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn'} />
 </StarlightPage>

@@ -1,11 +1,23 @@
 ---
 title: MEOBTIS
-description: Markdown Editions Of Buddhist Texts In Sanskrit. An index of Buddhist Sanskrit texts converted to Markdown, by category.
+description: An index of over 600 Buddhist texts in Sanskrit from GRETIL and the Digital Sanskrit Buddhist Canon, converted to Markdown and readable online in IAST and Devanāgarī.
 template: splash
+head:
+  - tag: title
+    content: 'MEOBTIS: Markdown Editions Of Buddhist Texts In Sanskrit'
+  - tag: meta
+    attrs:
+      property: og:title
+      content: 'MEOBTIS: Markdown Editions Of Buddhist Texts In Sanskrit'
+  - tag: meta
+    attrs:
+      property: og:type
+      content: website
 hero:
   tagline: Markdown Editions Of Buddhist Texts In Sanskrit. One index to Buddhist Sanskrit texts from several digital collections, converted to Markdown.
   image:
-    file: ../../../public/favicon.svg
+    file: ../../../public/meobtis-square.jpeg
+    alt: Sanskrit manuscript of the Heart Sūtra in Siddhaṃ script
   actions:
     - text: Browse the texts
       link: /texts/
@@ -48,3 +60,5 @@ export const groups = catalog.groups.filter((g) => g.count > 0);
 		/>
 	))}
 </CardGrid>
+
+<p class="image-credit">Image: Sanskrit manuscript of the Heart Sūtra in Siddhaṃ script, Bibliothèque nationale de France, via <a href="https://commons.wikimedia.org/wiki/File:Prajnyaapaaramitaa_Hridaya_Pel.sogd.jpg">Wikimedia Commons</a> (public domain). <a href="/about/#image-credit">Credits</a></p>

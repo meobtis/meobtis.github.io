@@ -1,0 +1,13 @@
+{
+	"name": "MEOBTIS: Markdown Editions Of Buddhist Texts In Sanskrit",
+	"short_name": "MEOBTIS",
+	"description": "An index of Buddhist texts in Sanskrit, converted to Markdown and readable online.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#b565a7",
+	"icons": [
+		{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/meobtis-square.jpeg", "sizes": "500x500", "type": "image/jpeg" }
+	]
+}

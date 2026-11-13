@@ -2,7 +2,7 @@
 // One page per category of the catalogue, e.g. /texts/sutra/prajnaparamita/.
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import WorkList from '../../../components/WorkList.astro';
-import { catalog, sectionsOf, slugify, worksIn, type Category, type Group } from '../../../lib/catalog';
+import { catalog, readerUrl, sectionsOf, slugify, worksIn, type Category, type Group } from '../../../lib/catalog';
 
 export function getStaticPaths() {
 	return catalog.groups.flatMap((group) =>
@@ -24,12 +24,50 @@ const headings = sections
 	.filter((s) => s.heading)
 	.map((s) => ({ depth: 2, slug: slugify(s.heading!), text: `${s.heading} (${s.works.length})` }));
 const editions = works.reduce((n, w) => n + w.editions.length, 0);
+
+// SEO: a collection page with breadcrumbs (Texts › group › category) and its list of works.
+const pageUrl = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLd = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'CollectionPage',
+			'@id': pageUrl,
+			url: pageUrl,
+			name: `${category.label}: Buddhist texts in Sanskrit`,
+			description: category.description,
+			isPartOf: { '@id': 'https://meobtis.github.io/#website' },
+			mainEntity: {
+				'@type': 'ItemList',
+				numberOfItems: works.length,
+				itemListElement: works.map((w, i) => ({
+					'@type': 'ListItem',
+					position: i + 1,
+					name: w.title,
+					url: new URL(readerUrl(w.editions[0]), Astro.site).href,
+				})),
+			},
+		},
+		{
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{ '@type': 'ListItem', position: 1, name: 'Texts', item: new URL('/texts/', Astro.site).href },
+				{ '@type': 'ListItem', position: 2, name: group.label, item: new URL(`/texts/#${slugify(group.label)}`, Astro.site).href },
+				{ '@type': 'ListItem', position: 3, name: category.label, item: pageUrl },
+			],
+		},
+	],
+};
 ---
 
 <StarlightPage
 	frontmatter={{
 		title: category.label,
 		description: `${category.description} ${works.length} texts in Sanskrit, with Markdown editions from ${catalog.sources.map((s) => s.label).join(' and ')}.`,
+		head: [
+			{ tag: 'title', content: `${category.label}: Buddhist texts in Sanskrit | MEOBTIS` },
+			{ tag: 'script', attrs: { type: 'application/ld+json' }, content: JSON.stringify(jsonLd) },
+		],
 	}}
 	headings={headings}
 >

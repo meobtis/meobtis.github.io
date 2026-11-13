@@ -151,6 +151,26 @@ result to update the index. Changes to a text in a source repository need no reb
 because reader pages fetch the text when they are opened. Rebuild only when texts are
 added, removed or renamed.
 
+## Credits
+
+- **Texts:** all texts belong to their sources, and the reader shows each edition's source,
+  terms and contributors.
+  - [GRETIL](https://gretil.sub.uni-goettingen.de/gretil.html), the Göttingen Register of
+    Electronic Texts in Indian Languages, maintained by the Göttingen State and University
+    Library (SUB Göttingen), and its contributors. The licence is given in each text, mostly
+    CC BY-NC-SA 4.0.
+  - The [Digital Sanskrit Buddhist Canon](https://www.dsbcproject.org), a project of the
+    University of the West with the Nagarjuna Institute, Kathmandu, and its input and
+    proof-reading staff. For non-commercial educational and research use; see the
+    [usage policy](https://www.dsbcproject.org/pages/usage-policy).
+- **Logo and share image:** detail of a Sanskrit manuscript of the
+  *Prajñāpāramitāhṛdaya* (Heart Sūtra) in Siddhaṃ script, Bibliothèque nationale de France
+  ([Gallica](https://gallica.bnf.fr/ark:/12148/btv1b8305799x)). Public domain, via
+  [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prajnyaapaaramitaa_Hridaya_Pel.sogd.jpg). Used as `public/meobtis-square.jpeg` (logo and icons) and
+  `public/meobtis-og.jpeg` (Open Graph image).
+- **Theme:** [Rosely](https://rosely.hellotham.com) palette.
+- **Fonts:** Noto Sans, Noto Sans Devanagari and Noto Sans Mono (SIL Open Font License).
+
 ## Contributing
 
 Report errors in the index or suggest a source by

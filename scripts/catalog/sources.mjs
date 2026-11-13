@@ -13,6 +13,9 @@
 //     note?: 'alternative version',// distinguishes several editions from one source
 //     dsbcCategory?: ['sūtrapiṭaka', 'avadāna'],
 //   }
+//
+// Each source also gives its attribution: `publisher`, `credit` (one sentence shown with every
+// edition) and its terms of use (`terms`, `termsUrl`).
 
 import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
@@ -84,6 +87,14 @@ export const SOURCES = [
 		name: 'Göttingen Register of Electronic Texts in Indian Languages',
 		homepage: 'https://gretil.sub.uni-goettingen.de/gretil.html',
 		repo: 'meobtis/gretil',
+		// Attribution shown with every edition, in the footer and on the About and Sources pages.
+		publisher: 'Göttingen State and University Library',
+		credit:
+			'Text from GRETIL, the Göttingen Register of Electronic Texts in Indian Languages, ' +
+			'maintained by the Göttingen State and University Library (SUB Göttingen), ' +
+			'and its contributors named in the edition details.',
+		terms: 'Licence as stated in each text; most are licensed CC BY-NC-SA 4.0.',
+		termsUrl: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 		load(dir) {
 			const manifest = JSON.parse(readFileSync(join(dir, 'data/manifest.json'), 'utf8'));
 			const byId = new Map(manifest.map((e) => [e.id, e]));
@@ -117,6 +128,12 @@ export const SOURCES = [
 		name: 'Digital Sanskrit Buddhist Canon',
 		homepage: 'https://www.dsbcproject.org',
 		repo: 'meobtis/dsbc',
+		publisher: 'University of the West',
+		credit:
+			'Text from the Digital Sanskrit Buddhist Canon (DSBC), a project of the University of the West ' +
+			'with the Nagarjuna Institute, Kathmandu, and the input and proof-reading staff named in the edition details.',
+		terms: 'For non-commercial educational and research use, under the DSBC usage policy.',
+		termsUrl: 'https://www.dsbcproject.org/pages/usage-policy',
 		load(dir) {
 			// Books are also exported one file per chapter (front matter has `chapter`); index whole books only.
 			return readTexts(dir)

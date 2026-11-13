@@ -51,6 +51,13 @@ export interface Source {
 	homepage: string;
 	repo: string;
 	url: string;
+	/** Organisation responsible for the source. */
+	publisher: string;
+	/** Attribution sentence shown with every edition from this source. */
+	credit: string;
+	/** Terms of use or licence, and a link to them. */
+	terms: string;
+	termsUrl: string;
 	editions: number;
 	works: number;
 }

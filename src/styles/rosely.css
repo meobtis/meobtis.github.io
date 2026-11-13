@@ -42,3 +42,20 @@
 :lang(sa-Deva) {
 	line-height: 1.9;
 }
+
+/* Manuscript logo and hero image: soften the photo's square corners. */
+.site-title img {
+	border-radius: 0.375rem;
+}
+.hero > img {
+	border-radius: 1rem;
+	box-shadow: var(--sl-shadow-md);
+}
+
+/* Image credit on the home page. */
+.image-credit {
+	margin-top: 3rem;
+	font-size: var(--sl-text-xs);
+	color: var(--sl-color-gray-3);
+	text-align: center;
+}

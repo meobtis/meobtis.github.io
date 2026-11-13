@@ -41,7 +41,7 @@ for (const source of SOURCES) {
 	}
 	const { load, ...info } = source;
 	sourceInfo.push({ ...info, url: `https://github.com/${source.repo}`, editions: records.length });
-	console.log(`${source.label}: ${records.length} editions`);
+	console.log(`${source.label}: ${records.length} editions` + (source.skipped ? ` (${source.skipped} texts in the repository are not indexed: not Buddhist, or excluded)` : ''));
 }
 
 // 2. Group editions into works by normalised title, then apply manual merges and splits.

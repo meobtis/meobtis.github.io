@@ -1,5 +1,6 @@
 // Source adapters. Each source is a GitHub repository in the meobtis organisation containing
-// Markdown files with YAML front matter. To add a source, add an entry to SOURCES with a
+// Markdown files with YAML front matter. A repository is complete (every text of its source); the adapter
+// decides which texts MEOBTIS indexes, e.g. SARIT's texts that are not Buddhist are left out here. To add a source, add an entry to SOURCES with a
 // `load(dir)` function that returns edition records:
 //
 //   {
@@ -54,6 +55,13 @@ function readTexts(dir) {
 }
 
 /**
+ * Buddhist SARIT texts that MEOBTIS does not index (a decision of this website, not of the repository):
+ * - asvaghosa-buddhacarita: coded for linguistic analysis, with markers inside the words (`X(C … C)`, `*`, `+`), so
+ *   not readable as it stands; DSBC has two readable editions of the text.
+ */
+const SARIT_EXCLUDED = new Set(['asvaghosa-buddhacarita']);
+
+/**
  * Some IAST editions are machine transliterations of a Devanāgarī edition from the same source (made with
  * Aksharamukha). They say so in their front matter (`transliterated_from`); `original` is the id of that edition.
  */
@@ -106,7 +114,12 @@ export const SOURCES = [
 		load(dir) {
 			const manifest = JSON.parse(readFileSync(join(dir, 'data/manifest.json'), 'utf8'));
 			const byId = new Map(manifest.map((e) => [e.id, e]));
-			return readTexts(dir).map(({ path, data }) => {
+			// The repository has every Sanskrit text of GRETIL; MEOBTIS indexes the Buddhist ones (`buddhist: true`,
+			// GRETIL's sections Religious Literature / Buddhist and Philosophy / Buddhist).
+			const all = readTexts(dir);
+			const indexed = all.filter(({ data }) => data.buddhist !== false);
+			this.skipped = all.length - indexed.length;
+			return indexed.map(({ path, data }) => {
 				const entry = byId.get(data.gretil_id);
 				const catalogTitle = entry?.catalog_title ?? '';
 				// Bracketed notes in GRETIL's catalogue distinguish versions, e.g. "[alternative version]".
@@ -176,7 +189,11 @@ export const SOURCES = [
 		terms: 'Licence as stated in each text: CC BY-SA 4.0 or 3.0 (attribution and share-alike). Changes made in converting it are listed in the edition details.',
 		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 		load(dir) {
-			return readTexts(dir).map(({ path, data }) => ({
+			// The repository has every SARIT text; MEOBTIS indexes the Buddhist ones (`buddhist: true`).
+			const all = readTexts(dir);
+			const indexed = all.filter(({ data }) => data.buddhist !== false && !SARIT_EXCLUDED.has(String(data.sarit_id).replace(/-iast$/, '')));
+			this.skipped = all.filter(({ data }) => !('transliterated_from' in data)).length - indexed.filter(({ data }) => !('transliterated_from' in data)).length;
+			return indexed.map(({ path, data }) => ({
 				source: 'sarit',
 				sourceId: String(data.sarit_id),
 				title: String(data.title).trim(),

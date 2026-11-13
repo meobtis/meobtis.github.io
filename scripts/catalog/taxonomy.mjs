@@ -214,6 +214,8 @@ export function mapSaritCategory(category) {
 			return { category: 'tantra/sadhana' };
 		case 'Poetics':
 			return { category: 'sciences/alamkara' };
+		case 'Buddhist Literature':
+			return { category: 'literature/kavya' };
 		default:
 			return null;
 	}

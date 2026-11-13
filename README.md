@@ -22,6 +22,12 @@ are stored in this repository or in the deployed site**, only the index
 | DSBC: Digital Sanskrit Buddhist Canon (IAST and Devanāgarī) | [meobtis/dsbc](https://github.com/meobtis/dsbc) | <https://www.dsbcproject.org> |
 | SARIT: Search and Retrieval of Indic Texts (TEI critical editions) | [meobtis/sarit](https://github.com/meobtis/sarit) | <https://sarit.indology.info> |
 
+**The source repositories are complete; this website decides what to show.** A repository has every text of its source,
+whatever the subject, with the metadata a site needs, for example `buddhist: true` or `false` in `meobtis/sarit`. The
+catalogue builder (`scripts/catalog`) then chooses what MEOBTIS indexes and merges editions of the same work. For SARIT it
+indexes the Buddhist texts (24 of 83), and for GRETIL the texts in its two Buddhist sections (346 of 766); the others stay in the
+repository.
+
 The texts are subject to their sources' terms. GRETIL texts carry a licence in each file,
 mostly CC BY-NC-SA 4.0. SARIT texts are CC BY-SA 4.0 or 3.0. DSBC texts are for non-commercial educational and research use;
 see the [DSBC usage policy](https://www.dsbcproject.org/pages/usage-policy).
@@ -144,7 +150,8 @@ Empty categories are hidden.
 
 ## Adding a source
 
-1. Convert the collection to Markdown in a new `meobtis/<name>` repository. Put the texts
+1. Convert the **whole** collection to Markdown in a new `meobtis/<name>` repository, not only the Buddhist texts, and mark
+   in each text's front matter what a website needs to choose by (such as whether it is Buddhist). Put the texts
    under `texts/`, each with YAML front matter giving at least a title, a script and the
    original URL.
 2. Add an adapter to `SOURCES` in

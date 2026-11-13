@@ -20,9 +20,12 @@ offers standardised, machine-readable texts in Sanskrit and other Indian languag
 contributed by many scholars and projects. Most texts are encoded in TEI XML with full
 bibliographic headers.
 
-MEOBTIS includes GRETIL's two Buddhist sections: **Buddhist religious literature** (sūtras,
-Vinaya, avadānas, tantras, stotras) and **Buddhist philosophy** (Abhidharma, Madhyamaka,
-Yogācāra, Pramāṇa).
+The Markdown repository has **all {src.gretil.editions + src.gretil.skipped} Sanskrit texts** that GRETIL serves, in folders that follow
+GRETIL's own sections, each marked as Buddhist or not. MEOBTIS lists the texts in GRETIL's two Buddhist sections, **Buddhist
+religious literature** (sūtras, Vinaya, avadānas, tantras, stotras) and **Buddhist philosophy** (Abhidharma, Madhyamaka,
+Yogācāra, Pramāṇa), and does not list the other {src.gretil.skipped}: the Veda, epics, Purāṇas, poetry, other philosophy,
+law, medicine and so on. GRETIL files some Buddhist works under other sections (for example Aśvaghoṣa's *Buddhacarita*,
+under poetry), and these are not listed either.
 
 - **{src.gretil.editions}** Markdown editions of **{src.gretil.works}** texts
 - Markdown repository: [meobtis/gretil](https://github.com/meobtis/gretil)
@@ -55,7 +58,10 @@ Devanāgarī.
 each keyed in from a printed edition that its header names, and they carry that edition's apparatus (variant readings,
 parallels and the editor's remarks). In the Markdown editions the apparatus is shown as footnotes.
 
-MEOBTIS includes SARIT's Buddhist texts, and leaves out its Vedic, Hindu, Jain and medical texts.
+The Markdown repository has **all {src.sarit.works + src.sarit.skipped} texts** of SARIT, each marked as Buddhist or not.
+MEOBTIS lists the Buddhist ones, and does not list the other {src.sarit.skipped}: Hindu and Jain philosophy, medicine,
+law, grammar, poetry, the Mahābhārata and Purāṇas, and one Buddhist text (the *Buddhacarita*) whose SARIT version is coded
+for linguistic analysis and is not readable as it stands (DSBC has the text).
 
 - **{src.sarit.editions}** Markdown editions of **{src.sarit.works}** texts: in Devanāgarī (`SARIT देवनागरी`), in IAST
   as edited (`SARIT`), and IAST versions of the Devanāgarī texts transliterated with Aksharamukha

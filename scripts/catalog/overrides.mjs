@@ -34,6 +34,8 @@ export const MERGE = [
 	['gretil:sa_Aryadeva-caryAmelAvaNapradIpa', 'sarit:caryamelapakapradipa'], // GRETIL's title is a misspelling
 	// Aśvaghoṣa's Saundarananda: two GRETIL editions and DSBC's two (IAST and Devanāgarī).
 	['gretil:sa_azvaghoSa-saundarAnanda', 'gretil:sa_azvaghoSa-saundarAnanda-edmatsunami', 'dsbc:224', 'dsbc:476'],
+	// Dharmakīrti's Sambandhaparīkṣā: GRETIL's edition (spelled Subandhaparīkṣā) and DSBC's two.
+	['gretil:sa_dharmakIrti-subandhaparIkSA-1-25', 'dsbc:919', 'dsbc:918'],
 ];
 
 /** Edition notes shown in link labels where one source has several editions of a work. */

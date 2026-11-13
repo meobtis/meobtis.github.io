@@ -1,0 +1,225 @@
+{
+	"checked": "November 2026",
+	"groups": [
+		{
+			"id": "corpora",
+			"label": "Searchable text corpora",
+			"description": "Collections of Sanskrit etexts. They overlap with the sources MEOBTIS indexes, or hold little Buddhist material in a form we can republish.",
+			"items": [
+				{
+					"name": "Digital Corpus of Sanskrit (DCS)",
+					"summary": "A morphologically and lexically analysed corpus of Sanskrit, searchable by word, lemma and grammatical form. Its data is on GitHub under CC BY 4.0. The Buddhist texts we noticed in it are the Bodhicaryāvatāra and the Saundarananda, both already in MEOBTIS.",
+					"access": "Open data, CC BY 4.0",
+					"why": "It is a linguistic corpus, not a set of readable editions, and its Buddhist texts are already indexed from GRETIL and DSBC.",
+					"links": [
+						{
+							"label": "DCS data on GitHub",
+							"url": "https://github.com/ambuda-org/dcs"
+						}
+					]
+				},
+				{
+					"name": "Ambuda",
+					"summary": "A reading environment for Sanskrit texts with a proofreading workflow, dictionaries and parsing aids.",
+					"access": "Free to read online",
+					"why": "We could not confirm which Buddhist texts it holds, so it is listed here as a reading tool rather than indexed.",
+					"links": [
+						{
+							"label": "ambuda.org",
+							"url": "https://ambuda.org/"
+						}
+					]
+				},
+				{
+					"name": "Muktabodha Digital Library",
+					"summary": "A large digital library of Sanskrit manuscripts and etexts, strongest in Śaiva and tantric literature.",
+					"access": "Freely available; terms are given per text",
+					"why": "Its holdings are mainly Hindu tantric, and we could not confirm a body of Buddhist texts we could republish.",
+					"links": [
+						{
+							"label": "Muktabodha digital library",
+							"url": "https://muktabodha.org/digital-library/"
+						}
+					]
+				},
+				{
+					"name": "Searchable Aggregate Library of Sanskrit Etexts",
+					"summary": "An aggregate of Sanskrit etexts from many sources in one searchable library, announced on the Indology list in February 2026 with about 1,500 etexts.",
+					"access": "Free to search online",
+					"why": "It brings together etexts from other collections, so we index the original sources instead.",
+					"links": [
+						{
+							"label": "Searchable Sanskrit Library",
+							"url": "https://searchable-sanskrit-library.org/"
+						},
+						{
+							"label": "Announcement on the Indology list",
+							"url": "https://list.indology.info/pipermail/indology/2026-February/061679.html"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "editions",
+			"label": "Scholarly editions and transcriptions",
+			"description": "Editions published by research projects, usually as PDFs or wiki pages, with no licence that lets us convert and republish them.",
+			"items": [
+				{
+					"name": "Institute for Advanced Buddhology, Soka University (IRIAB)",
+					"summary": "Publishes the annual report ARIRIAB, the Bibliotheca Philologica et Philosophica Buddhica series, the British Library and St Petersburg Sanskrit fragment series, and the facsimile edition of the Gilgit manuscripts in the National Archives of India, edited by Oskar von Hinüber, Seishi Karashima and Noriyuki Kudo. DSBC cites ARIRIAB (Soka University, 2013) as the source of some of its texts.",
+					"access": "PDFs from the institute's website; we found no licence statement",
+					"why": "We would need the institute's permission before reusing its transcriptions. Its website could not be reached when we last checked, so the link below is the announcement on the Indology list.",
+					"links": [
+						{
+							"label": "Announcement on the Indology list (May 2019)",
+							"url": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+						}
+					]
+				},
+				{
+					"name": "Saktumiva wiki: Gilgit Samādhirājasūtra",
+					"summary": "A transcription of the Gilgit manuscript of the Samādhirājasūtra, made from the 2018 facsimile edition by Kudo and colleagues, with variant readings from other witnesses.",
+					"access": "Free to read online; no licence stated",
+					"why": "Specialist transcription with no licence, and a different editorial method from the readable editions we index.",
+					"links": [
+						{
+							"label": "Samādhirājasūtra, Gilgit",
+							"url": "https://saktumiva.org/wiki/schlosser/srs/gilgit"
+						}
+					]
+				},
+				{
+					"name": "Taishō University: Vinayasūtra",
+					"summary": "A romanised edition of Guṇaprabha's Vinayasūtra, published as a PDF by Taishō University.",
+					"access": "PDF download",
+					"why": "The Vinayasūtra is already indexed from GRETIL and DSBC. Taishō University's Potala edition of the Vimalakīrtinirdeśa (2006) is also in DSBC.",
+					"links": [
+						{
+							"label": "Vinayasūtra (Taishō University)",
+							"url": "https://tais.ac.jp/library_labo/sobutsu/vinayasutra/"
+						}
+					]
+				},
+				{
+					"name": "Lotus Sūtra Manuscript Series",
+					"summary": "Critical transcriptions and photographs of Sanskrit manuscripts of the Saddharmapuṇḍarīka (Lotus Sūtra), edited by Kotsuki Chikako. Volumes were issued in 2019 and 2023.",
+					"access": "Printed volumes; see the notice of the series",
+					"why": "Printed scholarly volumes rather than a free digital text.",
+					"links": [
+						{
+							"label": "Notice of the series",
+							"url": "https://www.appliedbuddhism.org.uk/node/37562"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "manuscripts",
+			"label": "Manuscript collections and images",
+			"description": "Digitised manuscripts and facsimiles. These are images of the originals, not texts, so there is nothing for us to convert.",
+			"items": [
+				{
+					"name": "Schøyen Collection: Buddhist manuscripts",
+					"summary": "A private collection with early Sanskrit Buddhist manuscripts, including an Aśoka legend (6th century), Abhidharma texts, a Mahāsaṃghika-Lokottaravāda Pratimokṣa-vibhaṅga, Bamiyan birch-bark manuscripts of the Bhaiṣajyaguru and Vajracchedikā, and a Guhyasamāja and Saṃpuṭodbhava Tantra manuscript of 1801. They are edited in Braarvig (ed.), Buddhist Manuscripts, published by Hermes in Oslo, 2000–2006.",
+					"access": "Catalogue entries and images online; editions in print",
+					"why": "We found no free transcriptions or licence for reuse.",
+					"links": [
+						{
+							"label": "Schøyen Collection: Buddhism",
+							"url": "https://www.schoyencollection.com/22-buddhism-collection"
+						},
+						{
+							"label": "Buddhist Manuscripts project (CAS Norway)",
+							"url": "https://cas-nor.no/index.php/project/buddhist-manuscripts-schoyen-collection"
+						}
+					]
+				},
+				{
+					"name": "British Library Endangered Archives Programme: Nepal",
+					"summary": "Digitisation projects that photographed Sanskrit manuscripts held in Nepal, many of them Newar Buddhist: EAP676, EAP790 and EAP1023 (478 manuscripts from 28 collections, 10th to 18th centuries). Shanker Thapa has separately surveyed about 1,285 manuscripts from 67 collections.",
+					"access": "Free images; EAP's reuse terms are CC BY-NC where the material is in copyright",
+					"why": "Images only, with no transcriptions.",
+					"links": [
+						{
+							"label": "Endangered Archives Programme",
+							"url": "https://eap.bl.uk/"
+						},
+						{
+							"label": "EAP reuse terms",
+							"url": "https://eap.bl.uk/node/3936"
+						}
+					]
+				},
+				{
+					"name": "Cambridge University Library: Bendall collection",
+					"summary": "Manuscripts collected in Nepal by Cecil Bendall in the 1880s, many of them Buddhist, held by Cambridge University Library. Bendall's 1883 catalogue of the Buddhist Sanskrit manuscripts is available from the Wellcome Collection.",
+					"access": "Free images; the catalogue is public domain",
+					"why": "Images and a catalogue only, with no transcriptions.",
+					"links": [
+						{
+							"label": "Cambridge Digital Library",
+							"url": "https://cudl.lib.cam.ac.uk/"
+						},
+						{
+							"label": "Bendall's 1883 catalogue",
+							"url": "https://wellcomecollection.org/works/aeme8frr"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "tools",
+			"label": "Tools, parallels and dictionaries",
+			"description": "Resources for reading and comparing the texts, not collections of editions.",
+			"items": [
+				{
+					"name": "BuddhaNexus",
+					"summary": "A search and comparison tool from the University of Hamburg and the Khyentse Center that finds parallel passages across Sanskrit, Pali, Tibetan and Chinese Buddhist texts. Its Sanskrit comes largely from GRETIL.",
+					"access": "Free to use online",
+					"why": "A comparison tool; its Sanskrit is already indexed here from GRETIL.",
+					"links": [
+						{
+							"label": "buddhanexus.net",
+							"url": "https://buddhanexus.net/"
+						},
+						{
+							"label": "Announcement on the Indology list (August 2020)",
+							"url": "https://list.indology.info/pipermail/indology/2020-August/053236.html"
+						}
+					]
+				},
+				{
+					"name": "SuttaCentral",
+					"summary": "A site for the early Buddhist discourses, mainly in Pali, with translations and parallels. It includes Sanskrit fragments, marked \"Skt frgm\".",
+					"access": "Free to read online",
+					"why": "Mainly Pali and translations; the Sanskrit it holds is fragmentary.",
+					"links": [
+						{
+							"label": "suttacentral.net",
+							"url": "https://suttacentral.net/"
+						}
+					]
+				},
+				{
+					"name": "Sanskrit Dictionary of the Buddhist Texts from the Turfan Finds",
+					"summary": "A dictionary of the Sanskrit of the Buddhist manuscripts found at Turfan, produced by the Göttingen Academy of Sciences and Humanities. The Berlin-Brandenburg Academy's Turfan project describes the collection the manuscripts come from.",
+					"access": "Project pages online; the dictionary is a printed work",
+					"why": "A dictionary and a manuscript project, not a set of etexts.",
+					"links": [
+						{
+							"label": "Göttingen Academy project page",
+							"url": "https://adw-goe.de/en/research/completed-research-projects/academies-programme/sanskrit-dictionary-of-the-buddhist-texts-from-the-turfan-finds/"
+						},
+						{
+							"label": "Turfan project (BBAW)",
+							"url": "https://turfan.bbaw.de/projekt-en.html"
+						}
+					]
+				}
+			]
+		}
+	]
+}

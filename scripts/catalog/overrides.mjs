@@ -32,6 +32,8 @@ export const MERGE = [
 	['dsbc:282', 'sarit:vadanyayatika'], // Vādanyāyaṭīkā (Vipañcitārthā)
 	['gretil:sa_ratnakIrti-nibandhAvalI', 'dsbc:300', 'sarit:ratnakirti-nibandhavali'],
 	['gretil:sa_Aryadeva-caryAmelAvaNapradIpa', 'sarit:caryamelapakapradipa'], // GRETIL's title is a misspelling
+	// Aśvaghoṣa's Saundarananda: two GRETIL editions and DSBC's two (IAST and Devanāgarī).
+	['gretil:sa_azvaghoSa-saundarAnanda', 'gretil:sa_azvaghoSa-saundarAnanda-edmatsunami', 'dsbc:224', 'dsbc:476'],
 ];
 
 /** Edition notes shown in link labels where one source has several editions of a work. */
@@ -67,6 +69,7 @@ export const CATEGORY_OVERRIDES = {
 	'dsbc:747': 'literature/kavya', // Śvānastavakāvyam
 	'dsbc:832': 'other/modern', // Vajrayāna darśana mīmāṃsā
 	'gretil:sa_dignAga-yogAvatAra': 'sastra/yogacara',
+	'gretil:sa_dramatic-fragments-buddhist': 'literature/nataka',
 };
 
 /** Display title for an edition's work. */
@@ -89,6 +92,7 @@ export const TITLE_OVERRIDES = {
 	'dsbc:131': 'Rakṣākarastava',
 	'dsbc:751': 'Samāhitā Bhūmi',
 	'dsbc:876': 'Bauddhatantrokta Siddhauṣadhisaṅgraha',
+	'gretil:sa_azvaghoSa-saundarAnanda': 'Saundarananda',
 	'sarit:caryamelapakapradipa': 'Caryāmelāpakapradīpa',
 	'sarit:vadanyayatika': 'Vādanyāyaṭīkā',
 	'sarit:ratnakirti-nibandhavali': 'Ratnakīrtinibandhāvali',

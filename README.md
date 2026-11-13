@@ -25,8 +25,10 @@ are stored in this repository or in the deployed site**, only the index
 **The source repositories are complete; this website decides what to show.** A repository has every text of its source,
 whatever the subject, with the metadata a site needs, for example `buddhist: true` or `false` in `meobtis/sarit`. The
 catalogue builder (`scripts/catalog`) then chooses what MEOBTIS indexes and merges editions of the same work. For SARIT it
-indexes the Buddhist texts (24 of 83), and for GRETIL the texts in its two Buddhist sections (346 of 766); the others stay in the
+indexes the Buddhist texts (24 of 83), and for GRETIL the texts in its two Buddhist sections and five Buddhist editions that GRETIL files under poetry (351 of 766); the others stay in the
 repository.
+
+Other collections that are not indexed (IRIAB and the Gilgit facsimiles, the Schøyen Collection, Nepalese manuscripts, DCS, BuddhaNexus and more) are described, with links, on the site's *Other collections* page: `src/content/docs/about/collections.mdx`, with its data in `src/data/collections.json`.
 
 The texts are subject to their sources' terms. GRETIL texts carry a licence in each file,
 mostly CC BY-NC-SA 4.0. SARIT texts are CC BY-SA 4.0 or 3.0. DSBC texts are for non-commercial educational and research use;

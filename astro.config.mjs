@@ -132,6 +132,7 @@ export default defineConfig({
 					items: [
 						{ label: 'About MEOBTIS', slug: 'about' },
 						{ label: 'Sources', slug: 'about/sources' },
+						{ label: 'Other collections', slug: 'about/collections' },
 					],
 				},
 				{

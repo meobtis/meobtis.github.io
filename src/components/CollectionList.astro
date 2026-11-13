@@ -1,0 +1,91 @@
+---
+// The external collections page: groups of collections, each with a description, how it can be
+// used, why MEOBTIS does not index it, and links. Data: src/data/collections.json.
+import data from '../data/collections.json';
+---
+
+<div class="collections not-content">
+	{
+		data.groups.map((g) => (
+			<section id={g.id}>
+				<h2>{g.label}</h2>
+				<p class="group-desc">{g.description}</p>
+				<ul>
+					{g.items.map((c) => (
+						<li class="collection">
+							<h3>{c.name}</h3>
+							<p>{c.summary}</p>
+							<dl>
+								<dt>Access</dt>
+								<dd>{c.access}</dd>
+								<dt>Not indexed because</dt>
+								<dd>{c.why}</dd>
+							</dl>
+							<p class="links">
+								{c.links.map((l) => (
+									<a href={l.url} rel="noopener">
+										{l.label}
+									</a>
+								))}
+							</p>
+						</li>
+					))}
+				</ul>
+			</section>
+		))
+	}
+</div>
+
+<style>
+	.collections h2 {
+		margin-top: 2.5rem;
+		font-size: var(--sl-text-2xl);
+	}
+	.group-desc {
+		color: var(--sl-color-gray-2);
+		margin-bottom: 1rem;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		display: grid;
+		gap: 1rem;
+	}
+	.collection {
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.5rem;
+		padding: 1rem 1.25rem;
+	}
+	h3 {
+		margin: 0 0 0.5rem;
+		font-size: var(--sl-text-lg);
+	}
+	p {
+		margin: 0 0 0.75rem;
+	}
+	dl {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.25rem 1rem;
+		margin: 0 0 0.75rem;
+		font-size: var(--sl-text-sm);
+	}
+	dt {
+		color: var(--sl-color-gray-2);
+	}
+	dd {
+		margin: 0;
+	}
+	.links {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.25rem;
+		margin: 0;
+		font-size: var(--sl-text-sm);
+	}
+	@media (max-width: 40rem) {
+		dl {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

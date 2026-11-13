@@ -62,6 +62,19 @@ function readTexts(dir) {
 const SARIT_EXCLUDED = new Set(['asvaghosa-buddhacarita']);
 
 /**
+ * Buddhist GRETIL texts that GRETIL files outside its two Buddhist sections (under Poetry), so the repository marks
+ * them `buddhist: false`. MEOBTIS indexes them anyway: Aśvaghoṣa's Buddhacarita and Saundarananda (two editions each)
+ * and the Buddhist dramatic fragments edited by Klaus Wille.
+ */
+const GRETIL_ALSO_BUDDHIST = new Set([
+	'sa_azvaghoSa-buddhacarita',
+	'sa_azvaghoSa-buddhacarita-alt',
+	'sa_azvaghoSa-saundarAnanda',
+	'sa_azvaghoSa-saundarAnanda-edmatsunami',
+	'sa_dramatic-fragments-buddhist',
+]);
+
+/**
  * Some IAST editions are machine transliterations of a Devanāgarī edition from the same source (made with
  * Aksharamukha). They say so in their front matter (`transliterated_from`); `original` is the id of that edition.
  */
@@ -117,7 +130,7 @@ export const SOURCES = [
 			// The repository has every Sanskrit text of GRETIL; MEOBTIS indexes the Buddhist ones (`buddhist: true`,
 			// GRETIL's sections Religious Literature / Buddhist and Philosophy / Buddhist).
 			const all = readTexts(dir);
-			const indexed = all.filter(({ data }) => data.buddhist !== false);
+			const indexed = all.filter(({ data }) => data.buddhist !== false || GRETIL_ALSO_BUDDHIST.has(data.gretil_id));
 			this.skipped = all.length - indexed.length;
 			return indexed.map(({ path, data }) => {
 				const entry = byId.get(data.gretil_id);

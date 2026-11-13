@@ -1,0 +1,50 @@
+---
+title: Sources
+description: The digital collections of Buddhist Sanskrit texts indexed by MEOBTIS.
+---
+
+import catalog from '../../../data/catalog.json';
+
+export const src = Object.fromEntries(catalog.sources.map((s) => [s.id, s]));
+export const both = catalog.works.filter((w) => new Set(w.editions.map((e) => e.source)).size > 1).length;
+
+MEOBTIS indexes the following collections. Each one has been converted to Markdown in
+its own repository. **{both}** texts are available from more than one source; they are
+listed once in the index, with a link to each edition.
+
+## GRETIL
+
+The [Göttingen Register of Electronic Texts in Indian Languages](https://gretil.sub.uni-goettingen.de/gretil.html)
+(GRETIL) is maintained by the Göttingen State and University Library (SUB Göttingen). It
+offers standardised, machine-readable texts in Sanskrit and other Indian languages
+contributed by many scholars and projects. Most texts are encoded in TEI XML with full
+bibliographic headers.
+
+MEOBTIS includes GRETIL's two Buddhist sections: **Buddhist religious literature** (sūtras,
+Vinaya, avadānas, tantras, stotras) and **Buddhist philosophy** (Abhidharma, Madhyamaka,
+Yogācāra, Pramāṇa).
+
+- **{src.gretil.editions}** Markdown editions of **{src.gretil.works}** texts
+- Markdown repository: [meobtis/gretil](https://github.com/meobtis/gretil)
+- Licence: given in each text, mostly
+  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## DSBC
+
+The [Digital Sanskrit Buddhist Canon](https://www.dsbcproject.org) (DSBC) is a project of
+the University of the West (Rosemead, California), begun in 2003 with the Nagarjuna
+Institute in Kathmandu. It digitises Sanskrit Buddhist texts, many of them preserved in
+Nepal, and arranges them by the divisions of the canon: Sūtrapiṭaka, Vinayapiṭaka and
+Śāstrapiṭaka. Most texts are published in both Roman transliteration (IAST) and
+Devanāgarī.
+
+- **{src.dsbc.editions}** Markdown editions of **{src.dsbc.works}** texts, in IAST
+  (`DSBC`) and Devanāgarī (`DSBC देवनागरी`)
+- Markdown repository: [meobtis/dsbc](https://github.com/meobtis/dsbc)
+- Terms: non-commercial educational and research use; see the DSBC
+  [usage policy](https://www.dsbcproject.org/pages/usage-policy)
+
+## Adding a source
+
+More collections will be added over time. To propose one, please
+[open an issue](https://github.com/meobtis/meobtis.github.io/issues).

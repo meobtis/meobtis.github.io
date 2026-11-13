@@ -1,0 +1,62 @@
+---
+// One page per category of the catalogue, e.g. /texts/sutra/prajnaparamita/.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import WorkList from '../../../components/WorkList.astro';
+import { catalog, sectionsOf, slugify, worksIn, type Category, type Group } from '../../../lib/catalog';
+
+export function getStaticPaths() {
+	return catalog.groups.flatMap((group) =>
+		group.categories
+			.filter((category) => category.count > 0)
+			.map((category) => ({ params: { group: group.id, category: category.id }, props: { group, category } })),
+	);
+}
+
+interface Props {
+	group: Group;
+	category: Category;
+}
+
+const { group, category } = Astro.props;
+const works = worksIn(group, category);
+const sections = sectionsOf(works);
+const headings = sections
+	.filter((s) => s.heading)
+	.map((s) => ({ depth: 2, slug: slugify(s.heading!), text: `${s.heading} (${s.works.length})` }));
+const editions = works.reduce((n, w) => n + w.editions.length, 0);
+---
+
+<StarlightPage
+	frontmatter={{
+		title: category.label,
+		description: `${category.description} ${works.length} texts in Sanskrit, with Markdown editions from ${catalog.sources.map((s) => s.label).join(' and ')}.`,
+	}}
+	headings={headings}
+>
+	<p>
+		{
+			`${category.description} ${works.length} ${works.length === 1 ? 'text' : 'texts'} in ${editions} ${editions === 1 ? 'edition' : 'editions'}. `
+		}
+		Each link opens an edition to read here and names its source; ↗ opens the text on the source’s website.
+	</p>
+	<p class="breadcrumb"><a href="/texts/">Texts</a> › {group.label}</p>
+	{
+		sections.map((s) =>
+			s.heading ? (
+				<>
+					<h2 id={slugify(s.heading)}>{s.heading}</h2>
+					<WorkList works={s.works} />
+				</>
+			) : (
+				<WorkList works={s.works} />
+			),
+		)
+	}
+</StarlightPage>
+
+<style>
+	.breadcrumb {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+</style>

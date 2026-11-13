@@ -1,0 +1,133 @@
+---
+// A list of works. Each work shows its title (IAST, plus Devanāgarī where a source has it),
+// author, and one link per edition naming its source.
+import { readerUrl, sourceById, type Work } from '../lib/catalog';
+
+interface Props {
+	works: Work[];
+	/** Show each work's category under its title (used on the A–Z page). */
+	categoryLabels?: Record<string, string>;
+}
+
+const { works, categoryLabels } = Astro.props;
+---
+
+<ul class="works not-content">
+	{
+		works.map((w) => (
+			<li class="work">
+				<div class="work-title">
+					<span class="iast" lang="sa-Latn">
+						{w.title}
+					</span>
+					{w.titleDeva && (
+						<span class="deva" lang="sa-Deva">
+							{w.titleDeva}
+						</span>
+					)}
+				</div>
+				{(w.author || categoryLabels) && (
+					<div class="work-meta">
+						{w.author && <span lang="sa-Latn">{w.author}</span>}
+						{categoryLabels && <span>{categoryLabels[w.category]}</span>}
+					</div>
+				)}
+				<ul class="editions" aria-label={`Editions of ${w.title}`}>
+					{w.editions.map((e) => (
+						<li>
+							<a
+								class="edition"
+								href={readerUrl(e)}
+								title={`Read ${e.title} (${sourceById[e.source]?.name ?? e.source})`}
+							>
+								{e.label}
+							</a>
+							<a
+								class="original"
+								href={e.originalUrl}
+								title={`Original on the ${sourceById[e.source]?.label ?? e.source} website`}
+								aria-label={`${e.label} original`}
+							>
+								↗
+							</a>
+						</li>
+					))}
+				</ul>
+			</li>
+		))
+	}
+</ul>
+
+<style>
+	.works {
+		list-style: none;
+		padding: 0;
+		margin: 1rem 0 0;
+		display: grid;
+		gap: 0;
+	}
+	.work {
+		padding: 0.75rem 0;
+		border-bottom: 1px solid var(--sl-color-hairline);
+		display: grid;
+		gap: 0.25rem;
+	}
+	.work-title {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		column-gap: 0.75rem;
+	}
+	.iast {
+		font-weight: 600;
+		color: var(--sl-color-white);
+		overflow-wrap: anywhere;
+	}
+	.deva {
+		color: var(--sl-color-gray-2);
+		overflow-wrap: anywhere;
+	}
+	.work-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 1rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+	.editions {
+		list-style: none;
+		padding: 0;
+		margin: 0.25rem 0 0;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.375rem;
+	}
+	.editions li {
+		display: inline-flex;
+		align-items: stretch;
+		border: 1px solid var(--sl-color-accent);
+		border-radius: 999px;
+		overflow: hidden;
+		font-size: var(--sl-text-xs);
+		line-height: 1.6;
+	}
+	.editions a {
+		text-decoration: none;
+		padding: 0.125rem 0.625rem;
+	}
+	.edition {
+		color: var(--sl-color-white);
+		background: var(--sl-color-accent-low);
+		font-weight: 600;
+	}
+	.original {
+		color: var(--sl-color-gray-3);
+		border-inline-start: 1px solid var(--sl-color-accent);
+		padding-inline: 0.5rem !important;
+	}
+	.editions a:hover,
+	.editions a:focus-visible {
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+	}
+</style>

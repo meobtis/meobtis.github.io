@@ -1,0 +1,139 @@
+// Source adapters. Each source is a GitHub repository in the meobtis organisation containing
+// Markdown files with YAML front matter. To add a source, add an entry to SOURCES with a
+// `load(dir)` function that returns edition records:
+//
+//   {
+//     source: 'gretil',            // SOURCES[].id
+//     sourceId: 'sa_…',            // stable ID of the text within the source
+//     title: 'Abhidharmakośa',     // as given by the source (IAST or Devanāgarī)
+//     author?: 'Vasubandhu',
+//     script: 'iast' | 'deva',
+//     path: 'texts/…/x.md',        // path of the Markdown file within the repository
+//     originalUrl: 'https://…',    // the text on the original website
+//     note?: 'alternative version',// distinguishes several editions from one source
+//     dsbcCategory?: ['sūtrapiṭaka', 'avadāna'],
+//   }
+
+import { execFileSync } from 'node:child_process';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { join, relative } from 'node:path';
+import { parse as parseYaml } from 'yaml';
+import { devaToIast } from './text.mjs';
+
+/** Clone (or update) a source repository into the cache directory and return its path. */
+export function checkout(repo, cacheDir) {
+	const dir = join(cacheDir, repo.split('/')[1]);
+	const url = `https://github.com/${repo}.git`;
+	if (existsSync(join(dir, '.git'))) {
+		execFileSync('git', ['-C', dir, 'fetch', '--depth', '1', 'origin'], { stdio: 'inherit' });
+		execFileSync('git', ['-C', dir, 'reset', '--hard', 'FETCH_HEAD'], { stdio: 'inherit' });
+	} else {
+		execFileSync('git', ['clone', '--depth', '1', url, dir], { stdio: 'inherit' });
+	}
+	return dir;
+}
+
+/** All Markdown files under `dir/texts`, except catalogue files, with parsed front matter. */
+function readTexts(dir) {
+	const out = [];
+	const walk = (d) => {
+		for (const entry of readdirSync(d, { withFileTypes: true })) {
+			const p = join(d, entry.name);
+			if (entry.isDirectory()) walk(p);
+			else if (entry.name.endsWith('.md') && entry.name !== 'CATALOG.md') {
+				const m = readFileSync(p, 'utf8').match(/^---\n([\s\S]*?)\n---/);
+				if (m) out.push({ path: relative(dir, p).split('\\').join('/'), data: parseYaml(m[1]) });
+			}
+		}
+	};
+	walk(join(dir, 'texts'));
+	return out.sort((a, b) => a.path.localeCompare(b.path));
+}
+
+/**
+ * GRETIL titles often carry edition notes and descriptions, e.g.
+ * "Prajñāpāramitāhṛdayasūtra, saṃkṣiptamātṛkā", "Vasudhārādhāraṇī-Gilgit",
+ * "Jñānālokālaṃkārasūtra = JĀA", "Śarīrārthagāthā a chapter of his Yogācārabhūmi".
+ * Split them into the work's title and an edition note.
+ */
+function splitGretilTitle(raw) {
+	let title = raw
+		.replace(/\s*\((?:[^)]*)\)\s*/g, (m) => (/[?_]/.test(m) ? '' : m)) // "auto(?)-commentary" artefacts
+		.replace(/\s+=\s+\S+$/, '')
+		.replace(/\s+(a|his) (commentary|chapter)\b.*$|\s+subcommentary on\b.*$/, '')
+		.trim();
+	const notes = [];
+	let m;
+	// ", saṃkṣiptamātṛkā" / ", 1-8, 11-12" — but not ", Sumāgadhāvadāna" (a capitalised title).
+	if ((m = title.match(/^(.+?),\s*([^A-ZĀĪŪṚŚṢṆṬḌ].*?)[,\s]*$/u))) [title, notes[0]] = [m[1], m[2]];
+	if ((m = title.match(/^(.+?)\s+(\d+(?:\s*[-–]\s*\d+)?)$/))) [title, notes[1]] = [m[1], m[2]];
+	else if ((m = title.match(/^(.+?)-(fragments?|gilgit|\d+)$/i))) [title, notes[1]] = [m[1], m[2]];
+	else if ((m = title.match(/^(.+?)\s+(Sanskrit reconstruction|part [ivx]+)$/i))) [title, notes[1]] = [m[1], m[2]];
+	let note = notes
+		.filter(Boolean)
+		.map((n) => (/^\d/.test(n) && n.length > 12 ? 'selected chapters' : n.replace(/-/g, '–')))
+		.reverse()
+		.join(', ');
+	return { title: title.trim(), note: note || undefined };
+}
+
+export const SOURCES = [
+	{
+		id: 'gretil',
+		label: 'GRETIL',
+		name: 'Göttingen Register of Electronic Texts in Indian Languages',
+		homepage: 'https://gretil.sub.uni-goettingen.de/gretil.html',
+		repo: 'meobtis/gretil',
+		load(dir) {
+			const manifest = JSON.parse(readFileSync(join(dir, 'data/manifest.json'), 'utf8'));
+			const byId = new Map(manifest.map((e) => [e.id, e]));
+			return readTexts(dir).map(({ path, data }) => {
+				const entry = byId.get(data.gretil_id);
+				const catalogTitle = entry?.catalog_title ?? '';
+				// Bracketed notes in GRETIL's catalogue distinguish versions, e.g. "[alternative version]".
+				const catalogNote = catalogTitle
+					.match(/\[([^\]]+)\]/g)
+					?.map((n) => n.slice(1, -1))
+					.find((n) => /version|ed\.|only|extracted|fragment/i.test(n));
+				const { title, note } = splitGretilTitle(String(data.title));
+				return {
+					source: 'gretil',
+					sourceId: data.gretil_id,
+					title,
+					note: note ?? catalogNote,
+					author: data.author ? String(data.author).trim() : undefined,
+					script: 'iast',
+					path,
+					originalUrl: data.source_url,
+					catalogTitle,
+					gretilSection: data.category,
+				};
+			});
+		},
+	},
+	{
+		id: 'dsbc',
+		label: 'DSBC',
+		name: 'Digital Sanskrit Buddhist Canon',
+		homepage: 'https://www.dsbcproject.org',
+		repo: 'meobtis/dsbc',
+		load(dir) {
+			// Books are also exported one file per chapter (front matter has `chapter`); index whole books only.
+			return readTexts(dir)
+				.filter(({ data }) => data.chapter === undefined)
+				.map(({ path, data }) => {
+					const script = data.script === 'devanagari' ? 'deva' : 'iast';
+					const parts = String(data.category).split('/');
+					return {
+						source: 'dsbc',
+						sourceId: String(data.book_id),
+						title: String(data.title).trim(),
+						script,
+						path,
+						originalUrl: data.source_url,
+						dsbcCategory: script === 'deva' ? parts.map(devaToIast) : parts,
+					};
+				});
+		},
+	},
+];

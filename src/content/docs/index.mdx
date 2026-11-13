@@ -1,0 +1,50 @@
+---
+title: MEOBTIS
+description: Markdown Editions Of Buddhist Texts In Sanskrit. An index of Buddhist Sanskrit texts converted to Markdown, by category.
+template: splash
+hero:
+  tagline: Markdown Editions Of Buddhist Texts In Sanskrit. One index to Buddhist Sanskrit texts from several digital collections, converted to Markdown.
+  image:
+    file: ../../../public/favicon.svg
+  actions:
+    - text: Browse the texts
+      link: /texts/
+      icon: right-arrow
+    - text: About the project
+      link: /about/
+      icon: information
+      variant: minimal
+---
+
+import catalog from '../../data/catalog.json';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+export const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
+export const groups = catalog.groups.filter((g) => g.count > 0);
+
+<CardGrid stagger>
+	<Card title={`${catalog.works.length} texts`} icon="open-book">
+		{editions} Markdown editions, each listed once however many sources have it.
+	</Card>
+	<Card title={`${catalog.sources.length} sources`} icon="list-format">
+		{catalog.sources.map((s) => s.name).join(' and ')}, with more to come.
+	</Card>
+	<Card title="IAST and Devanāgarī" icon="translate">
+		Every link names its source and script, such as GRETIL, DSBC or DSBC देवनागरी.
+	</Card>
+	<Card title="Open on GitHub" icon="github">
+		The texts are plain Markdown in the [meobtis](https://github.com/meobtis) repositories.
+	</Card>
+</CardGrid>
+
+## Browse by category
+
+<CardGrid>
+	{groups.map((g) => (
+		<LinkCard
+			title={`${g.label} (${g.count})`}
+			description={g.categories.filter((c) => c.count > 0).map((c) => c.label).join(' · ')}
+			href={`/texts/#${g.label.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()}`}
+		/>
+	))}
+</CardGrid>

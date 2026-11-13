@@ -1,0 +1,65 @@
+---
+// Every text in the catalogue, A–Z.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import WorkList from '../../components/WorkList.astro';
+import { catalog, type Work } from '../../lib/catalog';
+
+const categoryLabels = Object.fromEntries(
+	catalog.groups.flatMap((g) => g.categories.map((c) => [`${g.id}/${c.id}`, `${g.label} › ${c.label}`])),
+);
+
+// Group by initial letter, ignoring diacritics and the honorific "Ārya".
+const initial = (w: Work) =>
+	w.title
+		.replace(/^(ārya|arya)\s*/i, '')
+		.normalize('NFD')
+		.replace(/[̀-ͯ]/g, '')
+		.charAt(0)
+		.toUpperCase()
+		.replace(/[^A-Z]/, '#');
+const letters = new Map<string, Work[]>();
+for (const w of catalog.works) {
+	const k = initial(w);
+	if (!letters.has(k)) letters.set(k, []);
+	letters.get(k)!.push(w);
+}
+const sorted = [...letters.entries()].sort(([a], [b]) => (a === '#' ? -1 : b === '#' ? 1 : a.localeCompare(b)));
+const id = (l: string) => (l === '#' ? 'other' : l.toLowerCase());
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'All texts A–Z',
+		description: `All ${catalog.works.length} Buddhist texts in Sanskrit in the MEOBTIS index, in alphabetical order.`,
+		tableOfContents: false,
+	}}
+>
+	<p>
+		All <strong>{catalog.works.length}</strong> texts, alphabetically, ignoring diacritics and the honorific
+		<i lang="sa-Latn">Ārya</i>. Each link opens an edition to read here and names its source; ↗ opens the text on
+		the source’s website.
+	</p>
+	<nav class="letters" aria-label="Jump to letter">
+		{sorted.map(([l]) => <a href={`#${id(l)}`}>{l}</a>)}
+	</nav>
+	{
+		sorted.map(([l, works]) => (
+			<>
+				<h2 id={id(l)}>{l === '#' ? '0–9' : l}</h2>
+				<WorkList works={works} categoryLabels={categoryLabels} />
+			</>
+		))
+	}
+</StarlightPage>
+
+<style>
+	.letters {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.75rem;
+		font-weight: 600;
+	}
+	.letters a {
+		text-decoration: none;
+	}
+</style>

@@ -1,0 +1,124 @@
+---
+// Reader page for one edition: /read/<source>/<sourceId>/.
+// The page itself only holds the catalogue entry. The text is fetched from the source's
+// repository on GitHub and rendered in the browser by TextReader, so no texts are stored
+// in this repository or in the built site.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import TextReader from '../../components/TextReader.astro';
+import {
+	catalog,
+	categoryOf,
+	categoryUrl,
+	readerUrl,
+	sourceById,
+	type Edition,
+	type Work,
+} from '../../lib/catalog';
+
+export function getStaticPaths() {
+	return catalog.works.flatMap((work) =>
+		work.editions.map((edition) => ({ params: { slug: edition.slug }, props: { work, edition } })),
+	);
+}
+
+interface Props {
+	work: Work;
+	edition: Edition;
+}
+
+const { work, edition } = Astro.props;
+const source = sourceById[edition.source];
+const place = categoryOf(work);
+const others = work.editions.filter((e) => e !== edition);
+const script = edition.script === 'deva' ? 'Devanāgarī' : 'IAST';
+---
+
+<StarlightPage
+	frontmatter={{
+		title: work.title,
+		description: `${work.title}${work.author ? ` by ${work.author}` : ''}: Sanskrit text (${script}) from ${source.name}, rendered from Markdown.`,
+		tableOfContents: false,
+		pagefind: false,
+		editUrl: false,
+		lastUpdated: false,
+	}}
+>
+	<div class="meta">
+		{work.titleDeva && <p class="deva" lang="sa-Deva">{work.titleDeva}</p>}
+		<dl>
+			{
+				work.author && (
+					<>
+						<dt>Author</dt>
+						<dd lang="sa-Latn">{work.author}</dd>
+					</>
+				)
+			}
+			<dt>Edition</dt>
+			<dd>
+				<strong>{edition.label}</strong>: {source.name} ({script})
+			</dd>
+			{
+				place && (
+					<>
+						<dt>Category</dt>
+						<dd>
+							<a href="/texts/">Texts</a> › {place.group.label} ›{' '}
+							<a href={categoryUrl(place.group, place.category)}>{place.category.label}</a>
+						</dd>
+					</>
+				)
+			}
+			<dt>Links</dt>
+			<dd>
+				<a href={edition.url}>Markdown on GitHub</a> · <a href={edition.originalUrl}>Original on {source.label}</a>
+			</dd>
+			{
+				others.length > 0 && (
+					<>
+						<dt>Other editions</dt>
+						<dd>
+							{others.map((e, i) => (
+								<>
+									{i > 0 && ' · '}
+									<a href={readerUrl(e)}>{e.label}</a>
+								</>
+							))}
+						</dd>
+					</>
+				)
+			}
+		</dl>
+	</div>
+
+	<TextReader rawUrl={edition.rawUrl} githubUrl={edition.url} lang={edition.script === 'deva' ? 'sa-Deva' : 'sa-Latn'} />
+</StarlightPage>
+
+<style>
+	.meta .deva {
+		font-size: var(--sl-text-xl);
+		color: var(--sl-color-gray-2);
+		margin-top: 0;
+	}
+	.meta dl {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.25rem 1rem;
+		font-size: var(--sl-text-sm);
+	}
+	.meta dt {
+		color: var(--sl-color-gray-3);
+	}
+	.meta dt,
+	.meta dd {
+		margin: 0;
+	}
+	@media (max-width: 30rem) {
+		.meta dl {
+			grid-template-columns: 1fr;
+		}
+		.meta dd {
+			margin-bottom: 0.5rem;
+		}
+	}
+</style>

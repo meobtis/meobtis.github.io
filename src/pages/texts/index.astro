@@ -1,0 +1,70 @@
+---
+// Overview of the catalogue: every group and category with its number of texts.
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { catalog, categoryUrl, slugify } from '../../lib/catalog';
+
+const total = catalog.works.length;
+const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
+const groups = catalog.groups.filter((g) => g.count > 0);
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Texts',
+		description: `Index of ${total} Buddhist texts in Sanskrit, organised by category, with links to Markdown editions.`,
+	}}
+	headings={groups.map((g) => ({ depth: 2, slug: slugify(g.label), text: g.label }))}
+>
+	<p>
+		The index lists <strong>{total}</strong> Buddhist texts in Sanskrit, with <strong>{editions}</strong> Markdown
+		editions converted from {catalog.sources.length} sources. When a text is available from more than one source, it
+		is listed once, with a link to each edition. Every link names its source. You can also browse <a
+			href="/texts/all/">all texts A–Z</a
+		> or use the search.
+	</p>
+
+	<CardGrid>
+		{
+			catalog.sources.map((s) => (
+				<Card title={`${s.label}: ${s.works} texts`} icon="open-book">
+					{s.name}. <a href={s.homepage}>Website</a> · <a href={s.url}>Markdown repository</a>
+				</Card>
+			))
+		}
+	</CardGrid>
+
+	{
+		groups.map((g) => (
+			<>
+				<h2 id={slugify(g.label)}>
+					{g.label} <span class="count">({g.count})</span>
+				</h2>
+				<p>{g.description}</p>
+				<ul class="categories">
+					{g.categories
+						.filter((c) => c.count > 0)
+						.map((c) => (
+							<li>
+								<a href={categoryUrl(g, c)}>{c.label}</a> <span class="count">({c.count})</span>
+								<span class="desc"> — {c.description}</span>
+							</li>
+						))}
+				</ul>
+			</>
+		))
+	}
+</StarlightPage>
+
+<style>
+	.count {
+		color: var(--sl-color-gray-3);
+		font-weight: 400;
+	}
+	.desc {
+		color: var(--sl-color-gray-3);
+	}
+	.categories li + li {
+		margin-top: 0.25rem;
+	}
+</style>

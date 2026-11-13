@@ -1,0 +1,225 @@
+---
+// Fetches an edition's Markdown from its source repository and renders it in the browser.
+// The YAML front matter (edition, contributors, licence) is shown above the text.
+interface Props {
+	/** raw.githubusercontent.com URL of the Markdown file. */
+	rawUrl: string;
+	/** GitHub page of the file, offered if loading fails. */
+	githubUrl: string;
+	/** Language tag of the text: "sa-Latn" or "sa-Deva". */
+	lang: string;
+}
+
+const { rawUrl, githubUrl, lang } = Astro.props;
+---
+
+<meobtis-text data-raw-url={rawUrl} data-github-url={githubUrl} data-lang={lang}>
+	<details class="source-meta" hidden>
+		<summary>Edition details</summary>
+		<dl></dl>
+	</details>
+	<nav class="text-toc" aria-label="Contents" hidden>
+		<details>
+			<summary>Contents</summary>
+			<ol></ol>
+		</details>
+	</nav>
+	<p class="status" role="status">Loading the text from GitHub…</p>
+	<article class="text-body sl-markdown-content" lang={lang}></article>
+	<noscript>
+		<p>JavaScript is needed to show the text here. <a href={githubUrl}>Read it on GitHub</a> instead.</p>
+	</noscript>
+</meobtis-text>
+
+<script>
+	import DOMPurify from 'dompurify';
+	import { Marked } from 'marked';
+	import { parse as parseYaml } from 'yaml';
+
+	// Labels for the front-matter fields worth showing; others are listed under their own names.
+	const FIELDS: Record<string, string> = {
+		author: 'Author',
+		source_edition: 'Source edition',
+		contributors: 'Contributors',
+		licence: 'Licence',
+		bibliography: 'Bibliography',
+		technical_details: 'Technical details',
+		keywords: 'Keywords',
+		gretil_id: 'GRETIL ID',
+		book_id: 'DSBC book',
+		source_url: 'Source file',
+		chapter: 'Chapter',
+	};
+	const isEmpty = (v: unknown): boolean =>
+		v == null ||
+		v === '' ||
+		v === '-' ||
+		v === 'N/A' ||
+		(Array.isArray(v) && v.every(isEmpty)) ||
+		(typeof v === 'object' && !Array.isArray(v) && Object.values(v as object).every(isEmpty));
+	const SKIP = new Set(['title', 'category', 'category_path', 'script', 'chapters_count']);
+
+	const marked = new Marked({
+		gfm: true,
+		walkTokens(token) {
+			// The page title is the <h1>; shift the text's own headings down a level.
+			if (token.type === 'heading') token.depth = Math.min(token.depth + 1, 6);
+		},
+	});
+
+	const slug = (s: string, n: number) =>
+		`t-${n}-${s
+			.normalize('NFD')
+			.replace(/[̀-ͯ]/g, '')
+			.toLowerCase()
+			.replace(/[^a-z0-9ऀ-ॿ]+/g, '-')
+			.replace(/^-|-$/g, '')
+			.slice(0, 60)}`;
+
+	function renderValue(value: unknown): Node {
+		if (Array.isArray(value)) {
+			const ul = document.createElement('ul');
+			for (const v of value) ul.append(Object.assign(document.createElement('li'), { textContent: String(v) }));
+			return ul;
+		}
+		if (value && typeof value === 'object') {
+			const dl = document.createElement('dl');
+			for (const [k, v] of Object.entries(value)) {
+				if (isEmpty(v)) continue;
+				dl.append(Object.assign(document.createElement('dt'), { textContent: k }));
+				dl.append(Object.assign(document.createElement('dd'), { textContent: String(v) }));
+			}
+			return dl;
+		}
+		const text = String(value);
+		if (/^https?:\/\//.test(text)) return Object.assign(document.createElement('a'), { href: text, textContent: text });
+		return document.createTextNode(text);
+	}
+
+	class MeobtisText extends HTMLElement {
+		async connectedCallback() {
+			const status = this.querySelector<HTMLElement>('.status')!;
+			const body = this.querySelector<HTMLElement>('.text-body')!;
+			try {
+				const res = await fetch(this.dataset.rawUrl!);
+				if (!res.ok) throw new Error(`GitHub returned ${res.status}`);
+				const markdown = await res.text();
+
+				// Front matter → "Edition details".
+				const fm = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+				if (fm) this.showMeta(parseYaml(fm[1]) ?? {});
+				let content = fm ? markdown.slice(fm[0].length) : markdown;
+				// Drop the leading "# Title", which repeats the page title.
+				content = content.replace(/^\s*#\s+[^\n]*\n/, '');
+
+				body.innerHTML = DOMPurify.sanitize(await marked.parse(content));
+				this.buildToc(body);
+				status.remove();
+			} catch (err) {
+				status.textContent = '';
+				status.append(
+					`The text could not be loaded (${(err as Error).message}). `,
+					Object.assign(document.createElement('a'), { href: this.dataset.githubUrl, textContent: 'Read it on GitHub' }),
+					' instead.',
+				);
+			}
+		}
+
+		showMeta(data: Record<string, unknown>) {
+			const details = this.querySelector<HTMLDetailsElement>('.source-meta')!;
+			const dl = details.querySelector('dl')!;
+			const entries = Object.entries(data).filter(([k, v]) => !SKIP.has(k) && !isEmpty(v));
+			for (const [key, value] of entries) {
+				dl.append(Object.assign(document.createElement('dt'), { textContent: FIELDS[key] ?? key }));
+				const dd = document.createElement('dd');
+				dd.append(renderValue(value));
+				dl.append(dd);
+			}
+			details.hidden = entries.length === 0;
+		}
+
+		buildToc(body: HTMLElement) {
+			const headings = [...body.querySelectorAll<HTMLElement>('h2, h3')];
+			if (headings.length < 2) return;
+			const ol = this.querySelector('.text-toc ol')!;
+			headings.forEach((h, i) => {
+				h.id ||= slug(h.textContent ?? '', i);
+				const li = document.createElement('li');
+				if (h.tagName === 'H3') li.className = 'sub';
+				li.append(Object.assign(document.createElement('a'), { href: `#${h.id}`, textContent: h.textContent }));
+				ol.append(li);
+			});
+			this.querySelector<HTMLElement>('.text-toc')!.hidden = false;
+		}
+	}
+
+	customElements.define('meobtis-text', MeobtisText);
+</script>
+
+<style>
+	meobtis-text {
+		display: block;
+		margin-top: 1.5rem;
+	}
+	.source-meta,
+	.text-toc details {
+		border: 1px solid var(--sl-color-hairline);
+		border-radius: 0.5rem;
+		padding: 0.5rem 1rem;
+		margin-bottom: 1rem;
+		font-size: var(--sl-text-sm);
+	}
+	summary {
+		cursor: pointer;
+		font-weight: 600;
+		color: var(--sl-color-white);
+	}
+	.source-meta :global(dl) {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.25rem 1rem;
+		margin: 0.75rem 0 0.25rem;
+	}
+	.source-meta :global(dl dl) {
+		margin: 0;
+	}
+	.source-meta :global(dt) {
+		color: var(--sl-color-gray-3);
+	}
+	.source-meta :global(dt) {
+		margin: 0;
+	}
+	.source-meta :global(dd) {
+		margin: 0;
+		overflow-wrap: anywhere;
+	}
+	.source-meta :global(ul) {
+		margin: 0;
+		padding-inline-start: 1rem;
+	}
+	.text-toc ol {
+		margin: 0.75rem 0 0.25rem;
+		padding-inline-start: 1.25rem;
+		max-height: 50vh;
+		overflow-y: auto;
+	}
+	.text-toc :global(li.sub) {
+		margin-inline-start: 1rem;
+		list-style-type: circle;
+	}
+	.status {
+		color: var(--sl-color-gray-3);
+		font-style: italic;
+	}
+	.text-body {
+		overflow-wrap: anywhere;
+	}
+	.text-body:lang(sa-Deva) {
+		font-size: 1.1em;
+	}
+	@media (max-width: 30rem) {
+		.source-meta :global(dl) {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

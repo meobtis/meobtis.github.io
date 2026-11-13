@@ -1,0 +1,12 @@
+---
+// Extends Starlight's default <head> with fonts from the Astro Fonts API
+// (configured under `fonts` in astro.config.mjs).
+import Default from '@astrojs/starlight/components/Head.astro';
+import { Font } from 'astro:assets';
+---
+
+<Default />
+<!-- Preload only the body-text face; the rest load on demand. -->
+<Font cssVariable="--font-noto-sans" preload={[{ subset: 'latin', weight: 400, style: 'normal' }]} />
+<Font cssVariable="--font-noto-sans-devanagari" />
+<Font cssVariable="--font-noto-sans-mono" />

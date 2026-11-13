@@ -1,0 +1,109 @@
+---
+title: About MEOBTIS
+description: What MEOBTIS is, how the index is organised and built, and how the texts may be used.
+---
+
+import catalog from '../../../data/catalog.json';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+export const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
+
+**MEOBTIS** stands for **M**arkdown **E**ditions **O**f **B**uddhist **T**exts **I**n
+**S**anskrit. It brings together Buddhist texts in Sanskrit from several digital
+collections. Each collection is converted to Markdown and kept in its own repository in
+the [meobtis organisation on GitHub](https://github.com/meobtis). This website is a single
+index to all of them, and a reader for every text in it.
+
+The index currently lists **{catalog.works.length} texts** with **{editions} Markdown editions**
+from {catalog.sources.length} sources.
+
+## Why Markdown?
+
+Markdown is plain text with light formatting for headings, verses and notes. A Markdown
+edition:
+
+- can be read in any text editor or directly on GitHub;
+- shows exactly what changed between versions, line by line, under Git;
+- is easy to search, quote, process with scripts, and turn into websites, e-books or
+  print.
+
+The converted texts keep the bibliographic details of their source, such as edition,
+editors and the people who keyed them in, in a metadata header (YAML front matter) at
+the top of each file.
+
+## How the index is organised
+
+Each text is listed **once**, however many sources provide it. Its entry links to every
+available edition, and each link names its source. For example, a text in both
+collections might link to `GRETIL`, `DSBC` and `DSBC देवनागरी` (the Devanāgarī edition
+of the Digital Sanskrit Buddhist Canon). The ↗ link next to each edition opens the text
+on the source's own website.
+
+## Reading a text
+
+Each edition link opens a reader page on this site. The page loads the edition's Markdown
+file directly from its source repository on GitHub and displays it. The page also shows:
+
+- the edition details from the file: source edition, contributors and licence;
+- a table of contents for texts with chapters;
+- links to the file on GitHub, to the original website, and to the other editions of the
+  same text.
+
+The texts themselves are not copied into this website. The reader always shows the
+current version in the source repository, so a correction made there appears here
+straight away.
+
+Texts are arranged in groups, broadly following the divisions of the Sanskrit canon used
+by the Digital Sanskrit Buddhist Canon:
+
+- **Sūtra:** Āgama, Mahāyāna sūtras, Prajñāpāramitā, Dhāraṇī, Avadāna and Jātaka
+- **Vinaya:** Prātimokṣa and karmavācanā, the Vinayavastu, and other Vinaya texts
+- **Śāstra:** Abhidharma, Madhyamaka, Yogācāra, Pramāṇa, Prajñāpāramitā commentaries and
+  epistles
+- **Tantra:** the tantras by class, their commentaries, sādhana and ritual texts, and
+  songs of realisation
+- **Stotra:** hymns to the Buddha, to bodhisattvas, and to goddesses and other deities
+- **Literature** and **Sciences:** kāvya, drama, gnomic verse, grammar, poetics,
+  astronomy, medicine and the arts
+
+Where a source assigns a text to a category, that classification is used. Texts that the
+source does not classify are assigned to a category by the MEOBTIS editors. A
+classification is a finding aid, not a scholarly judgement on a text's date, school or
+authenticity.
+
+## How the index is built
+
+The index is generated, not written by hand. A build script reads the metadata of every
+Markdown file in each source repository and merges editions of the same work. It matches
+titles after normalising transliteration, so that `Abhisamayālaṅkāra` and
+`Abhisamayālaṃkāraḥ` are recognised as the same title, and Devanāgarī titles are
+transliterated so that they can be matched too. A small file of manual corrections
+handles the cases the rules miss. The details are in the
+[README](https://github.com/meobtis/meobtis.github.io#readme).
+
+New sources will be added over time. Each new collection gets its own repository and is
+merged into the same index.
+
+## Using the texts
+
+The texts belong to their sources and are subject to the sources' terms:
+
+- **GRETIL** texts carry the licence given in each file. Most are distributed under a
+  [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  licence.
+- **DSBC** texts are made available for non-commercial educational and research use. See
+  the DSBC [usage policy](https://www.dsbcproject.org/pages/usage-policy).
+
+When you quote or reuse a text, please cite the original edition named in its metadata
+as well as the source collection.
+
+## Contributing
+
+Corrections are welcome. Report errors in the index, or suggest a source to add, by
+[opening an issue](https://github.com/meobtis/meobtis.github.io/issues). Errors in a
+converted text belong in the repository of that source.
+
+<CardGrid>
+	<LinkCard title="Sources" description="The collections indexed by MEOBTIS." href="/about/sources/" />
+	<LinkCard title="Browse the texts" description="The index, by category." href="/texts/" />
+</CardGrid>

@@ -1,0 +1,75 @@
+---
+// Cards for related sites (src/data/sites.json), each with a local copy of the site's social-sharing image.
+import sites from '../data/sites.json';
+---
+
+<ul class="cards not-content">
+	{
+		sites.map((s) => (
+			<li>
+				<a href={s.url} class="card">
+					<img src={s.image} alt={s.alt} width="640" loading="lazy" decoding="async" />
+					<span class="body">
+						<strong>{s.title}</strong>
+						<span class="desc">{s.description}</span>
+						<span class="host">{new URL(s.url).host}{new URL(s.url).pathname.replace(/\/$/, '')} ↗</span>
+					</span>
+				</a>
+			</li>
+		))
+	}
+</ul>
+
+<style>
+	.cards {
+		list-style: none;
+		padding: 0;
+		margin: 1rem 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+		gap: 1rem;
+	}
+	.cards li {
+		margin: 0;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		border: 1px solid var(--sl-color-hairline);
+		border-radius: 0.5rem;
+		overflow: hidden;
+		text-decoration: none;
+		color: var(--sl-color-text);
+		background: var(--sl-color-bg-nav);
+	}
+	.card:hover,
+	.card:focus-visible {
+		border-color: var(--sl-color-accent);
+	}
+	.card img {
+		display: block;
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		object-fit: cover;
+		background: var(--sl-color-gray-6);
+	}
+	.body {
+		display: grid;
+		gap: 0.35rem;
+		padding: 0.85rem 1rem 1rem;
+	}
+	.body strong {
+		color: var(--sl-color-white);
+		font-size: var(--sl-text-base);
+	}
+	.desc {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+	}
+	.host {
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-text-accent);
+		overflow-wrap: anywhere;
+	}
+</style>

@@ -1,0 +1,44 @@
+[
+	{
+		"title": "buddhavacana",
+		"url": "https://christham.net/buddhavacana",
+		"description": "The Word of the Buddha: a journey reading and studying Buddhist texts in several languages, with notes on what the Buddha may have meant.",
+		"image": "/images/sites/buddhavacana.jpg",
+		"alt": "A small stone figure of a seated monk among green shrubs"
+	},
+	{
+		"title": "Tidipa: What the Buddha Understood",
+		"url": "https://tidipa.github.io",
+		"description": "New, open-source, independent and literal English translations of selections of the Buddha's teachings from the Pāḷi Tipiṭaka, with the Pāḷi originals, diagrams and commentary.",
+		"image": "/images/sites/tidipa.jpg",
+		"alt": "Three glowing stone lanterns on small islands in a misty pink sea"
+	},
+	{
+		"title": "The World Tipiṭaka Edition",
+		"url": "https://tipitaka2500.github.io",
+		"description": "The complete 40-volume Roman-script Pāḷi Tipiṭaka (Mahāsaṅgīti Tipiṭaka Buddhavasse 2500) with critical apparatus, cross-references and concordances. The reading path and parallels on this site link to it.",
+		"image": "/images/sites/tipitaka2500.jpg",
+		"alt": "A curved row of gold-edged volumes of the Pāḷi Tipiṭaka"
+	},
+	{
+		"title": "Tipitaka Editions in Markdown",
+		"url": "https://tipitaka-md.github.io",
+		"description": "A reader for five editions of the Pāḷi Tipiṭaka converted to Markdown, with variant highlighting and dictionary lookup.",
+		"image": "/images/sites/tipitaka-md.jpg",
+		"alt": "A purple lotus flower on its pad with bees at its centre"
+	},
+	{
+		"title": "Kaccāyana",
+		"url": "https://kaccayana.github.io",
+		"description": "Modern English translations of three classical Pāḷi grammars: the Kaccāyana, Buddhappiya's Padarūpasiddhi and Dhammakitti's Bālāvatāra.",
+		"image": "/images/sites/kaccayana.jpg",
+		"alt": "Rows of Pāḷi text incised on palm-leaf manuscript strips"
+	},
+	{
+		"title": "christham.net",
+		"url": "https://christham.net",
+		"description": "Chris Tham's personal website: a blog on food, travel and daily life, and links to his projects in photography, consulting and Buddhist study.",
+		"image": "/images/sites/christham.jpg",
+		"alt": "A person seated on a park bench in a garden"
+	}
+]

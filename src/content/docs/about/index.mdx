@@ -5,6 +5,7 @@ description: What MEOBTIS is, how the index is organised and built, and how the 
 
 import catalog from '../../../data/catalog.json';
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+import SiteCards from '../../../components/SiteCards.astro';
 
 export const editions = catalog.works.reduce((n, w) => n + w.editions.length, 0);
 
@@ -164,6 +165,12 @@ manuscript of the *Prajñāpāramitāhṛdaya* (Heart Sūtra) in Siddhaṃ scrip
 ([Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/)) and is
 taken from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prajnyaapaaramitaa_Hridaya_Pel.sogd.jpg). You can
 [read the Heart Sūtra](/read/gretil/sa_prajJApAramitAhRdayasUtra/) in the MEOBTIS index.
+
+## Related sites
+
+Other sites by Chris Tham on Buddhist texts:
+
+<SiteCards />
 
 ## Contributing
 

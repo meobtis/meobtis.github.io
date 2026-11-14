@@ -220,6 +220,34 @@ export const SOURCES = [
 		},
 	},
 	{
+		id: 'bdrc',
+		label: 'BDRC',
+		name: 'Buddhist Digital Resource Center e-texts',
+		homepage: 'https://www.bdrc.io',
+		repo: 'meobtis/bdrc',
+		publisher: 'Buddhist Digital Resource Center',
+		credit:
+			'Text from the e-texts published by the Buddhist Digital Resource Center (BDRC) as open data in OpenPecha-Data. ' +
+			'The original collection (GRETIL, DSBC or another), editor and input details are given in the edition details.',
+		terms: 'BDRC publishes its e-texts as open data; the original collection\'s terms apply to the text.',
+		termsUrl: 'https://www.bdrc.io',
+		load(dir) {
+			// The repository has every Sanskrit e-text found in OpenPecha-Data; MEOBTIS indexes the Buddhist ones.
+			return readTexts(dir)
+				.filter(({ data }) => data.buddhist !== false)
+				.map(({ path, data }) => ({
+					source: 'bdrc',
+					sourceId: String(data.bdrc_id),
+					title: String(data.title).trim(),
+					author: undefined,
+					script: data.script === 'deva' ? 'deva' : 'iast',
+					path,
+					originalUrl: data.source_repository,
+					note: data.original_collection ? `via ${data.original_collection}` : undefined,
+				}));
+		},
+	},
+	{
 		id: 'schoyen',
 		label: 'Schøyen',
 		name: 'Buddhist Manuscripts in the Schøyen Collection',

@@ -232,9 +232,11 @@ export const SOURCES = [
 		terms: 'BDRC publishes its e-texts as open data; the original collection\'s terms apply to the text.',
 		termsUrl: 'https://www.bdrc.io',
 		load(dir) {
-			// The repository has every Sanskrit e-text found in OpenPecha-Data; MEOBTIS indexes the Buddhist ones.
+			// The repository has every e-text found in OpenPecha-Data that is mainly in Latin or Devanāgarī script; a few are
+			// Tibetan (Wylie), English, Pāli or Gāndhārī layers of a work (`language`). MEOBTIS indexes the Sanskrit Buddhist ones in Latin or Devanāgarī script;
+			// the Tibetan-script extracts (`script: tibt`) are in the repository but are not works of their own.
 			return readTexts(dir)
-				.filter(({ data }) => data.buddhist !== false)
+				.filter(({ data }) => data.buddhist !== false && (data.language ?? 'sa') === 'sa' && data.script !== 'tibt')
 				.map(({ path, data }) => ({
 					source: 'bdrc',
 					sourceId: String(data.bdrc_id),

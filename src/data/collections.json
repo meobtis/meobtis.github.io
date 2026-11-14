@@ -230,6 +230,30 @@
 					}
 				},
 				{
+					"name": "Buddhist Digital Resource Center (BDRC)",
+					"summary": "A digital preservation organisation that describes itself as the largest online archive of Tibetan and Buddhist texts. Its Buddhist Digital Archives (BUDA) offer scanned manuscripts, woodblock prints and books, and some e-texts, through a library website, mobile apps and hard-drive distribution. The collection is overwhelmingly Tibetan, but it also holds Sanskrit and Chinese material, and BDRC runs a Sanskrit and Chinese Digital Library Network programme supported by the Robert H. N. Ho Family Foundation. BDRC says of BUDA that \"it is open source and as open access as possible\".",
+					"access": "Open access for works BDRC treats as public domain, which registered users can download as PDF (without an account, only the first and last 20 pages); copyrighted works show sample images only",
+					"why": "BUDA's Sanskrit tradition page lists about 1,000 works, of which 550 have an e-text. The e-texts we sampled are in Tibetan script (Tibetan translations and Tibetan works on Indian texts) or Chinese, not Sanskrit: the page's script filter shows 545 in Tibetan script and 43 in Chinese, and none in Devanāgarī or Latin. The Sanskrit-script works in the tradition (95 in Devanāgarī, 246 in Pracalit) are manuscript scans without e-texts, so there is no Sanskrit text to convert.",
+					"links": [
+						{
+							"label": "bdrc.io",
+							"url": "https://www.bdrc.io"
+						},
+						{
+							"label": "BUDA library",
+							"url": "https://library.bdrc.io"
+						},
+						{
+							"label": "BDRC's access policies",
+							"url": "https://www.bdrc.io/?p=43"
+						},
+						{
+							"label": "BDRC on GitHub",
+							"url": "https://github.com/buda-base"
+						}
+					]
+				},
+				{
 					"name": "British Library Endangered Archives Programme: Nepal",
 					"summary": "Digitisation projects that photographed Sanskrit manuscripts held in Nepal, many of them Newar Buddhist: EAP676, EAP790 and EAP1023 (478 manuscripts from 28 collections, 10th to 18th centuries). Shanker Thapa has separately surveyed about 1,285 manuscripts from 67 collections.",
 					"access": "Free images; EAP's reuse terms are CC BY-NC where the material is in copyright",

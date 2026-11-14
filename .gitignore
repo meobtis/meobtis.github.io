@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # Source repositories checked out by `pnpm catalog`
 .cache/
+
+# Agent instruction files and local agent settings (not committed)
+CLAUDE.md
+AGENTS.md
+.claude/

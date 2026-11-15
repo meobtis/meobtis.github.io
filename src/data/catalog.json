@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-14T21:08:36.501Z",
+	"generated": "2026-11-15T00:27:08.935Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -46,6 +46,20 @@
 			"works": 23
 		},
 		{
+			"id": "iriab",
+			"label": "ARIRIAB",
+			"name": "Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments",
+			"homepage": "https://list.indology.info/pipermail/indology/2019-May/050105.html",
+			"repo": "meobtis/iriab",
+			"publisher": "International Research Institute for Advanced Buddhology, Soka University",
+			"credit": "Sanskrit text transcribed from an edition in the Annual Report of the International Research Institute for Advanced Buddhology at Soka University (ARIRIAB) or in St Petersburg Sanskrit Fragments I. The readings are the work of the editor named in the edition details; the edition's introduction, translation, notes and apparatus are not reproduced.",
+			"terms": "The editions are © IRIAB, Soka University, and their authors. The transcriptions are offered for research and study; cite the printed edition.",
+			"termsUrl": "https://github.com/meobtis/iriab",
+			"url": "https://github.com/meobtis/iriab",
+			"editions": 122,
+			"works": 93
+		},
+		{
 			"id": "bdrc",
 			"label": "BDRC",
 			"name": "Buddhist Digital Resource Center e-texts",
@@ -84,37 +98,37 @@
 					"id": "agama",
 					"label": "Āgama",
 					"description": "Early discourses from the Āgama collections.",
-					"count": 20
+					"count": 28
 				},
 				{
 					"id": "mahayana-sutra",
 					"label": "Mahāyāna sūtras",
 					"description": "Mahāyāna sūtras other than the Prajñāpāramitā.",
-					"count": 60
+					"count": 76
 				},
 				{
 					"id": "prajnaparamita",
 					"label": "Prajñāpāramitā",
 					"description": "The Perfection of Wisdom sūtras.",
-					"count": 17
+					"count": 22
 				},
 				{
 					"id": "dharani",
 					"label": "Dhāraṇī",
 					"description": "Dhāraṇī and protective (rakṣā) texts.",
-					"count": 33
+					"count": 38
 				},
 				{
 					"id": "avadana",
 					"label": "Avadāna",
 					"description": "Edifying narratives of deeds and their fruits, including later Nepalese avadānas and vrata stories.",
-					"count": 26
+					"count": 36
 				},
 				{
 					"id": "jataka",
 					"label": "Jātaka",
 					"description": "Stories of the Buddha’s previous lives.",
-					"count": 3
+					"count": 6
 				},
 				{
 					"id": "buddha-life",
@@ -123,7 +137,7 @@
 					"count": 0
 				}
 			],
-			"count": 159
+			"count": 206
 		},
 		{
 			"id": "vinaya",
@@ -134,7 +148,7 @@
 					"id": "pratimoksa",
 					"label": "Prātimokṣa and karmavācanā",
 					"description": "Codes of monastic rules and the formulas for monastic procedures.",
-					"count": 9
+					"count": 10
 				},
 				{
 					"id": "vinayavastu",
@@ -149,7 +163,7 @@
 					"count": 14
 				}
 			],
-			"count": 41
+			"count": 42
 		},
 		{
 			"id": "sastra",
@@ -160,19 +174,19 @@
 					"id": "abhidharma",
 					"label": "Abhidharma",
 					"description": "Abhidharma treatises, including the Abhidharmakośa and its commentaries.",
-					"count": 24
+					"count": 25
 				},
 				{
 					"id": "madhyamaka",
 					"label": "Madhyamaka",
 					"description": "Works of the Middle Way school.",
-					"count": 34
+					"count": 41
 				},
 				{
 					"id": "yogacara",
 					"label": "Yogācāra",
 					"description": "Works of the Yogācāra (Vijñānavāda) school.",
-					"count": 28
+					"count": 30
 				},
 				{
 					"id": "madhyamaka-yogacara",
@@ -196,7 +210,7 @@
 					"id": "lekha",
 					"label": "Lekha",
 					"description": "Epistles and letters of advice.",
-					"count": 5
+					"count": 19
 				},
 				{
 					"id": "sastra-other",
@@ -205,7 +219,7 @@
 					"count": 3
 				}
 			],
-			"count": 195
+			"count": 219
 		},
 		{
 			"id": "tantra",
@@ -300,7 +314,7 @@
 					"id": "vyakarana",
 					"label": "Vyākaraṇa",
 					"description": "Grammar.",
-					"count": 3
+					"count": 4
 				},
 				{
 					"id": "alamkara",
@@ -327,7 +341,7 @@
 					"count": 6
 				}
 			],
-			"count": 15
+			"count": 16
 		},
 		{
 			"id": "other",
@@ -344,13 +358,31 @@
 					"id": "miscellaneous",
 					"label": "Miscellaneous",
 					"description": "Works not classified elsewhere.",
-					"count": 4
+					"count": 11
 				}
 			],
-			"count": 7
+			"count": 14
 		}
 	],
 	"works": [
+		{
+			"title": "*Saṃbādhāvakāśasūtra, fragment MS 2380/1/1 +",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:sambadhavakasasutra-schoyen-fragment",
+					"source": "iriab",
+					"sourceId": "sambadhavakasasutra-schoyen-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "*Saṃbādhāvakāśasūtra (six anusmṛtis; Mahākātyāyana), fragment MS 2380/1/1 + 2",
+					"slug": "iriab/sambadhavakasasutra-schoyen-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sambadhavakasasutra-schoyen-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sambadhavakasasutra-schoyen-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
 		{
 			"title": "108 Buddhist stotras",
 			"category": "stotra/stotra-buddha",
@@ -821,6 +853,30 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/464"
 				},
 				{
+					"ref": "iriab:abhidharmasamuccaya-leaves-part-xvi",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccaya-leaves-part-xvi",
+					"label": "ARIRIAB (XVI (2013), pp. 241–253 (diplomatic transcription of folios 1, 15, 18, 20, 23, 24); continued in ARIRIAB XVII (2014), pp. 195–205 (folios 29, 33, 39, 43, 44))",
+					"script": "iast",
+					"title": "Abhidharmasamuccaya",
+					"slug": "iriab/abhidharmasamuccaya-leaves-part-xvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccaya-leaves-part-xvii",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccaya-leaves-part-xvii",
+					"label": "ARIRIAB (XVII (2014), pp. 195–205 (diplomatic transcription of folios 29, 33, 39, 43, 44); continues ARIRIAB XVI (2013), pp. 241–253 (folios 1, 15, 18, 20, 23, 24))",
+					"script": "iast",
+					"title": "Abhidharmasamuccaya",
+					"slug": "iriab/abhidharmasamuccaya-leaves-part-xvii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P200C1848",
 					"source": "bdrc",
 					"sourceId": "P200C1848",
@@ -910,6 +966,157 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFB6D94AD.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFB6D94AD.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PFB6D94AD"
+				}
+			]
+		},
+		{
+			"title": "Abhidharmasamuccayavyākhyā",
+			"author": "Asaṅga (Abhidharmasamuccaya); commentary by an unknown author (Abhidharmasamuccayavyākhyā)",
+			"category": "sastra/abhidharma",
+			"editions": [
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-fols-2v4-8v4",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-fols-2v4-8v4",
+					"label": "ARIRIAB (XVIII (2015), pp. 275–285 (text on pp. 276–285))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (diplomatic transcription, fols. 2v4–8v4)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-fols-2v4-8v4",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-fols-2v4-8v4.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-fols-2v4-8v4.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-fols-40r6-46v5",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-fols-40r6-46v5",
+					"label": "ARIRIAB (24 (2021), pp. 99–110 (diplomatic transcription, pp. 100–110))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (fols. 40r6–46v5)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-fols-40r6-46v5",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-fols-40r6-46v5.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-fols-40r6-46v5.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-fols-8v4-18r1",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-fols-8v4-18r1",
+					"label": "ARIRIAB (XIX (2016), pp. 217–231 (text on pp. 218–231))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (diplomatic transcription, fols. 8v4–18r1)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-fols-8v4-18r1",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-fols-8v4-18r1.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-fols-8v4-18r1.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xx",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xx",
+					"label": "ARIRIAB (XX (2017), pp. 231–240 (fols. 18r1–23v4); one instalment of a serial diplomatic transcription (earlier: XVIII, XIX; later: XXI, XXVII–XXIX))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xx",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xx.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xx.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxi",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxi",
+					"label": "ARIRIAB (XXI (2018), pp. 299–308 (fols. 23v4–29r6); one instalment of a serial diplomatic transcription)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxii",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxii",
+					"label": "ARIRIAB (XXII (2019), pp. 217–226)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (diplomatic transcription, fols. 29r6–35v1)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxiii",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxiii",
+					"label": "ARIRIAB (XXIII (2020), pp. 117–128)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (diplomatic transcription, fols. 35v1–40r6)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxiii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxiii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxiii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxix",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxix",
+					"label": "ARIRIAB (XXIX (2026), pp. 131–137; folios 67v3–70v4)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxv",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxv",
+					"label": "ARIRIAB (25 (2022), pp. 73–83 (part of a serial diplomatic transcription: ARIRIAB 18–26; this part = fols. 46v5–51r4))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (folios 46v5–51r4)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxv",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxv.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxv.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxvi",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxvi",
+					"label": "ARIRIAB (26 (2023), pp. 97–107 (part of a serial diplomatic transcription: ARIRIAB 18–26; this part = fols. 51r4–57v1))",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā (folios 51r4–57v1)",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxvii",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxvii",
+					"label": "ARIRIAB (XXVII (2024), pp. 95–103 (of the series; text on pp. 96–102); folios 57v1–62r4)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxvii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxvii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxvii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:abhidharmasamuccayavyakhya-part-xxviii",
+					"source": "iriab",
+					"sourceId": "abhidharmasamuccayavyakhya-part-xxviii",
+					"label": "ARIRIAB (XXVIII (2025), pp. 163–173; folios 62r4–67v3)",
+					"script": "iast",
+					"title": "Abhidharmasamuccayavyākhyā",
+					"slug": "iriab/abhidharmasamuccayavyakhya-part-xxviii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxviii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccayavyakhya-part-xxviii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -1810,6 +2017,7 @@
 		{
 			"title": "Ajitasenavyākaraṇa",
 			"titleDeva": "अजितसेनव्याकरणम्",
+			"author": "unknown",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
 				{
@@ -1859,6 +2067,30 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%85%E0%A4%9C%E0%A4%BF%E0%A4%A4%E0%A4%B8%E0%A5%87%E0%A4%A8%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A4%A3%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%85%E0%A4%9C%E0%A4%BF%E0%A4%A4%E0%A4%B8%E0%A5%87%E0%A4%A8%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A4%B0%E0%A4%A3%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/408"
+				},
+				{
+					"ref": "iriab:ajitasenavyakarana",
+					"source": "iriab",
+					"sourceId": "ajitasenavyakarana",
+					"label": "ARIRIAB (StPSF I (2015), pp. 89–133 (transliteration of the St Petersburg manuscript SI 2085 and Hoernle fragments IOL San 701+708 and 1202))",
+					"script": "iast",
+					"title": "Ajitasenavyākaraṇa",
+					"slug": "iriab/ajitasenavyakarana",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ajitasenavyakarana.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ajitasenavyakarana.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:ajitasenavyakarana-gilgit",
+					"source": "iriab",
+					"sourceId": "ajitasenavyakarana-gilgit",
+					"label": "ARIRIAB (StPSF I (2015), pp. 89–133 (new transliteration of the Gilgit manuscript, printed in parallel with the St Petersburg manuscript))",
+					"script": "iast",
+					"title": "Ajitasenavyākaraṇa (Gilgit manuscript)",
+					"slug": "iriab/ajitasenavyakarana-gilgit",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ajitasenavyakarana-gilgit.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ajitasenavyakarana-gilgit.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -2601,6 +2833,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%AF%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%85%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%AF%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/410"
+				},
+				{
+					"ref": "iriab:arthaviniscayasutra-sackler-fragment-3",
+					"source": "iriab",
+					"sourceId": "arthaviniscayasutra-sackler-fragment-3",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Arthaviniścayasūtra (fragment 3, Sackler Museum, Peking University)",
+					"slug": "iriab/arthaviniscayasutra-sackler-fragment-3",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/arthaviniscayasutra-sackler-fragment-3.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/arthaviniscayasutra-sackler-fragment-3.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -2785,6 +3029,24 @@
 			]
 		},
 		{
+			"title": "Aṣṭasāhasrikā Prajñāpāramitā, the “missing” portion",
+			"category": "sutra/prajnaparamita",
+			"editions": [
+				{
+					"ref": "iriab:astasahasrika-missing-portion",
+					"source": "iriab",
+					"sourceId": "astasahasrika-missing-portion",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Aṣṭasāhasrikā Prajñāpāramitā, the “missing” portion (Mitra 1887–88, p. 464/465 = Vaidya 1960, p. 229)",
+					"slug": "iriab/astasahasrika-missing-portion",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/astasahasrika-missing-portion.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/astasahasrika-missing-portion.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Atisha-virachita Ekadasagrantha",
 			"category": "sastra/madhyamaka-yogacara",
 			"editions": [
@@ -2894,6 +3156,25 @@
 			]
 		},
 		{
+			"title": "Avadāna Anthology from Merv",
+			"author": "unknown",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:merv-avadana-anthology",
+					"source": "iriab",
+					"sourceId": "merv-avadana-anthology",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Avadāna Anthology from Merv (Merv Avadānasaṃgraha)",
+					"slug": "iriab/merv-avadana-anthology",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/merv-avadana-anthology.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/merv-avadana-anthology.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Avadānakalpalatā",
 			"titleDeva": "अवदानकल्पलता",
 			"author": "Kṣemendra",
@@ -2981,6 +3262,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A4%A4%E0%A4%95%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A4%A4%E0%A4%95%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/361"
+				}
+			]
+		},
+		{
+			"title": "Avadānaśataka § 72 Supriyā",
+			"author": "unknown (Avadānaśataka)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:avadanasataka-supriya-gilgit-fe3281",
+					"source": "iriab",
+					"sourceId": "avadanasataka-supriya-gilgit-fe3281",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Avadānaśataka § 72 Supriyā (Gilgit fragments FE 3281–3282)",
+					"slug": "iriab/avadanasataka-supriya-gilgit-fe3281",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/avadanasataka-supriya-gilgit-fe3281.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/avadanasataka-supriya-gilgit-fe3281.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -4276,6 +4576,25 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/P08B35124.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/P08B35124.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P08B35124"
+				}
+			]
+		},
+		{
+			"title": "Bhadrakalpikasūtra",
+			"author": "unknown (Mahāyāna sūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:bhadrakalpikasutra-or8212-1695",
+					"source": "iriab",
+					"sourceId": "bhadrakalpikasutra-or8212-1695",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Bhadrakalpikasūtra (fragment Or.8212/1695 + BH4-11)",
+					"slug": "iriab/bhadrakalpikasutra-or8212-1695",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/bhadrakalpikasutra-or8212-1695.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/bhadrakalpikasutra-or8212-1695.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -5818,6 +6137,25 @@
 			]
 		},
 		{
+			"title": "Buddhapālita-mūlamadhyamaka-vṛtti, Sanskrit manuscript from Tibet",
+			"author": "Buddhapālita",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:buddhapalita-vrtti-tibet-manuscripts-part-x",
+					"source": "iriab",
+					"sourceId": "buddhapalita-vrtti-tibet-manuscripts-part-x",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Buddhapālita-mūlamadhyamaka-vṛtti, Sanskrit manuscript from Tibet (formerly China Ethnic Library, Beijing; now Tibet Museum, Lhasa)",
+					"slug": "iriab/buddhapalita-vrtti-tibet-manuscripts-part-x",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/buddhapalita-vrtti-tibet-manuscripts-part-x.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/buddhapalita-vrtti-tibet-manuscripts-part-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Buddhastotram",
 			"titleDeva": "बुद्धस्तोत्रम्",
 			"category": "stotra/stotra-buddha",
@@ -5876,6 +6214,25 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P9FF05422.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P9FF05422.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P9FF05422"
+				}
+			]
+		},
+		{
+			"title": "Buddhist Sanskrit fragments recently found in Xinjiang Province",
+			"author": "various (as identified by the editor)",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:xinjiang-sanskrit-fragments-ye-xiii",
+					"source": "iriab",
+					"sourceId": "xinjiang-sanskrit-fragments-ye-xiii",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Buddhist Sanskrit fragments recently found in Xinjiang Province (20 fragments)",
+					"slug": "iriab/xinjiang-sanskrit-fragments-ye-xiii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/xinjiang-sanskrit-fragments-ye-xiii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/xinjiang-sanskrit-fragments-ye-xiii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -6468,6 +6825,68 @@
 			]
 		},
 		{
+			"title": "Catuḥstotravivaraṇa",
+			"author": "unknown (commentary on Nāgārjuna's Catuḥstava)",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:catuhstotravivarana-fols-1v-5v",
+					"source": "iriab",
+					"sourceId": "catuhstotravivarana-fols-1v-5v",
+					"label": "ARIRIAB (24 (2021), pp. 111–117)",
+					"script": "iast",
+					"title": "Catuḥstotravivaraṇa (fols. 1v1–5v5, on Lokātītastava 1–13; colophon 47r–v)",
+					"slug": "iriab/catuhstotravivarana-fols-1v-5v",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-fols-1v-5v.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-fols-1v-5v.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:catuhstotravivarana-part-xxvii",
+					"source": "iriab",
+					"sourceId": "catuhstotravivarana-part-xxvii",
+					"label": "ARIRIAB (XXVII (2024), pp. 105–115; folios 13r5–23r1, commentary on the Niraupamyastava)",
+					"script": "iast",
+					"title": "Catuḥstotravivaraṇa",
+					"slug": "iriab/catuhstotravivarana-part-xxvii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxvii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxvii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:catuhstotravivarana-part-xxviii",
+					"source": "iriab",
+					"sourceId": "catuhstotravivarana-part-xxviii",
+					"label": "ARIRIAB (XXVIII (2025), pp. 175–186; folios 23r1–33r5, commentary on the Acintyastava)",
+					"script": "iast",
+					"title": "Catuḥstotravivaraṇa",
+					"slug": "iriab/catuhstotravivarana-part-xxviii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxviii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxviii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Catuḥstotravivaraṇa: commentary on Lokātītastava 14–28",
+			"author": "commentary on Nāgārjuna's Catuḥstava (author of the vivaraṇa not stated in the edition)",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:catuhstotravivarana-part-xxvi",
+					"source": "iriab",
+					"sourceId": "catuhstotravivarana-part-xxvi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Catuḥstotravivaraṇa (folios 6r1–13r5): commentary on Lokātītastava 14–28",
+					"slug": "iriab/catuhstotravivarana-part-xxvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Caturdharmanirdeśasūtra",
 			"titleDeva": "आर्यचतुर्धर्मनिर्देशसूत्रम्",
 			"category": "sutra/mahayana-sutra",
@@ -6809,6 +7228,25 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/c/C%C4%ABvaravastu.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/c/C%C4%ABvaravastu.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_cIvaravastu.xml"
+				}
+			]
+		},
+		{
+			"title": "Colophon of the 'Larger Prajñāpāramitā'",
+			"author": "Anonymous (scribal colophon)",
+			"category": "sutra/prajnaparamita",
+			"editions": [
+				{
+					"ref": "iriab:prajnaparamita-gilgit-colophon",
+					"source": "iriab",
+					"sourceId": "prajnaparamita-gilgit-colophon",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Colophon of the 'Larger Prajñāpāramitā' (Gilgit, fol. 308)",
+					"slug": "iriab/prajnaparamita-gilgit-colophon",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/prajnaparamita-gilgit-colophon.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/prajnaparamita-gilgit-colophon.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -7199,6 +7637,42 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/d/Da%C5%9Bas%C4%81hasrik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81%2C%201%20and%202%20translated%20from%20Tibetan.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/d/Da%C5%9Bas%C4%81hasrik%C4%81%20praj%C3%B1%C4%81p%C4%81ramit%C4%81%2C%201%20and%202%20translated%20from%20Tibetan.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dazasAhasrikA-prajJApAramitA1-and-2-translated-from-tibetan.xml"
+				}
+			]
+		},
+		{
+			"title": "Dedicatory inscription of the Buddha image donated by Vappaṭa and Dhruvabhaṭā",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:sakya-vappata-dhruvabhata-inscription",
+					"source": "iriab",
+					"sourceId": "sakya-vappata-dhruvabhata-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Dedicatory inscription of the Buddha image donated by Vappaṭa and Dhruvabhaṭā (Sakya Monastery)",
+					"slug": "iriab/sakya-vappata-dhruvabhata-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sakya-vappata-dhruvabhata-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sakya-vappata-dhruvabhata-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Dedicatory inscription of the Śākyamuni statue donated by the monk Vīryaśanti",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:viryasanti-sakyamuni-inscription",
+					"source": "iriab",
+					"sourceId": "viryasanti-sakyamuni-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Dedicatory inscription of the Śākyamuni statue donated by the monk Vīryaśanti",
+					"slug": "iriab/viryasanti-sakyamuni-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/viryasanti-sakyamuni-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/viryasanti-sakyamuni-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -8247,6 +8721,24 @@
 			]
 		},
 		{
+			"title": "Fragment 464:18 from the Northern Grottoes of Dunhuang",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:dunhuang-sanskrit-fragment-duan-peng",
+					"source": "iriab",
+					"sourceId": "dunhuang-sanskrit-fragment-duan-peng",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Fragment 464:18 from the Northern Grottoes of Dunhuang (Buddhist calendar; quotations of Vasubandhu and Guṇaprabha)",
+					"slug": "iriab/dunhuang-sanskrit-fragment-duan-peng",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/dunhuang-sanskrit-fragment-duan-peng.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/dunhuang-sanskrit-fragment-duan-peng.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Fragments of Prajñāpāramitā texts",
 			"category": "sutra/prajnaparamita",
 			"editions": [
@@ -8502,6 +8994,25 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/g/Garbh%C4%81vakr%C4%81ntyavad%C4%81na.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/g/Garbh%C4%81vakr%C4%81ntyavad%C4%81na.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kSemendra-garbhAvakrAntyavadAna.xml"
+				}
+			]
+		},
+		{
+			"title": "Gilgit bronze inscriptions and further Palola Ṣāhi inscriptions",
+			"author": "unknown (dedicatory inscriptions)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:gilgit-bronze-inscriptions-hinuber-xii",
+					"source": "iriab",
+					"sourceId": "gilgit-bronze-inscriptions-hinuber-xii",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Gilgit bronze inscriptions and further Palola Ṣāhi inscriptions (More on Gilgit Bronzes)",
+					"slug": "iriab/gilgit-bronze-inscriptions-hinuber-xii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/gilgit-bronze-inscriptions-hinuber-xii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/gilgit-bronze-inscriptions-hinuber-xii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -8997,6 +9508,25 @@
 			]
 		},
 		{
+			"title": "Haribhaṭṭa's Jātakamālā: fragment among the Gilgit manuscripts, stanzas 79–91",
+			"author": "Haribhaṭṭa",
+			"category": "sutra/jataka",
+			"editions": [
+				{
+					"ref": "iriab:jatakamala-haribhatta-gilgit-fragment",
+					"source": "iriab",
+					"sourceId": "jatakamala-haribhatta-gilgit-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Haribhaṭṭa's Jātakamālā (Siṃhajātaka, Jātakamālā 32): fragment among the Gilgit manuscripts, stanzas 79–91",
+					"slug": "iriab/jatakamala-haribhatta-gilgit-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Hārītīstotra",
 			"titleDeva": "हारीतीस्तोत्रम्",
 			"category": "stotra/stotra-deity",
@@ -9103,6 +9633,24 @@
 			]
 		},
 		{
+			"title": "Hastinī-jātaka and Hastinī-parikalpa",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:hastini-mahavastu",
+					"source": "iriab",
+					"sourceId": "hastini-mahavastu",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Hastinī-jātaka and Hastinī-parikalpa (Mahāvastu)",
+					"slug": "iriab/hastini-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/hastini-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/hastini-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Hayagrīvavidyā",
 			"titleDeva": "हयग्रीवविद्या",
 			"category": "sutra/dharani",
@@ -9142,6 +9690,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%B9%E0%A4%AF%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%B9%E0%A4%AF%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/392"
+				}
+			]
+		},
+		{
+			"title": "Hemis Avalokiteśvara inscription",
+			"author": "unknown (inscription)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:hemis-avalokitesvara-ye-dharma-inscription",
+					"source": "iriab",
+					"sourceId": "hemis-avalokitesvara-ye-dharma-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Hemis Avalokiteśvara inscription (ye dharmā formula with donation)",
+					"slug": "iriab/hemis-avalokitesvara-ye-dharma-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/hemis-avalokitesvara-ye-dharma-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/hemis-avalokitesvara-ye-dharma-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -9489,6 +10056,99 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A5%8B%E0%A4%AA%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A5%8B%E0%A4%AA%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/954"
+				}
+			]
+		},
+		{
+			"title": "Inscription on a standing bronze Buddha in Gupta style",
+			"author": "Inscription",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:falk-gupta-style-bronze-inscription",
+					"source": "iriab",
+					"sourceId": "falk-gupta-style-bronze-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Inscription on a standing bronze Buddha in Gupta style (London)",
+					"slug": "iriab/falk-gupta-style-bronze-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/falk-gupta-style-bronze-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/falk-gupta-style-bronze-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Inscription on the bronze of Pekapharṇa",
+			"author": "Inscription",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:pekapharna-bronze-inscription",
+					"source": "iriab",
+					"sourceId": "pekapharna-bronze-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Inscription on the bronze of Pekapharṇa",
+					"slug": "iriab/pekapharna-bronze-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pekapharna-bronze-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pekapharna-bronze-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Inscription on the incense burner from the MacLean Collection, Chicago",
+			"author": "unknown (dedicatory inscription)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:incense-burner-maclean-saladitya-inscription",
+					"source": "iriab",
+					"sourceId": "incense-burner-maclean-saladitya-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Inscription on the incense burner from the MacLean Collection, Chicago (Śīlādityanandin, AD 532)",
+					"slug": "iriab/incense-burner-maclean-saladitya-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/incense-burner-maclean-saladitya-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/incense-burner-maclean-saladitya-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Inscriptions on the five Dhyāni-Buddhas donated by Yaśodeva",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:dhyani-buddhas-yasodeva-inscriptions",
+					"source": "iriab",
+					"sourceId": "dhyani-buddhas-yasodeva-inscriptions",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Inscriptions on the five Dhyāni-Buddhas (Vairocana, Akṣobhya, Ratnasambhava, Amitābha, Amoghasiddhi) donated by Yaśodeva",
+					"slug": "iriab/dhyani-buddhas-yasodeva-inscriptions",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/dhyani-buddhas-yasodeva-inscriptions.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/dhyani-buddhas-yasodeva-inscriptions.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Inscriptions on three new bronzes from Gilgit",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:gilgit-bronze-inscriptions-x",
+					"source": "iriab",
+					"sourceId": "gilgit-bronze-inscriptions-x",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Inscriptions on three new bronzes from Gilgit (Prajñāpāramitā; Buddha Viśvabhū; Rubin Museum pedestal)",
+					"slug": "iriab/gilgit-bronze-inscriptions-x",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/gilgit-bronze-inscriptions-x.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/gilgit-bronze-inscriptions-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -10287,8 +10947,112 @@
 			]
 		},
 		{
+			"title": "Karmavibhaṅga",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:karmavibhanga-cambridge-excerpts",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-cambridge-excerpts",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Karmavibhaṅga (Cambridge manuscript, two excerpts)",
+					"slug": "iriab/karmavibhanga-cambridge-excerpts",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-cambridge-excerpts.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-cambridge-excerpts.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Karmavibhaṅga, first three folios of Manuscript B",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:karmavibhanga-ms-b-first-folios-ix",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-ms-b-first-folios-ix",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Karmavibhaṅga(sūtra), first three folios of Manuscript B",
+					"slug": "iriab/karmavibhanga-ms-b-first-folios-ix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-b-first-folios-ix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-b-first-folios-ix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Karmavibhaṅga, Hemraj Sharman's notebook transcription of MS B",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:karmavibhanga-ms-b-notebook-ix",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-ms-b-notebook-ix",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Karmavibhaṅga, Hemraj Sharman's notebook transcription of MS B (romanized text of fourth folio, pp. 1 and 3 of the notebook)",
+					"slug": "iriab/karmavibhanga-ms-b-notebook-ix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-b-notebook-ix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-b-notebook-ix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Karmavibhaṅga: Sanskrit fragments in the Schøyen Collection",
+			"author": "Anonymous (Karmavibhaṅga)",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:karmavibhanga-schoyen-fragments",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-schoyen-fragments",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Karmavibhaṅga: Sanskrit fragments in the Schøyen Collection (SC 2382/49a, 176, 252, 255, 258a, uf1/1b, uf19/1b)",
+					"slug": "iriab/karmavibhanga-schoyen-fragments",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Karmavibhaṅgasūtra, Manuscript E",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:karmavibhanga-ms-e-part-ix",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-ms-e-part-ix",
+					"label": "ARIRIAB (IX (2006), pp. 49–59 (article 'One More Manuscript of the Karmavibhaṅga in the National Archives of Nepal, Kathmandu: Transliteration of Manuscript E (1)', pp. 43–60); continued in ARIRIAB X (2007), see karmavibhanga-ms-e-part-x.md)",
+					"script": "iast",
+					"title": "Karmavibhaṅgasūtra, Manuscript E (part 1: ff. 1r–4v.1, opening story and list of karmas)",
+					"slug": "iriab/karmavibhanga-ms-e-part-ix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-e-part-ix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-e-part-ix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhanga-ms-e-part-x",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-ms-e-part-x",
+					"label": "ARIRIAB (X (2007), pp. 93–115 (article 'One More Manuscript of the Karmavibhaṅga in the National Archives of Nepal, Kathmandu: Transliteration of Manuscript E (2)', pp. 93–116); continues ARIRIAB IX (2006), see karmavibhanga-ms-e-part-ix.md)",
+					"script": "iast",
+					"title": "Karmavibhaṅgasūtra, Manuscript E (part 2: ff. 4v.2–10v.10, sections 1–32 with the opening of § 32-a)",
+					"slug": "iriab/karmavibhanga-ms-e-part-x",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-e-part-x.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-e-part-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Karmavibhaṅgopadeśa",
 			"titleDeva": "कर्मविभङ्गोपदेशः",
+			"author": "unknown",
 			"category": "sastra/yogacara",
 			"editions": [
 				{
@@ -10326,6 +11090,78 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BE%E0%A4%9A%E0%A4%BE%E0%A4%B0/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%AA%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/448"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xii",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xii",
+					"label": "ARIRIAB (XII (2009), pp. 21–27)",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xiii",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xiii",
+					"label": "ARIRIAB (XIII (2010), pp. 75–85 [Transliteration of the Nepalese Manuscript A (2); text pp. 75–83, to be continued])",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xiii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xiii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xiii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xiv",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xiv",
+					"label": "ARIRIAB (XIV (2011), pp. 25–33 [Transliteration of the Nepalese Manuscript A (3); text pp. 25–31, to be continued])",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xiv",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xiv.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xiv.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xv",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xv",
+					"label": "ARIRIAB (XV (2012), pp. 105–116 [Transliteration of the Nepalese Manuscript A (4); text pp. 105–114, to be continued])",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xv",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xv.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xv.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xvi",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xvi",
+					"label": "ARIRIAB (XVI (2013), pp. 91–96 [Transliteration of the Nepalese Manuscript A (5); text pp. 91–95, to be continued])",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhangopadesa-part-xvii",
+					"source": "iriab",
+					"sourceId": "karmavibhangopadesa-part-xvii",
+					"label": "ARIRIAB (XVII (2014), pp. 95–108 [Transliteration of the Nepalese Manuscript A (6); text pp. 95–104, concluding instalment])",
+					"script": "iast",
+					"title": "Karmavibhaṅgopadeśa",
+					"slug": "iriab/karmavibhangopadesa-part-xvii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhangopadesa-part-xvii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhangopadesa-part-xvii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -10381,6 +11217,24 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P663F02E5.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P663F02E5.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P663F02E5"
+				}
+			]
+		},
+		{
+			"title": "Kāśyapaparivarta and Pañcapāramitānirdeśasūtra",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments",
+					"source": "iriab",
+					"sourceId": "mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Kāśyapaparivarta (Mannerheim Fragment No. 3 + Hoernle Fragments No. 143, S.B. 38 + S.B. 39) and Pañcapāramitānirdeśasūtra (Mannerheim Fragment No. 9)",
+					"slug": "iriab/mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -11964,6 +12818,24 @@
 			]
 		},
 		{
+			"title": "Āryamahādaṇḍanāmadhāraṇī",
+			"category": "sutra/dharani",
+			"editions": [
+				{
+					"ref": "iriab:mahadandanamadharani-sackler-fragment-2",
+					"source": "iriab",
+					"sourceId": "mahadandanamadharani-sackler-fragment-2",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Āryamahādaṇḍanāmadhāraṇī (fragment 2, Sackler Museum, Peking University)",
+					"slug": "iriab/mahadandanamadharani-sackler-fragment-2",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahadandanamadharani-sackler-fragment-2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahadandanamadharani-sackler-fragment-2.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Mahākālastotram",
 			"titleDeva": "महाकालस्तोत्रम्",
 			"category": "stotra/stotra-deity",
@@ -12010,6 +12882,79 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81karmavibha%E1%B9%85ga.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81karmavibha%E1%B9%85ga.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAkarmavibhaGga.xml"
+				}
+			]
+		},
+		{
+			"title": "Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS and MS transliterations",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:mahakarmavibhanga-part-vi",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-vi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS[B] and MS[A] transliterations",
+					"slug": "iriab/mahakarmavibhanga-part-vi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-vi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-vi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra",
+			"author": "Anonymous",
+			"category": "sutra/agama",
+			"editions": [
+				{
+					"ref": "iriab:mahakarmavibhanga-part-II",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-II",
+					"label": "ARIRIAB (II (1999), pp. 93–128 (transliteration pp. 109–125))",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra (transliterations of the Nepalese manuscripts, instalment II)",
+					"slug": "iriab/mahakarmavibhanga-part-II",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-II.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-II.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:mahakarmavibhanga-part-III",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-III",
+					"label": "ARIRIAB (III (2000), pp. 149–163 (transliteration pp. 150–163))",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra (transliterations of the Nepalese manuscripts, instalment III)",
+					"slug": "iriab/mahakarmavibhanga-part-III",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-III.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-III.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:mahakarmavibhanga-part-IV",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-IV",
+					"label": "ARIRIAB (IV (2001), pp. 117–141 (transliteration pp. 118–141))",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra (transliterations of the Nepalese manuscripts, instalment IV)",
+					"slug": "iriab/mahakarmavibhanga-part-IV",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-IV.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-IV.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:mahakarmavibhanga-part-V",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-V",
+					"label": "ARIRIAB (V (2002), pp. 87–133 (transliteration pp. 88–134))",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra (transliterations of the Nepalese manuscripts, instalment V)",
+					"slug": "iriab/mahakarmavibhanga-part-V",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-V.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-V.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -12230,6 +13175,25 @@
 			]
 		},
 		{
+			"title": "Mahāparinirvāṇa-mahāsūtra",
+			"author": "unknown (Mahāyāna Mahāparinirvāṇa-mahāsūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:mahaparinirvana-mahasutra-petrovsky",
+					"source": "iriab",
+					"sourceId": "mahaparinirvana-mahasutra-petrovsky",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mahāparinirvāṇa-mahāsūtra (Petrovsky Collection fragments, 1)",
+					"slug": "iriab/mahaparinirvana-mahasutra-petrovsky",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahaparinirvana-mahasutra-petrovsky.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahaparinirvana-mahasutra-petrovsky.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Mahāparinirvāṇasūtra",
 			"titleDeva": "महापरिनिर्वाणसूत्रम्",
 			"category": "sutra/agama",
@@ -12312,11 +13276,24 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%86%E0%A4%97%E0%A4%AE/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%86%E0%A4%97%E0%A4%AE/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/968"
+				},
+				{
+					"ref": "iriab:mahapratiharyasutra",
+					"source": "iriab",
+					"sourceId": "mahapratiharyasutra",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mahāprātihāryasūtra (Gilgit manuscripts, New Delhi Collection nos. 21 and 56h)",
+					"slug": "iriab/mahapratiharyasutra",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahapratiharyasutra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahapratiharyasutra.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
 		{
 			"title": "Mahāpratisarā Pañcarakṣā",
+			"author": "unknown (dhāraṇī)",
 			"category": "sutra/dharani",
 			"editions": [
 				{
@@ -12330,6 +13307,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81pratisar%C4%81%20Pa%C3%B1carak%E1%B9%A3%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81pratisar%C4%81%20Pa%C3%B1carak%E1%B9%A3%C4%81.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahApratisarA-paJcarakSA.xml"
+				},
+				{
+					"ref": "iriab:mahapratisara-pancaraksa-gilgit-fe3320",
+					"source": "iriab",
+					"sourceId": "mahapratisara-pancaraksa-gilgit-fe3320",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mahāpratisārā Pañcarakṣā (Gilgit fragments FE 3320, 3322, with FE 1109)",
+					"slug": "iriab/mahapratisara-pancaraksa-gilgit-fe3320",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahapratisara-pancaraksa-gilgit-fe3320.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahapratisara-pancaraksa-gilgit-fe3320.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -12425,6 +13414,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/381"
+				}
+			]
+		},
+		{
+			"title": "Mahāpratisarāvidyārājñī",
+			"author": "unknown (dhāraṇī)",
+			"category": "sutra/dharani",
+			"editions": [
+				{
+					"ref": "iriab:mahapratisara-vidyarajni-gilgit-fe3119",
+					"source": "iriab",
+					"sourceId": "mahapratisara-vidyarajni-gilgit-fe3119",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mahāpratisarāvidyārājñī (Gilgit fragments FE 3119/3120)",
+					"slug": "iriab/mahapratisara-vidyarajni-gilgit-fe3119",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahapratisara-vidyarajni-gilgit-fe3119.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahapratisara-vidyarajni-gilgit-fe3119.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -13550,6 +14558,30 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/851"
 				},
 				{
+					"ref": "iriab:maitreyavyakarana",
+					"source": "iriab",
+					"sourceId": "maitreyavyakarana",
+					"label": "ARIRIAB (XVI (2013), pp. 217–231 (text pp. 218–231))",
+					"script": "iast",
+					"title": "Maitreyavyākaraṇa",
+					"slug": "iriab/maitreyavyakarana",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/maitreyavyakarana.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/maitreyavyakarana.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:maitreyavyakarana-gilgit",
+					"source": "iriab",
+					"sourceId": "maitreyavyakarana-gilgit",
+					"label": "ARIRIAB (XXII (2019), pp. 193–207)",
+					"script": "iast",
+					"title": "Maitreyavyākaraṇa (Gilgit manuscript)",
+					"slug": "iriab/maitreyavyakarana-gilgit",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/maitreyavyakarana-gilgit.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/maitreyavyakarana-gilgit.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:PC4C73EEC",
 					"source": "bdrc",
 					"sourceId": "PC4C73EEC",
@@ -13627,6 +14659,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%82%E0%A4%9C%E0%A5%81%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%82%E0%A4%9C%E0%A5%81%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/773"
+				}
+			]
+		},
+		{
+			"title": "Maṅgalahaṃsikā donation colophon and bronze inscriptions",
+			"author": "unknown (dedicatory inscriptions)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:mangalahamsika-donation-inscriptions",
+					"source": "iriab",
+					"sourceId": "mangalahamsika-donation-inscriptions",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Maṅgalahaṃsikā donation colophon and bronze inscriptions (Palola Ṣāhi, Gilgit)",
+					"slug": "iriab/mangalahamsika-donation-inscriptions",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mangalahamsika-donation-inscriptions.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mangalahamsika-donation-inscriptions.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -14365,6 +15416,44 @@
 			]
 		},
 		{
+			"title": "Mūlamadhyamakakārikā and Buddhapālita's commentary, chapters VII ff.",
+			"author": "Nāgārjuna (Mūlamadhyamakakārikā); Buddhapālita (commentary)",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:buddhapalita-mulamadhyamakavrtti-part-xi",
+					"source": "iriab",
+					"sourceId": "buddhapalita-mulamadhyamakavrtti-part-xi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mūlamadhyamakakārikā and Buddhapālita's commentary, chapters VII ff. (romanized text from the Sanskrit manuscripts from Tibet)",
+					"slug": "iriab/buddhapalita-mulamadhyamakavrtti-part-xi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/buddhapalita-mulamadhyamakavrtti-part-xi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/buddhapalita-mulamadhyamakavrtti-part-xi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Mūlamadhyamakakārikā, Sanskrit manuscript from Tibet",
+			"author": "Nāgārjuna",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"source": "iriab",
+					"sourceId": "mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mūlamadhyamakakārikā (Nāgārjuna), Sanskrit manuscript from Tibet (formerly China Ethnic Library, Beijing; now Tibet Museum, Lhasa)",
+					"slug": "iriab/mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Mūlasarvāstivāda-vinayavastu",
 			"titleDeva": "मूलसर्वास्तिवाद विनयवस्तु",
 			"category": "vinaya/vinayavastu",
@@ -14682,6 +15771,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%A8%E0%A5%88%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%B6%E0%A5%80%E0%A4%83%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A4%BF%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%A8%E0%A5%88%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%20%E0%A4%AD%E0%A4%97%E0%A4%B5%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%86%E0%A4%B6%E0%A5%80%E0%A4%83%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%81%E0%A4%A4%E0%A4%BF%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/928"
+				}
+			]
+		},
+		{
+			"title": "Nālakapraśnāḥ, Mahāvastu",
+			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:nalakaprasna-mahavastu",
+					"source": "iriab",
+					"sourceId": "nalakaprasna-mahavastu",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Nālakapraśnāḥ (The Questions of Nālaka), Mahāvastu",
+					"slug": "iriab/nalakaprasna-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/nalakaprasna-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/nalakaprasna-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -15426,6 +16534,44 @@
 			]
 		},
 		{
+			"title": "Padumāvatīye jātakaṃ",
+			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:padumavatiye-jataka",
+					"source": "iriab",
+					"sourceId": "padumavatiye-jataka",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Padumāvatīye jātakaṃ (Mahāvastu)",
+					"slug": "iriab/padumavatiye-jataka",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-jataka.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-jataka.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Padumāvatīye parikalpaḥ",
+			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:padumavatiye-parikalpa",
+					"source": "iriab",
+					"sourceId": "padumavatiye-parikalpa",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Padumāvatīye parikalpaḥ (Mahāvastu)",
+					"slug": "iriab/padumavatiye-parikalpa",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-parikalpa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-parikalpa.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Pāṃśupradāna-avadāna",
 			"category": "sutra/avadana",
 			"editions": [
@@ -15440,6 +16586,44 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/P%C4%81%E1%B9%83%C5%9Buprad%C4%81na-avad%C4%81na.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/P%C4%81%E1%B9%83%C5%9Buprad%C4%81na-avad%C4%81na.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pAMzupradAna-avadAna.xml"
+				}
+			]
+		},
+		{
+			"title": "Pañca vāṇijaśatā, prose version",
+			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:pancavanijasata-mahavastu-prose",
+					"source": "iriab",
+					"sourceId": "pancavanijasata-mahavastu-prose",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Pañca vāṇijaśatā (Mahāvastu), prose version",
+					"slug": "iriab/pancavanijasata-mahavastu-prose",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Pañca vāṇijaśatā, verse version",
+			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:pancavanijasata-mahavastu-verse",
+					"source": "iriab",
+					"sourceId": "pancavanijasata-mahavastu-verse",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Pañca vāṇijaśatā (Mahāvastu), verse version",
+					"slug": "iriab/pancavanijasata-mahavastu-verse",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -15794,6 +16978,24 @@
 			]
 		},
 		{
+			"title": "Pañcaviṃśatisāhasrikā Prajñāpāramitā, Mannerheim Fragments Nos. 7 and",
+			"category": "sutra/prajnaparamita",
+			"editions": [
+				{
+					"ref": "iriab:mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments",
+					"source": "iriab",
+					"sourceId": "mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Pañcaviṃśatisāhasrikā Prajñāpāramitā, Mannerheim Fragments Nos. 7 and 8 (Helsinki University Library, Finno-Ugrian Society deposit)",
+					"slug": "iriab/mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Pāṇḍulohitakavastu",
 			"category": "vinaya/vinayavastu",
 			"editions": [
@@ -16057,6 +17259,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/497"
 				},
 				{
+					"ref": "iriab:paramitasamasa-gilgit-fol-57",
+					"source": "iriab",
+					"sourceId": "paramitasamasa-gilgit-fol-57",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Pāramitāsamāsa (Dānapāramitāsamāsa, chapter 1, verses 6–46)",
+					"slug": "iriab/paramitasamasa-gilgit-fol-57",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/paramitasamasa-gilgit-fol-57.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/paramitasamasa-gilgit-fol-57.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P76772A64",
 					"source": "bdrc",
 					"sourceId": "P76772A64",
@@ -16213,6 +17427,44 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Patna%20Dharmapada.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Patna%20Dharmapada.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_patna-dharmapada.xml"
+				}
+			]
+		},
+		{
+			"title": "Pedestal inscription of Śirika and the Saheth-Maheth Bodhisatva inscription",
+			"author": "unknown (dedicatory inscriptions)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:sirika-pedestal-inscription-mathura",
+					"source": "iriab",
+					"sourceId": "sirika-pedestal-inscription-mathura",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Pedestal inscription of Śirika (Bodhisatva image from Mathurā) and the Saheth-Maheth Bodhisatva inscription (provisional new reading)",
+					"slug": "iriab/sirika-pedestal-inscription-mathura",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sirika-pedestal-inscription-mathura.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sirika-pedestal-inscription-mathura.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Phanigiri octagonal-pillar inscription of Rudrapuruṣadatta, Sanskrit part",
+			"author": "unknown (inscription)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:phanigiri-rudrapurusadatta-inscription",
+					"source": "iriab",
+					"sourceId": "phanigiri-rudrapurusadatta-inscription",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Phanigiri octagonal-pillar inscription of Rudrapuruṣadatta (Buddhist poem), Sanskrit part",
+					"slug": "iriab/phanigiri-rudrapurusadatta-inscription",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/phanigiri-rudrapurusadatta-inscription.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/phanigiri-rudrapurusadatta-inscription.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -16608,6 +17860,43 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P81B01155.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P81B01155.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P81B01155"
+				}
+			]
+		},
+		{
+			"title": "Prajñāpāramitāratnaguṇasaṃcayagāthā XIV 4–8, Indic blockprint fragment from Turfan",
+			"category": "sutra/prajnaparamita",
+			"editions": [
+				{
+					"ref": "iriab:prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"source": "iriab",
+					"sourceId": "prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prajñāpāramitāratnaguṇasaṃcayagāthā (Rgs) XIV 4–8, Indic blockprint fragment from Turfan",
+					"slug": "iriab/prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Prajñāpāramitāratnaguṇasaṃcayagāthāvyākhyā",
+			"author": "Haribhadra",
+			"category": "sutra/prajnaparamita",
+			"editions": [
+				{
+					"ref": "iriab:ratnagunasamcayagathavyakhya-fragment",
+					"source": "iriab",
+					"sourceId": "ratnagunasamcayagathavyakhya-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prajñāpāramitāratnaguṇasaṃcayagāthāvyākhyā (fragment)",
+					"slug": "iriab/ratnagunasamcayagathavyakhya-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ratnagunasamcayagathavyakhya-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ratnagunasamcayagathavyakhya-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -17216,6 +18505,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/533"
 				},
 				{
+					"ref": "iriab:prasannapada-bodleian-fragment",
+					"source": "iriab",
+					"sourceId": "prasannapada-bodleian-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prasannapadā (fragment, chapter 24)",
+					"slug": "iriab/prasannapada-bodleian-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/prasannapada-bodleian-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/prasannapada-bodleian-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P0B31B28B",
 					"source": "bdrc",
 					"sourceId": "P0B31B28B",
@@ -17321,6 +18622,25 @@
 			]
 		},
 		{
+			"title": "Prātimokṣasūtra of the Mahāsāṃghika-vādins",
+			"author": "unknown (Vinaya text of the Mahāsāṃghika-Lokottaravādins)",
+			"category": "vinaya/pratimoksa",
+			"editions": [
+				{
+					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xi",
+					"source": "iriab",
+					"sourceId": "pratimoksasutra-mahasamghika-fragments-part-xi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prātimokṣasūtra of the Mahāsāṃghika-(Lokottara)vādins (fragments of a manuscript, 1)",
+					"slug": "iriab/pratimoksasutra-mahasamghika-fragments-part-xi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Prātimokṣasūtra of the Mahāsāṃghikas",
 			"category": "vinaya/pratimoksa",
 			"editions": [
@@ -17335,6 +18655,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Mah%C4%81s%C4%81%E1%B9%83ghikas.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Mah%C4%81s%C4%81%E1%B9%83ghikas.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-mahAsAMghikas.xml"
+				},
+				{
+					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xvi",
+					"source": "iriab",
+					"sourceId": "pratimoksasutra-mahasamghika-fragments-part-xvi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prātimokṣasūtra of the Mahāsāṃghika(-Lokottaravādin)s (manuscript fragments, part 2)",
+					"slug": "iriab/pratimoksasutra-mahasamghika-fragments-part-xvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -18101,6 +19433,63 @@
 			]
 		},
 		{
+			"title": "Ratnaketuparivarta, more fragments: fragments 1 and",
+			"author": "unknown (Mahāyāna sūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:ratnaketuparivarta-saerji-part-xiii",
+					"source": "iriab",
+					"sourceId": "ratnaketuparivarta-saerji-part-xiii",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Ratnaketuparivarta (Mahāsaṃnipātasūtra), more fragments (1): fragments 1 and 2 (Xinjiang)",
+					"slug": "iriab/ratnaketuparivarta-saerji-part-xiii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ratnaketuparivarta-saerji-part-xiii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ratnaketuparivarta-saerji-part-xiii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Ratnaketuparivarta, more fragments: fragments 3–11",
+			"author": "unknown (Mahāyāna sūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:ratnaketuparivarta-saerji-part-xiv",
+					"source": "iriab",
+					"sourceId": "ratnaketuparivarta-saerji-part-xiv",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Ratnaketuparivarta (Mahāsaṃnipātasūtra), more fragments (2): fragments 3–11 (Xinjiang)",
+					"slug": "iriab/ratnaketuparivarta-saerji-part-xiv",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ratnaketuparivarta-saerji-part-xiv.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ratnaketuparivarta-saerji-part-xiv.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Ratnaketuparivarta, new fragment, folio with chapter",
+			"author": "unknown (Mahāyāna sūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:ratnaketuparivarta-saerji-part-xi",
+					"source": "iriab",
+					"sourceId": "ratnaketuparivarta-saerji-part-xi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Ratnaketuparivarta (Mahāsaṃnipātasūtra), new fragment (Xinjiang), folio with chapter 2",
+					"slug": "iriab/ratnaketuparivarta-saerji-part-xi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/ratnaketuparivarta-saerji-part-xi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/ratnaketuparivarta-saerji-part-xi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Ratnakīrtinibandhāvali",
 			"titleDeva": "रत्नकीर्तिनिबन्धावली",
 			"author": "Ratnakīrti",
@@ -18386,6 +19775,24 @@
 			]
 		},
 		{
+			"title": "Sabhika-vastu",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:sabhika-vastu-mahavastu",
+					"source": "iriab",
+					"sourceId": "sabhika-vastu-mahavastu",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sabhika-vastu (Mahāvastu)",
+					"slug": "iriab/sabhika-vastu-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sabhika-vastu-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sabhika-vastu-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Sabhikasaugataśāsanapravrajyāvratacaraṇaparivarta",
 			"category": "sutra/avadana",
 			"editions": [
@@ -18536,6 +19943,7 @@
 		{
 			"title": "Saddharmapuṇḍarīkasūtra",
 			"titleDeva": "सद्धर्मपुण्डरीकसूत्रम्",
+			"author": "unknown (Mahāyāna sūtra)",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
 				{
@@ -18575,6 +19983,42 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/441"
 				},
 				{
+					"ref": "iriab:gilgit-saddharmapundarika-or11878bg",
+					"source": "iriab",
+					"sourceId": "gilgit-saddharmapundarika-or11878bg",
+					"label": "ARIRIAB (XVIII (2015), pp. 199–211 (transliteration; text of the article pp. 197–211))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Gilgit manuscript, British Library Or.11878B–G)",
+					"slug": "iriab/gilgit-saddharmapundarika-or11878bg",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/gilgit-saddharmapundarika-or11878bg.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/gilgit-saddharmapundarika-or11878bg.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:saddharmapundarika-mannerheim-fragment",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-mannerheim-fragment",
+					"label": "ARIRIAB (IV (2001), pp. 43–52 (transliteration pp. 48–50))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Mannerheim fragment, Helsinki)",
+					"slug": "iriab/saddharmapundarika-mannerheim-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-mannerheim-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-mannerheim-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:saddharmapundarikasutra-sackler-fragment-1",
+					"source": "iriab",
+					"sourceId": "saddharmapundarikasutra-sackler-fragment-1",
+					"label": "ARIRIAB (XVII (2014), pp. 109–118, here pp. 109–111 (fragment 1 recto and verso))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (fragment 1, Sackler Museum, Peking University)",
+					"slug": "iriab/saddharmapundarikasutra-sackler-fragment-1",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarikasutra-sackler-fragment-1.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarikasutra-sackler-fragment-1.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P85CAE8AD",
 					"source": "bdrc",
 					"sourceId": "P85CAE8AD",
@@ -18597,6 +20041,133 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6054AA51.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6054AA51.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6054AA51"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, ch. XIII §§ 19–25: Sanskrit versions G/N, O, Khā, F",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-viii",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-viii",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, ch. XIII (Sukhavihāraparivarta) §§ 19–25 (KN 287.11–296.3): Sanskrit versions G/N, O, Khā, F",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-viii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, ch. XIV § 1: Sanskrit versions G/N, O, Khā, F",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-ix",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-ix",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, ch. XIV (Utsāhaparivarta) § 1 (KN 297.1–11): Sanskrit versions G/N, O, Khā, F",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-ix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, chapter II, verses 35–43, fragment SI P/68",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:saddharmapundarika-petrovsky-si-p-68",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-petrovsky-si-p-68",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, chapter II (Upāyakauśalyaparivarta), verses 35–43, fragment SI P/68",
+					"slug": "iriab/saddharmapundarika-petrovsky-si-p-68",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, fragments SI P/67",
+			"author": "unknown (Mahāyāna sūtra)",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:saddharmapundarika-petrovsky-si-p-67-2",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-petrovsky-si-p-67-2",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, fragments SI P/67(2) (Petrovsky collection, St. Petersburg)",
+					"slug": "iriab/saddharmapundarika-petrovsky-si-p-67-2",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, recently identified fragments in the British Library",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:saddharmapundarika-british-library-fragments-wille",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-british-library-fragments-wille",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, recently identified fragments in the British Library (London)",
+					"slug": "iriab/saddharmapundarika-british-library-fragments-wille",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra, XIII §§ 13–18",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vii",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-vii",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions), XIII §§ 13–18 (KN. 282.9–287.10)",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saddharmapuṇḍarīkasūtra: chapter XIII Sukhavihāra-parivarta, §§ 1–12",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vi",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-vi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions): chapter XIII Sukhavihāra-parivarta, §§ 1–12 (KN.275.1–282.8)",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -18814,6 +20385,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/924"
+				}
+			]
+		},
+		{
+			"title": "Śākyasiṃhajātaka / Sarvārthasiddhajātaka, stanzas 36–53 with reworked prose",
+			"author": "Haribhaṭṭa",
+			"category": "sutra/jataka",
+			"editions": [
+				{
+					"ref": "iriab:sakyasimhajataka-straube-xxi",
+					"source": "iriab",
+					"sourceId": "sakyasimhajataka-straube-xxi",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Śākyasiṃhajātaka / Sarvārthasiddhajātaka (Haribhaṭṭa, Jātakamālā 35), stanzas 36–53 with reworked prose",
+					"slug": "iriab/sakyasimhajataka-straube-xxi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -19799,6 +21389,42 @@
 			]
 		},
 		{
+			"title": "Saṃghāṭasūtra, Gilgit vulgate: manuscript C with manuscripts ABDEHIK",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:samghatasutra-group-c",
+					"source": "iriab",
+					"sourceId": "samghatasutra-group-c",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saṃghāṭasūtra, Gilgit vulgate: manuscript C with manuscripts ABDEHIK (editio maior, synoptic edition, left pages)",
+					"slug": "iriab/samghatasutra-group-c",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-c.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-c.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Saṃghāṭasūtra: manuscript F with manuscripts AG",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:samghatasutra-group-f",
+					"source": "iriab",
+					"sourceId": "samghatasutra-group-f",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saṃghāṭasūtra: manuscript F with manuscripts AG (editio maior, synoptic edition, right pages)",
+					"slug": "iriab/samghatasutra-group-f",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-f.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-f.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Sāṃkhyakārikā",
 			"category": "sastra/sastra-other",
 			"editions": [
@@ -19831,6 +21457,25 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P01118D5D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P01118D5D.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P01118D5D"
+				}
+			]
+		},
+		{
+			"title": "Saṃskṛtāsaṃskṛtaviniścaya",
+			"author": "Daśabalaśrīmitra",
+			"category": "sastra/yogacara",
+			"editions": [
+				{
+					"ref": "iriab:samskrtasamskrtaviniscaya-cambridge-fragment",
+					"source": "iriab",
+					"sourceId": "samskrtasamskrtaviniscaya-cambridge-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Saṃskṛtāsaṃskṛtaviniścaya (fragment, chapters 29 and 30)",
+					"slug": "iriab/samskrtasamskrtaviniscaya-cambridge-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samskrtasamskrtaviniscaya-cambridge-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samskrtasamskrtaviniscaya-cambridge-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -20120,6 +21765,80 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%B7%E0%A4%A3%E0%A5%8D%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%80%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%B7%E0%A4%A3%E0%A5%8D%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%80%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/390"
+				}
+			]
+		},
+		{
+			"title": "Sanskrit fragments from the Stein and Hoernle collections, British Library, London: northern and southern Silk Road",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:sanskrit-fragments-stein-hoernle-british-library-wille",
+					"source": "iriab",
+					"sourceId": "sanskrit-fragments-stein-hoernle-british-library-wille",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sanskrit fragments from the Stein and Hoernle collections, British Library, London (1): northern and southern Silk Road",
+					"slug": "iriab/sanskrit-fragments-stein-hoernle-british-library-wille",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sanskrit-fragments-stein-hoernle-british-library-wille.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sanskrit-fragments-stein-hoernle-british-library-wille.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Sanskrit Fragments in the Hirayama Collection",
+			"author": "Various (fragments)",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:hirayama-collection-sanskrit-fragments",
+					"source": "iriab",
+					"sourceId": "hirayama-collection-sanskrit-fragments",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sanskrit Fragments in the Hirayama Collection (Hir. Skt. 1–9)",
+					"slug": "iriab/hirayama-collection-sanskrit-fragments",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/hirayama-collection-sanskrit-fragments.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/hirayama-collection-sanskrit-fragments.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Sanskrit fragments of Abhidharma texts found in Dunhuang",
+			"author": "unknown (Fragment 1: Saṅghabhadra, *Nyāyānusāra; fragments 2–6 unidentified Abhidharma texts)",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:dunhuang-abhidharma-fragments-d0201-d0871",
+					"source": "iriab",
+					"sourceId": "dunhuang-abhidharma-fragments-d0201-d0871",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sanskrit fragments of Abhidharma texts found in Dunhuang (D0201, D0865, D0866+0867, D0868, D0869, D0871)",
+					"slug": "iriab/dunhuang-abhidharma-fragments-d0201-d0871",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/dunhuang-abhidharma-fragments-d0201-d0871.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/dunhuang-abhidharma-fragments-d0201-d0871.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Sanskrit fragments of the Suvarṇaprabhāsottamasūtra, Saddharmapuṇḍarīkasūtra, Āryaśrīmahādevīvyākaraṇa and Anantamukhanirhāradhāraṇī in the Otani Collection",
+			"category": "sutra/dharani",
+			"editions": [
+				{
+					"ref": "iriab:otani-sanskrit-fragments-karashima",
+					"source": "iriab",
+					"sourceId": "otani-sanskrit-fragments-karashima",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sanskrit fragments of the Suvarṇaprabhāsottamasūtra, Saddharmapuṇḍarīkasūtra, Āryaśrīmahādevīvyākaraṇa and Anantamukhanirhāradhāraṇī in the Otani Collection (with Lüshun Museum parallels)",
+					"slug": "iriab/otani-sanskrit-fragments-karashima",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/otani-sanskrit-fragments-karashima.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/otani-sanskrit-fragments-karashima.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -20532,6 +22251,7 @@
 		},
 		{
 			"title": "Śārdūlakarṇāvadāna",
+			"author": "unknown (Divyāvadāna-type avadāna)",
 			"category": "sutra/avadana",
 			"editions": [
 				{
@@ -20545,6 +22265,36 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/%C5%9A%C4%81rd%C5%ABlakar%E1%B9%87%C4%81vad%C4%81na%20%5B%3D%20Avad%C4%81na%2033%20of%20the%20Divy%C4%81vad%C4%81na%5D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/%C5%9A%C4%81rd%C5%ABlakar%E1%B9%87%C4%81vad%C4%81na%20%5B%3D%20Avad%C4%81na%2033%20of%20the%20Divy%C4%81vad%C4%81na%5D.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zArdUlakarNAvadAna.xml"
+				},
+				{
+					"ref": "iriab:sardulakarnavadana",
+					"source": "iriab",
+					"sourceId": "sardulakarnavadana",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Śārdūlakarṇāvadāna",
+					"slug": "iriab/sardulakarnavadana",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sardulakarnavadana.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sardulakarnavadana.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Śārdūlakarṇāvadāna: vāyasaruta, śivāruta and khañjarīṭakajñāna",
+			"category": "other/miscellaneous",
+			"editions": [
+				{
+					"ref": "iriab:sardulakarnavadana-animal-omens",
+					"source": "iriab",
+					"sourceId": "sardulakarnavadana-animal-omens",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Śārdūlakarṇāvadāna: vāyasaruta, śivāruta and khañjarīṭakajñāna (animal omens)",
+					"slug": "iriab/sardulakarnavadana-animal-omens",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sardulakarnavadana-animal-omens.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sardulakarnavadana-animal-omens.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -20751,6 +22501,24 @@
 			]
 		},
 		{
+			"title": "Āryasarvadurgatipariśodhanoṣṇīṣavijayadhāraṇī",
+			"category": "sutra/dharani",
+			"editions": [
+				{
+					"ref": "iriab:usnisavijayadharani-yuan-enlarged",
+					"source": "iriab",
+					"sourceId": "usnisavijayadharani-yuan-enlarged",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Āryasarvadurgatipariśodhanoṣṇīṣavijayadhāraṇī (enlarged version transmitted in the Yüan period)",
+					"slug": "iriab/usnisavijayadharani-yuan-enlarged",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/usnisavijayadharani-yuan-enlarged.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/usnisavijayadharani-yuan-enlarged.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Sarvajñasiddhi",
 			"author": "Jitāri",
 			"category": "sastra/pramana",
@@ -20784,6 +22552,25 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/Sarvaj%C3%B1at%C4%81k%C4%81radh%C4%81ra%E1%B9%87%C4%AB.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/Sarvaj%C3%B1at%C4%81k%C4%81radh%C4%81ra%E1%B9%87%C4%AB.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sarvajJatAkAradhAraNI.xml"
+				}
+			]
+		},
+		{
+			"title": "Sarvārthasiddhajātaka",
+			"author": "Haribhaṭṭa",
+			"category": "sutra/jataka",
+			"editions": [
+				{
+					"ref": "iriab:sarvarthasiddhajataka",
+					"source": "iriab",
+					"sourceId": "sarvarthasiddhajataka",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sarvārthasiddhajātaka (Jātakamālā 35)",
+					"slug": "iriab/sarvarthasiddhajataka",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sarvarthasiddhajataka.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sarvarthasiddhajataka.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -21408,6 +23195,25 @@
 			]
 		},
 		{
+			"title": "Second Copper-Plate Grant of King Subandhu",
+			"author": "King Subandhu of Māhiṣmatī (issuer)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:subandhu-second-copperplate-grant",
+					"source": "iriab",
+					"sourceId": "subandhu-second-copperplate-grant",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Second Copper-Plate Grant of King Subandhu",
+					"slug": "iriab/subandhu-second-copperplate-grant",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/subandhu-second-copperplate-grant.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/subandhu-second-copperplate-grant.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Sekoddeśa",
 			"titleDeva": "सेकोद्देशः",
 			"author": "Nāropa",
@@ -21837,6 +23643,24 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PC029348E.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PC029348E.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PC029348E"
+				}
+			]
+		},
+		{
+			"title": "Some Buddhist Sanskrit fragments from the St. Petersburg Branch of the Institute of Oriental Studies: Ratnarāśisūtra, Kāśyapaparivarta, *Aniruddhasūtra",
+			"category": "sutra/mahayana-sutra",
+			"editions": [
+				{
+					"ref": "iriab:st-petersburg-sanskrit-fragments-karashima-vorobyova",
+					"source": "iriab",
+					"sourceId": "st-petersburg-sanskrit-fragments-karashima-vorobyova",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Some Buddhist Sanskrit fragments from the St. Petersburg Branch of the Institute of Oriental Studies (1): Ratnarāśisūtra (SI P/20/1), Kāśyapaparivarta (SI P/20/2), *Aniruddhasūtra (SI P/80)",
+					"slug": "iriab/st-petersburg-sanskrit-fragments-karashima-vorobyova",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/st-petersburg-sanskrit-fragments-karashima-vorobyova.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/st-petersburg-sanskrit-fragments-karashima-vorobyova.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -22596,6 +24420,25 @@
 			]
 		},
 		{
+			"title": "Sudhanakumāra-avadāna",
+			"author": "unknown (Mūlasarvāstivāda-vinaya, Bhaiṣajyavastu; cf. Divyāvadāna 30)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:sudhanakumara-avadana-gilgit-fe3300",
+					"source": "iriab",
+					"sourceId": "sudhanakumara-avadana-gilgit-fe3300",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sudhanakumāra-avadāna (Gilgit fragments FE 3300–3301)",
+					"slug": "iriab/sudhanakumara-avadana-gilgit-fe3300",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sudhanakumara-avadana-gilgit-fe3300.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sudhanakumara-avadana-gilgit-fe3300.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Suhṛllekha",
 			"titleDeva": "सुहृल्लेखः",
 			"author": "Nāgārjuna",
@@ -22744,6 +24587,7 @@
 		},
 		{
 			"title": "Sumāgadhāvadāna",
+			"author": "Anonymous (avadāna)",
 			"category": "sutra/avadana",
 			"editions": [
 				{
@@ -22757,6 +24601,37 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/Sum%C4%81gadh%C4%81vad%C4%81na.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/Sum%C4%81gadh%C4%81vad%C4%81na.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sumAgadhAvadAna.xml"
+				},
+				{
+					"ref": "iriab:sumagadhavadana-gilgit-xx",
+					"source": "iriab",
+					"sourceId": "sumagadhavadana-gilgit-xx",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sumāgadhāvadāna (Gilgit version)",
+					"slug": "iriab/sumagadhavadana-gilgit-xx",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Sumāgadhāvadāna, Manuscript A",
+			"author": "unknown (Sumāgadhāvadāna)",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "iriab:sumagadha-avadana-gilgit-ms-a",
+					"source": "iriab",
+					"sourceId": "sumagadha-avadana-gilgit-ms-a",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sumāgadhāvadāna (Gilgit version), Manuscript A",
+					"slug": "iriab/sumagadha-avadana-gilgit-ms-a",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sumagadha-avadana-gilgit-ms-a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sumagadha-avadana-gilgit-ms-a.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -22945,6 +24820,25 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCA9F619F.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCA9F619F.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PCA9F619F"
+				}
+			]
+		},
+		{
+			"title": "Sūtrasamuccaya",
+			"author": "attributed to Nāgārjuna",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:sutrasamuccaya",
+					"source": "iriab",
+					"sourceId": "sutrasamuccaya",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Sūtrasamuccaya",
+					"slug": "iriab/sutrasamuccaya",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sutrasamuccaya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sutrasamuccaya.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -23479,6 +25373,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/716"
+				}
+			]
+		},
+		{
+			"title": "Synonym lexicon similar to the Amarakośa",
+			"author": "Anonymous (lexicon)",
+			"category": "sciences/vyakarana",
+			"editions": [
+				{
+					"ref": "iriab:synonym-lexicon-amarakosa-like-schoyen",
+					"source": "iriab",
+					"sourceId": "synonym-lexicon-amarakosa-like-schoyen",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Synonym lexicon similar to the Amarakośa (Schøyen MS 2382/9)",
+					"slug": "iriab/synonym-lexicon-amarakosa-like-schoyen",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/synonym-lexicon-amarakosa-like-schoyen.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/synonym-lexicon-amarakosa-like-schoyen.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -24392,6 +26305,25 @@
 			]
 		},
 		{
+			"title": "Three brief dated inscriptions",
+			"author": "unknown (inscriptions)",
+			"category": "sastra/lekha",
+			"editions": [
+				{
+					"ref": "iriab:three-brief-dated-inscriptions-hinuber",
+					"source": "iriab",
+					"sourceId": "three-brief-dated-inscriptions-hinuber",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Three brief dated inscriptions (Kashmir/Gilgit area stones)",
+					"slug": "iriab/three-brief-dated-inscriptions-hinuber",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/three-brief-dated-inscriptions-hinuber.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/three-brief-dated-inscriptions-hinuber.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
 			"title": "Triṃśikāvijñaptikārikā",
 			"titleDeva": "त्रिंशिकाविज्ञप्तिकारिकाः",
 			"author": "Vasubandhu",
@@ -24659,6 +26591,25 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/412"
+				}
+			]
+		},
+		{
+			"title": "Trisvabhāvaḥ",
+			"author": "Vasubandhu (colophon: ācāryavasubandhoḥ)",
+			"category": "sastra/yogacara",
+			"editions": [
+				{
+					"ref": "iriab:trisvabhava",
+					"source": "iriab",
+					"sourceId": "trisvabhava",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Trisvabhāvaḥ",
+					"slug": "iriab/trisvabhava",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/trisvabhava.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/trisvabhava.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -24971,6 +26922,37 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF011F48D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF011F48D.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PF011F48D"
+				}
+			]
+		},
+		{
+			"title": "Uṣṇīṣavijayā Dhāraṇī",
+			"author": "Anonymous (dhāraṇī)",
+			"category": "sutra/dharani",
+			"editions": [
+				{
+					"ref": "iriab:usnisavijaya-dharani-nepal",
+					"source": "iriab",
+					"sourceId": "usnisavijaya-dharani-nepal",
+					"label": "ARIRIAB (III (2000), pp. 165–175 (faithful transliteration pp. 170–171; reconstructed text pp. 171–174))",
+					"script": "iast",
+					"title": "Uṣṇīṣavijayā Dhāraṇī (version from Nepal)",
+					"slug": "iriab/usnisavijaya-dharani-nepal",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/usnisavijaya-dharani-nepal.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/usnisavijaya-dharani-nepal.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:usnisavijayadharani-uyghur-brahmi-prints",
+					"source": "iriab",
+					"sourceId": "usnisavijayadharani-uyghur-brahmi-prints",
+					"label": "ARIRIAB (25 (2022), pp. 191–209 (compiled edition, Sanskrit line only, pp. 198–207))",
+					"script": "iast",
+					"title": "Uṣṇīṣavijayādhāraṇī (dhāraṇī section; Sanskrit text underlying the Uyghur woodblock prints with interlinear Brāhmī)",
+					"slug": "iriab/usnisavijayadharani-uyghur-brahmi-prints",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/usnisavijayadharani-uyghur-brahmi-prints.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/usnisavijayadharani-uyghur-brahmi-prints.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -27255,6 +29237,37 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0653D4E8.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0653D4E8.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0653D4E8"
+				}
+			]
+		},
+		{
+			"title": "Yuktiṣaṣṭikāvṛtti",
+			"author": "Candrakīrti",
+			"category": "sastra/madhyamaka",
+			"editions": [
+				{
+					"ref": "iriab:yuktisastikavrtti-folio-xvi",
+					"source": "iriab",
+					"sourceId": "yuktisastikavrtti-folio-xvi",
+					"label": "ARIRIAB (XVI (2013), pp. 233–240 (Sanskrit text pp. 234–238))",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikāvṛtti (Candrakīrti)",
+					"slug": "iriab/yuktisastikavrtti-folio-xvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/yuktisastikavrtti-folio-xvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/yuktisastikavrtti-folio-xvi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:yuktisastikavrtti-folio-xvii",
+					"source": "iriab",
+					"sourceId": "yuktisastikavrtti-folio-xvii",
+					"label": "ARIRIAB (XVII (2014), pp. 189–194 (Sanskrit text pp. 190–193))",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikāvṛtti (Candrakīrti)",
+					"slug": "iriab/yuktisastikavrtti-folio-xvii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/yuktisastikavrtti-folio-xvii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/yuktisastikavrtti-folio-xvii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		}

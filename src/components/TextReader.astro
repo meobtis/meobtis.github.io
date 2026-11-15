@@ -56,6 +56,9 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 		manuscript: 'Manuscript',
 		conventions: 'Editorial signs',
 		schoyen_id: 'Schøyen file',
+		edition: 'Edition',
+		omitted: 'Not reproduced',
+		source_pdf: 'Printed in',
 		bdrc_id: 'BDRC e-text',
 		original_collection: 'Original collection',
 		publisher: 'Publisher',
@@ -78,7 +81,7 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 		v === 'N/A' ||
 		(Array.isArray(v) && v.every(isEmpty)) ||
 		(typeof v === 'object' && !Array.isArray(v) && Object.values(v as object).every(isEmpty));
-	const SKIP = new Set(['title', 'category', 'category_path', 'script', 'chapters_count']);
+	const SKIP = new Set(['title', 'category', 'category_path', 'script', 'chapters_count', 'plain']);
 
 	const marked = new Marked({
 		gfm: true,
@@ -90,6 +93,29 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 		// Critical editions (e.g. SARIT) put their apparatus in footnotes.
 		markedFootnote({ description: 'Notes', headingClass: 'notes-heading', prefixId: 'note-' }),
 	);
+
+	/**
+	 * Transcriptions (`plain: true` in the front matter) use *, _, [ ], < > and | as editorial signs, so they are shown
+	 * as printed: only headings (#), **bold** and blank-line paragraphs are interpreted, one line per source line.
+	 */
+	function plainToHtml(text: string): string {
+		const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+		const inline = (t: string) => esc(t).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+		return text
+			.replace(/<!--[\s\S]*?-->/g, '')
+			.split(/\n{2,}/)
+			.map((block) => block.trim())
+			.filter(Boolean)
+			.map((block) => {
+				const h = block.match(/^(#{1,6})\s+(.*)$/);
+				if (h && !block.includes('\n')) {
+					const d = Math.min(h[1].length + 1, 6);
+					return `<h${d}>${inline(h[2])}</h${d}>`;
+				}
+				return `<p class="plain">${block.split('\n').map(inline).join('<br>')}</p>`;
+			})
+			.join('\n');
+	}
 
 	const slug = (s: string, n: number) =>
 		`t-${n}-${s
@@ -131,12 +157,13 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 
 				// Front matter → "Edition details".
 				const fm = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-				if (fm) this.showMeta(parseYaml(fm[1]) ?? {});
+				const meta = fm ? (parseYaml(fm[1]) ?? {}) : {};
+				if (fm) this.showMeta(meta);
 				let content = fm ? markdown.slice(fm[0].length) : markdown;
 				// Drop the leading "# Title", which repeats the page title.
 				content = content.replace(/^\s*#\s+[^\n]*\n/, '');
 
-				const html = (await marked.parse(content))
+				const html = (meta.plain ? plainToHtml(content) : await marked.parse(content))
 					// Back-links: "↑" (in Noto Sans) instead of "↩", which falls back to an emoji font.
 					.replace(/(data-note-backref[^>]*>)↩/g, '$1↑');
 				body.innerHTML = DOMPurify.sanitize(html);

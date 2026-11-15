@@ -302,6 +302,80 @@ export const CATEGORY_OVERRIDES = {
 	'bdrc:PA7F751C2': 'sastra/abhidharma', // Abhidharmasamuccaya
 	'bdrc:PA7706902': 'sciences/vyakarana', // Mahāvyutpatti
 	'bdrc:P80484769': 'vinaya/vinaya-other', // MSV 6,09: Māṇavikā
+	// ARIRIAB and StPSF editions.
+	'iriab:sambadhavakasasutra-schoyen-fragment': 'sutra/agama', // *Saṃbādhāvakāśasūtra, fragment MS 2380/1/1 +
+	'iriab:abhidharmasamuccayavyakhya-fols-2v4-8v4': 'sastra/abhidharma', // Abhidharmasamuccayavyākhyā
+	'iriab:astasahasrika-missing-portion': 'sutra/prajnaparamita', // Aṣṭasāhasrikā Prajñāpāramitā, the “missing” p
+	'iriab:merv-avadana-anthology': 'sutra/avadana', // Avadāna Anthology from Merv
+	'iriab:avadanasataka-supriya-gilgit-fe3281': 'sutra/avadana', // Avadānaśataka § 72 Supriyā
+	'iriab:bhadrakalpikasutra-or8212-1695': 'sutra/mahayana-sutra', // Bhadrakalpikasūtra
+	'iriab:buddhapalita-vrtti-tibet-manuscripts-part-x': 'sastra/madhyamaka', // Buddhapālita-mūlamadhyamaka-vṛtti, Sanskrit m
+	'iriab:catuhstotravivarana-fols-1v-5v': 'sastra/madhyamaka', // Catuḥstotravivaraṇa
+	'iriab:catuhstotravivarana-part-xxvi': 'sastra/madhyamaka', // Catuḥstotravivaraṇa: commentary on Lokātītast
+	'iriab:prajnaparamita-gilgit-colophon': 'sutra/prajnaparamita', // Colophon of the ’Larger Prajñāpāramitā’
+	'iriab:sakya-vappata-dhruvabhata-inscription': 'sastra/lekha', // Dedicatory inscription of the Buddha image do
+	'iriab:viryasanti-sakyamuni-inscription': 'sastra/lekha', // Dedicatory inscription of the Śākyamuni statu
+	'iriab:gilgit-bronze-inscriptions-hinuber-xii': 'sastra/lekha', // Gilgit bronze inscriptions and further Palola
+	'iriab:jatakamala-haribhatta-gilgit-fragment': 'sutra/jataka', // Haribhaṭṭa’s Jātakamālā: fragment among the G
+	'iriab:hastini-mahavastu': 'sutra/avadana', // Hastinī-jātaka and Hastinī-parikalpa
+	'iriab:hemis-avalokitesvara-ye-dharma-inscription': 'sastra/lekha', // Hemis Avalokiteśvara inscription
+	'iriab:falk-gupta-style-bronze-inscription': 'sastra/lekha', // Inscription on a standing bronze Buddha in Gu
+	'iriab:pekapharna-bronze-inscription': 'sastra/lekha', // Inscription on the bronze of Pekapharṇa
+	'iriab:incense-burner-maclean-saladitya-inscription': 'sastra/lekha', // Inscription on the incense burner from the Ma
+	'iriab:dhyani-buddhas-yasodeva-inscriptions': 'sastra/lekha', // Inscriptions on the five Dhyāni-Buddhas donat
+	'iriab:gilgit-bronze-inscriptions-x': 'sastra/lekha', // Inscriptions on three new bronzes from Gilgit
+	'iriab:karmavibhanga-cambridge-excerpts': 'sutra/agama', // Karmavibhaṅga
+	'iriab:karmavibhanga-ms-b-first-folios-ix': 'sutra/agama', // Karmavibhaṅga, first three folios of Manuscri
+	'iriab:karmavibhanga-ms-b-notebook-ix': 'sutra/agama', // Karmavibhaṅga, Hemraj Sharman’s notebook tran
+	'iriab:karmavibhanga-schoyen-fragments': 'sutra/agama', // Karmavibhaṅga: Sanskrit fragments in the Schø
+	'iriab:karmavibhanga-ms-e-part-ix': 'sutra/agama', // Karmavibhaṅgasūtra, Manuscript E
+	'iriab:mannerheim-kasyapaparivarta-pancaparamitanirdesa-fragments': 'sutra/mahayana-sutra', // Kāśyapaparivarta and Pañcapāramitānirdeśasūtr
+	'iriab:mahadandanamadharani-sackler-fragment-2': 'sutra/dharani', // Āryamahādaṇḍanāmadhāraṇī
+	'iriab:mahakarmavibhanga-part-vi': 'sutra/agama', // Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS an
+	'iriab:mahakarmavibhanga-part-II': 'sutra/agama', // Mahākarmavibhaṅga and Karmavibhaṅgasūtra
+	'iriab:mahaparinirvana-mahasutra-petrovsky': 'sutra/mahayana-sutra', // Mahāparinirvāṇa-mahāsūtra
+	'iriab:mahapratisara-vidyarajni-gilgit-fe3119': 'sutra/dharani', // Mahāpratisarāvidyārājñī
+	'iriab:mangalahamsika-donation-inscriptions': 'sastra/lekha', // Maṅgalahaṃsikā donation colophon and bronze i
+	'iriab:buddhapalita-mulamadhyamakavrtti-part-xi': 'sastra/madhyamaka', // Mūlamadhyamakakārikā and Buddhapālita’s comme
+	'iriab:mulamadhyamakakarika-tibet-manuscripts-part-x': 'sastra/madhyamaka', // Mūlamadhyamakakārikā, Sanskrit manuscript fro
+	'iriab:padumavatiye-jataka': 'sutra/avadana', // Padumāvatīye jātakaṃ
+	'iriab:padumavatiye-parikalpa': 'sutra/avadana', // Padumāvatīye parikalpaḥ
+	'iriab:pancavanijasata-mahavastu-prose': 'sutra/avadana', // Pañca vāṇijaśatā, prose version
+	'iriab:pancavanijasata-mahavastu-verse': 'sutra/avadana', // Pañca vāṇijaśatā, verse version
+	'iriab:mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments': 'sutra/prajnaparamita', // Pañcaviṃśatisāhasrikā Prajñāpāramitā, Mannerh
+	'iriab:sirika-pedestal-inscription-mathura': 'sastra/lekha', // Pedestal inscription of Śirika and the Saheth
+	'iriab:phanigiri-rudrapurusadatta-inscription': 'sastra/lekha', // Phanigiri octagonal-pillar inscription of Rud
+	'iriab:prajnaparamitaratnagunasamcayagatha-turfan-blockprint': 'sutra/prajnaparamita', // Prajñāpāramitāratnaguṇasaṃcayagāthā XIV 4–8, 
+	'iriab:ratnagunasamcayagathavyakhya-fragment': 'sutra/prajnaparamita', // Prajñāpāramitāratnaguṇasaṃcayagāthāvyākhyā
+	'iriab:pratimoksasutra-mahasamghika-fragments-part-xi': 'vinaya/pratimoksa', // Prātimokṣasūtra of the Mahāsāṃghika-vādins
+	'iriab:ratnaketuparivarta-saerji-part-xiii': 'sutra/mahayana-sutra', // Ratnaketuparivarta, more fragments: fragments
+	'iriab:ratnaketuparivarta-saerji-part-xiv': 'sutra/mahayana-sutra', // Ratnaketuparivarta, more fragments: fragments
+	'iriab:ratnaketuparivarta-saerji-part-xi': 'sutra/mahayana-sutra', // Ratnaketuparivarta, new fragment, folio with 
+	'iriab:sabhika-vastu-mahavastu': 'sutra/avadana', // Sabhika-vastu
+	'iriab:karashima-trilingual-lotus-sutra-part-viii': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, ch. XIII §§ 19–25: S
+	'iriab:karashima-trilingual-lotus-sutra-part-ix': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, ch. XIV § 1: Sanskri
+	'iriab:saddharmapundarika-petrovsky-si-p-68': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, chapter II, verses 3
+	'iriab:saddharmapundarika-petrovsky-si-p-67-2': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, fragments SI P/67
+	'iriab:saddharmapundarika-british-library-fragments-wille': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, recently identified 
+	'iriab:karashima-trilingual-lotus-sutra-part-vii': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra, XIII §§ 13–18
+	'iriab:karashima-trilingual-lotus-sutra-part-vi': 'sutra/mahayana-sutra', // Saddharmapuṇḍarīkasūtra: chapter XIII Sukhavi
+	'iriab:sakyasimhajataka-straube-xxi': 'sutra/jataka', // Śākyasiṃhajātaka / Sarvārthasiddhajātaka, sta
+	'iriab:samghatasutra-group-c': 'sutra/mahayana-sutra', // Saṃghāṭasūtra, Gilgit vulgate: manuscript C w
+	'iriab:samghatasutra-group-f': 'sutra/mahayana-sutra', // Saṃghāṭasūtra: manuscript F with manuscripts 
+	'iriab:samskrtasamskrtaviniscaya-cambridge-fragment': 'sastra/yogacara', // Saṃskṛtāsaṃskṛtaviniścaya
+	'iriab:otani-sanskrit-fragments-karashima': 'sutra/dharani', // Sanskrit fragments of the Suvarṇaprabhāsottam
+	'iriab:usnisavijayadharani-yuan-enlarged': 'sutra/dharani', // Āryasarvadurgatipariśodhanoṣṇīṣavijayadhāraṇī
+	'iriab:sarvarthasiddhajataka': 'sutra/jataka', // Sarvārthasiddhajātaka
+	'iriab:subandhu-second-copperplate-grant': 'sastra/lekha', // Second Copper-Plate Grant of King Subandhu
+	'iriab:st-petersburg-sanskrit-fragments-karashima-vorobyova': 'sutra/mahayana-sutra', // Some Buddhist Sanskrit fragments from the St.
+	'iriab:sudhanakumara-avadana-gilgit-fe3300': 'sutra/avadana', // Sudhanakumāra-avadāna
+	'iriab:sumagadha-avadana-gilgit-ms-a': 'sutra/avadana', // Sumāgadhāvadāna, Manuscript A
+	'iriab:sutrasamuccaya': 'sastra/madhyamaka', // Sūtrasamuccaya
+	'iriab:synonym-lexicon-amarakosa-like-schoyen': 'sciences/vyakarana', // Synonym lexicon similar to the Amarakośa
+	'iriab:three-brief-dated-inscriptions-hinuber': 'sastra/lekha', // Three brief dated inscriptions
+	'iriab:trisvabhava': 'sastra/yogacara', // Trisvabhāvaḥ
+	'iriab:usnisavijaya-dharani-nepal': 'sutra/dharani', // Uṣṇīṣavijayā Dhāraṇī
+	'iriab:yuktisastikavrtti-folio-xvi': 'sastra/madhyamaka', // Yuktiṣaṣṭikāvṛtti
 };
 
 /** Display title for an edition's work. */

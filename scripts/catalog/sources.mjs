@@ -220,6 +220,32 @@ export const SOURCES = [
 		},
 	},
 	{
+		id: 'iriab',
+		label: 'ARIRIAB',
+		name: 'Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments',
+		homepage: 'https://list.indology.info/pipermail/indology/2019-May/050105.html',
+		repo: 'meobtis/iriab',
+		publisher: 'International Research Institute for Advanced Buddhology, Soka University',
+		credit:
+			'Sanskrit text transcribed from an edition in the Annual Report of the International Research Institute for Advanced Buddhology ' +
+			'at Soka University (ARIRIAB) or in St Petersburg Sanskrit Fragments I. The readings are the work of the editor named in the ' +
+			'edition details; the edition\'s introduction, translation, notes and apparatus are not reproduced.',
+		terms: 'The editions are © IRIAB, Soka University, and their authors. The transcriptions are offered for research and study; cite the printed edition.',
+		termsUrl: 'https://github.com/meobtis/iriab',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'iriab',
+				sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),
+				title: String(data.title).trim(),
+				author: data.author ? String(data.author).trim() : undefined,
+				script: 'iast',
+				path,
+				originalUrl: 'https://list.indology.info/pipermail/indology/2019-May/050105.html',
+				note: data.edition ? String(data.edition).replace(/^ARIRIAB\s*/, '') : undefined,
+			}));
+		},
+	},
+	{
 		id: 'bdrc',
 		label: 'BDRC',
 		name: 'Buddhist Digital Resource Center e-texts',

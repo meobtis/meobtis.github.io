@@ -220,6 +220,34 @@ export const SOURCES = [
 		},
 	},
 	{
+		id: 'wikisource',
+		label: 'Wikisource',
+		name: 'Wikisource: Nepal Bhasa manuscripts',
+		homepage:
+			'https://wikisource.org/wiki/Wikisource:Main_Page/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE',
+		repo: 'meobtis/wikisource',
+		publisher: 'Wikimedia Foundation (Wikisource volunteers)',
+		credit:
+			'Text transcribed by Wikisource volunteers from Nepalese manuscripts digitised with UNESCO and the Asha Archives, ' +
+			'from the category Nepal bhasa on Wikisource. Some pages are unproofread automatic transcription; the proofreading ' +
+			'levels are given in the edition details.',
+		terms: 'Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).',
+		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
+		load(dir) {
+			// The repository has every transcribed Index of the category; MEOBTIS indexes the Buddhist ones.
+			return readTexts(dir)
+				.filter(({ data }) => data.buddhist !== false)
+				.map(({ path, data }) => ({
+					source: 'wikisource',
+					sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),
+					title: String(data.title).trim(),
+					script: 'deva',
+					path,
+					originalUrl: String(data.wikisource_index),
+				}));
+		},
+	},
+	{
 		id: 'iriab',
 		label: 'ARIRIAB',
 		name: 'Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments',

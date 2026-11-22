@@ -376,6 +376,21 @@ export const CATEGORY_OVERRIDES = {
 	'iriab:trisvabhava': 'sastra/yogacara', // Trisvabhāvaḥ
 	'iriab:usnisavijaya-dharani-nepal': 'sutra/dharani', // Uṣṇīṣavijayā Dhāraṇī
 	'iriab:yuktisastikavrtti-folio-xvi': 'sastra/madhyamaka', // Yuktiṣaṣṭikāvṛtti
+	// Wikisource Nepal Bhasa manuscripts.
+	'wikisource:an-87-21-tara-sotra': 'stotra/stotra-deity', // 21 Tara Sotra
+	'wikisource:an-90-ashtami-bartha-katha': 'sutra/avadana', // Ashtami Bartha Katha
+	'wikisource:an-95-bali-raja-sambodan-katha': 'sutra/avadana', // Bali Raja Sambodan Katha
+	'wikisource:an-101-basundhara-katha': 'sutra/avadana', // Basundhara Katha
+	'wikisource:an-99-bichitra-karni-awadan': 'sutra/avadana', // Bichitra Karni Awadan
+	'wikisource:an-96-debya-awadan': 'sutra/avadana', // Debya Awadan
+	'wikisource:an-98-kapisa-awadan': 'sutra/avadana', // Kapisa Awadan
+	'wikisource:an-88-carya-git': 'tantra/giti', // Caryāgīti
+	'wikisource:an-102-gunakarunamaya-biu': 'tantra/sadhana', // Gunakarunamaya Biu
+	'wikisource:an-94-karanya-biu-paath': 'tantra/sadhana', // Karanya Biu Paath
+	'wikisource:an-93-mahayan-sutra': 'sutra/mahayana-sutra', // Mahayan Sutra
+	'wikisource:an-92-namsangati': 'tantra/tantras', // Namasangati
+	'wikisource:an-89-pancharakshya-path': 'sutra/dharani', // Pancharakshya Path
+	'wikisource:an-97-uposadh-badhan': 'vinaya/vinaya-other', // Uposadh Badhan
 };
 
 /** Display title for an edition's work. */

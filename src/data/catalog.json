@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-22T01:46:25.228Z",
+	"generated": "2026-11-22T01:51:37.689Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -56,8 +56,8 @@
 			"terms": "Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).",
 			"termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 			"url": "https://github.com/meobtis/wikisource",
-			"editions": 8,
-			"works": 8
+			"editions": 22,
+			"works": 11
 		},
 		{
 			"id": "iriab",
@@ -84,7 +84,7 @@
 			"terms": "BDRC publishes its e-texts as open data; the original collection's terms apply to the text.",
 			"termsUrl": "https://www.bdrc.io",
 			"url": "https://github.com/meobtis/bdrc",
-			"editions": 546,
+			"editions": 636,
 			"works": 286
 		},
 		{
@@ -136,7 +136,7 @@
 					"id": "avadana",
 					"label": "Avadāna",
 					"description": "Edifying narratives of deeds and their fruits, including later Nepalese avadānas and vrata stories.",
-					"count": 37
+					"count": 38
 				},
 				{
 					"id": "jataka",
@@ -151,7 +151,7 @@
 					"count": 0
 				}
 			],
-			"count": 209
+			"count": 210
 		},
 		{
 			"id": "vinaya",
@@ -256,16 +256,16 @@
 					"id": "sadhana",
 					"label": "Sādhana and ritual",
 					"description": "Sādhanas, maṇḍala and initiation manuals, and ritual handbooks.",
-					"count": 18
+					"count": 19
 				},
 				{
 					"id": "giti",
 					"label": "Songs of realisation",
 					"description": "Dohā and gīti songs.",
-					"count": 2
+					"count": 3
 				}
 			],
-			"count": 89
+			"count": 91
 		},
 		{
 			"id": "stotra",
@@ -433,6 +433,20 @@
 			"category": "stotra/stotra-deity",
 			"editions": [
 				{
+					"ref": "wikisource:an-87-21-tara-sotra-iast",
+					"source": "wikisource",
+					"sourceId": "an-87-21-tara-sotra-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "21 Tara Sotra (Gold Writing)",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-87-21-tara-sotra",
+					"slug": "wikisource/an-87-21-tara-sotra-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-87-21-tara-sotra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-87-21-tara-sotra.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_87_21_Tara_Sotra.pdf"
+				},
+				{
 					"ref": "wikisource:an-87-21-tara-sotra",
 					"source": "wikisource",
 					"sourceId": "an-87-21-tara-sotra",
@@ -487,6 +501,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE4D2F309.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE4D2F309.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PE4D2F309"
+				},
+				{
+					"ref": "bdrc:PBD67401D-iast",
+					"source": "bdrc",
+					"sourceId": "PBD67401D-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Abhayapaddhati",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PBD67401D",
+					"slug": "bdrc/PBD67401D-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBD67401D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBD67401D.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PBD67401D"
 				},
 				{
 					"ref": "bdrc:PBD67401D",
@@ -1637,6 +1665,20 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/845"
 				},
 				{
+					"ref": "bdrc:P34A4B1D1-iast",
+					"source": "bdrc",
+					"sourceId": "P34A4B1D1-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Adhyardhaśatikā prajñāpāramitā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P34A4B1D1",
+					"slug": "bdrc/P34A4B1D1-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P34A4B1D1.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P34A4B1D1.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P34A4B1D1"
+				},
+				{
 					"ref": "bdrc:P34A4B1D1",
 					"source": "bdrc",
 					"sourceId": "P34A4B1D1",
@@ -1691,6 +1733,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4B2EABEE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4B2EABEE.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P4B2EABEE"
+				},
+				{
+					"ref": "bdrc:P70FCD378-iast",
+					"source": "bdrc",
+					"sourceId": "P70FCD378-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Adhyātmasāraśatakam(saṭīkam)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P70FCD378",
+					"slug": "bdrc/P70FCD378-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P70FCD378.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P70FCD378.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P70FCD378"
 				},
 				{
 					"ref": "bdrc:P70FCD378",
@@ -1766,6 +1822,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBB70028E.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBB70028E.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PBB70028E"
+				},
+				{
+					"ref": "bdrc:PABFB6474-iast",
+					"source": "bdrc",
+					"sourceId": "PABFB6474-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Ādikarmapradīpa Bodhicaryāvatāraṭīkā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PABFB6474",
+					"slug": "bdrc/PABFB6474-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PABFB6474.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PABFB6474.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PABFB6474"
 				},
 				{
 					"ref": "bdrc:PABFB6474",
@@ -2434,6 +2504,34 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PB0DC5D35"
 				},
 				{
+					"ref": "bdrc:P17B04DB7-iast",
+					"source": "bdrc",
+					"sourceId": "P17B04DB7-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Amoghapāśakalparāja Part VII",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P17B04DB7",
+					"slug": "bdrc/P17B04DB7-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P17B04DB7.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P17B04DB7.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P17B04DB7"
+				},
+				{
+					"ref": "bdrc:P4AA5D000-iast",
+					"source": "bdrc",
+					"sourceId": "P4AA5D000-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Amoghapāśakalparāja Part VI",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4AA5D000",
+					"slug": "bdrc/P4AA5D000-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4AA5D000.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4AA5D000.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4AA5D000"
+				},
+				{
 					"ref": "bdrc:P17B04DB7",
 					"source": "bdrc",
 					"sourceId": "P17B04DB7",
@@ -2499,6 +2597,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A5%8B%E0%A4%98%E0%A4%AA%E0%A4%BE%E0%A4%B6%E0%A4%B9%E0%A5%83%E0%A4%A6%E0%A4%AF%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A5%8B%E0%A4%98%E0%A4%AA%E0%A4%BE%E0%A4%B6%E0%A4%B9%E0%A5%83%E0%A4%A6%E0%A4%AF%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/384"
+				},
+				{
+					"ref": "wikisource:an-91-amoha-paas-lokeshwor-path-iast",
+					"source": "wikisource",
+					"sourceId": "an-91-amoha-paas-lokeshwor-path-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Amoghapāśahṛdaya Mahāyāna Sūtra",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-91-amoha-paas-lokeshwor-path",
+					"slug": "wikisource/an-91-amoha-paas-lokeshwor-path-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-91-amoha-paas-lokeshwor-path.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-91-amoha-paas-lokeshwor-path.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_91_Amoha_Paas_Lokeshwor_Path.pdf"
 				},
 				{
 					"ref": "wikisource:an-91-amoha-paas-lokeshwor-path",
@@ -2632,6 +2744,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6CD3C484.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6CD3C484.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6CD3C484"
+				},
+				{
+					"ref": "bdrc:PF7181558-iast",
+					"source": "bdrc",
+					"sourceId": "PF7181558-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Antarvyāptisamarthanam",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PF7181558",
+					"slug": "bdrc/PF7181558-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF7181558.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF7181558.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PF7181558"
 				},
 				{
 					"ref": "bdrc:PF7181558",
@@ -3732,6 +3858,39 @@
 			]
 		},
 		{
+			"title": "Bali Raja Sambodan Katha",
+			"titleDeva": "Bali Raja Sambodan Katha",
+			"category": "sutra/avadana",
+			"editions": [
+				{
+					"ref": "wikisource:an-95-bali-raja-sambodan-katha-iast",
+					"source": "wikisource",
+					"sourceId": "an-95-bali-raja-sambodan-katha-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Bali Raja Sambodan Katha",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-95-bali-raja-sambodan-katha",
+					"slug": "wikisource/an-95-bali-raja-sambodan-katha-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-95-bali-raja-sambodan-katha.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-95-bali-raja-sambodan-katha.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_95_Bali_Raja_Sambodan_Katha.pdf"
+				},
+				{
+					"ref": "wikisource:an-95-bali-raja-sambodan-katha",
+					"source": "wikisource",
+					"sourceId": "an-95-bali-raja-sambodan-katha",
+					"label": "Wikisource देवनागरी",
+					"script": "deva",
+					"title": "Bali Raja Sambodan Katha",
+					"slug": "wikisource/an-95-bali-raja-sambodan-katha",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_95_Bali_Raja_Sambodan_Katha.pdf"
+				}
+			]
+		},
+		{
 			"title": "Balimālikā",
 			"titleDeva": "Balimālikā",
 			"category": "tantra/sadhana",
@@ -3759,6 +3918,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P45074C92.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P45074C92.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P45074C92"
+				},
+				{
+					"ref": "bdrc:PE3FBEFEF-iast",
+					"source": "bdrc",
+					"sourceId": "PE3FBEFEF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Balimālikā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE3FBEFEF",
+					"slug": "bdrc/PE3FBEFEF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE3FBEFEF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE3FBEFEF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE3FBEFEF"
 				},
 				{
 					"ref": "bdrc:PE3FBEFEF",
@@ -3814,6 +3987,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PDF54E249.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PDF54E249.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PDF54E249"
+				},
+				{
+					"ref": "bdrc:PDCEE288D-iast",
+					"source": "bdrc",
+					"sourceId": "PDCEE288D-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "बौद्ध मनीषा- बौद्धेषु प्रमाणमीमांसा",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PDCEE288D",
+					"slug": "bdrc/PDCEE288D-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PDCEE288D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PDCEE288D.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PDCEE288D"
 				},
 				{
 					"ref": "bdrc:PDCEE288D",
@@ -4393,6 +4580,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P27219E1F"
 				},
 				{
+					"ref": "bdrc:P626AF4A6-iast",
+					"source": "bdrc",
+					"sourceId": "P626AF4A6-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "बौद्ध तन्त्र कोश (1)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P626AF4A6",
+					"slug": "bdrc/P626AF4A6-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P626AF4A6.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P626AF4A6.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P626AF4A6"
+				},
+				{
 					"ref": "bdrc:P626AF4A6",
 					"source": "bdrc",
 					"sourceId": "P626AF4A6",
@@ -4523,6 +4724,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PFCCC1ABF"
 				},
 				{
+					"ref": "bdrc:PEFFA66FF-iast",
+					"source": "bdrc",
+					"sourceId": "PEFFA66FF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Boudhatantrokta Siddhauṣadhi Saṅgrahaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PEFFA66FF",
+					"slug": "bdrc/PEFFA66FF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PEFFA66FF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PEFFA66FF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PEFFA66FF"
+				},
+				{
 					"ref": "bdrc:PEFFA66FF",
 					"source": "bdrc",
 					"sourceId": "PEFFA66FF",
@@ -4609,6 +4824,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB6CE4460.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB6CE4460.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PB6CE4460"
+				},
+				{
+					"ref": "bdrc:P08B35124-iast",
+					"source": "bdrc",
+					"sourceId": "P08B35124-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Bhadracaryādeśanā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P08B35124",
+					"slug": "bdrc/P08B35124-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P08B35124.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P08B35124.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P08B35124"
 				},
 				{
 					"ref": "bdrc:P08B35124",
@@ -5302,6 +5531,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PF0E2ADC8"
 				},
 				{
+					"ref": "bdrc:I1187C7C4-iast",
+					"source": "bdrc",
+					"sourceId": "I1187C7C4-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "7E92",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:I1187C7C4",
+					"slug": "bdrc/I1187C7C4-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/I1187C7C4.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/I1187C7C4.md",
+					"originalUrl": "https://github.com/Openpecha-Data/I1187C7C4"
+				},
+				{
 					"ref": "bdrc:I1187C7C4",
 					"source": "bdrc",
 					"sourceId": "I1187C7C4",
@@ -5343,6 +5586,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P414BEB44.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P414BEB44.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P414BEB44"
+				},
+				{
+					"ref": "bdrc:PA6676F62-iast",
+					"source": "bdrc",
+					"sourceId": "PA6676F62-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PA6676F62",
+					"slug": "bdrc/PA6676F62-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA6676F62.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA6676F62.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA6676F62"
 				},
 				{
 					"ref": "bdrc:PA6676F62",
@@ -6137,6 +6394,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PBEC98756"
 				},
 				{
+					"ref": "bdrc:P4BD475FE-iast",
+					"source": "bdrc",
+					"sourceId": "P4BD475FE-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "The Buddhakapālatantra Chapters 9 to 14",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4BD475FE",
+					"slug": "bdrc/P4BD475FE-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4BD475FE.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4BD475FE.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4BD475FE"
+				},
+				{
 					"ref": "bdrc:P4BD475FE",
 					"source": "bdrc",
 					"sourceId": "P4BD475FE",
@@ -6472,6 +6743,34 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PB51AF9A6"
 				},
 				{
+					"ref": "bdrc:PDF28083A-iast",
+					"source": "bdrc",
+					"sourceId": "PDF28083A-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "चक्रसंवरतन्त्रम् [Vol.1]",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PDF28083A",
+					"slug": "bdrc/PDF28083A-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PDF28083A.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PDF28083A.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PDF28083A"
+				},
+				{
+					"ref": "bdrc:PE5149640-iast",
+					"source": "bdrc",
+					"sourceId": "PE5149640-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "चक्रसंवरतन्त्रम् [Vol.2]",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE5149640",
+					"slug": "bdrc/PE5149640-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE5149640.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE5149640.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE5149640"
+				},
+				{
 					"ref": "bdrc:PDF28083A",
 					"source": "bdrc",
 					"sourceId": "PDF28083A",
@@ -6537,6 +6836,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4214711B.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4214711B.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P4214711B"
+				},
+				{
+					"ref": "bdrc:P2C6C60E2-iast",
+					"source": "bdrc",
+					"sourceId": "P2C6C60E2-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "The Caṇḍamahāroṣaṇa tantra: Chapters I-VIII",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P2C6C60E2",
+					"slug": "bdrc/P2C6C60E2-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2C6C60E2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2C6C60E2.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2C6C60E2"
 				},
 				{
 					"ref": "bdrc:P2C6C60E2",
@@ -6629,6 +6942,39 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P1BBB8BE4.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P1BBB8BE4.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P1BBB8BE4"
+				}
+			]
+		},
+		{
+			"title": "Carya git",
+			"titleDeva": "Carya git",
+			"category": "tantra/giti",
+			"editions": [
+				{
+					"ref": "wikisource:an-88-carya-git-iast",
+					"source": "wikisource",
+					"sourceId": "an-88-carya-git-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Carya git",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-88-carya-git",
+					"slug": "wikisource/an-88-carya-git-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-88-carya-git.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-88-carya-git.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_88_Carya_Git.pdf"
+				},
+				{
+					"ref": "wikisource:an-88-carya-git",
+					"source": "wikisource",
+					"sourceId": "an-88-carya-git",
+					"label": "Wikisource देवनागरी",
+					"script": "deva",
+					"title": "Carya git",
+					"slug": "wikisource/an-88-carya-git",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-88-carya-git.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-88-carya-git.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_88_Carya_Git.pdf"
 				}
 			]
 		},
@@ -7338,6 +7684,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PC91CA882"
 				},
 				{
+					"ref": "bdrc:PD2162A31-iast",
+					"source": "bdrc",
+					"sourceId": "PD2162A31-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Ḍākārṇavaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PD2162A31",
+					"slug": "bdrc/PD2162A31-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PD2162A31.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PD2162A31.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PD2162A31"
+				},
+				{
 					"ref": "bdrc:PD2162A31",
 					"source": "bdrc",
 					"sourceId": "PD2162A31",
@@ -7467,6 +7827,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5FCE6EE1.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5FCE6EE1.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P5FCE6EE1"
+				},
+				{
+					"ref": "bdrc:PA5C7A8E2-iast",
+					"source": "bdrc",
+					"sourceId": "PA5C7A8E2-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Daṇḍikathā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PA5C7A8E2",
+					"slug": "bdrc/PA5C7A8E2-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA5C7A8E2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA5C7A8E2.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA5C7A8E2"
 				},
 				{
 					"ref": "bdrc:PA5C7A8E2",
@@ -7691,6 +8065,20 @@
 			"category": "sutra/avadana",
 			"editions": [
 				{
+					"ref": "wikisource:an-96-debya-awadan-iast",
+					"source": "wikisource",
+					"sourceId": "an-96-debya-awadan-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Debya Awadan",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-96-debya-awadan",
+					"slug": "wikisource/an-96-debya-awadan-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-96-debya-awadan.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-96-debya-awadan.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_96_Debya_Awadan.pdf"
+				},
+				{
 					"ref": "wikisource:an-96-debya-awadan",
 					"source": "wikisource",
 					"sourceId": "an-96-debya-awadan",
@@ -7862,6 +8250,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4A08ACAF.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4A08ACAF.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P4A08ACAF"
+				},
+				{
+					"ref": "bdrc:P0EA595AF-iast",
+					"source": "bdrc",
+					"sourceId": "P0EA595AF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Dhāraṇī Saṃgraha",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P0EA595AF",
+					"slug": "bdrc/P0EA595AF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0EA595AF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0EA595AF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P0EA595AF"
 				},
 				{
 					"ref": "bdrc:P0EA595AF",
@@ -8049,6 +8451,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6C0EBE08.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6C0EBE08.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6C0EBE08"
+				},
+				{
+					"ref": "bdrc:P564BEFB5-iast",
+					"source": "bdrc",
+					"sourceId": "P564BEFB5-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Dharmadhātustava",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P564BEFB5",
+					"slug": "bdrc/P564BEFB5-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P564BEFB5.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P564BEFB5.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P564BEFB5"
 				},
 				{
 					"ref": "bdrc:P564BEFB5",
@@ -8427,6 +8843,90 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PEF2AD849"
 				},
 				{
+					"ref": "bdrc:P34DB0416-iast",
+					"source": "bdrc",
+					"sourceId": "P34DB0416-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P34DB0416",
+					"slug": "bdrc/P34DB0416-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P34DB0416.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P34DB0416.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P34DB0416"
+				},
+				{
+					"ref": "bdrc:P572281BB-iast",
+					"source": "bdrc",
+					"sourceId": "P572281BB-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P572281BB",
+					"slug": "bdrc/P572281BB-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P572281BB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P572281BB.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P572281BB"
+				},
+				{
+					"ref": "bdrc:P78597666-iast",
+					"source": "bdrc",
+					"sourceId": "P78597666-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P78597666",
+					"slug": "bdrc/P78597666-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P78597666.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P78597666.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P78597666"
+				},
+				{
+					"ref": "bdrc:P828DE96D-iast",
+					"source": "bdrc",
+					"sourceId": "P828DE96D-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P828DE96D",
+					"slug": "bdrc/P828DE96D-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P828DE96D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P828DE96D.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P828DE96D"
+				},
+				{
+					"ref": "bdrc:PC2BD44F9-iast",
+					"source": "bdrc",
+					"sourceId": "PC2BD44F9-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PC2BD44F9",
+					"slug": "bdrc/PC2BD44F9-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PC2BD44F9.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PC2BD44F9.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PC2BD44F9"
+				},
+				{
+					"ref": "bdrc:PDCF68FA8-iast",
+					"source": "bdrc",
+					"sourceId": "PDCF68FA8-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Dhīh Journal",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PDCF68FA8",
+					"slug": "bdrc/PDCF68FA8-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PDCF68FA8.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PDCF68FA8.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PDCF68FA8"
+				},
+				{
 					"ref": "bdrc:P34DB0416",
 					"source": "bdrc",
 					"sourceId": "P34DB0416",
@@ -8640,6 +9140,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%A6%E0%A4%BF%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%A6%E0%A4%BF%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7/%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A6%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%AF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/761"
+				},
+				{
+					"ref": "bdrc:PB683998F-iast",
+					"source": "bdrc",
+					"sourceId": "PB683998F-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "द्वादशकारनयस्तोत्रम्",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PB683998F",
+					"slug": "bdrc/PB683998F-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB683998F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB683998F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PB683998F"
 				},
 				{
 					"ref": "bdrc:PB683998F",
@@ -9424,6 +9938,39 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5BC3454B.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5BC3454B.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P5BC3454B"
+				}
+			]
+		},
+		{
+			"title": "Gunakarunamaya Biu",
+			"titleDeva": "Gunakarunamaya Biu",
+			"category": "tantra/sadhana",
+			"editions": [
+				{
+					"ref": "wikisource:an-102-gunakarunamaya-biu-iast",
+					"source": "wikisource",
+					"sourceId": "an-102-gunakarunamaya-biu-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Gunakarunamaya Biu",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-102-gunakarunamaya-biu",
+					"slug": "wikisource/an-102-gunakarunamaya-biu-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-102-gunakarunamaya-biu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-102-gunakarunamaya-biu.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_102_Gunakarunamaya_Biu.pdf"
+				},
+				{
+					"ref": "wikisource:an-102-gunakarunamaya-biu",
+					"source": "wikisource",
+					"sourceId": "an-102-gunakarunamaya-biu",
+					"label": "Wikisource देवनागरी",
+					"script": "deva",
+					"title": "Gunakarunamaya Biu",
+					"slug": "wikisource/an-102-gunakarunamaya-biu",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_102_Gunakarunamaya_Biu.pdf"
 				}
 			]
 		},
@@ -10528,6 +11075,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P235363F4"
 				},
 				{
+					"ref": "bdrc:P006821F7-iast",
+					"source": "bdrc",
+					"sourceId": "P006821F7-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "ज्ञानसिद्धिः",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P006821F7",
+					"slug": "bdrc/P006821F7-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P006821F7.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P006821F7.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P006821F7"
+				},
+				{
 					"ref": "bdrc:P006821F7",
 					"source": "bdrc",
 					"sourceId": "P006821F7",
@@ -10569,6 +11130,34 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFF8C7BE6.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFF8C7BE6.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PFF8C7BE6"
+				},
+				{
+					"ref": "bdrc:P48254083-iast",
+					"source": "bdrc",
+					"sourceId": "P48254083-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Jñānaśrimitra’s Anupalabdhirahasya and Sarvaśabdābhāvacarcā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P48254083",
+					"slug": "bdrc/P48254083-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P48254083.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P48254083.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P48254083"
+				},
+				{
+					"ref": "bdrc:P4BD8ADCB-iast",
+					"source": "bdrc",
+					"sourceId": "P4BD8ADCB-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Jñānaśrimitra’s Anupalabdhirahasya and Sarvaśabdābhāvacarcā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4BD8ADCB",
+					"slug": "bdrc/P4BD8ADCB-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4BD8ADCB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4BD8ADCB.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4BD8ADCB"
 				},
 				{
 					"ref": "bdrc:P48254083",
@@ -10703,6 +11292,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PAECAFAEB"
 				},
 				{
+					"ref": "bdrc:PF7071344-iast",
+					"source": "bdrc",
+					"sourceId": "PF7071344-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "कालचक्रावतारः",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PF7071344",
+					"slug": "bdrc/PF7071344-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF7071344.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF7071344.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PF7071344"
+				},
+				{
 					"ref": "bdrc:PF7071344",
 					"source": "bdrc",
 					"sourceId": "PF7071344",
@@ -10794,6 +11397,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P48836D23.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P48836D23.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P48836D23"
+				},
+				{
+					"ref": "bdrc:PC2B1A4D2-iast",
+					"source": "bdrc",
+					"sourceId": "PC2B1A4D2-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Essays on the History of Buddhism",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PC2B1A4D2",
+					"slug": "bdrc/PC2B1A4D2-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PC2B1A4D2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PC2B1A4D2.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PC2B1A4D2"
 				},
 				{
 					"ref": "bdrc:PC2B1A4D2",
@@ -10997,6 +11614,20 @@
 			"titleDeva": "Karanya Biu Paath",
 			"category": "tantra/sadhana",
 			"editions": [
+				{
+					"ref": "wikisource:an-94-karanya-biu-paath-iast",
+					"source": "wikisource",
+					"sourceId": "an-94-karanya-biu-paath-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Karanya Biu Paath",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-94-karanya-biu-paath",
+					"slug": "wikisource/an-94-karanya-biu-paath-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-94-karanya-biu-paath.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-94-karanya-biu-paath.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_94_Karanya_Biu_Paath.pdf"
+				},
 				{
 					"ref": "wikisource:an-94-karanya-biu-paath",
 					"source": "wikisource",
@@ -11661,6 +12292,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PE9E89C89"
 				},
 				{
+					"ref": "bdrc:PE4758287-iast",
+					"source": "bdrc",
+					"sourceId": "PE4758287-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Kriyāsaṁgrahapañjikā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE4758287",
+					"slug": "bdrc/PE4758287-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE4758287.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE4758287.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE4758287"
+				},
+				{
 					"ref": "bdrc:PE4758287",
 					"source": "bdrc",
 					"sourceId": "PE4758287",
@@ -11851,6 +12496,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PAD84D6A2"
 				},
 				{
+					"ref": "bdrc:P5F707700-iast",
+					"source": "bdrc",
+					"sourceId": "P5F707700-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Laghukaumudī",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P5F707700",
+					"slug": "bdrc/P5F707700-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5F707700.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5F707700.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P5F707700"
+				},
+				{
 					"ref": "bdrc:P5F707700",
 					"source": "bdrc",
 					"sourceId": "P5F707700",
@@ -11904,6 +12563,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF033A063.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF033A063.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PF033A063"
+				},
+				{
+					"ref": "bdrc:P2B1B4ABF-iast",
+					"source": "bdrc",
+					"sourceId": "P2B1B4ABF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "The Laghutantraṭīkā by Vajrapāṇi",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P2B1B4ABF",
+					"slug": "bdrc/P2B1B4ABF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2B1B4ABF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2B1B4ABF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2B1B4ABF"
 				},
 				{
 					"ref": "bdrc:P2B1B4ABF",
@@ -12643,6 +13316,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P4085FE01"
 				},
 				{
+					"ref": "bdrc:P7DB27B29-iast",
+					"source": "bdrc",
+					"sourceId": "P7DB27B29-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "मध्यमकावतार-कारिका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P7DB27B29",
+					"slug": "bdrc/P7DB27B29-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7DB27B29.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7DB27B29.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
+				},
+				{
 					"ref": "bdrc:P7DB27B29",
 					"source": "bdrc",
 					"sourceId": "P7DB27B29",
@@ -13181,6 +13868,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PEAEA1373.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PEAEA1373.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PEAEA1373"
+				},
+				{
+					"ref": "bdrc:PFBCCE3DE-iast",
+					"source": "bdrc",
+					"sourceId": "PFBCCE3DE-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "महामायातन्त्रम् [गुणवतिटिकासहितम्]",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PFBCCE3DE",
+					"slug": "bdrc/PFBCCE3DE-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFBCCE3DE.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFBCCE3DE.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PFBCCE3DE"
 				},
 				{
 					"ref": "bdrc:PFBCCE3DE",
@@ -13877,6 +14578,34 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PD75D724D"
 				},
 				{
+					"ref": "bdrc:P853E7A5C-iast",
+					"source": "bdrc",
+					"sourceId": "P853E7A5C-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Le Mahâvastu",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P853E7A5C",
+					"slug": "bdrc/P853E7A5C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P853E7A5C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P853E7A5C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P853E7A5C"
+				},
+				{
+					"ref": "bdrc:PF6C8885B-iast",
+					"source": "bdrc",
+					"sourceId": "PF6C8885B-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Le Mahavastu",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PF6C8885B",
+					"slug": "bdrc/PF6C8885B-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF6C8885B.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF6C8885B.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PF6C8885B"
+				},
+				{
 					"ref": "bdrc:P853E7A5C",
 					"source": "bdrc",
 					"sourceId": "P853E7A5C",
@@ -13968,6 +14697,20 @@
 			"titleDeva": "Mahayan Sutra",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
+				{
+					"ref": "wikisource:an-93-mahayan-sutra-iast",
+					"source": "wikisource",
+					"sourceId": "an-93-mahayan-sutra-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Mahayan Sutra",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-93-mahayan-sutra",
+					"slug": "wikisource/an-93-mahayan-sutra-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-93-mahayan-sutra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-93-mahayan-sutra.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_93_Mahayan_Sutra.pdf"
+				},
 				{
 					"ref": "wikisource:an-93-mahayan-sutra",
 					"source": "wikisource",
@@ -14288,6 +15031,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0DD06AFA.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0DD06AFA.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0DD06AFA"
+				},
+				{
+					"ref": "bdrc:PC1884667-iast",
+					"source": "bdrc",
+					"sourceId": "PC1884667-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "महायानसंग्रह",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PC1884667",
+					"slug": "bdrc/PC1884667-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PC1884667.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PC1884667.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PC1884667"
 				},
 				{
 					"ref": "bdrc:PC1884667",
@@ -14720,6 +15477,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P51539269"
 				},
 				{
+					"ref": "bdrc:P4CCCCB2A-iast",
+					"source": "bdrc",
+					"sourceId": "P4CCCCB2A-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Aririab",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4CCCCB2A",
+					"slug": "bdrc/P4CCCCB2A-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4CCCCB2A.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4CCCCB2A.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4CCCCB2A"
+				},
+				{
 					"ref": "bdrc:P4CCCCB2A",
 					"source": "bdrc",
 					"sourceId": "P4CCCCB2A",
@@ -15040,6 +15811,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P1545B659"
 				},
 				{
+					"ref": "bdrc:P949AF17B-iast",
+					"source": "bdrc",
+					"sourceId": "P949AF17B-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Mañjuvajramukhyākhyāna",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P949AF17B",
+					"slug": "bdrc/P949AF17B-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P949AF17B.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P949AF17B.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P949AF17B"
+				},
+				{
 					"ref": "bdrc:P949AF17B",
 					"source": "bdrc",
 					"sourceId": "P949AF17B",
@@ -15126,6 +15911,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6B4C62AD.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6B4C62AD.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6B4C62AD"
+				},
+				{
+					"ref": "bdrc:P8F410404-iast",
+					"source": "bdrc",
+					"sourceId": "P8F410404-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Mantroddhāra",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P8F410404",
+					"slug": "bdrc/P8F410404-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P8F410404.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P8F410404.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P8F410404"
 				},
 				{
 					"ref": "bdrc:P8F410404",
@@ -15294,6 +16093,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0C464944.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0C464944.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0C464944"
+				},
+				{
+					"ref": "bdrc:P303FF3DF-iast",
+					"source": "bdrc",
+					"sourceId": "P303FF3DF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Āryamāyājālamahātantroddhṛtamaṇdalagāthāṭippaṇī",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P303FF3DF",
+					"slug": "bdrc/P303FF3DF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P303FF3DF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P303FF3DF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P303FF3DF"
 				},
 				{
 					"ref": "bdrc:P303FF3DF",
@@ -15628,6 +16441,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P573A1719"
 				},
 				{
+					"ref": "bdrc:PE4382737-iast",
+					"source": "bdrc",
+					"sourceId": "PE4382737-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Munimatālaṁkāra",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE4382737",
+					"slug": "bdrc/PE4382737-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE4382737.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE4382737.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE4382737"
+				},
+				{
 					"ref": "bdrc:PE4382737",
 					"source": "bdrc",
 					"sourceId": "PE4382737",
@@ -15931,6 +16758,20 @@
 			"titleDeva": "Namasangati",
 			"category": "tantra/tantras",
 			"editions": [
+				{
+					"ref": "wikisource:an-92-namsangati-iast",
+					"source": "wikisource",
+					"sourceId": "an-92-namsangati-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Namasangati",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-92-namsangati",
+					"slug": "wikisource/an-92-namsangati-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-92-namsangati.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-92-namsangati.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_92_Namsangati.pdf"
+				},
 				{
 					"ref": "wikisource:an-92-namsangati",
 					"source": "wikisource",
@@ -16911,6 +17752,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PCEEAF7D5"
 				},
 				{
+					"ref": "bdrc:P9F0AAF24-iast",
+					"source": "bdrc",
+					"sourceId": "P9F0AAF24-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Pañcaśatikā prajñāpāramitā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P9F0AAF24",
+					"slug": "bdrc/P9F0AAF24-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P9F0AAF24.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P9F0AAF24.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P9F0AAF24"
+				},
+				{
 					"ref": "bdrc:P9F0AAF24",
 					"source": "bdrc",
 					"sourceId": "P9F0AAF24",
@@ -17122,6 +17977,20 @@
 			"category": "sutra/dharani",
 			"editions": [
 				{
+					"ref": "wikisource:an-89-pancharakshya-path-iast",
+					"source": "wikisource",
+					"sourceId": "an-89-pancharakshya-path-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Pancharakshya Path",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-89-pancharakshya-path",
+					"slug": "wikisource/an-89-pancharakshya-path-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-89-pancharakshya-path.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-89-pancharakshya-path.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_89_Pancharakshya_Path.pdf"
+				},
+				{
 					"ref": "wikisource:an-89-pancharakshya-path",
 					"source": "wikisource",
 					"sourceId": "an-89-pancharakshya-path",
@@ -17229,6 +18098,76 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P94B6BE96.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P94B6BE96.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P94B6BE96"
+				},
+				{
+					"ref": "bdrc:P04938C38-iast",
+					"source": "bdrc",
+					"sourceId": "P04938C38-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Pārājikā (Texts from Nepal)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P04938C38",
+					"slug": "bdrc/P04938C38-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P04938C38.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P04938C38.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P04938C38"
+				},
+				{
+					"ref": "bdrc:P15E29212-iast",
+					"source": "bdrc",
+					"sourceId": "P15E29212-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Pārājikā (Texts from Nepal)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P15E29212",
+					"slug": "bdrc/P15E29212-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P15E29212.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P15E29212.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P15E29212"
+				},
+				{
+					"ref": "bdrc:P20EBE0E3-iast",
+					"source": "bdrc",
+					"sourceId": "P20EBE0E3-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Pārājikā (Texts from Nepal)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P20EBE0E3",
+					"slug": "bdrc/P20EBE0E3-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P20EBE0E3.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P20EBE0E3.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P20EBE0E3"
+				},
+				{
+					"ref": "bdrc:P8E0CC4AD-iast",
+					"source": "bdrc",
+					"sourceId": "P8E0CC4AD-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Pārājikā (Texts from Nepal)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P8E0CC4AD",
+					"slug": "bdrc/P8E0CC4AD-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P8E0CC4AD.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P8E0CC4AD.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P8E0CC4AD"
+				},
+				{
+					"ref": "bdrc:PD039A665-iast",
+					"source": "bdrc",
+					"sourceId": "PD039A665-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Pārājikā (Texts from Nepal)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PD039A665",
+					"slug": "bdrc/PD039A665-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PD039A665.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PD039A665.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PD039A665"
 				},
 				{
 					"ref": "bdrc:P04938C38",
@@ -17478,6 +18417,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PECCCC4BA"
 				},
 				{
+					"ref": "bdrc:P142F85BA-iast",
+					"source": "bdrc",
+					"sourceId": "P142F85BA-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Paribhāṣāvṛtteh",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P142F85BA",
+					"slug": "bdrc/P142F85BA-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P142F85BA.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P142F85BA.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P142F85BA"
+				},
+				{
 					"ref": "bdrc:P142F85BA",
 					"source": "bdrc",
 					"sourceId": "P142F85BA",
@@ -17537,6 +18490,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A5%8D%E0%A4%AF/%E0%A4%AA%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%AA%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A5%8D%E0%A4%AF/%E0%A4%AA%E0%A4%B6%E0%A5%8D%E0%A4%9A%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%AA%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/875"
+				},
+				{
+					"ref": "bdrc:P6A52575C-iast",
+					"source": "bdrc",
+					"sourceId": "P6A52575C-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Buddhist Studies Review",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P6A52575C",
+					"slug": "bdrc/P6A52575C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6A52575C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6A52575C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P6A52575C"
 				},
 				{
 					"ref": "bdrc:P6A52575C",
@@ -18201,6 +19168,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4799896E.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4799896E.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P4799896E"
+				},
+				{
+					"ref": "bdrc:P7877A255-iast",
+					"source": "bdrc",
+					"sourceId": "P7877A255-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Prajñopāyaviniścayasiddhiḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P7877A255",
+					"slug": "bdrc/P7877A255-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7877A255.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7877A255.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P7877A255"
 				},
 				{
 					"ref": "bdrc:P7877A255",
@@ -19901,6 +20882,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PE542AF4D"
 				},
 				{
+					"ref": "bdrc:PD4DACE6C-iast",
+					"source": "bdrc",
+					"sourceId": "PD4DACE6C-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Śabdabhedaprakāśaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PD4DACE6C",
+					"slug": "bdrc/PD4DACE6C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PD4DACE6C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PD4DACE6C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PD4DACE6C"
+				},
+				{
 					"ref": "bdrc:PD4DACE6C",
 					"source": "bdrc",
 					"sourceId": "PD4DACE6C",
@@ -20353,6 +21348,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P35835FF2"
 				},
 				{
+					"ref": "bdrc:PB84B8BCF-iast",
+					"source": "bdrc",
+					"sourceId": "PB84B8BCF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Saddharmasmṛtyupasthānasūtram",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PB84B8BCF",
+					"slug": "bdrc/PB84B8BCF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB84B8BCF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB84B8BCF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PB84B8BCF"
+				},
+				{
 					"ref": "bdrc:PB84B8BCF",
 					"source": "bdrc",
 					"sourceId": "PB84B8BCF",
@@ -20406,6 +21415,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P8CF98C65.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P8CF98C65.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P8CF98C65"
+				},
+				{
+					"ref": "bdrc:P2540A219-iast",
+					"source": "bdrc",
+					"sourceId": "P2540A219-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "South Asian classical studies No. 13 (Ṣaḍgatikārikāḥ)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P2540A219",
+					"slug": "bdrc/P2540A219-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2540A219.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2540A219.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2540A219"
 				},
 				{
 					"ref": "bdrc:P2540A219",
@@ -21135,6 +22158,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P8C759FF6"
 				},
 				{
+					"ref": "bdrc:P1C0CDC98-iast",
+					"source": "bdrc",
+					"sourceId": "P1C0CDC98-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Smāhitā Bhūmiḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P1C0CDC98",
+					"slug": "bdrc/P1C0CDC98-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P1C0CDC98.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P1C0CDC98.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P1C0CDC98"
+				},
+				{
 					"ref": "bdrc:P1C0CDC98",
 					"source": "bdrc",
 					"sourceId": "P1C0CDC98",
@@ -21191,6 +22228,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P5E50C090"
 				},
 				{
+					"ref": "bdrc:P8BC71691-iast",
+					"source": "bdrc",
+					"sourceId": "P8BC71691-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "समाजसाधनव्यवस्थोलि",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P8BC71691",
+					"slug": "bdrc/P8BC71691-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P8BC71691.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P8BC71691.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P8BC71691"
+				},
+				{
 					"ref": "bdrc:P8BC71691",
 					"source": "bdrc",
 					"sourceId": "P8BC71691",
@@ -21209,6 +22260,20 @@
 			"titleDeva": "Samantabhadra Guro Mukhāgamanāma",
 			"category": "tantra/tantras",
 			"editions": [
+				{
+					"ref": "bdrc:I4663C136-iast",
+					"source": "bdrc",
+					"sourceId": "I4663C136-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Samantabhadra Guro Mukhāgamanāma",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:I4663C136",
+					"slug": "bdrc/I4663C136-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/I4663C136.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/I4663C136.md",
+					"originalUrl": "https://github.com/Openpecha-Data/I4663C136"
+				},
 				{
 					"ref": "bdrc:I4663C136",
 					"source": "bdrc",
@@ -21252,6 +22317,20 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%AD%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%20%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%AD%E0%A4%A6%E0%A5%8D%E0%A4%B0%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%20%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/757"
+				},
+				{
+					"ref": "bdrc:PD70799DF-iast",
+					"source": "bdrc",
+					"sourceId": "PD70799DF-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "समन्तभद्र नाम साधन टीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PD70799DF",
+					"slug": "bdrc/PD70799DF-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PD70799DF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PD70799DF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PD70799DF"
 				},
 				{
 					"ref": "bdrc:PD70799DF",
@@ -21864,6 +22943,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P63091D94"
 				},
 				{
+					"ref": "bdrc:P49B48889-iast",
+					"source": "bdrc",
+					"sourceId": "P49B48889-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Saṅgītamālikā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P49B48889",
+					"slug": "bdrc/P49B48889-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P49B48889.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P49B48889.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P49B48889"
+				},
+				{
 					"ref": "bdrc:P49B48889",
 					"source": "bdrc",
 					"sourceId": "P49B48889",
@@ -22258,6 +23351,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P4DDA9859"
 				},
 				{
+					"ref": "bdrc:P4AE4A484-iast",
+					"source": "bdrc",
+					"sourceId": "P4AE4A484-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "सरहपादस्य दोहाकोषः",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4AE4A484",
+					"slug": "bdrc/P4AE4A484-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4AE4A484.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4AE4A484.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4AE4A484"
+				},
+				{
 					"ref": "bdrc:P4AE4A484",
 					"source": "bdrc",
 					"sourceId": "P4AE4A484",
@@ -22499,6 +23606,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PB409C3B2"
 				},
 				{
+					"ref": "bdrc:PEBE400DE-iast",
+					"source": "bdrc",
+					"sourceId": "PEBE400DE-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Sarvabuddhaviṣayāvatārajñānālokālaṁkāra nāma mahāyānasūtra",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PEBE400DE",
+					"slug": "bdrc/PEBE400DE-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PEBE400DE.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PEBE400DE.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PEBE400DE"
+				},
+				{
 					"ref": "bdrc:PEBE400DE",
 					"source": "bdrc",
 					"sourceId": "PEBE400DE",
@@ -22625,6 +23746,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCC9BCCA4.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCC9BCCA4.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PCC9BCCA4"
+				},
+				{
+					"ref": "bdrc:P2278AE7F-iast",
+					"source": "bdrc",
+					"sourceId": "P2278AE7F-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "The Sarvadurgatipariśodhana tantra : elimination of all evil destinies",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P2278AE7F",
+					"slug": "bdrc/P2278AE7F-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2278AE7F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2278AE7F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2278AE7F"
 				},
 				{
 					"ref": "bdrc:P2278AE7F",
@@ -23873,6 +25008,34 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PD4672EBE"
 				},
 				{
+					"ref": "bdrc:P4F1B5901-iast",
+					"source": "bdrc",
+					"sourceId": "P4F1B5901-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Sphuṭārthā Abhidharmakośa Vyākhyā (Vol 1)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P4F1B5901",
+					"slug": "bdrc/P4F1B5901-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4F1B5901.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4F1B5901.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4F1B5901"
+				},
+				{
+					"ref": "bdrc:P5B6DDC1F-iast",
+					"source": "bdrc",
+					"sourceId": "P5B6DDC1F-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "Sphuṭārthā Abhidharmakośa Vyākhyā (Vol 2)",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P5B6DDC1F",
+					"slug": "bdrc/P5B6DDC1F-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5B6DDC1F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5B6DDC1F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P5B6DDC1F"
+				},
+				{
 					"ref": "bdrc:P4F1B5901",
 					"source": "bdrc",
 					"sourceId": "P4F1B5901",
@@ -24141,6 +25304,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PCDEFEDFB"
 				},
 				{
+					"ref": "bdrc:PE5FCCD8C-iast",
+					"source": "bdrc",
+					"sourceId": "PE5FCCD8C-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE5FCCD8C",
+					"slug": "bdrc/PE5FCCD8C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE5FCCD8C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE5FCCD8C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE5FCCD8C"
+				},
+				{
 					"ref": "bdrc:PE5FCCD8C",
 					"source": "bdrc",
 					"sourceId": "PE5FCCD8C",
@@ -24195,6 +25372,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6367F370.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6367F370.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6367F370"
+				},
+				{
+					"ref": "bdrc:P356459F6-iast",
+					"source": "bdrc",
+					"sourceId": "P356459F6-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Śrīguhyasamājatantram",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P356459F6",
+					"slug": "bdrc/P356459F6-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P356459F6.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P356459F6.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P356459F6"
 				},
 				{
 					"ref": "bdrc:P356459F6",
@@ -24427,6 +25618,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PED1012D4.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PED1012D4.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PED1012D4"
+				},
+				{
+					"ref": "bdrc:P44CD748F-iast",
+					"source": "bdrc",
+					"sourceId": "P44CD748F-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Śrīsahajasiddhi",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P44CD748F",
+					"slug": "bdrc/P44CD748F-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P44CD748F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P44CD748F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P44CD748F"
 				},
 				{
 					"ref": "bdrc:P44CD748F",
@@ -25158,6 +26363,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P3E707F99"
 				},
 				{
+					"ref": "bdrc:P54C20C5E-iast",
+					"source": "bdrc",
+					"sourceId": "P54C20C5E-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "स्वभाववादः",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P54C20C5E",
+					"slug": "bdrc/P54C20C5E-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P54C20C5E.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P54C20C5E.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P54C20C5E"
+				},
+				{
 					"ref": "bdrc:P54C20C5E",
 					"source": "bdrc",
 					"sourceId": "P54C20C5E",
@@ -25274,6 +26493,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P646E08BB"
 				},
 				{
+					"ref": "bdrc:P9990394E-iast",
+					"source": "bdrc",
+					"sourceId": "P9990394E-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Śikhisamuccayaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P9990394E",
+					"slug": "bdrc/P9990394E-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P9990394E.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P9990394E.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P9990394E"
+				},
+				{
 					"ref": "bdrc:P9990394E",
 					"source": "bdrc",
 					"sourceId": "P9990394E",
@@ -25329,6 +26562,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P23336A07"
 				},
 				{
+					"ref": "bdrc:PCA14CD9F-iast",
+					"source": "bdrc",
+					"sourceId": "PCA14CD9F-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Sanskrit Manuscripts in China",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PCA14CD9F",
+					"slug": "bdrc/PCA14CD9F-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCA14CD9F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCA14CD9F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PCA14CD9F"
+				},
+				{
 					"ref": "bdrc:PCA14CD9F",
 					"source": "bdrc",
 					"sourceId": "PCA14CD9F",
@@ -25382,6 +26629,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFADDF0DE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFADDF0DE.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PFADDF0DE"
+				},
+				{
+					"ref": "bdrc:P920D209A-iast",
+					"source": "bdrc",
+					"sourceId": "P920D209A-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "स्वस्त्ययनगाथा",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P920D209A",
+					"slug": "bdrc/P920D209A-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P920D209A.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P920D209A.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P920D209A"
 				},
 				{
 					"ref": "bdrc:P920D209A",
@@ -25841,6 +27102,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PDC5A0726"
 				},
 				{
+					"ref": "bdrc:P9B5E37C4-iast",
+					"source": "bdrc",
+					"sourceId": "P9B5E37C4-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "तर्कभाषाटीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P9B5E37C4",
+					"slug": "bdrc/P9B5E37C4-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P9B5E37C4.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P9B5E37C4.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P9B5E37C4"
+				},
+				{
 					"ref": "bdrc:P9B5E37C4",
 					"source": "bdrc",
 					"sourceId": "P9B5E37C4",
@@ -26087,6 +27362,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PCF107B88"
 				},
 				{
+					"ref": "bdrc:P38AB5775-iast",
+					"source": "bdrc",
+					"sourceId": "P38AB5775-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "तत्त्वज्ञानसंसिद्धि-महासुखरकाशिका-टीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P38AB5775",
+					"slug": "bdrc/P38AB5775-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P38AB5775.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P38AB5775.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P38AB5775"
+				},
+				{
 					"ref": "bdrc:P38AB5775",
 					"source": "bdrc",
 					"sourceId": "P38AB5775",
@@ -26143,6 +27432,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PC0CA210A"
 				},
 				{
+					"ref": "bdrc:PFD96B95C-iast",
+					"source": "bdrc",
+					"sourceId": "PFD96B95C-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "तत्त्वज्ञानसंसिद्धिटीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PFD96B95C",
+					"slug": "bdrc/PFD96B95C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFD96B95C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFD96B95C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PFD96B95C"
+				},
+				{
 					"ref": "bdrc:PFD96B95C",
 					"source": "bdrc",
 					"sourceId": "PFD96B95C",
@@ -26197,6 +27500,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7AA4A353.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7AA4A353.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P7AA4A353"
+				},
+				{
+					"ref": "bdrc:PBE4494F3-iast",
+					"source": "bdrc",
+					"sourceId": "PBE4494F3-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Tattvaratnāvalī",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PBE4494F3",
+					"slug": "bdrc/PBE4494F3-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBE4494F3.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBE4494F3.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PBE4494F3"
 				},
 				{
 					"ref": "bdrc:PBE4494F3",
@@ -26417,6 +27734,34 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P52D417C7.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P52D417C7.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P52D417C7"
+				},
+				{
+					"ref": "bdrc:P29D8E3BB-iast",
+					"source": "bdrc",
+					"sourceId": "P29D8E3BB-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "The Gilgit Manuscript of the Sayanasanavastu and the Adhikaranavastu",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P29D8E3BB",
+					"slug": "bdrc/P29D8E3BB-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P29D8E3BB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P29D8E3BB.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P29D8E3BB"
+				},
+				{
+					"ref": "bdrc:PA0DB1B77-iast",
+					"source": "bdrc",
+					"sourceId": "PA0DB1B77-iast",
+					"label": "BDRC (transliterated) (via DSBC)",
+					"script": "iast",
+					"title": "The Gilgit Manuscript of the Sayanasanavastu and the Adhikaranavastu",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PA0DB1B77",
+					"slug": "bdrc/PA0DB1B77-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA0DB1B77.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA0DB1B77.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA0DB1B77"
 				},
 				{
 					"ref": "bdrc:P29D8E3BB",
@@ -26645,6 +27990,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P33C8019F.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P33C8019F.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P33C8019F"
+				},
+				{
+					"ref": "bdrc:P60558678-iast",
+					"source": "bdrc",
+					"sourceId": "P60558678-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Triratnasaundaryagāthā",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P60558678",
+					"slug": "bdrc/P60558678-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P60558678.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P60558678.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P60558678"
 				},
 				{
 					"ref": "bdrc:P60558678",
@@ -27071,6 +28430,20 @@
 			"category": "vinaya/vinaya-other",
 			"editions": [
 				{
+					"ref": "wikisource:an-97-uposadh-badhan-iast",
+					"source": "wikisource",
+					"sourceId": "an-97-uposadh-badhan-iast",
+					"label": "Wikisource (transliterated)",
+					"script": "iast",
+					"title": "Uposadh Badhan",
+					"transliterated": true,
+					"transliteratedFrom": "wikisource:an-97-uposadh-badhan",
+					"slug": "wikisource/an-97-uposadh-badhan-iast",
+					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-97-uposadh-badhan.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-97-uposadh-badhan.md",
+					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_97_Uposadh_Badhan.pdf"
+				},
+				{
 					"ref": "wikisource:an-97-uposadh-badhan",
 					"source": "wikisource",
 					"sourceId": "an-97-uposadh-badhan",
@@ -27250,6 +28623,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PDB7C21C7.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PDB7C21C7.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PDB7C21C7"
+				},
+				{
+					"ref": "bdrc:P01011D30-iast",
+					"source": "bdrc",
+					"sourceId": "P01011D30-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "वादन्यायटीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P01011D30",
+					"slug": "bdrc/P01011D30-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P01011D30.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P01011D30.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P01011D30"
 				},
 				{
 					"ref": "bdrc:P01011D30",
@@ -27662,6 +29049,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PD2856120"
 				},
 				{
+					"ref": "bdrc:PFCED252A-iast",
+					"source": "bdrc",
+					"sourceId": "PFCED252A-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Vajrasattvaniṣpādana Sūtra",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PFCED252A",
+					"slug": "bdrc/PFCED252A-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PFCED252A.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PFCED252A.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PFCED252A"
+				},
+				{
 					"ref": "bdrc:PFCED252A",
 					"source": "bdrc",
 					"sourceId": "PFCED252A",
@@ -28003,6 +29404,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PEA552C83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PEA552C83.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PEA552C83"
+				},
+				{
+					"ref": "bdrc:P16B42BAC-iast",
+					"source": "bdrc",
+					"sourceId": "P16B42BAC-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "वज्रयान दर्शन मीमांसा",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P16B42BAC",
+					"slug": "bdrc/P16B42BAC-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P16B42BAC.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P16B42BAC.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P16B42BAC"
 				},
 				{
 					"ref": "bdrc:P16B42BAC",
@@ -28664,6 +30079,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PE363468A"
 				},
 				{
+					"ref": "bdrc:PD034A09E-iast",
+					"source": "bdrc",
+					"sourceId": "PD034A09E-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Proceedings and Transactions of the Fifth Indian Oriental Conference",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PD034A09E",
+					"slug": "bdrc/PD034A09E-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PD034A09E.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PD034A09E.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PD034A09E"
+				},
+				{
 					"ref": "bdrc:PD034A09E",
 					"source": "bdrc",
 					"sourceId": "PD034A09E",
@@ -28976,6 +30405,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P6E8AAC98"
 				},
 				{
+					"ref": "bdrc:P44E58B5B-iast",
+					"source": "bdrc",
+					"sourceId": "P44E58B5B-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "विशालामलवती प्रमाणसमुच्चयटीका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P44E58B5B",
+					"slug": "bdrc/P44E58B5B-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P44E58B5B.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P44E58B5B.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P44E58B5B"
+				},
+				{
 					"ref": "bdrc:P44E58B5B",
 					"source": "bdrc",
 					"sourceId": "P44E58B5B",
@@ -29081,6 +30524,20 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P648BFB4E"
 				},
 				{
+					"ref": "bdrc:P7F657FA1-iast",
+					"source": "bdrc",
+					"sourceId": "P7F657FA1-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Viśvaprakāśaḥ",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P7F657FA1",
+					"slug": "bdrc/P7F657FA1-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7F657FA1.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7F657FA1.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P7F657FA1"
+				},
+				{
 					"ref": "bdrc:P7F657FA1",
 					"source": "bdrc",
 					"sourceId": "P7F657FA1",
@@ -29134,6 +30591,20 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PC822182E.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PC822182E.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PC822182E"
+				},
+				{
+					"ref": "bdrc:PCEEE0E4E-iast",
+					"source": "bdrc",
+					"sourceId": "PCEEE0E4E-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "Vṛttamālāstuti of Jñānaśrīmitra with Śākyarakṣita’s Vṛttamālā(stuti)vivṛti",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PCEEE0E4E",
+					"slug": "bdrc/PCEEE0E4E-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCEEE0E4E.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCEEE0E4E.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PCEEE0E4E"
 				},
 				{
 					"ref": "bdrc:PCEEE0E4E",

@@ -235,17 +235,22 @@ export const SOURCES = [
 		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 		load(dir) {
 			// The repository has every transcribed Index of the category; MEOBTIS indexes the Buddhist ones assessed as Sanskrit
-			// (`language: sa`); the Newar and mixed-language texts are in the repository but not indexed.
+			// or Sanskrit mixed with Newar (`language: sa` or `mixed`), each in Devanāgarī and in IAST; the Newar texts are not indexed.
 			return readTexts(dir)
-				.filter(({ data }) => data.buddhist !== false && data.language === 'sa')
-				.map(({ path, data }) => ({
-					source: 'wikisource',
-					sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),
-					title: String(data.title).trim(),
-					script: 'deva',
-					path,
-					originalUrl: String(data.wikisource_index),
-				}));
+				.filter(({ data }) => data.buddhist !== false && (data.language === 'sa' || data.language === 'mixed'))
+				.map(({ path, data }) => {
+					const id = path.replace(/^.*\//, '').replace(/\.md$/, '');
+					const romanized = data.script === 'iast';
+					return {
+						source: 'wikisource',
+						sourceId: romanized ? `${id}-iast` : id,
+						title: String(data.title).trim(),
+						script: romanized ? 'iast' : 'deva',
+						path,
+						originalUrl: String(data.wikisource_index),
+						...(romanized ? { transliterated: true, transliteratedFrom: `wikisource:${id}` } : {}),
+					};
+				});
 		},
 	},
 	{
@@ -292,16 +297,20 @@ export const SOURCES = [
 			// the Tibetan-script extracts (`script: tibt`) are in the repository but are not works of their own.
 			return readTexts(dir)
 				.filter(({ data }) => data.buddhist !== false && (data.language ?? 'sa') === 'sa' && data.script !== 'tibt')
-				.map(({ path, data }) => ({
-					source: 'bdrc',
-					sourceId: String(data.bdrc_id),
-					title: String(data.title).trim(),
-					author: undefined,
-					script: data.script === 'deva' ? 'deva' : 'iast',
-					path,
-					originalUrl: data.source_repository,
-					note: data.original_collection ? `via ${data.original_collection}` : undefined,
-				}));
+				.map(({ path, data }) => {
+					const romanizedFromDeva = data.script === 'iast' && data.transliterated_from;
+					return {
+						source: 'bdrc',
+						sourceId: romanizedFromDeva ? `${data.bdrc_id}-iast` : String(data.bdrc_id),
+						title: String(data.title).trim(),
+						author: undefined,
+						script: data.script === 'deva' ? 'deva' : 'iast',
+						path,
+						originalUrl: data.source_repository,
+						note: data.original_collection ? `via ${data.original_collection}` : undefined,
+						...(romanizedFromDeva ? { transliterated: true, transliteratedFrom: `bdrc:${data.bdrc_id}` } : {}),
+					};
+				});
 		},
 	},
 	{

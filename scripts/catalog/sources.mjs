@@ -234,9 +234,10 @@ export const SOURCES = [
 		terms: 'Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).',
 		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 		load(dir) {
-			// The repository has every transcribed Index of the category; MEOBTIS indexes the Buddhist ones.
+			// The repository has every transcribed Index of the category; MEOBTIS indexes the Buddhist ones assessed as Sanskrit
+			// (`language: sa`); the Newar and mixed-language texts are in the repository but not indexed.
 			return readTexts(dir)
-				.filter(({ data }) => data.buddhist !== false)
+				.filter(({ data }) => data.buddhist !== false && data.language === 'sa')
 				.map(({ path, data }) => ({
 					source: 'wikisource',
 					sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),

@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-22T01:42:21.082Z",
+	"generated": "2026-11-22T01:46:25.228Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -56,8 +56,8 @@
 			"terms": "Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).",
 			"termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 			"url": "https://github.com/meobtis/wikisource",
-			"editions": 16,
-			"works": 16
+			"editions": 8,
+			"works": 8
 		},
 		{
 			"id": "iriab",
@@ -136,7 +136,7 @@
 					"id": "avadana",
 					"label": "Avadāna",
 					"description": "Edifying narratives of deeds and their fruits, including later Nepalese avadānas and vrata stories.",
-					"count": 42
+					"count": 37
 				},
 				{
 					"id": "jataka",
@@ -151,7 +151,7 @@
 					"count": 0
 				}
 			],
-			"count": 214
+			"count": 209
 		},
 		{
 			"id": "vinaya",
@@ -256,16 +256,16 @@
 					"id": "sadhana",
 					"label": "Sādhana and ritual",
 					"description": "Sādhanas, maṇḍala and initiation manuals, and ritual handbooks.",
-					"count": 19
+					"count": 18
 				},
 				{
 					"id": "giti",
 					"label": "Songs of realisation",
 					"description": "Dohā and gīti songs.",
-					"count": 3
+					"count": 2
 				}
 			],
-			"count": 91
+			"count": 89
 		},
 		{
 			"id": "stotra",
@@ -2912,25 +2912,6 @@
 			]
 		},
 		{
-			"title": "Ashtami Bartha Katha",
-			"titleDeva": "Ashtami Bartha Katha",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "wikisource:an-90-ashtami-bartha-katha",
-					"source": "wikisource",
-					"sourceId": "an-90-ashtami-bartha-katha",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Ashtami Bartha Katha",
-					"slug": "wikisource/an-90-ashtami-bartha-katha",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-90-ashtami-bartha-katha.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-90-ashtami-bartha-katha.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_90_Ashtami_Bartha_Katha.pdf"
-				}
-			]
-		},
-		{
 			"title": "Aśokāvadāna",
 			"titleDeva": "अशोकावदानम्",
 			"category": "sutra/avadana",
@@ -3751,25 +3732,6 @@
 			]
 		},
 		{
-			"title": "Bali Raja Sambodan Katha",
-			"titleDeva": "Bali Raja Sambodan Katha",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "wikisource:an-95-bali-raja-sambodan-katha",
-					"source": "wikisource",
-					"sourceId": "an-95-bali-raja-sambodan-katha",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Bali Raja Sambodan Katha",
-					"slug": "wikisource/an-95-bali-raja-sambodan-katha",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_95_Bali_Raja_Sambodan_Katha.pdf"
-				}
-			]
-		},
-		{
 			"title": "Balimālikā",
 			"titleDeva": "Balimālikā",
 			"category": "tantra/sadhana",
@@ -3809,25 +3771,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/PE3FBEFEF.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/PE3FBEFEF.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PE3FBEFEF"
-				}
-			]
-		},
-		{
-			"title": "Basundhara Katha",
-			"titleDeva": "Basundhara Katha",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "wikisource:an-101-basundhara-katha",
-					"source": "wikisource",
-					"sourceId": "an-101-basundhara-katha",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Basundhara Katha",
-					"slug": "wikisource/an-101-basundhara-katha",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-101-basundhara-katha.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-101-basundhara-katha.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_101_Basundhara_Katha.pdf"
 				}
 			]
 		},
@@ -5269,25 +5212,6 @@
 			]
 		},
 		{
-			"title": "Bichitra Karni Awadan",
-			"titleDeva": "Bichitra Karni Awadan",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "wikisource:an-99-bichitra-karni-awadan",
-					"source": "wikisource",
-					"sourceId": "an-99-bichitra-karni-awadan",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Bichitra Karni Awadan",
-					"slug": "wikisource/an-99-bichitra-karni-awadan",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-99-bichitra-karni-awadan.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-99-bichitra-karni-awadan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_99_Bichitra_Karni_Awadan.pdf"
-				}
-			]
-		},
-		{
 			"title": "Bodhicaryāvatāra",
 			"titleDeva": "बोधिचर्यावतारः",
 			"author": "Śāntideva",
@@ -6705,25 +6629,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P1BBB8BE4.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P1BBB8BE4.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P1BBB8BE4"
-				}
-			]
-		},
-		{
-			"title": "Carya git",
-			"titleDeva": "Carya git",
-			"category": "tantra/giti",
-			"editions": [
-				{
-					"ref": "wikisource:an-88-carya-git",
-					"source": "wikisource",
-					"sourceId": "an-88-carya-git",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Carya git",
-					"slug": "wikisource/an-88-carya-git",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-88-carya-git.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-88-carya-git.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_88_Carya_Git.pdf"
 				}
 			]
 		},
@@ -9523,25 +9428,6 @@
 			]
 		},
 		{
-			"title": "Gunakarunamaya Biu",
-			"titleDeva": "Gunakarunamaya Biu",
-			"category": "tantra/sadhana",
-			"editions": [
-				{
-					"ref": "wikisource:an-102-gunakarunamaya-biu",
-					"source": "wikisource",
-					"sourceId": "an-102-gunakarunamaya-biu",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Gunakarunamaya Biu",
-					"slug": "wikisource/an-102-gunakarunamaya-biu",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_102_Gunakarunamaya_Biu.pdf"
-				}
-			]
-		},
-		{
 			"title": "Gurukriyākrama",
 			"titleDeva": "गुरुक्रियाक्रमः",
 			"author": "Dīpaṃkaraśrījñāna [= Atīśa]",
@@ -11060,25 +10946,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF9307F98.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF9307F98.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PF9307F98"
-				}
-			]
-		},
-		{
-			"title": "Kapisa Awadan",
-			"titleDeva": "Kapisa Awadan",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "wikisource:an-98-kapisa-awadan",
-					"source": "wikisource",
-					"sourceId": "an-98-kapisa-awadan",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Kapisa Awadan",
-					"slug": "wikisource/an-98-kapisa-awadan",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-98-kapisa-awadan.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-98-kapisa-awadan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_98_Kapisa_Awadan.pdf"
 				}
 			]
 		},
@@ -25570,18 +25437,6 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A3.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%AF%E0%A4%AE%E0%A5%8D%E0%A4%AD%E0%A5%82%E0%A4%AA%E0%A5%81%E0%A4%B0%E0%A4%BE%E0%A4%A3.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/367"
-				},
-				{
-					"ref": "wikisource:an-05",
-					"source": "wikisource",
-					"sourceId": "an-05",
-					"label": "Wikisource देवनागरी",
-					"script": "deva",
-					"title": "Svayambhū Purāṇa",
-					"slug": "wikisource/an-05",
-					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-05.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-05.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN-PM-05.pdf"
 				},
 				{
 					"ref": "bdrc:PA0429D32",

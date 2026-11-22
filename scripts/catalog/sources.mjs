@@ -221,17 +221,17 @@ export const SOURCES = [
 	},
 	{
 		id: 'wikisource',
-		label: 'Wikisource',
-		name: 'Wikisource: Nepal Bhasa manuscripts',
+		label: 'Archive Nepal',
+		name: 'Archive Nepal: Nepalbhasa manuscripts',
 		homepage:
-			'https://wikisource.org/wiki/Wikisource:Main_Page/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE',
+			'https://www.archivenepal.org/search?size=n_100_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=Manuscript&filters%5B0%5D%5Btype%5D=all&filters%5B1%5D%5Bfield%5D=collection&filters%5B1%5D%5Bvalues%5D%5B0%5D=Nepalbhasa%20manuscripts&filters%5B1%5D%5Btype%5D=all',
 		repo: 'meobtis/wikisource',
-		publisher: 'Wikimedia Foundation (Wikisource volunteers)',
+		publisher: 'Archive Nepal',
 		credit:
-			'Text transcribed by Wikisource volunteers from Nepalese manuscripts digitised with UNESCO and the Asha Archives, ' +
-			'from the category Nepal bhasa on Wikisource. Some pages are unproofread automatic transcription; the proofreading ' +
-			'levels are given in the edition details.',
-		terms: 'Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).',
+			'Text from the Nepalbhasa manuscripts collection of Archive Nepal, digitised with UNESCO and the Asha Archives. ' +
+			'Archive Nepal stores the manuscripts on Wikisource, where volunteers transcribed them; some pages are unproofread ' +
+			'automatic transcription, and the proofreading levels are given in the edition details.',
+		terms: 'The transcriptions are on Wikisource under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).',
 		termsUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 		load(dir) {
 			// The repository has every transcribed Index of the category; MEOBTIS indexes the Buddhist ones assessed as Sanskrit
@@ -247,7 +247,7 @@ export const SOURCES = [
 						title: String(data.title).trim(),
 						script: romanized ? 'iast' : 'deva',
 						path,
-						originalUrl: String(data.wikisource_index),
+						originalUrl: `https://www.archivenepal.org/search?q=${encodeURIComponent(String(data.title).trim().replace(/\s*\(.*\)$/, ''))}`,
 						...(romanized ? { transliterated: true, transliteratedFrom: `wikisource:${id}` } : {}),
 					};
 				});

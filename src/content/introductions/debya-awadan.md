@@ -8,14 +8,14 @@ summary: "A Newar manuscript of the Sudhanakumārāvadāna, the story of Prince 
 editions:
   - ref: wikisource:an-96-debya-awadan
     history: >-
-      A Wikisource transcription in Devanāgarī of a Nepalese (Newar Buddhist) manuscript, digitised with UNESCO; the scan is on Wikimedia Commons. It has 67 pages, all at proofreading level 3 (proofread), and the language was assessed as Sanskrit from samples. The transcription is licensed CC BY-SA 4.0.[^ws-index][^commons-scan]
+      A transcription in Devanāgarī of a Nepalese (Newar Buddhist) manuscript in Archive Nepal's Nepalbhasa manuscripts collection, digitised with UNESCO (Archive Nepal stores the scan and the volunteer transcription on Wikisource); the scan Archive Nepal links to is on Wikimedia Commons. It has 67 pages, all at proofreading level 3 (proofread), and the language was assessed as Sanskrit from samples. The transcription is licensed CC BY-SA 4.0.[^archive-debya][^commons-scan]
   - ref: wikisource:an-96-debya-awadan-iast
     history: >-
-      An IAST transliteration of the same Wikisource transcription, produced with Aksharamukha; it has the same 67 pages and proofreading status.[^ws-index]
+      An IAST transliteration of the same Archive Nepal transcription, produced with Aksharamukha; it has the same 67 pages and proofreading status.[^archive-debya]
 updated: 2026-11-22
 ---
 
-"Debya Awadan" is a Latin transcription of the manuscript's title, in Newar-influenced spelling of *Divyāvadāna*. Reading the text shows that it is not the whole anthology but a single story, the *Sudhanakumārāvadāna* (the story of Prince Sudhana), which is the thirtieth of the thirty-eight stories of the *Divyāvadāna*.[^wiki-divy] The closing colophon, as transcribed, names it as an *avadāna* of the *Divyāvadāna* "taken" into an *avadānamālā* (garland of *avadānas*); the transcription of this line is uncertain, so the wording and the story number given there should be checked against the scan.[^ws-index]
+"Debya Awadan" is a Latin transcription of the manuscript's title, in Newar-influenced spelling of *Divyāvadāna*. Reading the text shows that it is not the whole anthology but a single story, the *Sudhanakumārāvadāna* (the story of Prince Sudhana), which is the thirtieth of the thirty-eight stories of the *Divyāvadāna*.[^wiki-divy] The closing colophon, as transcribed, names it as an *avadāna* of the *Divyāvadāna* "taken" into an *avadānamālā* (garland of *avadānas*); the transcription of this line is uncertain, so the wording and the story number given there should be checked against the scan.[^archive-debya]
 
 The story opens with a king of Uttarapañcāla, Mahādhana, in Hastināpura, whose country prospers thanks to a nāga called Janmacitraka, while the wicked king of Dakṣiṇapañcāla loses his subjects to him. Sudhana is born after the nāga is taken to the southern kingdom. The prince later falls in love with the kinnarī Manoharā, is parted from her, finds her again in the realm of the kinnara king Druma by passing his trials, and returns with her to Hastināpura, where he is consecrated king. At the end the Buddha identifies himself as Sudhana, who performed this effort as part of his bodhisattva career but did not thereby reach awakening. These elements can be matched with the Sanskrit text of the *Divyāvadāna* in the GRETIL edition, whose verse numbering (41–48 near the end) the manuscript also shows.[^gretil-divy]
 
@@ -23,7 +23,7 @@ The tale of Sudhana and Manoharā is one of the most popular *avadānas* of nort
 
 This manuscript shows how the individual stories of the collection circulated separately in Nepal. Whether the manuscript follows the Cowell–Neil or the Vaidya edition's text, or has its own readings, has not been checked here.
 
-[^ws-index]: Wikisource contributors. (n.d.). Index:AN 96 Debya Awadan.pdf. In *Wikisource*. Retrieved November 22, 2026, from https://wikisource.org/wiki/Index%3AAN_96_Debya_Awadan.pdf
+[^archive-debya]: Archive Nepal. (n.d.). *Debya Awadan* [Manuscript, Nepalbhasa manuscripts collection]. Archive Nepal. Retrieved November 22, 2026, from https://www.archivenepal.org/search?q=Debya%20Awadan
 [^commons-scan]: Wikimedia Commons contributors. (n.d.). File:AN 96 Debya Awadan.pdf. In *Wikimedia Commons*. Retrieved November 22, 2026, from https://commons.wikimedia.org/wiki/File:AN_96_Debya_Awadan.pdf
 [^wiki-divy]: Wikipedia contributors. (n.d.). Divyavadana. In *Wikipedia*. Retrieved November 22, 2026, from https://en.wikipedia.org/wiki/Divyavadana
 [^gretil-divy]: Göttingen State and University Library. (n.d.). *Divyāvadāna* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_divyAvadAna.xml

@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-22T05:40:03.935Z",
+	"generated": "2026-11-22T05:52:58.282Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -47,13 +47,13 @@
 		},
 		{
 			"id": "wikisource",
-			"label": "Wikisource",
-			"name": "Wikisource: Nepal Bhasa manuscripts",
-			"homepage": "https://wikisource.org/wiki/Wikisource:Main_Page/%E0%A4%AE%E0%A5%81%E0%A4%96%E0%A5%8D%E0%A4%AF_%E0%A4%AA%E0%A5%83%E0%A4%B7%E0%A5%8D%E0%A4%A0/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE",
+			"label": "Archive Nepal",
+			"name": "Archive Nepal: Nepalbhasa manuscripts",
+			"homepage": "https://www.archivenepal.org/search?size=n_100_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=Manuscript&filters%5B0%5D%5Btype%5D=all&filters%5B1%5D%5Bfield%5D=collection&filters%5B1%5D%5Bvalues%5D%5B0%5D=Nepalbhasa%20manuscripts&filters%5B1%5D%5Btype%5D=all",
 			"repo": "meobtis/wikisource",
-			"publisher": "Wikimedia Foundation (Wikisource volunteers)",
-			"credit": "Text transcribed by Wikisource volunteers from Nepalese manuscripts digitised with UNESCO and the Asha Archives, from the category Nepal bhasa on Wikisource. Some pages are unproofread automatic transcription; the proofreading levels are given in the edition details.",
-			"terms": "Wikisource text is available under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).",
+			"publisher": "Archive Nepal",
+			"credit": "Text from the Nepalbhasa manuscripts collection of Archive Nepal, digitised with UNESCO and the Asha Archives. Archive Nepal stores the manuscripts on Wikisource, where volunteers transcribed them; some pages are unproofread automatic transcription, and the proofreading levels are given in the edition details.",
+			"terms": "The transcriptions are on Wikisource under the Creative Commons Attribution-ShareAlike licence (CC BY-SA 4.0).",
 			"termsUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
 			"url": "https://github.com/meobtis/wikisource",
 			"editions": 22,
@@ -2569,7 +2569,7 @@
 					"ref": "wikisource:an-91-amoha-paas-lokeshwor-path-iast",
 					"source": "wikisource",
 					"sourceId": "an-91-amoha-paas-lokeshwor-path-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Amoghapāśahṛdaya Mahāyāna Sūtra",
 					"transliterated": true,
@@ -2577,19 +2577,19 @@
 					"slug": "wikisource/an-91-amoha-paas-lokeshwor-path-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-91-amoha-paas-lokeshwor-path.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-91-amoha-paas-lokeshwor-path.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_91_Amoha_Paas_Lokeshwor_Path.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Amoghap%C4%81%C5%9Bah%E1%B9%9Bdaya%20Mah%C4%81y%C4%81na%20S%C5%ABtra"
 				},
 				{
 					"ref": "wikisource:an-91-amoha-paas-lokeshwor-path",
 					"source": "wikisource",
 					"sourceId": "an-91-amoha-paas-lokeshwor-path",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Amoghapāśahṛdaya Mahāyāna Sūtra",
 					"slug": "wikisource/an-91-amoha-paas-lokeshwor-path",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-91-amoha-paas-lokeshwor-path.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-91-amoha-paas-lokeshwor-path.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_91_Amoha_Paas_Lokeshwor_Path.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Amoghap%C4%81%C5%9Bah%E1%B9%9Bdaya%20Mah%C4%81y%C4%81na%20S%C5%ABtra"
 				},
 				{
 					"ref": "bdrc:PC5447014",
@@ -3833,7 +3833,7 @@
 					"ref": "wikisource:an-95-bali-raja-sambodan-katha-iast",
 					"source": "wikisource",
 					"sourceId": "an-95-bali-raja-sambodan-katha-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Bali Raja Sambodan Katha",
 					"transliterated": true,
@@ -3841,19 +3841,19 @@
 					"slug": "wikisource/an-95-bali-raja-sambodan-katha-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-95-bali-raja-sambodan-katha.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-95-bali-raja-sambodan-katha.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_95_Bali_Raja_Sambodan_Katha.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Bali%20Raja%20Sambodan%20Katha"
 				},
 				{
 					"ref": "wikisource:an-95-bali-raja-sambodan-katha",
 					"source": "wikisource",
 					"sourceId": "an-95-bali-raja-sambodan-katha",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Bali Raja Sambodan Katha",
 					"slug": "wikisource/an-95-bali-raja-sambodan-katha",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-95-bali-raja-sambodan-katha.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_95_Bali_Raja_Sambodan_Katha.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Bali%20Raja%20Sambodan%20Katha"
 				}
 			]
 		},
@@ -6921,7 +6921,7 @@
 					"ref": "wikisource:an-88-carya-git-iast",
 					"source": "wikisource",
 					"sourceId": "an-88-carya-git-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Carya git",
 					"transliterated": true,
@@ -6929,19 +6929,19 @@
 					"slug": "wikisource/an-88-carya-git-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-88-carya-git.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-88-carya-git.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_88_Carya_Git.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Carya%20git"
 				},
 				{
 					"ref": "wikisource:an-88-carya-git",
 					"source": "wikisource",
 					"sourceId": "an-88-carya-git",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Carya git",
 					"slug": "wikisource/an-88-carya-git",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-88-carya-git.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-88-carya-git.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_88_Carya_Git.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Carya%20git"
 				}
 			]
 		},
@@ -8035,7 +8035,7 @@
 					"ref": "wikisource:an-96-debya-awadan-iast",
 					"source": "wikisource",
 					"sourceId": "an-96-debya-awadan-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Debya Awadan",
 					"transliterated": true,
@@ -8043,19 +8043,19 @@
 					"slug": "wikisource/an-96-debya-awadan-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-96-debya-awadan.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-96-debya-awadan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_96_Debya_Awadan.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Debya%20Awadan"
 				},
 				{
 					"ref": "wikisource:an-96-debya-awadan",
 					"source": "wikisource",
 					"sourceId": "an-96-debya-awadan",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Debya Awadan",
 					"slug": "wikisource/an-96-debya-awadan",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-96-debya-awadan.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-96-debya-awadan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_96_Debya_Awadan.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Debya%20Awadan"
 				}
 			]
 		},
@@ -9917,7 +9917,7 @@
 					"ref": "wikisource:an-102-gunakarunamaya-biu-iast",
 					"source": "wikisource",
 					"sourceId": "an-102-gunakarunamaya-biu-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Gunakarunamaya Biu",
 					"transliterated": true,
@@ -9925,19 +9925,19 @@
 					"slug": "wikisource/an-102-gunakarunamaya-biu-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-102-gunakarunamaya-biu.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-102-gunakarunamaya-biu.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_102_Gunakarunamaya_Biu.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Gunakarunamaya%20Biu"
 				},
 				{
 					"ref": "wikisource:an-102-gunakarunamaya-biu",
 					"source": "wikisource",
 					"sourceId": "an-102-gunakarunamaya-biu",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Gunakarunamaya Biu",
 					"slug": "wikisource/an-102-gunakarunamaya-biu",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-102-gunakarunamaya-biu.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_102_Gunakarunamaya_Biu.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Gunakarunamaya%20Biu"
 				}
 			]
 		},
@@ -11578,7 +11578,7 @@
 					"ref": "wikisource:an-94-karanya-biu-paath-iast",
 					"source": "wikisource",
 					"sourceId": "an-94-karanya-biu-paath-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Karanya Biu Paath",
 					"transliterated": true,
@@ -11586,19 +11586,19 @@
 					"slug": "wikisource/an-94-karanya-biu-paath-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-94-karanya-biu-paath.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-94-karanya-biu-paath.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_94_Karanya_Biu_Paath.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Karanya%20Biu%20Paath"
 				},
 				{
 					"ref": "wikisource:an-94-karanya-biu-paath",
 					"source": "wikisource",
 					"sourceId": "an-94-karanya-biu-paath",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Karanya Biu Paath",
 					"slug": "wikisource/an-94-karanya-biu-paath",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-94-karanya-biu-paath.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-94-karanya-biu-paath.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_94_Karanya_Biu_Paath.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Karanya%20Biu%20Paath"
 				}
 			]
 		},
@@ -14661,7 +14661,7 @@
 					"ref": "wikisource:an-93-mahayan-sutra-iast",
 					"source": "wikisource",
 					"sourceId": "an-93-mahayan-sutra-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Mahayan Sutra",
 					"transliterated": true,
@@ -14669,19 +14669,19 @@
 					"slug": "wikisource/an-93-mahayan-sutra-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-93-mahayan-sutra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-93-mahayan-sutra.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_93_Mahayan_Sutra.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Mahayan%20Sutra"
 				},
 				{
 					"ref": "wikisource:an-93-mahayan-sutra",
 					"source": "wikisource",
 					"sourceId": "an-93-mahayan-sutra",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Mahayan Sutra",
 					"slug": "wikisource/an-93-mahayan-sutra",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-93-mahayan-sutra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-93-mahayan-sutra.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_93_Mahayan_Sutra.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Mahayan%20Sutra"
 				}
 			]
 		},
@@ -15667,7 +15667,7 @@
 					"ref": "wikisource:an-92-namsangati-iast",
 					"source": "wikisource",
 					"sourceId": "an-92-namsangati-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Namasangati",
 					"transliterated": true,
@@ -15675,19 +15675,19 @@
 					"slug": "wikisource/an-92-namsangati-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-92-namsangati.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-92-namsangati.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_92_Namsangati.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Namasangati"
 				},
 				{
 					"ref": "wikisource:an-92-namsangati",
 					"source": "wikisource",
 					"sourceId": "an-92-namsangati",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Namasangati",
 					"slug": "wikisource/an-92-namsangati",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-92-namsangati.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-92-namsangati.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_92_Namsangati.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Namasangati"
 				}
 			]
 		},
@@ -17934,7 +17934,7 @@
 					"ref": "wikisource:an-89-pancharakshya-path-iast",
 					"source": "wikisource",
 					"sourceId": "an-89-pancharakshya-path-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Pancharakshya Path",
 					"transliterated": true,
@@ -17942,19 +17942,19 @@
 					"slug": "wikisource/an-89-pancharakshya-path-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-89-pancharakshya-path.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-89-pancharakshya-path.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_89_Pancharakshya_Path.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Pancharakshya%20Path"
 				},
 				{
 					"ref": "wikisource:an-89-pancharakshya-path",
 					"source": "wikisource",
 					"sourceId": "an-89-pancharakshya-path",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Pancharakshya Path",
 					"slug": "wikisource/an-89-pancharakshya-path",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-89-pancharakshya-path.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-89-pancharakshya-path.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_89_Pancharakshya_Path.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Pancharakshya%20Path"
 				}
 			]
 		},
@@ -26771,7 +26771,7 @@
 					"ref": "wikisource:an-87-21-tara-sotra-iast",
 					"source": "wikisource",
 					"sourceId": "an-87-21-tara-sotra-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "21 Tara Sotra (Gold Writing)",
 					"transliterated": true,
@@ -26779,19 +26779,19 @@
 					"slug": "wikisource/an-87-21-tara-sotra-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-87-21-tara-sotra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-87-21-tara-sotra.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_87_21_Tara_Sotra.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=21%20Tara%20Sotra"
 				},
 				{
 					"ref": "wikisource:an-87-21-tara-sotra",
 					"source": "wikisource",
 					"sourceId": "an-87-21-tara-sotra",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "21 Tara Sotra (Gold Writing)",
 					"slug": "wikisource/an-87-21-tara-sotra",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-87-21-tara-sotra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-87-21-tara-sotra.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_87_21_Tara_Sotra.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=21%20Tara%20Sotra"
 				}
 			]
 		},
@@ -28414,7 +28414,7 @@
 					"ref": "wikisource:an-97-uposadh-badhan-iast",
 					"source": "wikisource",
 					"sourceId": "an-97-uposadh-badhan-iast",
-					"label": "Wikisource (transliterated)",
+					"label": "Archive Nepal (transliterated)",
 					"script": "iast",
 					"title": "Uposadh Badhan",
 					"transliterated": true,
@@ -28422,19 +28422,19 @@
 					"slug": "wikisource/an-97-uposadh-badhan-iast",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/romanized/an-97-uposadh-badhan.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/romanized/an-97-uposadh-badhan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_97_Uposadh_Badhan.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Uposadh%20Badhan"
 				},
 				{
 					"ref": "wikisource:an-97-uposadh-badhan",
 					"source": "wikisource",
 					"sourceId": "an-97-uposadh-badhan",
-					"label": "Wikisource देवनागरी",
+					"label": "Archive Nepal देवनागरी",
 					"script": "deva",
 					"title": "Uposadh Badhan",
 					"slug": "wikisource/an-97-uposadh-badhan",
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-97-uposadh-badhan.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-97-uposadh-badhan.md",
-					"originalUrl": "https://wikisource.org/wiki/Index%3AAN_97_Uposadh_Badhan.pdf"
+					"originalUrl": "https://www.archivenepal.org/search?q=Uposadh%20Badhan"
 				}
 			]
 		},

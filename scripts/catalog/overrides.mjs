@@ -126,6 +126,11 @@ export const MERGE = [
 	['dsbc:321', 'bdrc:PF3E6088F'],
 	['dsbc:314', 'bdrc:PF7FB411F'],
 	['dsbc:326', 'bdrc:PFBFA78E3'],
+	// Wikisource Newar manuscript of the prose Kāraṇḍavyūha ("Karanya Biu Paath").
+	['gretil:sa_kAraNDavyUha', 'wikisource:an-94-karanya-biu-paath'],
+	// Wikisource Newar manuscripts of works already in GRETIL:
+	['gretil:sa_tArAbhaTTArikAnAmASTottarazatakastotra', 'wikisource:an-87-21-tara-sotra', 'wikisource:an-87-21-tara-sotra-iast'],
+	['gretil:sa_maJjuzrInAmasaMgIti', 'wikisource:an-92-namsangati', 'wikisource:an-92-namsangati-iast'],
 ];
 
 /** Edition notes shown in link labels where one source has several editions of a work. */
@@ -386,8 +391,7 @@ export const CATEGORY_OVERRIDES = {
 	'wikisource:an-98-kapisa-awadan': 'sutra/avadana', // Kapisa Awadan
 	'wikisource:an-88-carya-git': 'tantra/giti', // Caryāgīti
 	'wikisource:an-102-gunakarunamaya-biu': 'tantra/sadhana', // Gunakarunamaya Biu
-	'wikisource:an-94-karanya-biu-paath': 'tantra/sadhana', // Karanya Biu Paath
-	'wikisource:an-93-mahayan-sutra': 'sutra/mahayana-sutra', // Mahayan Sutra
+	'wikisource:an-93-mahayan-sutra': 'sutra/avadana', // Mahayan Sutra = Adbhutakuladīpadharmarājakathā
 	'wikisource:an-92-namsangati': 'tantra/tantras', // Namasangati
 	'wikisource:an-89-pancharakshya-path': 'sutra/dharani', // Pancharakshya Path
 	'wikisource:an-97-uposadh-badhan': 'vinaya/vinaya-other', // Uposadh Badhan

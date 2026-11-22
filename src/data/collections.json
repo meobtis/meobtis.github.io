@@ -185,6 +185,18 @@
 					}
 				},
 				{
+					"name": "Archive Nepal: Nepalbhasa manuscripts",
+					"summary": "A search platform for historic materials about Nepal. Its Nepalbhasa manuscripts collection lists 77 manuscripts, digitised with UNESCO and the Asha Archives, among them the Svayambhū Purāṇa, Pañcarakṣā, Amoghapāśahṛdaya, Caryāgīti and the Kāraṇḍavyūha.",
+					"access": "Free to search and view; each item links to its Wikisource Index page and scan",
+					"why": "Every item in the collection links to the same manuscript's Index page on Wikisource, so the texts are already on MEOBTIS through the Wikisource source. Wikisource's transcribed pages are converted; items without transcribed pages there (for example the Pragyaparamita, AN-PM-67 and AN-PM-68) have no text to convert yet.",
+					"links": [
+						{
+							"label": "Archive Nepal: Nepalbhasa manuscripts",
+							"url": "https://www.archivenepal.org/search?size=n_100_n&filters%5B0%5D%5Bfield%5D=type&filters%5B0%5D%5Bvalues%5D%5B0%5D=Manuscript&filters%5B0%5D%5Btype%5D=all&filters%5B1%5D%5Bfield%5D=collection&filters%5B1%5D%5Bvalues%5D%5B0%5D=Nepalbhasa%20manuscripts&filters%5B1%5D%5Btype%5D=all"
+						}
+					]
+				},
+				{
 					"name": "British Library Endangered Archives Programme: Nepal",
 					"summary": "Digitisation projects that photographed Sanskrit manuscripts held in Nepal, many of them Newar Buddhist: EAP676, EAP790 and EAP1023 (478 manuscripts from 28 collections, 10th to 18th centuries). Shanker Thapa has separately surveyed about 1,285 manuscripts from 67 collections.",
 					"access": "Free images; EAP's reuse terms are CC BY-NC where the material is in copyright",

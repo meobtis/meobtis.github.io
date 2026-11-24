@@ -4,6 +4,7 @@ englishTitle: Sixty Verses on Reasoning
 refs:
   - gretil:sa_nAgArjuna-yuktiSaSTikakArikA
   - gretil:sa_nAgArjuna-yuktiSaSTikakArikA-fragments
+  - nagarjuna:yuktisastikakarika-li-ye-2014
 summary: A short Madhyamaka treatise of sixty verses attributed to Nāgārjuna, on emptiness and dependent origination, surviving mainly in Tibetan, with the Sanskrit partly reconstructed.
 editions:
   - ref: gretil:sa_nAgArjuna-yuktiSaSTikakArikA
@@ -12,7 +13,10 @@ editions:
   - ref: gretil:sa_nAgArjuna-yuktiSaSTikakArikA-fragments
     history: >-
       A selection of verses in Sanskrit, with gaps marked by ellipses, input by Richard Mahoney (version 0.1a, May 2003) and later converted for GRETIL.[^gretil-frag]
-updated: 2026-11-13
+  - ref: nagarjuna:yuktisastikakarika-li-ye-2014
+    history: >-
+      The Sanskrit that survives of the verses in Li Xuezhu and Ye Shaoyong’s Sanskrit–Tibetan–Chinese edition: the verses quoted in Sanskrit works and the surviving pādas (about thirty-eight verses and the first two pādas of the dedicatory verse), with the edition’s verse numbers; the Sanskrit of the other verses is lost.[^li2014]
+updated: 2026-11-24
 ---
 
 The *Yuktiṣaṣṭikā* ("Sixty Verses" or "Sixty Stanzas on Reasoning"; Tibetan *Rigs pa drug cu pa*) is a short verse treatise attributed to Nāgārjuna. It is catalogued in the Tibetan canon as Toh 3825 among the Middle Way (Madhyamaka) treatises, under the English title *Sixty Verses on Reasoning*.[^84000toh3825] The Stanford Encyclopedia of Philosophy lists it among Nāgārjuna's argumentative works and describes it as a shorter treatise discussing emptiness and dependent origination (*pratītyasamutpāda*).[^westerhoff2010]
@@ -24,3 +28,4 @@ Its ascription to Nāgārjuna is described there as largely uncontested,[^wester
 [^wiki-nagarjuna]: Wikipedia contributors. (n.d.). Nāgārjuna. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/N%C4%81g%C4%81rjuna
 [^gretil-yukti]: Göttingen State and University Library. (n.d.). *Yuktiṣaṣṭikakārikā Sanskrit reconstruction* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-yuktiSaSTikakArikA.xml
 [^gretil-frag]: Göttingen State and University Library. (n.d.). *Yuktiṣaṣṭikakārikā (fragments)* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-yuktiSaSTikakArikA-fragments.xml
+[^li2014]: Li, X., & Ye, S. (2014). *Liushi ruli song: Fan Zang Han hejiao, daodu, yizhu* [Yuktiṣaṣṭikākārikā: Sanskrit–Tibetan–Chinese edition, introduction and translation] (Sanskrit–Tibetan–Chinese Buddhist Texts Series, Vol. 2). Zhongxi Book Company.

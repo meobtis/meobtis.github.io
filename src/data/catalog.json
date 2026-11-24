@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-22T05:52:58.282Z",
+	"generated": "2026-11-24T05:27:39.754Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -58,6 +58,20 @@
 			"url": "https://github.com/meobtis/wikisource",
 			"editions": 22,
 			"works": 11
+		},
+		{
+			"id": "nagarjuna",
+			"label": "Ye and Li",
+			"name": "Sanskrit–Tibetan–Chinese critical editions of Nāgārjuna (Ye Shaoyong; Li Xuezhu)",
+			"homepage": "https://github.com/meobtis/nagarjuna",
+			"repo": "meobtis/nagarjuna",
+			"publisher": "Zhongxi Book Company, Shanghai",
+			"credit": "Sanskrit text of the critical editions by Ye Shaoyong (Mūlamadhyamakakārikā, 2011) and Li Xuezhu and Ye Shaoyong (Yuktiṣaṣṭikākārikā, 2014) in the Sanskrit–Tibetan–Chinese Buddhist Texts Series (Zhongxi Book Company, Shanghai). The readings are the work of the editors; the Tibetan and Chinese texts, translations, notes and apparatus are not reproduced.",
+			"terms": "The editions are in copyright; the Sanskrit text is offered for research and study. Cite the printed editions.",
+			"termsUrl": "https://github.com/meobtis/nagarjuna",
+			"url": "https://github.com/meobtis/nagarjuna",
+			"editions": 3,
+			"works": 3
 		},
 		{
 			"id": "iriab",
@@ -16304,6 +16318,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/932"
 				},
 				{
+					"ref": "nagarjuna:mulamadhyamakakarika-ye-2011",
+					"source": "nagarjuna",
+					"sourceId": "mulamadhyamakakarika-ye-2011",
+					"label": "Ye and Li",
+					"script": "iast",
+					"title": "Mūlamadhyamakakārikā",
+					"slug": "nagarjuna/mulamadhyamakakarika-ye-2011",
+					"url": "https://github.com/meobtis/nagarjuna/blob/main/texts/romanized/mulamadhyamakakarika-ye-2011.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/nagarjuna/main/texts/romanized/mulamadhyamakakarika-ye-2011.md",
+					"originalUrl": "https://github.com/meobtis/nagarjuna"
+				},
+				{
 					"ref": "bdrc:P00AD3515",
 					"source": "bdrc",
 					"sourceId": "P00AD3515",
@@ -30766,7 +30792,7 @@
 			]
 		},
 		{
-			"title": "Yuktiṣaṣṭikakārikā",
+			"title": "Yuktiṣaṣṭikākārikā",
 			"author": "Nāgārjuna",
 			"category": "sastra/madhyamaka",
 			"editions": [
@@ -30793,6 +30819,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/y/Yukti%E1%B9%A3a%E1%B9%A3%E1%B9%ADikak%C4%81rik%C4%81-fragments.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/y/Yukti%E1%B9%A3a%E1%B9%A3%E1%B9%ADikak%C4%81rik%C4%81-fragments.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-yuktiSaSTikakArikA-fragments.xml"
+				},
+				{
+					"ref": "nagarjuna:yuktisastikakarika-li-ye-2014",
+					"source": "nagarjuna",
+					"sourceId": "yuktisastikakarika-li-ye-2014",
+					"label": "Ye and Li",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikākārikā",
+					"slug": "nagarjuna/yuktisastikakarika-li-ye-2014",
+					"url": "https://github.com/meobtis/nagarjuna/blob/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/nagarjuna/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
+					"originalUrl": "https://github.com/meobtis/nagarjuna"
 				},
 				{
 					"ref": "bdrc:PA12F91D6",
@@ -30856,6 +30894,18 @@
 			"author": "Candrakīrti",
 			"category": "sastra/madhyamaka",
 			"editions": [
+				{
+					"ref": "nagarjuna:yuktisastikavrtti-fragments-li-ye-2014",
+					"source": "nagarjuna",
+					"sourceId": "yuktisastikavrtti-fragments-li-ye-2014",
+					"label": "Ye and Li",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikāvṛtti (Sanskrit fragments)",
+					"slug": "nagarjuna/yuktisastikavrtti-fragments-li-ye-2014",
+					"url": "https://github.com/meobtis/nagarjuna/blob/main/texts/romanized/yuktisastikavrtti-fragments-li-ye-2014.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/nagarjuna/main/texts/romanized/yuktisastikavrtti-fragments-li-ye-2014.md",
+					"originalUrl": "https://github.com/meobtis/nagarjuna"
+				},
 				{
 					"ref": "iriab:yuktisastikavrtti-folio-xvi",
 					"source": "iriab",

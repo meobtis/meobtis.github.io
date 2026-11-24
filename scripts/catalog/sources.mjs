@@ -254,6 +254,32 @@ export const SOURCES = [
 		},
 	},
 	{
+		id: 'nagarjuna',
+		label: 'Ye and Li',
+		name: 'Sanskrit–Tibetan–Chinese critical editions of Nāgārjuna (Ye Shaoyong; Li Xuezhu)',
+		homepage: 'https://github.com/meobtis/nagarjuna',
+		repo: 'meobtis/nagarjuna',
+		publisher: 'Zhongxi Book Company, Shanghai',
+		credit:
+			'Sanskrit text of the critical editions by Ye Shaoyong (Mūlamadhyamakakārikā, 2011) and Li Xuezhu and Ye Shaoyong ' +
+			'(Yuktiṣaṣṭikākārikā, 2014) in the Sanskrit–Tibetan–Chinese Buddhist Texts Series (Zhongxi Book Company, Shanghai). ' +
+			'The readings are the work of the editors; the Tibetan and Chinese texts, translations, notes and apparatus are not reproduced.',
+		terms: 'The editions are in copyright; the Sanskrit text is offered for research and study. Cite the printed editions.',
+		termsUrl: 'https://github.com/meobtis/nagarjuna',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'nagarjuna',
+				sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),
+				title: String(data.title).trim(),
+				author: data.author ? String(data.author).trim() : undefined,
+				script: 'iast',
+				path,
+				originalUrl: 'https://github.com/meobtis/nagarjuna',
+				note: path.includes('fragments') ? 'Sanskrit fragments' : undefined,
+			}));
+		},
+	},
+	{
 		id: 'iriab',
 		label: 'ARIRIAB',
 		name: 'Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments',

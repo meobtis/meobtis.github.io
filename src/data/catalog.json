@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-25T04:11:45.809Z",
+	"generated": "2026-11-25T20:16:10.980Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -14,7 +14,7 @@
 			"skipped": 415,
 			"url": "https://github.com/meobtis/gretil",
 			"editions": 351,
-			"works": 318
+			"works": 316
 		},
 		{
 			"id": "dsbc",
@@ -28,7 +28,7 @@
 			"termsUrl": "https://www.dsbcproject.org/pages/usage-policy",
 			"url": "https://github.com/meobtis/dsbc",
 			"editions": 912,
-			"works": 455
+			"works": 453
 		},
 		{
 			"id": "sarit",
@@ -85,7 +85,7 @@
 			"termsUrl": "https://github.com/meobtis/iriab",
 			"url": "https://github.com/meobtis/iriab",
 			"editions": 122,
-			"works": 93
+			"works": 92
 		},
 		{
 			"id": "bdrc",
@@ -99,7 +99,7 @@
 			"termsUrl": "https://www.bdrc.io",
 			"url": "https://github.com/meobtis/bdrc",
 			"editions": 636,
-			"works": 286
+			"works": 279
 		},
 		{
 			"id": "schoyen",
@@ -208,7 +208,7 @@
 					"id": "madhyamaka",
 					"label": "Madhyamaka",
 					"description": "Works of the Middle Way school.",
-					"count": 41
+					"count": 33
 				},
 				{
 					"id": "yogacara",
@@ -238,7 +238,7 @@
 					"id": "lekha",
 					"label": "Lekha",
 					"description": "Epistles and letters of advice.",
-					"count": 19
+					"count": 18
 				},
 				{
 					"id": "sastra-other",
@@ -247,7 +247,7 @@
 					"count": 3
 				}
 			],
-			"count": 219
+			"count": 210
 		},
 		{
 			"id": "tantra",
@@ -7198,7 +7198,7 @@
 		},
 		{
 			"title": "Catuḥstotravivaraṇa",
-			"author": "unknown (commentary on Nāgārjuna's Catuḥstava)",
+			"author": "commentary on Nāgārjuna's Catuḥstava (author of the vivaraṇa not stated in the edition)",
 			"category": "sastra/madhyamaka",
 			"editions": [
 				{
@@ -7211,6 +7211,18 @@
 					"slug": "iriab/catuhstotravivarana-fols-1v-5v",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-fols-1v-5v.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-fols-1v-5v.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:catuhstotravivarana-part-xxvi",
+					"source": "iriab",
+					"sourceId": "catuhstotravivarana-part-xxvi",
+					"label": "ARIRIAB (26 (2023), pp. 115–123 (last part of a serial diplomatic transcription of the Catuḥstotravivaraṇa in ARIRIAB; this part = fols. 6r1–13r5))",
+					"script": "iast",
+					"title": "Catuḥstotravivaraṇa (folios 6r1–13r5): commentary on Lokātītastava 14–28",
+					"slug": "iriab/catuhstotravivarana-part-xxvi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				},
 				{
@@ -7235,25 +7247,6 @@
 					"slug": "iriab/catuhstotravivarana-part-xxviii",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxviii.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxviii.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Catuḥstotravivaraṇa: commentary on Lokātītastava 14–28",
-			"author": "commentary on Nāgārjuna's Catuḥstava (author of the vivaraṇa not stated in the edition)",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "iriab:catuhstotravivarana-part-xxvi",
-					"source": "iriab",
-					"sourceId": "catuhstotravivarana-part-xxvi",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Catuḥstotravivaraṇa (folios 6r1–13r5): commentary on Lokātītastava 14–28",
-					"slug": "iriab/catuhstotravivarana-part-xxvi",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/catuhstotravivarana-part-xxvi.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
@@ -13021,104 +13014,6 @@
 			]
 		},
 		{
-			"title": "Madhyamakaśāstra",
-			"titleDeva": "मध्यमकशास्त्रम्",
-			"author": "Nāgārjuna",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "gretil:sa_nAgArjuna-madhyamakazAstra",
-					"source": "gretil",
-					"sourceId": "sa_nAgArjuna-madhyamakazAstra",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Madhyamakaśāstra",
-					"slug": "gretil/sa_nAgArjuna-madhyamakazAstra",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/m/Madhyamaka%C5%9B%C4%81stra.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/m/Madhyamaka%C5%9B%C4%81stra.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-madhyamakazAstra.xml"
-				},
-				{
-					"ref": "dsbc:242",
-					"source": "dsbc",
-					"sourceId": "242",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Madhyamakaśāstram",
-					"slug": "dsbc/242",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamaka%C5%9B%C4%81stram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamaka%C5%9B%C4%81stram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/242"
-				},
-				{
-					"ref": "dsbc:534",
-					"source": "dsbc",
-					"sourceId": "534",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "मध्यमकशास्त्रम्",
-					"slug": "dsbc/534",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/534"
-				},
-				{
-					"ref": "bdrc:P964F06E4",
-					"source": "bdrc",
-					"sourceId": "P964F06E4",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Madhyamakaśāstra",
-					"slug": "bdrc/P964F06E4",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P964F06E4.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P964F06E4.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P964F06E4"
-				}
-			]
-		},
-		{
-			"title": "Madhyamakaśāstra of Nāgārjuna",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "bdrc:P06445FF2",
-					"source": "bdrc",
-					"sourceId": "P06445FF2",
-					"label": "BDRC (via DSBC)",
-					"script": "iast",
-					"title": "Madhyamakaśāstra of Nāgārjuna",
-					"slug": "bdrc/P06445FF2",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P06445FF2.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P06445FF2.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P06445FF2"
-				},
-				{
-					"ref": "bdrc:P2E32E332",
-					"source": "bdrc",
-					"sourceId": "P2E32E332",
-					"label": "BDRC (via DSBC)",
-					"script": "iast",
-					"title": "Madhyamakaśāstra of Nāgārjuna",
-					"slug": "bdrc/P2E32E332",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2E32E332.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2E32E332.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P2E32E332"
-				},
-				{
-					"ref": "bdrc:P4464A6F8",
-					"source": "bdrc",
-					"sourceId": "P4464A6F8",
-					"label": "BDRC (via DSBC)",
-					"script": "iast",
-					"title": "Madhyamakaśāstra of Nāgārjuna",
-					"slug": "bdrc/P4464A6F8",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4464A6F8.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4464A6F8.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P4464A6F8"
-				}
-			]
-		},
-		{
 			"title": "Madhyamakaśāstrastutiḥ",
 			"titleDeva": "मध्यमकशास्त्रस्तुतिः",
 			"category": "stotra/stotra-buddha",
@@ -13180,6 +13075,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/243"
 				},
 				{
+					"ref": "dsbc:852",
+					"source": "dsbc",
+					"sourceId": "852",
+					"label": "DSBC 2",
+					"script": "iast",
+					"title": "Madhyamakāvatārakārikā",
+					"slug": "dsbc/852",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rak%C4%81rik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rak%C4%81rik%C4%81.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/852"
+				},
+				{
 					"ref": "dsbc:537",
 					"source": "dsbc",
 					"sourceId": "537",
@@ -13190,6 +13097,30 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/537"
+				},
+				{
+					"ref": "dsbc:853",
+					"source": "dsbc",
+					"sourceId": "853",
+					"label": "DSBC देवनागरी 2",
+					"script": "deva",
+					"title": "मध्यमकावतार-कारिका",
+					"slug": "dsbc/853",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/853"
+				},
+				{
+					"ref": "bdrc:P4085FE01",
+					"source": "bdrc",
+					"sourceId": "P4085FE01",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Journal of Indian Philosophy (Madhyamakāvatāra-kārikā Chapter 6)",
+					"slug": "bdrc/P4085FE01",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4085FE01.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4085FE01.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4085FE01"
 				},
 				{
 					"ref": "bdrc:P78188E74",
@@ -13214,6 +13145,32 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCF2F5F50.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCF2F5F50.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PCF2F5F50"
+				},
+				{
+					"ref": "bdrc:P7DB27B29-iast",
+					"source": "bdrc",
+					"sourceId": "P7DB27B29-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "मध्यमकावतार-कारिका",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:P7DB27B29",
+					"slug": "bdrc/P7DB27B29-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7DB27B29.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7DB27B29.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
+				},
+				{
+					"ref": "bdrc:P7DB27B29",
+					"source": "bdrc",
+					"sourceId": "P7DB27B29",
+					"label": "BDRC देवनागरी",
+					"script": "deva",
+					"title": "मध्यमकावतार-कारिका",
+					"slug": "bdrc/P7DB27B29",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/P7DB27B29.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/P7DB27B29.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
 				}
 			]
 		},
@@ -13245,75 +13202,6 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/888"
-				}
-			]
-		},
-		{
-			"title": "Madhyamakāvatārakārikā",
-			"titleDeva": "मध्यमकावतार-कारिका",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "dsbc:852",
-					"source": "dsbc",
-					"sourceId": "852",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Madhyamakāvatārakārikā",
-					"slug": "dsbc/852",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rak%C4%81rik%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rak%C4%81rik%C4%81.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/852"
-				},
-				{
-					"ref": "dsbc:853",
-					"source": "dsbc",
-					"sourceId": "853",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "मध्यमकावतार-कारिका",
-					"slug": "dsbc/853",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/853"
-				},
-				{
-					"ref": "bdrc:P4085FE01",
-					"source": "bdrc",
-					"sourceId": "P4085FE01",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Journal of Indian Philosophy (Madhyamakāvatāra-kārikā Chapter 6)",
-					"slug": "bdrc/P4085FE01",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4085FE01.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4085FE01.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P4085FE01"
-				},
-				{
-					"ref": "bdrc:P7DB27B29-iast",
-					"source": "bdrc",
-					"sourceId": "P7DB27B29-iast",
-					"label": "BDRC (transliterated)",
-					"script": "iast",
-					"title": "मध्यमकावतार-कारिका",
-					"transliterated": true,
-					"transliteratedFrom": "bdrc:P7DB27B29",
-					"slug": "bdrc/P7DB27B29-iast",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7DB27B29.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7DB27B29.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
-				},
-				{
-					"ref": "bdrc:P7DB27B29",
-					"source": "bdrc",
-					"sourceId": "P7DB27B29",
-					"label": "BDRC देवनागरी",
-					"script": "deva",
-					"title": "मध्यमकावतार-कारिका",
-					"slug": "bdrc/P7DB27B29",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/P7DB27B29.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/P7DB27B29.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
 				}
 			]
 		},
@@ -16277,7 +16165,7 @@
 		},
 		{
 			"title": "Mūlamadhyamakakārikā",
-			"titleDeva": "मूलमध्यमककारिका प्रज्ञा नाम",
+			"titleDeva": "मध्यमकशास्त्रम्",
 			"author": "Nāgārjuna",
 			"category": "sastra/madhyamaka",
 			"editions": [
@@ -16294,10 +16182,34 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-mUlamadhyamakakArikA.xml"
 				},
 				{
+					"ref": "gretil:sa_nAgArjuna-madhyamakazAstra",
+					"source": "gretil",
+					"sourceId": "sa_nAgArjuna-madhyamakazAstra",
+					"label": "GRETIL (Karika only!)",
+					"script": "iast",
+					"title": "Madhyamakaśāstra",
+					"slug": "gretil/sa_nAgArjuna-madhyamakazAstra",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/m/Madhyamaka%C5%9B%C4%81stra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/m/Madhyamaka%C5%9B%C4%81stra.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-madhyamakazAstra.xml"
+				},
+				{
+					"ref": "dsbc:242",
+					"source": "dsbc",
+					"sourceId": "242",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Madhyamakaśāstram",
+					"slug": "dsbc/242",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamaka%C5%9B%C4%81stram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamaka%C5%9B%C4%81stram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/242"
+				},
+				{
 					"ref": "dsbc:931",
 					"source": "dsbc",
 					"sourceId": "931",
-					"label": "DSBC",
+					"label": "DSBC 2",
 					"script": "iast",
 					"title": "Mūlamadhyamakakārikā prajñā nāma",
 					"slug": "dsbc/931",
@@ -16306,10 +16218,22 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/931"
 				},
 				{
+					"ref": "dsbc:534",
+					"source": "dsbc",
+					"sourceId": "534",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "मध्यमकशास्त्रम्",
+					"slug": "dsbc/534",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/534"
+				},
+				{
 					"ref": "dsbc:932",
 					"source": "dsbc",
 					"sourceId": "932",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "मूलमध्यमककारिका प्रज्ञा नाम",
 					"slug": "dsbc/932",
@@ -16330,16 +16254,76 @@
 					"originalUrl": "https://github.com/meobtis/nagarjuna"
 				},
 				{
+					"ref": "iriab:mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"source": "iriab",
+					"sourceId": "mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Mūlamadhyamakakārikā (Nāgārjuna), Sanskrit manuscript from Tibet (formerly China Ethnic Library, Beijing; now Tibet Museum, Lhasa)",
+					"slug": "iriab/mulamadhyamakakarika-tibet-manuscripts-part-x",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "bdrc:P5D55E3DF",
+					"source": "bdrc",
+					"sourceId": "P5D55E3DF",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Nāgārjuna: Mūlamadhyamakakārikā",
+					"slug": "bdrc/P5D55E3DF",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5D55E3DF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5D55E3DF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P5D55E3DF"
+				},
+				{
+					"ref": "bdrc:P743000B8",
+					"source": "bdrc",
+					"sourceId": "P743000B8",
+					"label": "BDRC 2",
+					"script": "iast",
+					"title": "Nāgārjuna: Mūlamadhyamakakārikā",
+					"slug": "bdrc/P743000B8",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P743000B8.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P743000B8.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P743000B8"
+				},
+				{
 					"ref": "bdrc:P00AD3515",
 					"source": "bdrc",
 					"sourceId": "P00AD3515",
-					"label": "BDRC",
+					"label": "BDRC (via GRETIL)",
 					"script": "iast",
 					"title": "Mūlamadhyamakakārikā",
 					"slug": "bdrc/P00AD3515",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P00AD3515.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P00AD3515.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P00AD3515"
+				},
+				{
+					"ref": "bdrc:P2E32E332",
+					"source": "bdrc",
+					"sourceId": "P2E32E332",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Madhyamakaśāstra of Nāgārjuna",
+					"slug": "bdrc/P2E32E332",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2E32E332.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2E32E332.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2E32E332"
+				},
+				{
+					"ref": "bdrc:P964F06E4",
+					"source": "bdrc",
+					"sourceId": "P964F06E4",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Madhyamakaśāstra",
+					"slug": "bdrc/P964F06E4",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P964F06E4.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P964F06E4.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P964F06E4"
 				}
 			]
 		},
@@ -16358,25 +16342,6 @@
 					"slug": "iriab/buddhapalita-mulamadhyamakavrtti-part-xi",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/buddhapalita-mulamadhyamakavrtti-part-xi.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/buddhapalita-mulamadhyamakavrtti-part-xi.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Mūlamadhyamakakārikā, Sanskrit manuscript from Tibet",
-			"author": "Nāgārjuna",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "iriab:mulamadhyamakakarika-tibet-manuscripts-part-x",
-					"source": "iriab",
-					"sourceId": "mulamadhyamakakarika-tibet-manuscripts-part-x",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Mūlamadhyamakakārikā (Nāgārjuna), Sanskrit manuscript from Tibet (formerly China Ethnic Library, Beijing; now Tibet Museum, Lhasa)",
-					"slug": "iriab/mulamadhyamakakarika-tibet-manuscripts-part-x",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mulamadhyamakakarika-tibet-manuscripts-part-x.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
@@ -16521,54 +16486,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6E3EEE43.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6E3EEE43.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6E3EEE43"
-				}
-			]
-		},
-		{
-			"title": "Nāgārjuna: Mūlamadhyamakakārikā",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "bdrc:P5D55E3DF",
-					"source": "bdrc",
-					"sourceId": "P5D55E3DF",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Nāgārjuna: Mūlamadhyamakakārikā",
-					"slug": "bdrc/P5D55E3DF",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5D55E3DF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5D55E3DF.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P5D55E3DF"
-				},
-				{
-					"ref": "bdrc:P743000B8",
-					"source": "bdrc",
-					"sourceId": "P743000B8",
-					"label": "BDRC 2",
-					"script": "iast",
-					"title": "Nāgārjuna: Mūlamadhyamakakārikā",
-					"slug": "bdrc/P743000B8",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P743000B8.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P743000B8.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P743000B8"
-				}
-			]
-		},
-		{
-			"title": "Nāgārjuna: Vigrahavyāvartanīvṛtti",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "bdrc:P5BD5FA4B",
-					"source": "bdrc",
-					"sourceId": "P5BD5FA4B",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Nāgārjuna: Vigrahavyāvartanīvṛtti",
-					"slug": "bdrc/P5BD5FA4B",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5BD5FA4B.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5BD5FA4B.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P5BD5FA4B"
 				}
 			]
 		},
@@ -20724,7 +20641,7 @@
 			"title": "Ratnāvalī",
 			"titleDeva": "रत्नावली",
 			"author": "Nāgārjuna",
-			"category": "sastra/lekha",
+			"category": "sastra/madhyamaka",
 			"editions": [
 				{
 					"ref": "gretil:sa_nAgArjuna-ratnAvalI",
@@ -20785,6 +20702,18 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB1AED6A1.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB1AED6A1.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PB1AED6A1"
+				},
+				{
+					"ref": "bdrc:P06445FF2",
+					"source": "bdrc",
+					"sourceId": "P06445FF2",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Madhyamakaśāstra of Nāgārjuna",
+					"slug": "bdrc/P06445FF2",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P06445FF2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P06445FF2.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P06445FF2"
 				},
 				{
 					"ref": "bdrc:PCDB1A44C",
@@ -29834,6 +29763,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanI-alt.xml"
 				},
 				{
+					"ref": "gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA",
+					"source": "gretil",
+					"sourceId": "sa_nAgArjuna-vigrahavyAvartanIkArikA",
+					"label": "GRETIL (karikas only)",
+					"script": "iast",
+					"title": "Vigrahavyāvartanīkārikā",
+					"slug": "gretil/sa_nAgArjuna-vigrahavyAvartanIkArikA",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/v/Vigrahavy%C4%81vartan%C4%ABk%C4%81rik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/v/Vigrahavy%C4%81vartan%C4%ABk%C4%81rik%C4%81.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanIkArikA.xml"
+				},
+				{
 					"ref": "dsbc:254",
 					"source": "dsbc",
 					"sourceId": "254",
@@ -29870,6 +29811,30 @@
 					"originalUrl": "https://github.com/meobtis/nagarjuna"
 				},
 				{
+					"ref": "bdrc:P5BD5FA4B",
+					"source": "bdrc",
+					"sourceId": "P5BD5FA4B",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Nāgārjuna: Vigrahavyāvartanīvṛtti",
+					"slug": "bdrc/P5BD5FA4B",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P5BD5FA4B.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P5BD5FA4B.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P5BD5FA4B"
+				},
+				{
+					"ref": "bdrc:P4464A6F8",
+					"source": "bdrc",
+					"sourceId": "P4464A6F8",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Madhyamakaśāstra of Nāgārjuna",
+					"slug": "bdrc/P4464A6F8",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4464A6F8.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4464A6F8.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4464A6F8"
+				},
+				{
 					"ref": "bdrc:P5CE8E219",
 					"source": "bdrc",
 					"sourceId": "P5CE8E219",
@@ -29882,6 +29847,18 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P5CE8E219"
 				},
 				{
+					"ref": "bdrc:P98A58F6F",
+					"source": "bdrc",
+					"sourceId": "P98A58F6F",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Vigrahavyāvartanīkārikā",
+					"slug": "bdrc/P98A58F6F",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P98A58F6F.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P98A58F6F.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P98A58F6F"
+				},
+				{
 					"ref": "bdrc:PF99896BF",
 					"source": "bdrc",
 					"sourceId": "PF99896BF",
@@ -29892,37 +29869,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PF99896BF.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PF99896BF.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PF99896BF"
-				}
-			]
-		},
-		{
-			"title": "Vigrahavyāvartanīkārikā",
-			"author": "Nāgārjuna",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA",
-					"source": "gretil",
-					"sourceId": "sa_nAgArjuna-vigrahavyAvartanIkArikA",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Vigrahavyāvartanīkārikā",
-					"slug": "gretil/sa_nAgArjuna-vigrahavyAvartanIkArikA",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/v/Vigrahavy%C4%81vartan%C4%ABk%C4%81rik%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/v/Vigrahavy%C4%81vartan%C4%ABk%C4%81rik%C4%81.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanIkArikA.xml"
-				},
-				{
-					"ref": "bdrc:P98A58F6F",
-					"source": "bdrc",
-					"sourceId": "P98A58F6F",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Vigrahavyāvartanīkārikā",
-					"slug": "bdrc/P98A58F6F",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P98A58F6F.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P98A58F6F.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P98A58F6F"
 				}
 			]
 		},
@@ -30817,6 +30763,7 @@
 		},
 		{
 			"title": "Yuktiṣaṣṭikākārikā",
+			"titleDeva": "युक्तिषष्टिकारिका",
 			"author": "Nāgārjuna",
 			"category": "sastra/madhyamaka",
 			"editions": [
@@ -30845,37 +30792,6 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-yuktiSaSTikakArikA-fragments.xml"
 				},
 				{
-					"ref": "nagarjuna:yuktisastikakarika-li-ye-2014",
-					"source": "nagarjuna",
-					"sourceId": "yuktisastikakarika-li-ye-2014",
-					"label": "Nāgārjuna editions",
-					"script": "iast",
-					"title": "Yuktiṣaṣṭikākārikā",
-					"slug": "nagarjuna/yuktisastikakarika-li-ye-2014",
-					"url": "https://github.com/meobtis/nagarjuna/blob/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/nagarjuna/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
-					"originalUrl": "https://github.com/meobtis/nagarjuna"
-				},
-				{
-					"ref": "bdrc:PA12F91D6",
-					"source": "bdrc",
-					"sourceId": "PA12F91D6",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Yuktiṣaṣṭikakārikā Sanskrit reconstruction",
-					"slug": "bdrc/PA12F91D6",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA12F91D6.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA12F91D6.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PA12F91D6"
-				}
-			]
-		},
-		{
-			"title": "Yuktiṣaṣṭikārikā",
-			"titleDeva": "युक्तिषष्टिकारिका",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
 					"ref": "dsbc:255",
 					"source": "dsbc",
 					"sourceId": "255",
@@ -30900,16 +30816,40 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/540"
 				},
 				{
+					"ref": "nagarjuna:yuktisastikakarika-li-ye-2014",
+					"source": "nagarjuna",
+					"sourceId": "yuktisastikakarika-li-ye-2014",
+					"label": "Nāgārjuna editions",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikākārikā",
+					"slug": "nagarjuna/yuktisastikakarika-li-ye-2014",
+					"url": "https://github.com/meobtis/nagarjuna/blob/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/nagarjuna/main/texts/romanized/yuktisastikakarika-li-ye-2014.md",
+					"originalUrl": "https://github.com/meobtis/nagarjuna"
+				},
+				{
 					"ref": "bdrc:P0653D4E8",
 					"source": "bdrc",
 					"sourceId": "P0653D4E8",
-					"label": "BDRC",
+					"label": "BDRC (via DSBC)",
 					"script": "iast",
 					"title": "The Tibet Journal (Yuktiṣaṣṭika Kārikā)",
 					"slug": "bdrc/P0653D4E8",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0653D4E8.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0653D4E8.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0653D4E8"
+				},
+				{
+					"ref": "bdrc:PA12F91D6",
+					"source": "bdrc",
+					"sourceId": "PA12F91D6",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Yuktiṣaṣṭikakārikā Sanskrit reconstruction",
+					"slug": "bdrc/PA12F91D6",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA12F91D6.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA12F91D6.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA12F91D6"
 				}
 			]
 		},

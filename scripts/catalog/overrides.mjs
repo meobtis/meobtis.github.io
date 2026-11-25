@@ -27,6 +27,13 @@ export const MERGE = [
 	['gretil:sa_yazomitra-sphuTArthA-abhidharmakozavyAkhyA', 'dsbc:870'],
 	['dsbc:332', 'dsbc:573'], // Mahāyānasūtrālaṃkāra, kārikās
 	['gretil:sa_nAgArjuna-mUlamadhyamakakArikA', 'dsbc:931'], // Mūlamadhyamakakārikā (prajñā nāma)
+	// Nāgārjuna and Madhyamaka: editions filed under variant titles of the same work
+	['gretil:sa_nAgArjuna-mUlamadhyamakakArikA', 'gretil:sa_nAgArjuna-madhyamakazAstra', 'dsbc:242', 'dsbc:534', 'bdrc:P964F06E4', 'bdrc:P2E32E332', 'bdrc:P5D55E3DF', 'bdrc:P743000B8', 'iriab:mulamadhyamakakarika-tibet-manuscripts-part-x'], // Mūlamadhyamakakārikā (Madhyamakaśāstra)
+	['gretil:sa_nAgArjuna-ratnAvalI', 'bdrc:P06445FF2'], // Ratnāvalī (Vaidya's Madhyamakaśāstra volume)
+	['gretil:sa_nAgArjuna-vigrahavyAvartanI', 'gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA', 'bdrc:P98A58F6F', 'bdrc:P4464A6F8', 'bdrc:P5BD5FA4B'], // Vigrahavyāvartanī (kārikā and vṛtti)
+	['gretil:sa_nAgArjuna-yuktiSaSTikakArikA', 'dsbc:255', 'dsbc:540', 'bdrc:P0653D4E8'], // Yuktiṣaṣṭikākārikā
+	['iriab:catuhstotravivarana-fols-1v-5v', 'iriab:catuhstotravivarana-part-xxvi'], // Catuḥstotravivaraṇa
+	['gretil:sa_madhyamakAvatAra-1-5', 'dsbc:852', 'dsbc:853', 'bdrc:P7DB27B29', 'bdrc:P7DB27B29-iast', 'bdrc:P4085FE01'], // Madhyamakāvatāra (kārikā)
 	// SARIT editions whose titles differ from the same work in GRETIL or DSBC:
 	['gretil:sa_paNDitAzoka-sAmAnyadUSaNadikprasAritA', 'sarit:samanyadusana'],
 	['dsbc:282', 'sarit:vadanyayatika'], // Vādanyāyaṭīkā (Vipañcitārthā)
@@ -144,6 +151,10 @@ export const EDITION_NOTES = {
 /** Editions that must not be merged automatically with others of the same title. */
 export const SPLIT = new Set([
 	'dsbc:259', // Bodhicaryāvatāraḥ (pañjikā) is Prajñākaramati's commentary, not the root text
+	// Parts of Vaidya's Madhyamakaśāstra volume (Ratnāvalī, Mūlamadhyamakakārikā, Vigrahavyāvartanī) that BDRC titles alike:
+	'bdrc:P06445FF2',
+	'bdrc:P2E32E332',
+	'bdrc:P4464A6F8',
 ]);
 
 /** Category (and optional section) for an edition's work: "group/category" or { category, section }. */

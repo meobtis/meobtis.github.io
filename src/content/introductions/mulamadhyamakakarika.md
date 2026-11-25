@@ -6,6 +6,9 @@ refs:
   - dsbc:931
   - dsbc:932
   - nagarjuna:mulamadhyamakakarika-ye-2011
+  - gretil:sa_nAgArjuna-madhyamakazAstra
+  - dsbc:242
+  - dsbc:534
 summary: Nāgārjuna's verse treatise, the foundational text of the Madhyamaka (Middle Way) school, which analyses causation, motion, the self and other concepts to argue that things lack intrinsic nature (svabhāva).
 editions:
   - ref: gretil:sa_nAgArjuna-mUlamadhyamakakArikA
@@ -20,7 +23,16 @@ editions:
   - ref: nagarjuna:mulamadhyamakakarika-ye-2011
     history: >-
       The Sanskrit text of Ye Shaoyong’s critical edition, a Sanskrit–Tibetan–Chinese edition with introduction and translation, which collates the Sanskrit commentaries and the Tibetan and Chinese translations; only the editor’s Sanskrit text and chapter titles are given here, in IAST, and a leading asterisk marks a chapter title the editor reconstructed.[^ye2011]
-updated: 2026-11-24
+  - ref: gretil:sa_nAgArjuna-madhyamakazAstra
+    history: >-
+      Based on P. L. Vaidya's edition of the *Madhyamakaśāstra* (Darbhanga: Mithila Institute, 1960). The data entry was done by members of the Digital Sanskrit Buddhist Canon Input Project, with normalisation by Reinhold Grünendahl and TEI markup by Maximilian Mehner.[^gretil-ms]
+  - ref: dsbc:242
+    history: >-
+      Romanised text of 27 chapters, based on P. L. Vaidya's edition (Darbhanga: Mithila Institute of Post-Graduate Studies and Research in Sanskrit Learning, 1960).[^dsbc242]
+  - ref: dsbc:534
+    history: >-
+      The Devanagari version of the same Digital Sanskrit Buddhist Canon text; its record carries no separate bibliographic data.[^dsbc534]
+updated: 2026-11-26
 ---
 
 The *Mūlamadhyamakakārikā* ("Root Verses on the Middle Way"), also known simply as the *Madhyamakakārikā*, is a philosophical treatise in Sanskrit verse ascribed to Nāgārjuna. The Stanford Encyclopedia of Philosophy counts it as 450 stanzas and calls it Nāgārjuna's most important work, the central text of the "philosophy of the Middle Way", in which his thought is set out in full.[^sep] The verses are cited by chapter and verse, and the digital texts here follow that scheme (for example 1.1 is the opening verse of the first chapter, on conditions).[^gretil-mmk]
@@ -35,3 +47,6 @@ The work has attracted a large body of later commentary. Among those available i
 [^gretil-mmk]: Göttingen State and University Library. (n.d.). *Mūlamadhyamakakārikā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-mUlamadhyamakakArikA.xml
 [^dsbc931]: University of the West. (n.d.). *Mūlamadhyamakakārikā prajñā nāma*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/931
 [^ye2011]: Ye, S. (2011). *Zhonglun song: Fan Zang Han hejiao, daodu, yizhu* [Mūlamadhyamakakārikā: Sanskrit–Tibetan–Chinese edition, introduction and translation] (Sanskrit–Tibetan–Chinese Buddhist Texts Series, Vol. 1). Zhongxi Book Company.
+[^dsbc242]: University of the West. (n.d.). *Madhyamakaśāstram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/242
+[^dsbc534]: University of the West. (n.d.). *मध्यमकशास्त्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/534
+[^gretil-ms]: Göttingen State and University Library. (n.d.). *Madhyamakaśāstra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-madhyamakazAstra.xml

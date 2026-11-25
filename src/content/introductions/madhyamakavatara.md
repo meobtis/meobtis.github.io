@@ -5,6 +5,8 @@ refs:
   - gretil:sa_madhyamakAvatAra-1-5
   - dsbc:243
   - dsbc:537
+  - dsbc:852
+  - dsbc:853
 summary: Candrakīrti's verse treatise on the bodhisattva path and Madhyamaka philosophy, preserved in Tibetan translation; the Sanskrit editions here are modern Sanskrit versions of it with its commentary.
 editions:
   - ref: gretil:sa_madhyamakAvatAra-1-5
@@ -16,7 +18,13 @@ editions:
   - ref: dsbc:537
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text.[^dsbc537]
-updated: 2026-11-13
+  - ref: dsbc:852
+    history: >-
+      The record names the Journal of Indian Philosophy article "Madhyamakāvatāra-kārikā Chapter 6" by Xuezhu Li (2015) as its source, so the text is chapter 6 only, not the whole work. It was input and proofread by Miroj Shakya in 2019, supplied by the Nagarjuna Institute of Buddhist Studies and sponsored by the University of the West.[^dsbc852]
+  - ref: dsbc:853
+    history: >-
+      A Devanagari version of the same text, with the same input details (Miroj Shakya, 2019; Nagarjuna Institute of Buddhist Studies; University of the West) but no bibliographic information of its own.[^dsbc853]
+updated: 2026-11-26
 ---
 
 The *Madhyamakāvatāra* ("Entry into the Middle Way", commonly *Introduction to the Middle Way*) is a work of the Indian Buddhist philosopher Candrakīrti, who is placed at the beginning of the seventh century.[^hayes2023] It is a verse text accompanied by a prose commentary by Candrakīrti himself, the *Madhyamakāvatārabhāṣya*.[^hayes2023]
@@ -32,3 +40,5 @@ Little further detail on the Sanskrit editions could be verified from the source
 [^gretil-madhyamakavatara]: Göttingen State and University Library. (n.d.). *Madhyamakāvatāra 1-5* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_madhyamakAvatAra-1-5.xml
 [^dsbc243]: University of the West. (n.d.). *Madhyamakāvatāraḥ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/243
 [^dsbc537]: University of the West. (n.d.). *मध्यमकावतारः*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/537
+[^dsbc852]: University of the West. (n.d.). *Madhyamakāvatārakārikā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/852
+[^dsbc853]: University of the West. (n.d.). *मध्यमकावतार-कारिका*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/853

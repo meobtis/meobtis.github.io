@@ -11,12 +11,9 @@
 						"note": "The root verses first, then the shorter treatises, then works attributed to him whose authorship is less certain.",
 						"works": [
 							{ "ref": "gretil:sa_nAgArjuna-mUlamadhyamakakArikA" },
-							{ "ref": "gretil:sa_nAgArjuna-madhyamakazAstra" },
 							{ "ref": "gretil:sa_nAgArjuna-vigrahavyAvartanI" },
-							{ "ref": "gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA" },
 							{ "ref": "gretil:sa_nAgArjuna-zUnyatAsaptati" },
 							{ "ref": "gretil:sa_nAgArjuna-yuktiSaSTikakArikA" },
-							{ "ref": "dsbc:255" },
 							{ "ref": "gretil:sa_nAgArjuna-pratItyasamutpAdahRdayakArikA" },
 							{ "ref": "gretil:sa_nAgArjuna-pratItyasamutpAdahRdayavyAkhyAna" },
 							{ "ref": "gretil:sa_nAgArjuna-zAlistambakakArikA" },
@@ -44,7 +41,6 @@
 						"note": "The Prasannapadā is a commentary on Nāgārjuna's root verses and is best read with them; the Madhyamakāvatāra then presents the same view as part of the bodhisattva path.",
 						"works": [
 							{ "ref": "gretil:sa_candrakIrti-prasannapada" },
-							{ "ref": "dsbc:852" },
 							{ "ref": "dsbc:887" },
 							{ "ref": "gretil:sa_madhyamakAvatAra-1-5" }
 						]

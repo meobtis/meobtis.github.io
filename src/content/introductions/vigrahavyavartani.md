@@ -5,7 +5,10 @@ refs:
   - gretil:sa_nAgArjuna-vigrahavyAvartanI-alt
   - dsbc:254
   - dsbc:541
-summary: A short Madhyamaka treatise attributed to Nāgārjuna, available here in three Sanskrit editions based on the printed texts of Yonezawa (2008) and Vaidya (1960).
+  - nagarjuna:vigrahavyavartani-yonezawa-2008
+  - bdrc:P5CE8E219
+  - bdrc:PF99896BF
+summary: A short Madhyamaka treatise attributed to Nāgārjuna, available here in several Sanskrit editions based on the printed texts of Yonezawa (2008) and Vaidya (1960).
 editions:
   - ref: gretil:sa_nAgArjuna-vigrahavyAvartanI
     history: >-
@@ -19,7 +22,10 @@ editions:
   - ref: dsbc:541
     history: >-
       This is the Devanāgarī version of the same DSBC text, listed as the parallel of the romanized version.[^dsbc254]
-updated: 2026-11-13
+  - ref: nagarjuna:vigrahavyavartani-yonezawa-2008
+    history: >-
+      This is the Sanskrit of Yoshiyasu Yonezawa's transliteration of the complete seven-leaf manuscript in the Tibet Museum (*Journal of the Naritasan Institute for Buddhist Studies* 31, 2008, pp. 209–333), the edition on which the GRETIL text is based. The manuscript numbers are kept in square brackets, and the Tibetan translation, the notes recording the readings of the editions of Jayaswal and Sāṅkṛtyāyana, Johnston and Kunst, and Mookerjee, and the introduction are not reproduced.[^yonezawa2008]
+updated: 2026-11-25
 ---
 The *Vigrahavyāvartanī* is a work attributed to Nāgārjuna and classified in the digital collections under Madhyamaka philosophy (*śāstra*). The GRETIL record names Nāgārjuna as its author,[^gretil-vv] and the DSBC file belongs to its Madhyamaka section of the treatise canon.[^dsbc254] Little further information could be verified from the sources consulted for this entry, so details of its contents, date, and translations are not given here.
 
@@ -28,3 +34,4 @@ The work survives in Sanskrit and is available in this collection in several dig
 [^gretil-vv]: Göttingen State and University Library. (n.d.). *Vigrahavyāvartanī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanI.xml
 [^gretil-vv-alt]: Göttingen State and University Library. (n.d.). *Vigrahavyāvartanī* (karikas only, alternative version) [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanI-alt.xml
 [^dsbc254]: University of the West. (n.d.). *Vigrahavyāvartanī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/254
+[^yonezawa2008]: Yonezawa, Y. (2008). *Vigrahavyāvartanī*: Sanskrit transliteration and Tibetan translation. *Journal of the Naritasan Institute for Buddhist Studies, 31*, 209–333.

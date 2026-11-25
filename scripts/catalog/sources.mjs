@@ -256,14 +256,15 @@ export const SOURCES = [
 	{
 		id: 'nagarjuna',
 		label: 'Nāgārjuna editions',
-		name: 'Critical editions of works of Nāgārjuna (Ye Shaoyong; Li Xuezhu; Phurtsham)',
+		name: 'Critical editions of works of Nāgārjuna (Ye Shaoyong; Li Xuezhu; Phurtsham; Yonezawa)',
 		homepage: 'https://github.com/meobtis/nagarjuna',
 		repo: 'meobtis/nagarjuna',
 		publisher: 'Zhongxi Book Company, Shanghai',
 		credit:
 			'Sanskrit text of the critical editions by Ye Shaoyong (Mūlamadhyamakakārikā, 2011) and Li Xuezhu and Ye Shaoyong ' +
 			'(Yuktiṣaṣṭikākārikā, 2014) in the Sanskrit–Tibetan–Chinese Buddhist Texts Series (Zhongxi Book Company, Shanghai), and by ' +
-			'Phurtsham (Ratnāvalī, Tibetan Classics Publishing House, Lhasa). The readings are the work of the editors; the Tibetan ' +
+			'Phurtsham (Ratnāvalī, Tibetan Classics Publishing House, Lhasa), and the transliteration of the Vigrahavyāvartanī manuscript by ' +
+			'Yoshiyasu Yonezawa (Journal of the Naritasan Institute for Buddhist Studies 31, 2008). The readings are the work of the editors; the Tibetan ' +
 			'and Chinese texts, translations, notes and apparatus are not reproduced.',
 		terms: 'The editions are in copyright; the Sanskrit text is offered for research and study. Cite the printed editions.',
 		termsUrl: 'https://github.com/meobtis/nagarjuna',

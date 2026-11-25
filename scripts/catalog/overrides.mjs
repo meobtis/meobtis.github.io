@@ -33,6 +33,21 @@ export const MERGE = [
 	['gretil:sa_nAgArjuna-vigrahavyAvartanI', 'gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA', 'bdrc:P98A58F6F', 'bdrc:P4464A6F8', 'bdrc:P5BD5FA4B'], // Vigrahavyāvartanī (kārikā and vṛtti)
 	['gretil:sa_nAgArjuna-yuktiSaSTikakArikA', 'dsbc:255', 'dsbc:540', 'bdrc:P0653D4E8'], // Yuktiṣaṣṭikākārikā
 	['iriab:catuhstotravivarana-fols-1v-5v', 'iriab:catuhstotravivarana-part-xxvi'], // Catuḥstotravivaraṇa
+	// Duplicates found by comparing titles across the whole catalogue
+	['gretil:sa_asaGga-abhidharmasamuccaya', 'bdrc:PA7F751C2'], // Abhidharmasamuccaya
+	['gretil:sa_aparimitAyuHsUtra', 'dsbc:24', 'dsbc:409', 'bdrc:P24B2B44D'], // Aparimitāyuḥsūtra
+	['dsbc:796', 'dsbc:147', 'dsbc:649'], // Dharmadhātustava (Dharmadhātunāmastava)
+	['dsbc:32', 'dsbc:419', 'dsbc:873', 'dsbc:878'], // Sarvabuddhaviṣayāvatārajñānālokālaṃkāra
+	['gretil:sa_zrImahAdevIvyAkaraNa', 'dsbc:11', 'dsbc:383'], // Mahādevīvyākaraṇa
+	['gretil:sa_grahamAtRkAdhAraNI', 'dsbc:862', 'dsbc:863'], // Grahamātṛkādhāraṇī
+	['gretil:sa_mahApratisarAvidyAdhAraNI', 'gretil:sa_mahApratisarAmahAvidyArAjJI', 'dsbc:381', 'dsbc:381-iast', 'iriab:mahapratisara-vidyarajni-gilgit-fe3119'], // Mahāpratisarā
+	['gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra', 'gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11', 'dsbc:17', 'dsbc:388'], // Ratnaketudhāraṇī
+	['gretil:sa_pramANavArttika', 'dsbc:298', 'dsbc:514', 'bdrc:P18524656'], // Pramāṇavārttika
+	['gretil:sa_pratItyasamutpAdamahAyAnasUtra', 'dsbc:28', 'dsbc:414'], // Pratītyasamutpādamahāyānasūtra
+	['gretil:sa_vajravidAraNAdhAraNI', 'gretil:sa_vajravidAraNIdhAraNI', 'dsbc:12', 'dsbc:382'], // Vajravidāraṇā
+	['gretil:sa_vimalakIrtinirdeza', 'dsbc:35', 'dsbc:417'], // Vimalakīrtinirdeśa
+	['gretil:sa_namaskAraikaviMzatistotra', 'dsbc:113', 'dsbc:631', 'bdrc:P2D54C212'], // Tārānamaskāraikaviṃśatistotra
+	['gretil:sa_prAtimokSasUtra-of-the-mahAsAMghikas', 'iriab:pratimoksasutra-mahasamghika-fragments-part-xi'], // Mahāsāṃghika Prātimokṣasūtra
 	['gretil:sa_madhyamakAvatAra-1-5', 'dsbc:852', 'dsbc:853', 'bdrc:P7DB27B29', 'bdrc:P7DB27B29-iast', 'bdrc:P4085FE01'], // Madhyamakāvatāra (kārikā)
 	// SARIT editions whose titles differ from the same work in GRETIL or DSBC:
 	['gretil:sa_paNDitAzoka-sAmAnyadUSaNadikprasAritA', 'sarit:samanyadusana'],
@@ -410,6 +425,8 @@ export const CATEGORY_OVERRIDES = {
 
 /** Display title for an edition's work. */
 export const TITLE_OVERRIDES = {
+	'gretil:sa_gopadatta-jAtakamAlA': 'Jātakamālā (Gopadatta)',
+	'gretil:sa_haribhaTTa-jAtakamAlA1-8--11-12--19-20--22--24--26--32--35': 'Jātakamālā (Haribhaṭṭa)',
 	'gretil:sa_mahAvastu-avAdana': 'Mahāvastu Avadāna',
 	'gretil:sa_candrakIrti-prasannapada': 'Prasannapadā',
 	'gretil:sa_dharmakIrti-pramANavArttisvavRtti': 'Pramāṇavārttikasvavṛtti',

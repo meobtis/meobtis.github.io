@@ -5,6 +5,7 @@ refs:
   - gretil:sa_mahApratisarAvidyAdhAraNI
   - dsbc:381-iast
   - dsbc:381
+  - gretil:sa_mahApratisarAmahAvidyArAjJI
 summary: A Sanskrit dhāraṇī in praise of the protective goddess Mahāpratisarā, "the Great Amulet", whose longer sūtra belongs to the Pañcarakṣā, the five protective texts of Buddhism.
 editions:
   - ref: gretil:sa_mahApratisarAvidyAdhAraNI
@@ -16,7 +17,14 @@ editions:
   - ref: dsbc:381-iast
     history: >-
       A machine transliteration of the Devanāgarī DSBC text into IAST, provided for convenience; the Devanāgarī edition remains the authoritative version.[^dsbc381]
-updated: 2026-11-13
+  - ref: gretil:sa_mahApratisarAmahAvidyArAjJI
+    history: >-
+      The digital text is based on Gergely Hidas's critical edition and annotated translation,
+      *Mahāpratisarā-Mahāvidyārājñī, The Great Amulet, Great Queen of Spells* (New Delhi:
+      International Academy of Indian Culture and Aditya Prakashan, 2012, Śata-Piṭaka Series 636).
+      Hidas keyed the data and contributed it to GRETIL; Reinhold Grünendahl made the initial
+      normalisation and Maximilian Mehner the TEI conversion.[^gretil-mpmvr]
+updated: 2026-11-26
 ---
 
 The *Mahāpratisarāvidyādhāraṇī* is a Sanskrit dhāraṇī, a protective incantation, addressed to the goddess Mahāpratisarā, whose name means "Great Amulet" or "Great Protectress". The text in this index opens with a homage to the Blessed Lady, the noble Mahāpratisarā, followed by a long run of invocations and mantras ending in repeated *svāhā* formulae.[^gretil-mpv]
@@ -31,3 +39,4 @@ The digital edition is much shorter than the full sūtra: it presents only the d
 [^dsbc381]: University of the West. (n.d.). *Āryamahāpratisarāvidyā dhāraṇī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/381
 [^84000toh561]: Dharmachakra Translation Committee (Trans.). (n.d.). *The noble queen of incantations: The great amulet* (Toh 561). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh561
 [^wiki-mahapratisara]: Wikipedia contributors. (n.d.). Mahapratisara. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mahapratisara
+[^gretil-mpmvr]: Göttingen State and University Library. (n.d.). *Mahāpratisarāmahāvidyārājñī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahApratisarAmahAvidyArAjJI.xml

@@ -4,6 +4,7 @@ englishTitle: The Twenty-One Praises of Tārā
 refs:
   - dsbc:113
   - dsbc:631
+  - gretil:sa_namaskAraikaviMzatistotra
 summary: A short hymn of homage to twenty-one forms of the goddess Tārā, the Sanskrit counterpart of the best-loved Tibetan prayer to her.
 editions:
   - ref: dsbc:113
@@ -12,7 +13,10 @@ editions:
   - ref: dsbc:631
     history: >-
       The Devanāgarī version is the parallel form of the same text, input in 2004 by the DSBC staff and proofread by Miroj Shakya. Its own bibliographic fields are empty; the romanized record is its companion.[^dsbc631]
-updated: 2026-11-13
+  - ref: gretil:sa_namaskAraikaviMzatistotra
+    history: >-
+      The GRETIL text is based on Godefroy de Blonay's study of the goddess Tārā, and was keyed in by Klaus Wille, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner.[^gretil-nevs]
+updated: 2026-11-26
 ---
 
 The *Tārānamaskāraikaviṃśatistotra* ("Hymn of Twenty-One Homages to Tārā") is a short devotional poem addressed to the Buddhist saviouress Tārā. It is best known in English as the Twenty-One Praises of Tārā, and in the 84000 translation of its Tibetan form as *Praise to Tārā with Twenty-One Verses of Homage*.[^84000toh438] In its Tibetan form the liturgy has twenty-seven verses: the first twenty-one each pay homage to one form of Tārā, and the last six deal with how and when to recite it and with the benefits of doing so.[^84000toh438]
@@ -26,3 +30,4 @@ For the Sanskrit text, the 84000 translators consulted editions by de Blonay (18
 [^84000toh438]: Samye Translations (Trans.). (n.d.). *Praise to Tārā with twenty-one verses of homage* (Toh 438). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh438
 [^dsbc113]: University of the West. (n.d.). *(Ārya) tārānamaskāraikaviṃśatistotram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/113
 [^dsbc631]: University of the West. (n.d.). *आर्यतारानमस्कारैकविंशतिस्तोत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/631
+[^gretil-nevs]: Göttingen State and University Library. (n.d.). *Namaskāraikaviṃśatistotra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_namaskAraikaviMzatistotra.xml

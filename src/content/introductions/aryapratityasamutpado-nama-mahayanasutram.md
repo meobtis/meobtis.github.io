@@ -3,6 +3,7 @@ title: Āryapratītyasamutpādo nāma mahāyānasūtram
 refs:
   - dsbc:28
   - dsbc:414
+  - gretil:sa_pratItyasamutpAdamahAyAnasUtra
 summary: A very short Mahāyāna sūtra in Sanskrit in which the Buddha, asked by Avalokiteśvara, teaches the dependent-origination verse and the merit of reciting it.
 editions:
   - ref: dsbc:28
@@ -11,7 +12,10 @@ editions:
   - ref: dsbc:414
     history: >-
       The Devanāgarī version of the same text, listed in the Digital Sanskrit Buddhist Canon as the parallel of the romanised edition.[^dsbc414]
-updated: 2026-11-13
+  - ref: gretil:sa_pratItyasamutpAdamahAyAnasUtra
+    history: >-
+      The GRETIL text is based on P. L. Vaidya's edition in the Mahāyāna-sūtra-saṃgrahaḥ, Part 1 (Darbhanga: Mithila Institute, 1961; Buddhist Sanskrit Texts 17), where it appears as item 119. The data were entered by members of the Digital Sanskrit Buddhist Canon Input Project and later normalised and converted to TEI markup for GRETIL.[^gretil-pratitya]
+updated: 2026-11-26
 ---
 
 The *Āryapratītyasamutpāda* ("The Noble Sūtra of Dependent Origination") is a very brief Mahāyāna sūtra, a single short chapter. It is found in the Digital Sanskrit Buddhist Canon in a printing of Vaidya's 1961 collection of Mahāyāna sūtras.[^dsbc28]
@@ -22,3 +26,4 @@ Little reliable information on the authorship, date, translations or manuscripts
 
 [^dsbc28]: University of the West. (n.d.). *Āryapratītyasamutpādo nāma mahāyānasūtram* [Romanised text; source edition: Vaidya, P. L. (Ed.), *Mahāyāna-sūtra-saṃgrahaḥ*, Pt. 1, Mithila Institute, 1961]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/28
 [^dsbc414]: University of the West. (n.d.). *आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्* [Devanāgarī text]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/414
+[^gretil-pratitya]: Göttingen State and University Library. (n.d.). *Pratītyasamutpādamahāyānasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratItyasamutpAdamahAyAnasUtra.xml

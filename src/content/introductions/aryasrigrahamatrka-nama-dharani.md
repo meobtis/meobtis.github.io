@@ -3,6 +3,7 @@ title: Āryaśrīgrahamātṛkā nāma dhāraṇī
 refs:
   - dsbc:862
   - dsbc:863
+  - gretil:sa_grahamAtRkAdhAraNI
 summary: A short Sanskrit Buddhist dhāraṇī addressed to the goddess Grahamātṛkā, in which the Buddha gives mantras and offerings for the nine planetary deities (grahas), set in Aḍakavatī with Vajrapāṇi as interlocutor.
 editions:
   - ref: dsbc:862
@@ -11,7 +12,10 @@ editions:
   - ref: dsbc:863
     history: >-
       The Devanagari version of the same text, drawn from the same Nepalese edition and prepared under the same project.[^dsbc863]
-updated: 2026-11-13
+  - ref: gretil:sa_grahamAtRkAdhAraNI
+    history: >-
+      The GRETIL text reproduces an edition of the *Āryagrahamātṛkā nāma dhāraṇī* printed in *Dhīḥ* 39 (2005), pp. 169–176. Klaus Wille keyed the text and contributed it to GRETIL, Reinhold Grünendahl made the first normalisation, and Maximilian Mehner converted it to TEI markup on 31 July 2020.[^gretil-grahamatrka]
+updated: 2026-11-26
 ---
 
 The *Āryaśrīgrahamātṛkā nāma dhāraṇī* is a short Sanskrit Buddhist protective text. It opens with a salutation to the noble Grahamātṛkā and the formula "Thus have I heard", placing the Buddha in the great city of Aḍakavatī among gods, nāgas, yakṣas and the planetary deities, together with a great assembly of bodhisattvas headed by Vajrapāṇi.[^dsbc862]
@@ -22,3 +26,4 @@ Little reliable information on the work's date, authorship, transmission, transl
 
 [^dsbc862]: University of the West. (n.d.). *Āryaśrīgrahamātṛkā nāma dhāraṇī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/862
 [^dsbc863]: University of the West. (n.d.). *Āryaśrīgrahamātṛkā nāma dhāraṇī* [Devanagari version]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/863
+[^gretil-grahamatrka]: Göttingen State and University Library. (n.d.). *Grahamātṛkādhāraṇī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_grahamAtRkAdhAraNI.xml

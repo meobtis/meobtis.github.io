@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-25T20:16:10.980Z",
+	"generated": "2026-11-25T20:36:36.531Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -14,7 +14,7 @@
 			"skipped": 415,
 			"url": "https://github.com/meobtis/gretil",
 			"editions": 351,
-			"works": 316
+			"works": 313
 		},
 		{
 			"id": "dsbc",
@@ -28,7 +28,7 @@
 			"termsUrl": "https://www.dsbcproject.org/pages/usage-policy",
 			"url": "https://github.com/meobtis/dsbc",
 			"editions": 912,
-			"works": 453
+			"works": 450
 		},
 		{
 			"id": "sarit",
@@ -85,7 +85,7 @@
 			"termsUrl": "https://github.com/meobtis/iriab",
 			"url": "https://github.com/meobtis/iriab",
 			"editions": 122,
-			"works": 92
+			"works": 91
 		},
 		{
 			"id": "bdrc",
@@ -99,7 +99,7 @@
 			"termsUrl": "https://www.bdrc.io",
 			"url": "https://github.com/meobtis/bdrc",
 			"editions": 636,
-			"works": 279
+			"works": 277
 		},
 		{
 			"id": "schoyen",
@@ -132,7 +132,7 @@
 					"id": "mahayana-sutra",
 					"label": "Mahāyāna sūtras",
 					"description": "Mahāyāna sūtras other than the Prajñāpāramitā.",
-					"count": 76
+					"count": 71
 				},
 				{
 					"id": "prajnaparamita",
@@ -144,7 +144,7 @@
 					"id": "dharani",
 					"label": "Dhāraṇī",
 					"description": "Dhāraṇī and protective (rakṣā) texts.",
-					"count": 39
+					"count": 33
 				},
 				{
 					"id": "avadana",
@@ -165,7 +165,7 @@
 					"count": 0
 				}
 			],
-			"count": 210
+			"count": 199
 		},
 		{
 			"id": "vinaya",
@@ -176,7 +176,7 @@
 					"id": "pratimoksa",
 					"label": "Prātimokṣa and karmavācanā",
 					"description": "Codes of monastic rules and the formulas for monastic procedures.",
-					"count": 10
+					"count": 9
 				},
 				{
 					"id": "vinayavastu",
@@ -191,7 +191,7 @@
 					"count": 15
 				}
 			],
-			"count": 43
+			"count": 42
 		},
 		{
 			"id": "sastra",
@@ -202,7 +202,7 @@
 					"id": "abhidharma",
 					"label": "Abhidharma",
 					"description": "Abhidharma treatises, including the Abhidharmakośa and its commentaries.",
-					"count": 25
+					"count": 24
 				},
 				{
 					"id": "madhyamaka",
@@ -226,7 +226,7 @@
 					"id": "pramana",
 					"label": "Pramāṇa",
 					"description": "Epistemology and logic (pramāṇa, hetuvidyā).",
-					"count": 66
+					"count": 65
 				},
 				{
 					"id": "prajnaparamita-sastra",
@@ -247,7 +247,7 @@
 					"count": 3
 				}
 			],
-			"count": 210
+			"count": 208
 		},
 		{
 			"id": "tantra",
@@ -290,7 +290,7 @@
 					"id": "stotra-buddha",
 					"label": "Hymns to the Buddha",
 					"description": "Hymns to Śākyamuni and the buddhas, the Three Jewels and sacred places.",
-					"count": 61
+					"count": 59
 				},
 				{
 					"id": "stotra-bodhisattva",
@@ -305,7 +305,7 @@
 					"count": 43
 				}
 			],
-			"count": 130
+			"count": 128
 		},
 		{
 			"id": "literature",
@@ -917,6 +917,18 @@
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvii.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/abhidharmasamuccaya-leaves-part-xvii.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "bdrc:PA7F751C2",
+					"source": "bdrc",
+					"sourceId": "PA7F751C2",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Asaṅga: Abhidharmasamuccaya",
+					"slug": "bdrc/PA7F751C2",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA7F751C2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA7F751C2.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA7F751C2"
 				},
 				{
 					"ref": "bdrc:P200C1848",
@@ -2786,10 +2798,22 @@
 			]
 		},
 		{
-			"title": "Aparimitāyuḥ nāma mahāyāna sūtram",
+			"title": "Aparimitāyuḥsūtra",
 			"titleDeva": "अपरिमितायुः नाम महायान सूत्र",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
+				{
+					"ref": "gretil:sa_aparimitAyuHsUtra",
+					"source": "gretil",
+					"sourceId": "sa_aparimitAyuHsUtra",
+					"label": "GRETIL",
+					"script": "iast",
+					"title": "Aparimitāyuḥsūtra",
+					"slug": "gretil/sa_aparimitAyuHsUtra",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/a/Aparimit%C4%81yu%E1%B8%A5s%C5%ABtra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/a/Aparimit%C4%81yu%E1%B8%A5s%C5%ABtra.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_aparimitAyuHsUtra.xml"
+				},
 				{
 					"ref": "dsbc:24",
 					"source": "dsbc",
@@ -2825,24 +2849,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P24B2B44D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P24B2B44D.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P24B2B44D"
-				}
-			]
-		},
-		{
-			"title": "Aparimitāyuḥsūtra",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "gretil:sa_aparimitAyuHsUtra",
-					"source": "gretil",
-					"sourceId": "sa_aparimitAyuHsUtra",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Aparimitāyuḥsūtra",
-					"slug": "gretil/sa_aparimitAyuHsUtra",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/a/Aparimit%C4%81yu%E1%B8%A5s%C5%ABtra.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/a/Aparimit%C4%81yu%E1%B8%A5s%C5%ABtra.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_aparimitAyuHsUtra.xml"
 				}
 			]
 		},
@@ -2997,24 +3003,6 @@
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/arthaviniscayasutra-sackler-fragment-3.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/arthaviniscayasutra-sackler-fragment-3.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Asaṅga: Abhidharmasamuccaya",
-			"category": "sastra/abhidharma",
-			"editions": [
-				{
-					"ref": "bdrc:PA7F751C2",
-					"source": "bdrc",
-					"sourceId": "PA7F751C2",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Asaṅga: Abhidharmasamuccaya",
-					"slug": "bdrc/PA7F751C2",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA7F751C2.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA7F751C2.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PA7F751C2"
 				}
 			]
 		},
@@ -8371,6 +8359,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/147"
 				},
 				{
+					"ref": "dsbc:796",
+					"source": "dsbc",
+					"sourceId": "796",
+					"label": "DSBC 2",
+					"script": "iast",
+					"title": "Dharmadhātustava",
+					"slug": "dsbc/796",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/dharmadh%C4%81tu/Dharmadh%C4%81tustava.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/dharmadh%C4%81tu/Dharmadh%C4%81tustava.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/796"
+				},
+				{
 					"ref": "dsbc:649",
 					"source": "dsbc",
 					"sourceId": "649",
@@ -8381,32 +8381,12 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A7%E0%A4%BE%E0%A4%A4%E0%A5%81/%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A7%E0%A4%BE%E0%A4%A4%E0%A5%81%E0%A4%A8%E0%A4%BE%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%83.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A7%E0%A4%BE%E0%A4%A4%E0%A5%81/%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A7%E0%A4%BE%E0%A4%A4%E0%A5%81%E0%A4%A8%E0%A4%BE%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%83.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/649"
-				}
-			]
-		},
-		{
-			"title": "Dharmadhātustava",
-			"titleDeva": "धर्मधातुस्तव",
-			"category": "stotra/stotra-buddha",
-			"section": "Dharmadhātu",
-			"editions": [
-				{
-					"ref": "dsbc:796",
-					"source": "dsbc",
-					"sourceId": "796",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Dharmadhātustava",
-					"slug": "dsbc/796",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/dharmadh%C4%81tu/Dharmadh%C4%81tustava.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/dharmadh%C4%81tu/Dharmadh%C4%81tustava.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/796"
 				},
 				{
 					"ref": "dsbc:798",
 					"source": "dsbc",
 					"sourceId": "798",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "धर्मधातुस्तव",
 					"slug": "dsbc/798",
@@ -9684,6 +9664,7 @@
 		},
 		{
 			"title": "Grahamātṛkādhāraṇī",
+			"titleDeva": "आर्यश्री ग्रहमातृका नाम धारणी",
 			"category": "sutra/dharani",
 			"editions": [
 				{
@@ -9697,6 +9678,68 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/g/Graham%C4%81t%E1%B9%9Bk%C4%81dh%C4%81ra%E1%B9%87%C4%AB.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/g/Graham%C4%81t%E1%B9%9Bk%C4%81dh%C4%81ra%E1%B9%87%C4%AB.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_grahamAtRkAdhAraNI.xml"
+				},
+				{
+					"ref": "dsbc:862",
+					"source": "dsbc",
+					"sourceId": "862",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
+					"slug": "dsbc/862",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80rya%C5%9Br%C4%ABgraham%C4%81t%E1%B9%9Bk%C4%81%20n%C4%81ma%20dh%C4%81ra%E1%B9%87%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80rya%C5%9Br%C4%ABgraham%C4%81t%E1%B9%9Bk%C4%81%20n%C4%81ma%20dh%C4%81ra%E1%B9%87%C4%AB.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/862"
+				},
+				{
+					"ref": "dsbc:863",
+					"source": "dsbc",
+					"sourceId": "863",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
+					"slug": "dsbc/863",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%83%E0%A4%95%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%83%E0%A4%95%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/863"
+				},
+				{
+					"ref": "bdrc:PCDEFEDFB",
+					"source": "bdrc",
+					"sourceId": "PCDEFEDFB",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
+					"slug": "bdrc/PCDEFEDFB",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCDEFEDFB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCDEFEDFB.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PCDEFEDFB"
+				},
+				{
+					"ref": "bdrc:PE5FCCD8C-iast",
+					"source": "bdrc",
+					"sourceId": "PE5FCCD8C-iast",
+					"label": "BDRC (transliterated)",
+					"script": "iast",
+					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
+					"transliterated": true,
+					"transliteratedFrom": "bdrc:PE5FCCD8C",
+					"slug": "bdrc/PE5FCCD8C-iast",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE5FCCD8C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE5FCCD8C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE5FCCD8C"
+				},
+				{
+					"ref": "bdrc:PE5FCCD8C",
+					"source": "bdrc",
+					"sourceId": "PE5FCCD8C",
+					"label": "BDRC देवनागरी",
+					"script": "deva",
+					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
+					"slug": "bdrc/PE5FCCD8C",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/PE5FCCD8C.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/PE5FCCD8C.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE5FCCD8C"
 				}
 			]
 		},
@@ -10845,7 +10888,7 @@
 			]
 		},
 		{
-			"title": "Jātakamālā",
+			"title": "Jātakamālā (Gopadatta)",
 			"author": "Gopadatta",
 			"category": "sutra/jataka",
 			"editions": [
@@ -10864,7 +10907,7 @@
 			]
 		},
 		{
-			"title": "Jātakamālā",
+			"title": "Jātakamālā (Haribhaṭṭa)",
 			"author": "Haribhaṭṭa",
 			"category": "sutra/jataka",
 			"editions": [
@@ -13970,6 +14013,8 @@
 		},
 		{
 			"title": "Mahāpratisarāmahāvidyārājñī",
+			"titleDeva": "आर्यमहाप्रतिसराविद्या धारणी",
+			"author": "unknown (dhāraṇī)",
 			"category": "sutra/dharani",
 			"editions": [
 				{
@@ -13983,51 +14028,12 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81pratisar%C4%81mah%C4%81vidy%C4%81r%C4%81j%C3%B1%C4%AB.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81pratisar%C4%81mah%C4%81vidy%C4%81r%C4%81j%C3%B1%C4%AB.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahApratisarAmahAvidyArAjJI.xml"
-				}
-			]
-		},
-		{
-			"title": "Mahāpratisarāstotram",
-			"titleDeva": "महाप्रतिसरास्तोत्रम्",
-			"category": "stotra/stotra-deity",
-			"section": "Pañcarakṣādevī",
-			"editions": [
-				{
-					"ref": "dsbc:167",
-					"source": "dsbc",
-					"sourceId": "167",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Mahāpratisarāstotram",
-					"slug": "dsbc/167",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/pa%C3%B1carak%E1%B9%A3%C4%81dev%C4%AB/Mah%C4%81pratisar%C4%81stotram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/pa%C3%B1carak%E1%B9%A3%C4%81dev%C4%AB/Mah%C4%81pratisar%C4%81stotram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/167"
 				},
-				{
-					"ref": "dsbc:658",
-					"source": "dsbc",
-					"sourceId": "658",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "महाप्रतिसरास्तोत्रम्",
-					"slug": "dsbc/658",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A5%80/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A5%80/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/658"
-				}
-			]
-		},
-		{
-			"title": "Mahāpratisarāvidyādhāraṇī",
-			"titleDeva": "आर्यमहाप्रतिसराविद्या धारणी",
-			"category": "sutra/dharani",
-			"editions": [
 				{
 					"ref": "gretil:sa_mahApratisarAvidyAdhAraNI",
 					"source": "gretil",
 					"sourceId": "sa_mahApratisarAvidyAdhAraNI",
-					"label": "GRETIL",
+					"label": "GRETIL 2",
 					"script": "iast",
 					"title": "Mahāpratisarāvidyādhāraṇī",
 					"slug": "gretil/sa_mahApratisarAvidyAdhAraNI",
@@ -14060,14 +14066,7 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/381"
-				}
-			]
-		},
-		{
-			"title": "Mahāpratisarāvidyārājñī",
-			"author": "unknown (dhāraṇī)",
-			"category": "sutra/dharani",
-			"editions": [
+				},
 				{
 					"ref": "iriab:mahapratisara-vidyarajni-gilgit-fe3119",
 					"source": "iriab",
@@ -14079,6 +14078,38 @@
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahapratisara-vidyarajni-gilgit-fe3119.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahapratisara-vidyarajni-gilgit-fe3119.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				}
+			]
+		},
+		{
+			"title": "Mahāpratisarāstotram",
+			"titleDeva": "महाप्रतिसरास्तोत्रम्",
+			"category": "stotra/stotra-deity",
+			"section": "Pañcarakṣādevī",
+			"editions": [
+				{
+					"ref": "dsbc:167",
+					"source": "dsbc",
+					"sourceId": "167",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Mahāpratisarāstotram",
+					"slug": "dsbc/167",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/pa%C3%B1carak%E1%B9%A3%C4%81dev%C4%AB/Mah%C4%81pratisar%C4%81stotram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/pa%C3%B1carak%E1%B9%A3%C4%81dev%C4%AB/Mah%C4%81pratisar%C4%81stotram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/167"
+				},
+				{
+					"ref": "dsbc:658",
+					"source": "dsbc",
+					"sourceId": "658",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "महाप्रतिसरास्तोत्रम्",
+					"slug": "dsbc/658",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A5%80/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A5%80/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/658"
 				}
 			]
 		},
@@ -14162,46 +14193,34 @@
 			]
 		},
 		{
-			"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra",
-			"category": "sutra/dharani",
-			"editions": [
-				{
-					"ref": "gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
-					"source": "gretil",
-					"sourceId": "sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra",
-					"slug": "gretil/sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%2C%201-6%2C%2010-11.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%2C%201-6%2C%2010-11.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11.xml"
-				}
-			]
-		},
-		{
 			"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra or Ratnaketuparivarta",
+			"titleDeva": "महासन्निपातरत्नकेतुधारणी सूत्रम्",
 			"category": "sutra/dharani",
 			"editions": [
 				{
 					"ref": "gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra",
 					"source": "gretil",
 					"sourceId": "sa_mahAsaMnipAtaratnaketudhAraNIsUtra",
-					"label": "GRETIL",
+					"label": "GRETIL (=RKP)",
 					"script": "iast",
 					"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra or Ratnaketuparivarta (=RKP)",
 					"slug": "gretil/sa_mahAsaMnipAtaratnaketudhAraNIsUtra",
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%20or%20Ratnaketuparivarta%20(%3DRKP).md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%20or%20Ratnaketuparivarta%20(%3DRKP).md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAsaMnipAtaratnaketudhAraNIsUtra.xml"
-				}
-			]
-		},
-		{
-			"title": "Mahāsannipātaratnaketudhāraṇī sūtraṃ",
-			"titleDeva": "महासन्निपातरत्नकेतुधारणी सूत्रम्",
-			"category": "sutra/dharani",
-			"editions": [
+				},
+				{
+					"ref": "gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
+					"source": "gretil",
+					"sourceId": "sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
+					"label": "GRETIL (1–6, 10–11)",
+					"script": "iast",
+					"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra",
+					"slug": "gretil/sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%2C%201-6%2C%2010-11.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81sa%E1%B9%83nip%C4%81taratnaketudh%C4%81ra%E1%B9%87%C4%ABs%C5%ABtra%2C%201-6%2C%2010-11.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11.xml"
+				},
 				{
 					"ref": "dsbc:17",
 					"source": "dsbc",
@@ -16685,7 +16704,9 @@
 		},
 		{
 			"title": "Namaskāraikaviṃśatistotra",
-			"category": "stotra/stotra-buddha",
+			"titleDeva": "आर्यतारानमस्कारैकविंशतिस्तोत्रम्",
+			"category": "stotra/stotra-deity",
+			"section": "Āryatārā",
 			"editions": [
 				{
 					"ref": "gretil:sa_namaskAraikaviMzatistotra",
@@ -16698,6 +16719,42 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/n/Namask%C4%81raikavi%E1%B9%83%C5%9Batistotra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/n/Namask%C4%81raikavi%E1%B9%83%C5%9Batistotra.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_namaskAraikaviMzatistotra.xml"
+				},
+				{
+					"ref": "dsbc:113",
+					"source": "dsbc",
+					"sourceId": "113",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "(Ārya) tārānamaskāraikaviṃśatistotram",
+					"slug": "dsbc/113",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/%C4%81ryat%C4%81r%C4%81/(%C4%80rya)%20t%C4%81r%C4%81namask%C4%81raikavi%E1%B9%83%C5%9Batistotram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/%C4%81ryat%C4%81r%C4%81/(%C4%80rya)%20t%C4%81r%C4%81namask%C4%81raikavi%E1%B9%83%C5%9Batistotram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/113"
+				},
+				{
+					"ref": "dsbc:631",
+					"source": "dsbc",
+					"sourceId": "631",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "आर्यतारानमस्कारैकविंशतिस्तोत्रम्",
+					"slug": "dsbc/631",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%88%E0%A4%95%E0%A4%B5%E0%A4%BF%E0%A4%82%E0%A4%B6%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%88%E0%A4%95%E0%A4%B5%E0%A4%BF%E0%A4%82%E0%A4%B6%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/631"
+				},
+				{
+					"ref": "bdrc:P2D54C212",
+					"source": "bdrc",
+					"sourceId": "P2D54C212",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Tārānamaskāraikaviṃśatistotra",
+					"slug": "bdrc/P2D54C212",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2D54C212.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2D54C212.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P2D54C212"
 				}
 			]
 		},
@@ -19128,10 +19185,22 @@
 			]
 		},
 		{
-			"title": "Pramāṇavārtikam",
+			"title": "Pramāṇavārttika",
 			"titleDeva": "प्रमाणवार्तिकम्",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "gretil:sa_pramANavArttika",
+					"source": "gretil",
+					"sourceId": "sa_pramANavArttika",
+					"label": "GRETIL",
+					"script": "iast",
+					"title": "Pramāṇavārttika",
+					"slug": "gretil/sa_pramANavArttika",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttika.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttika.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pramANavArttika.xml"
+				},
 				{
 					"ref": "dsbc:298",
 					"source": "dsbc",
@@ -19160,37 +19229,19 @@
 					"ref": "bdrc:P18524656",
 					"source": "bdrc",
 					"sourceId": "P18524656",
-					"label": "BDRC",
+					"label": "BDRC (via DSBC)",
 					"script": "iast",
 					"title": "Pramāṇavārtikam",
 					"slug": "bdrc/P18524656",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P18524656.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P18524656.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P18524656"
-				}
-			]
-		},
-		{
-			"title": "Pramāṇavārttika",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_pramANavArttika",
-					"source": "gretil",
-					"sourceId": "sa_pramANavArttika",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Pramāṇavārttika",
-					"slug": "gretil/sa_pramANavArttika",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttika.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttika.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pramANavArttika.xml"
 				},
 				{
 					"ref": "bdrc:PB59065EA",
 					"source": "bdrc",
 					"sourceId": "PB59065EA",
-					"label": "BDRC",
+					"label": "BDRC (via GRETIL)",
 					"script": "iast",
 					"title": "Pramāṇavārttika",
 					"slug": "bdrc/PB59065EA",
@@ -19640,26 +19691,8 @@
 			]
 		},
 		{
-			"title": "Prātimokṣasūtra of the Mahāsāṃghika-vādins",
-			"author": "unknown (Vinaya text of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "vinaya/pratimoksa",
-			"editions": [
-				{
-					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xi",
-					"source": "iriab",
-					"sourceId": "pratimoksasutra-mahasamghika-fragments-part-xi",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Prātimokṣasūtra of the Mahāsāṃghika-(Lokottara)vādins (fragments of a manuscript, 1)",
-					"slug": "iriab/pratimoksasutra-mahasamghika-fragments-part-xi",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Prātimokṣasūtra of the Mahāsāṃghikas",
+			"author": "unknown (Vinaya text of the Mahāsāṃghika-Lokottaravādins)",
 			"category": "vinaya/pratimoksa",
 			"editions": [
 				{
@@ -19675,10 +19708,22 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-mahAsAMghikas.xml"
 				},
 				{
+					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xi",
+					"source": "iriab",
+					"sourceId": "pratimoksasutra-mahasamghika-fragments-part-xi",
+					"label": "ARIRIAB (XI (2008), pp. 71–88 (text on pp. 72–87))",
+					"script": "iast",
+					"title": "Prātimokṣasūtra of the Mahāsāṃghika-(Lokottara)vādins (fragments of a manuscript, 1)",
+					"slug": "iriab/pratimoksasutra-mahasamghika-fragments-part-xi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xvi",
 					"source": "iriab",
 					"sourceId": "pratimoksasutra-mahasamghika-fragments-part-xvi",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (XVI (2013), pp. 47–89 (transliteration pp. 48–86; part 1 = ARIRIAB XI (2008), pp. 71–90))",
 					"script": "iast",
 					"title": "Prātimokṣasūtra of the Mahāsāṃghika(-Lokottaravādin)s (manuscript fragments, part 2)",
 					"slug": "iriab/pratimoksasutra-mahasamghika-fragments-part-xvi",
@@ -19931,6 +19976,7 @@
 		},
 		{
 			"title": "Pratītyasamutpādamahāyānasūtra",
+			"titleDeva": "आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
 				{
@@ -19944,6 +19990,30 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Prat%C4%ABtyasamutp%C4%81damah%C4%81y%C4%81nas%C5%ABtra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Prat%C4%ABtyasamutp%C4%81damah%C4%81y%C4%81nas%C5%ABtra.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratItyasamutpAdamahAyAnasUtra.xml"
+				},
+				{
+					"ref": "dsbc:28",
+					"source": "dsbc",
+					"sourceId": "28",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Āryapratītyasamutpādo nāma mahāyānasūtram",
+					"slug": "dsbc/28",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryaprat%C4%ABtyasamutp%C4%81do%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryaprat%C4%ABtyasamutp%C4%81do%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/28"
+				},
+				{
+					"ref": "dsbc:414",
+					"source": "dsbc",
+					"sourceId": "414",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्",
+					"slug": "dsbc/414",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%AE%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%AE%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/414"
 				}
 			]
 		},
@@ -20012,37 +20082,6 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Prat%C4%ABtyasamutp%C4%81davibha%E1%B9%85gas%C5%ABtra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Prat%C4%ABtyasamutp%C4%81davibha%E1%B9%85gas%C5%ABtra.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratItyasamutpAdavibhaGgasUtra.xml"
-				}
-			]
-		},
-		{
-			"title": "Āryapratītyasamutpādo nāma mahāyānasūtram",
-			"titleDeva": "आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "dsbc:28",
-					"source": "dsbc",
-					"sourceId": "28",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Āryapratītyasamutpādo nāma mahāyānasūtram",
-					"slug": "dsbc/28",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryaprat%C4%ABtyasamutp%C4%81do%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryaprat%C4%ABtyasamutp%C4%81do%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/28"
-				},
-				{
-					"ref": "dsbc:414",
-					"source": "dsbc",
-					"sourceId": "414",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्",
-					"slug": "dsbc/414",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%AE%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A4%E0%A5%80%E0%A4%A4%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%AE%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/414"
 				}
 			]
 		},
@@ -23486,15 +23525,27 @@
 			]
 		},
 		{
-			"title": "Sarvabuddhaviṣayāvatārajñānālokālaṁkāra nāma mahāyānasūtra",
-			"titleDeva": "सर्वबुद्धविषयावतारज्ञानालोकालंकार",
+			"title": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram",
+			"titleDeva": "आर्यसर्वबुद्धविषयावतारज्ञानालोकालंकारनाम महायानसूत्रम्",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
+				{
+					"ref": "dsbc:32",
+					"source": "dsbc",
+					"sourceId": "32",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram",
+					"slug": "dsbc/32",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryasarvabuddhavi%E1%B9%A3ay%C4%81vat%C4%81raj%C3%B1%C4%81n%C4%81lok%C4%81la%E1%B9%83k%C4%81ran%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryasarvabuddhavi%E1%B9%A3ay%C4%81vat%C4%81raj%C3%B1%C4%81n%C4%81lok%C4%81la%E1%B9%83k%C4%81ran%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/32"
+				},
 				{
 					"ref": "dsbc:873",
 					"source": "dsbc",
 					"sourceId": "873",
-					"label": "DSBC",
+					"label": "DSBC 2",
 					"script": "iast",
 					"title": "Sarvabuddhaviṣayāvatārajñānālokālaṁkāra nāma mahāyānasūtra",
 					"slug": "dsbc/873",
@@ -23503,10 +23554,22 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/873"
 				},
 				{
+					"ref": "dsbc:419",
+					"source": "dsbc",
+					"sourceId": "419",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "आर्यसर्वबुद्धविषयावतारज्ञानालोकालंकारनाम महायानसूत्रम्",
+					"slug": "dsbc/419",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/419"
+				},
+				{
 					"ref": "dsbc:878",
 					"source": "dsbc",
 					"sourceId": "878",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "सर्वबुद्धविषयावतारज्ञानालोकालंकार",
 					"slug": "dsbc/878",
@@ -23551,37 +23614,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/PEBE400DE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/PEBE400DE.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PEBE400DE"
-				}
-			]
-		},
-		{
-			"title": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram",
-			"titleDeva": "आर्यसर्वबुद्धविषयावतारज्ञानालोकालंकारनाम महायानसूत्रम्",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "dsbc:32",
-					"source": "dsbc",
-					"sourceId": "32",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram",
-					"slug": "dsbc/32",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryasarvabuddhavi%E1%B9%A3ay%C4%81vat%C4%81raj%C3%B1%C4%81n%C4%81lok%C4%81la%E1%B9%83k%C4%81ran%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryasarvabuddhavi%E1%B9%A3ay%C4%81vat%C4%81raj%C3%B1%C4%81n%C4%81lok%C4%81la%E1%B9%83k%C4%81ran%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/32"
-				},
-				{
-					"ref": "dsbc:419",
-					"source": "dsbc",
-					"sourceId": "419",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "आर्यसर्वबुद्धविषयावतारज्ञानालोकालंकारनाम महायानसूत्रम्",
-					"slug": "dsbc/419",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%B2%E0%A5%8B%E0%A4%95%E0%A4%BE%E0%A4%B2%E0%A4%82%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/419"
 				}
 			]
 		},
@@ -25184,75 +25216,6 @@
 			]
 		},
 		{
-			"title": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
-			"titleDeva": "आर्यश्री ग्रहमातृका नाम धारणी",
-			"category": "sutra/dharani",
-			"editions": [
-				{
-					"ref": "dsbc:862",
-					"source": "dsbc",
-					"sourceId": "862",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
-					"slug": "dsbc/862",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80rya%C5%9Br%C4%ABgraham%C4%81t%E1%B9%9Bk%C4%81%20n%C4%81ma%20dh%C4%81ra%E1%B9%87%C4%AB.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/dh%C4%81ra%E1%B9%87%C4%AB/%C4%80rya%C5%9Br%C4%ABgraham%C4%81t%E1%B9%9Bk%C4%81%20n%C4%81ma%20dh%C4%81ra%E1%B9%87%C4%AB.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/862"
-				},
-				{
-					"ref": "dsbc:863",
-					"source": "dsbc",
-					"sourceId": "863",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
-					"slug": "dsbc/863",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%83%E0%A4%95%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%20%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%83%E0%A4%95%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/863"
-				},
-				{
-					"ref": "bdrc:PCDEFEDFB",
-					"source": "bdrc",
-					"sourceId": "PCDEFEDFB",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
-					"slug": "bdrc/PCDEFEDFB",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PCDEFEDFB.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PCDEFEDFB.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PCDEFEDFB"
-				},
-				{
-					"ref": "bdrc:PE5FCCD8C-iast",
-					"source": "bdrc",
-					"sourceId": "PE5FCCD8C-iast",
-					"label": "BDRC (transliterated)",
-					"script": "iast",
-					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
-					"transliterated": true,
-					"transliteratedFrom": "bdrc:PE5FCCD8C",
-					"slug": "bdrc/PE5FCCD8C-iast",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE5FCCD8C.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE5FCCD8C.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PE5FCCD8C"
-				},
-				{
-					"ref": "bdrc:PE5FCCD8C",
-					"source": "bdrc",
-					"sourceId": "PE5FCCD8C",
-					"label": "BDRC देवनागरी",
-					"script": "deva",
-					"title": "आर्यश्री ग्रहमातृका नाम धारणी",
-					"slug": "bdrc/PE5FCCD8C",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/PE5FCCD8C.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/PE5FCCD8C.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PE5FCCD8C"
-				}
-			]
-		},
-		{
 			"title": "Śrīguhyasamājatantram",
 			"titleDeva": "श्रीगुह्यसमाजतन्त्रम्",
 			"category": "tantra/tantras",
@@ -25451,7 +25414,8 @@
 		},
 		{
 			"title": "Śrīmahādevīvyākaraṇa",
-			"category": "sutra/mahayana-sutra",
+			"titleDeva": "आर्यश्रीमहादेवीव्याकरणम्",
+			"category": "sutra/dharani",
 			"editions": [
 				{
 					"ref": "gretil:sa_zrImahAdevIvyAkaraNa",
@@ -25464,14 +25428,7 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/%C5%9Ar%C4%ABmah%C4%81dev%C4%ABvy%C4%81kara%E1%B9%87a.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/%C5%9Ar%C4%ABmah%C4%81dev%C4%ABvy%C4%81kara%E1%B9%87a.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zrImahAdevIvyAkaraNa.xml"
-				}
-			]
-		},
-		{
-			"title": "Āryaśrīmahādevīvyākaraṇam",
-			"titleDeva": "आर्यश्रीमहादेवीव्याकरणम्",
-			"category": "sutra/dharani",
-			"editions": [
+				},
 				{
 					"ref": "dsbc:11",
 					"source": "dsbc",
@@ -26759,50 +26716,6 @@
 					"url": "https://github.com/meobtis/wikisource/blob/main/texts/devanagari/an-87-21-tara-sotra.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/wikisource/main/texts/devanagari/an-87-21-tara-sotra.md",
 					"originalUrl": "https://www.archivenepal.org/search?q=21%20Tara%20Sotra"
-				}
-			]
-		},
-		{
-			"title": "Tārānamaskāraikaviṃśatistotram",
-			"titleDeva": "आर्यतारानमस्कारैकविंशतिस्तोत्रम्",
-			"category": "stotra/stotra-deity",
-			"section": "Āryatārā",
-			"editions": [
-				{
-					"ref": "dsbc:113",
-					"source": "dsbc",
-					"sourceId": "113",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "(Ārya) tārānamaskāraikaviṃśatistotram",
-					"slug": "dsbc/113",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/%C4%81ryat%C4%81r%C4%81/(%C4%80rya)%20t%C4%81r%C4%81namask%C4%81raikavi%E1%B9%83%C5%9Batistotram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/stotra/%C4%81ryat%C4%81r%C4%81/(%C4%80rya)%20t%C4%81r%C4%81namask%C4%81raikavi%E1%B9%83%C5%9Batistotram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/113"
-				},
-				{
-					"ref": "dsbc:631",
-					"source": "dsbc",
-					"sourceId": "631",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "आर्यतारानमस्कारैकविंशतिस्तोत्रम्",
-					"slug": "dsbc/631",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%88%E0%A4%95%E0%A4%B5%E0%A4%BF%E0%A4%82%E0%A4%B6%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%88%E0%A4%95%E0%A4%B5%E0%A4%BF%E0%A4%82%E0%A4%B6%E0%A4%A4%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8B%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/631"
-				},
-				{
-					"ref": "bdrc:P2D54C212",
-					"source": "bdrc",
-					"sourceId": "P2D54C212",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Tārānamaskāraikaviṃśatistotra",
-					"slug": "bdrc/P2D54C212",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2D54C212.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2D54C212.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P2D54C212"
 				}
 			]
 		},
@@ -29205,6 +29118,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajravidAraNAdhAraNI.xml"
 				},
 				{
+					"ref": "gretil:sa_vajravidAraNIdhAraNI",
+					"source": "gretil",
+					"sourceId": "sa_vajravidAraNIdhAraNI",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Vajravidāraṇīdhāraṇī",
+					"slug": "gretil/sa_vajravidAraNIdhAraNI",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/v/Vajravid%C4%81ra%E1%B9%87%C4%ABdh%C4%81ra%E1%B9%87%C4%AB.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/v/Vajravid%C4%81ra%E1%B9%87%C4%ABdh%C4%81ra%E1%B9%87%C4%AB.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajravidAraNIdhAraNI.xml"
+				},
+				{
 					"ref": "dsbc:12",
 					"source": "dsbc",
 					"sourceId": "12",
@@ -29227,24 +29152,6 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A4%BE%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A5%80.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/382"
-				}
-			]
-		},
-		{
-			"title": "Vajravidāraṇīdhāraṇī",
-			"category": "sutra/dharani",
-			"editions": [
-				{
-					"ref": "gretil:sa_vajravidAraNIdhAraNI",
-					"source": "gretil",
-					"sourceId": "sa_vajravidAraNIdhAraNI",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Vajravidāraṇīdhāraṇī",
-					"slug": "gretil/sa_vajravidAraNIdhAraNI",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/v/Vajravid%C4%81ra%E1%B9%87%C4%ABdh%C4%81ra%E1%B9%87%C4%AB.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/v/Vajravid%C4%81ra%E1%B9%87%C4%ABdh%C4%81ra%E1%B9%87%C4%AB.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajravidAraNIdhAraNI.xml"
 				}
 			]
 		},
@@ -29906,7 +29813,7 @@
 		},
 		{
 			"title": "Vimalakīrtinirdeśa",
-			"titleDeva": "विमलकीर्तिनिर्देश सूत्रम्",
+			"titleDeva": "आर्यविमलकीर्तिनिर्देशो नाम महायानसूत्रम्",
 			"category": "sutra/mahayana-sutra",
 			"editions": [
 				{
@@ -29934,10 +29841,22 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalakIrtinirdezasUtra.xml"
 				},
 				{
+					"ref": "dsbc:35",
+					"source": "dsbc",
+					"sourceId": "35",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Āryavimalakīrtinirdeśo nāma mahāyānasūtram",
+					"slug": "dsbc/35",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryavimalak%C4%ABrtinirde%C5%9Bo%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryavimalak%C4%ABrtinirde%C5%9Bo%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/35"
+				},
+				{
 					"ref": "dsbc:61",
 					"source": "dsbc",
 					"sourceId": "61",
-					"label": "DSBC",
+					"label": "DSBC 2",
 					"script": "iast",
 					"title": "Vimalakīrtinirdeśa sūtram",
 					"slug": "dsbc/61",
@@ -29946,10 +29865,22 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/61"
 				},
 				{
+					"ref": "dsbc:417",
+					"source": "dsbc",
+					"sourceId": "417",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "आर्यविमलकीर्तिनिर्देशो नाम महायानसूत्रम्",
+					"slug": "dsbc/417",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%AE%E0%A4%B2%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%AE%E0%A4%B2%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/417"
+				},
+				{
 					"ref": "dsbc:439",
 					"source": "dsbc",
 					"sourceId": "439",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "विमलकीर्तिनिर्देश सूत्रम्",
 					"slug": "dsbc/439",
@@ -29980,37 +29911,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P7D46A341.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P7D46A341.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P7D46A341"
-				}
-			]
-		},
-		{
-			"title": "Āryavimalakīrtinirdeśo nāma mahāyānasūtram",
-			"titleDeva": "आर्यविमलकीर्तिनिर्देशो नाम महायानसूत्रम्",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "dsbc:35",
-					"source": "dsbc",
-					"sourceId": "35",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Āryavimalakīrtinirdeśo nāma mahāyānasūtram",
-					"slug": "dsbc/35",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryavimalak%C4%ABrtinirde%C5%9Bo%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/s%C5%ABtrapi%E1%B9%ADaka/mah%C4%81y%C4%81nas%C5%ABtra/%C4%80ryavimalak%C4%ABrtinirde%C5%9Bo%20n%C4%81ma%20mah%C4%81y%C4%81nas%C5%ABtram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/35"
-				},
-				{
-					"ref": "dsbc:417",
-					"source": "dsbc",
-					"sourceId": "417",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "आर्यविमलकीर्तिनिर्देशो नाम महायानसूत्रम्",
-					"slug": "dsbc/417",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%AE%E0%A4%B2%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0/%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%AE%E0%A4%B2%E0%A4%95%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A5%8B%20%E0%A4%A8%E0%A4%BE%E0%A4%AE%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/417"
 				}
 			]
 		},

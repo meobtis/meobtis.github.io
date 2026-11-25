@@ -6,6 +6,8 @@ refs:
   - gretil:sa_vimalakIrtinirdezasUtra
   - dsbc:61
   - dsbc:439
+  - dsbc:35
+  - dsbc:417
 summary: A Mahāyāna sūtra set in Vaiśālī and named after the lay bodhisattva Vimalakīrti, available here in Sanskrit from the Potala Palace manuscript edition and from a reconstructed edition.
 editions:
   - ref: gretil:sa_vimalakIrtinirdeza
@@ -20,7 +22,13 @@ editions:
   - ref: dsbc:439
     history: >-
       The Devanagari rendering of the same DSBC text.[^dsbc439]
-updated: 2026-11-13
+  - ref: dsbc:35
+    history: >-
+      The romanised text carries the bibliographic record Vimalakīrtinirdeśa sūtram, edited by Lal Mani Joshi and Bhikṣu Pāsādika and published by the Central Institute of Higher Tibetan Studies, Sarnath, in 1981.[^dsbc35]
+  - ref: dsbc:417
+    history: >-
+      The Devanagari version of the same text, with the same twelve chapters; its record gives no separate bibliographic details.[^dsbc417]
+updated: 2026-11-26
 ---
 
 The *Vimalakīrtinirdeśa* ("The Teaching of Vimalakīrti") is a Mahāyāna sūtra that, in the Sanskrit text available here, opens in the usual way with "Thus have I heard": the Buddha is staying at Vaiśālī in the Āmrapālī grove, surrounded by a great assembly of monks, bodhisattvas, Brahmās and Śakras. The Licchavi youth Ratnākara then approaches with a retinue of other young men and offers jewelled parasols, which by the Buddha's power merge into a single great parasol covering the world system.[^gretil-vkn] The work is named after the lay bodhisattva Vimalakīrti, whose name appears in the title of every edition listed here.
@@ -31,3 +39,5 @@ Little further is documented in the sources consulted for this entry. It was not
 [^gretil-vkn-sutra]: Göttingen State and University Library. (n.d.). *Vimalakīrtinirdeśasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalakIrtinirdezasUtra.xml
 [^dsbc61]: University of the West. (n.d.). *Vimalakīrtinirdeśa sūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/61
 [^dsbc439]: University of the West. (n.d.). *विमलकीर्तिनिर्देश सूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/439
+[^dsbc35]: University of the West. (n.d.). *Āryavimalakīrtinirdeśo nāma mahāyānasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/35
+[^dsbc417]: University of the West. (n.d.). *Āryavimalakīrtinirdeśo nāma mahāyānasūtram* [Devanagari]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/417

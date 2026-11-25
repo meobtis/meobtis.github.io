@@ -4,6 +4,7 @@ englishTitle: The Aparimitāyurjñāna Sūtra
 refs:
   - dsbc:24
   - dsbc:409
+  - gretil:sa_aparimitAyuHsUtra
 summary: A short Mahāyāna sūtra in which the Buddha praises the buddha Aparimitāyurjñāna and teaches a dhāraṇī promising long life and good rebirth to those who write, recite or hear it.
 editions:
   - ref: dsbc:24
@@ -12,7 +13,10 @@ editions:
   - ref: dsbc:409
     history: >-
       The Devanāgarī counterpart of the romanized text, listed by the Digital Sanskrit Buddhist Canon as a parallel version.[^dsbc409]
-updated: 2026-11-13
+  - ref: gretil:sa_aparimitAyuHsUtra
+    history: >-
+      The GRETIL text was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, who also contributed it to GRETIL; Reinhold Grünendahl made the initial normalisation and conversion to legacy GRETIL formats, and Maximilian Mehner converted it to TEI markup.[^gretil-aparimitayus] The front matter names no printed edition. The text opens in Śrāvastī with the Buddha addressing Mañjuśrī about the world Aparimitaguṇasañcaya, and repeats a series of short merit declarations.[^gretil-aparimitayus]
+updated: 2026-11-26
 ---
 
 The *Aparimitāyuḥ nāma mahāyāna sūtram* is a short Mahāyāna sūtra, better known in English as the Aparimitāyurjñāna Sūtra ("Immeasurable Longevity and Wisdom"). It concerns a buddha named Aparimitāyurjñāna, who is said to dwell in a realm above this world, and it promises long life and a good rebirth to those who write, recite, hear or honour the text. Although it is called a sūtra, all Kangyur collections place it among the Action Tantras. In Tibetan tradition it is known as the *Tsédo* ("Sūtra of Longevity") and is widely used in liturgy and for people in poor health.[^84000toh674]
@@ -30,3 +34,4 @@ The DSBC text derives from Hoernle's 1916 publication of manuscripts from Easter
 [^hoernle1988]: Hoernle, A. F. R. (1988). *Manuscript remains of Buddhist literature found in Eastern Turkestan* (Vol. 1). Sri Satguru Publications. (Original work published 1916). Retrieved November 13, 2026, from https://www.appliedbuddhism.org.uk/node/26110
 [^84000toh674]: Roberts, P. A. (Trans.). (n.d.). *The Aparimitāyurjñāna Sūtra (1)* (Toh 674). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh674.html
 [^84000toh675]: Roberts, P. A. (Trans.). (n.d.). *The Aparimitāyurjñāna Sūtra (2)* (Toh 675). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh675
+[^gretil-aparimitayus]: Göttingen State and University Library. (n.d.). *Aparimitāyuḥsūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_aparimitAyuHsUtra.xml

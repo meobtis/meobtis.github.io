@@ -5,6 +5,7 @@ refs:
   - gretil:sa_vajravidAraNAdhAraNI
   - dsbc:12
   - dsbc:382
+  - gretil:sa_vajravidAraNIdhAraNI
 summary: A short dhāraṇī text in which Vajrapāṇi proclaims protective mantras of Vajravidāraṇā, followed by verses on their benefits and a brief purification rite.
 editions:
   - ref: gretil:sa_vajravidAraNAdhAraNI
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:382
     history: >-
       This is the Devanāgarī version of the same DSBC text, listed in the project as the parallel of the romanised record.[^dsbc382]
-updated: 2026-11-13
+  - ref: gretil:sa_vajravidAraNIdhAraNI
+    history: >-
+      The GRETIL text is based on Yutaka Iwamoto's edition in Kleinere Dhāraṇī Texte (Kyoto, 1937; Beiträge zur Indologie, 2), pp. 7–9. The data entry and contribution to GRETIL are credited to Klaus Wille, with later normalisation and TEI conversion by Reinhold Grünendahl and Maximilian Mehner.[^gretil-vajravidarani]
+updated: 2026-11-26
 ---
 
 The *Vajravidāraṇādhāraṇī* (*Āryavajravidāraṇā nāma dhāraṇī*), rendered in English as *Vajra Conqueror*, is a short Mahāyāna dhāraṇī text. It opens with the usual "Thus have I heard", set among the vajras, where Vajrapāṇi enters a vajra-concentration through the Buddha's power, and then presents mantras, verses and a short ritual.[^84000toh750] The Sanskrit text is only a few pages long in print.[^gretil-vvdh]
@@ -31,3 +35,4 @@ In Tibetan the text appears twice in the Degé Kangyur, as Toh 750 in the Tantra
 [^gretil-vvdh]: Göttingen State and University Library. (n.d.). *Vajravidāraṇādhāraṇī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajravidAraNAdhAraNI.xml
 [^dsbc12]: University of the West. (n.d.). *Āryavajravidāraṇā nāma dhāraṇī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/12
 [^dsbc382]: University of the West. (n.d.). *आर्यवज्रविदारणा नाम धारणी*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/382
+[^gretil-vajravidarani]: Göttingen State and University Library. (n.d.). *Vajravidāraṇīdhāraṇī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vajravidAraNIdhAraNI.xml

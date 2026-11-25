@@ -2,12 +2,24 @@
 title: Mahāsaṃnipātaratnaketudhāraṇīsūtra or Ratnaketuparivarta
 refs:
   - gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra
+  - gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11
+  - dsbc:17
+  - dsbc:388
 summary: A Sanskrit Buddhist sūtra and dhāraṇī text, known as the Ratnaketuparivarta, preserved in a manuscript from which the first four folios are missing.
 editions:
   - ref: gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra
     history: >-
       The GRETIL text is based on Yenshu Kurumiya's *Ratnaketuparivarta, Sanskrit Text* (Kyoto, 1978). Klaus Wille keyed the data and contributed it to GRETIL; Reinhold Grünendahl made the initial normalization and conversion to legacy GRETIL formats, and Maximilian Mehner converted it to TEI-conformant markup. The file notes that folios 1–4 are missing, so it begins in the middle of the first episode.[^gretil-rkp]
-updated: 2026-11-14
+  - ref: gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11
+    history: >-
+      Keyed from Nalinaksa Dutt's edition in Gilgit Manuscripts, vol. IV (Calcutta, 1959; reprinted Delhi: Sri Satguru Publications, 1984), pp. 1–138, and limited to chapters 1–6 and 10–11. The data entry was done by members of the Digital Sanskrit Buddhist Canon Input Project and later converted to TEI markup for GRETIL.[^gretil-rkp]
+  - ref: dsbc:17
+    history: >-
+      The romanized text is based on Nalinaksha Dutt's edition of the Gilgit manuscripts (Delhi: Sri Satguru Publications, 1984), as recorded in the bibliography of the Digital Sanskrit Buddhist Canon, where it is divided into eleven chapters (parivartas).[^dsbc17] The record does not name the input personnel.
+  - ref: dsbc:388
+    history: >-
+      The Devanagari version of the same Digital Sanskrit Buddhist Canon text.[^dsbc388] It is a transliteration of the romanized edition and shares its source.
+updated: 2026-11-26
 ---
 
 The *Mahāsaṃnipātaratnaketudhāraṇīsūtra*, also called the *Ratnaketuparivarta* (abbreviated RKP in the digital edition), is a Sanskrit Buddhist text that combines narrative sūtra material with dhāraṇī formulae. The edition that this text reproduces is a critical edition of the Sanskrit manuscript text published in Kyoto in 1978, and the transcription records that the first four folios of the manuscript are lost.[^gretil-rkp] A further digital text of the work is based on the Gilgit manuscripts as edited by Nalinaksha Dutt, in which the work is set out in eleven chapters (*parivarta*) and opens with a dhāraṇī and homage to buddhas.[^dsbc17]
@@ -23,3 +35,4 @@ Fragments of the *Ratnaketuparivarta* in the Schøyen Collection were published 
 [^gretil-rkp]: Göttingen State and University Library. (n.d.). *Mahāsaṃnipātaratnaketudhāraṇīsūtra or Ratnaketuparivarta (=RKP)* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAsaMnipAtaratnaketudhAraNIsUtra.xml
 [^dsbc17]: University of the West. (n.d.). *Mahāsannipātaratnaketudhāraṇī sūtraṃ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/17
 [^tudkeao2016]: Tudkeao, C. (2016). Fragments of the Ratnaketuparivarta. In J. Braarvig (Ed.), *Buddhist manuscripts in the Schøyen Collection* (Vol. 4, pp. 295–310). Hermes Publishing. https://hermesorder.no/docs/BMSC_4_2016.pdf
+[^dsbc388]: University of the West. (n.d.). *महासन्निपातरत्नकेतुधारणी सूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/388

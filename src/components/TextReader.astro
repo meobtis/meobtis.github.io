@@ -122,6 +122,40 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 			.join('\n');
 	}
 
+	const SECTION_CHARS = 6000;
+
+	/**
+	 * Laying out a very long text all at once freezes the page. Its blocks are therefore grouped into sections that the
+	 * stylesheet marks `content-visibility: auto`, so each is laid out only as it comes near the screen (the whole
+	 * text stays in the page for links, Contents and find-in-page). Short texts are left as they are.
+	 */
+	function inSections(blocks: DocumentFragment): Node {
+		if ((blocks.textContent?.length ?? 0) <= SECTION_CHARS) return blocks;
+		const sections = document.createDocumentFragment();
+		let section = document.createElement('div');
+		let chars = 0;
+		let lines = 0;
+		const close = () => {
+			if (!section.hasChildNodes()) return;
+			section.className = 'text-section';
+			// A rough height, used only until the section has first been laid out.
+			section.style.setProperty('contain-intrinsic-block-size', `auto ${lines * 28}px`);
+			sections.append(section);
+			section = document.createElement('div');
+			chars = lines = 0;
+		};
+		for (const node of [...blocks.childNodes]) {
+			const length = node.textContent?.length ?? 0;
+			chars += length;
+			// Wrapped lines, forced breaks and rows, and the gap after the block.
+			if (node instanceof Element) lines += Math.ceil(length / 70) + node.querySelectorAll('br, li, tr').length + 1;
+			section.append(node);
+			if (chars >= SECTION_CHARS) close();
+		}
+		close();
+		return sections;
+	}
+
 	const slug = (s: string, n: number) =>
 		`t-${n}-${s
 			.normalize('NFD')
@@ -171,7 +205,7 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 				const html = (meta.plain ? plainToHtml(content) : await marked.parse(content))
 					// Back-links: "↑" (in Noto Sans) instead of "↩", which falls back to an emoji font.
 					.replace(/(data-note-backref[^>]*>)↩/g, '$1↑');
-				body.innerHTML = DOMPurify.sanitize(html);
+				body.append(inSections(DOMPurify.sanitize(html, { RETURN_DOM_FRAGMENT: true })));
 				this.buildToc(body);
 				status.remove();
 			} catch (err) {
@@ -272,6 +306,21 @@ const { rawUrl, githubUrl, lang } = Astro.props;
 	}
 	.text-body {
 		overflow-wrap: anywhere;
+	}
+	/* Sections of long texts (see inSections). The padding keeps wide list numbers from being clipped. */
+	.text-body :global(.text-section) {
+		content-visibility: auto;
+		margin-inline: -1rem;
+		padding-inline: 1rem;
+	}
+	/* A heading that opens a section keeps the extra space a heading has after other text. */
+	.text-body :global(.text-section + .text-section > :is(h2, h3, h4, h5, h6):first-child) {
+		margin-top: calc(1.5em - var(--sl-content-gap-y));
+	}
+	@media print {
+		.text-body :global(.text-section) {
+			content-visibility: visible;
+		}
 	}
 	/* Apparatus notes of critical editions. */
 	.text-body :global(.footnotes) {

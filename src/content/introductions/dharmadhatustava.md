@@ -4,8 +4,6 @@ englishTitle: Praise of the Dharmadhātu
 refs:
   - dsbc:796
   - dsbc:798
-  - dsbc:147
-  - dsbc:649
 summary: A short Sanskrit hymn in praise of the dharmadhātu, the realm of ultimate reality, traditionally attributed to Nāgārjuna.
 editions:
   - ref: dsbc:796
@@ -14,13 +12,7 @@ editions:
   - ref: dsbc:798
     history: >-
       The Devanagari version names the same editor and publisher (Liu Zhen; China Tibetology Publishing House), without place or year, and the same input and proofreading by Miroj Shakya in 2018.[^dsbc798]
-  - ref: dsbc:147
-    history: >-
-      The romanized text is based on Janardan Shastri Pandey's *Bauddha Stotra Saṃgraha* (Varanasi: Motilal Banarsidass, 1994). It was keyed in by DSBC staff in 2004, proofread by Miroj Shakya, and supplied by the Nagarjuna Institute of Exact Methods with sponsorship from the University of the West.[^dsbc147]
-  - ref: dsbc:649
-    history: >-
-      The Devanāgarī version is the parallel of the romanized text, with the same input date (2004), proof-reader and supplier; its record names no printed source of its own.[^dsbc649]
-updated: 2026-11-26
+updated: 2026-11-13
 ---
 
 The *Dharmadhātustava* is a Buddhist hymn (*stava*) in praise of the *dharmadhātu*, the "realm of phenomena" or ultimate reality. In the Tibetan canon it is catalogued as Toh 1118 under the heading of eulogies, with the English title *Praise of the Dharmadhātu*.[^84000toh1118] Its Sanskrit text is written in verse, as the digital edition shows.[^dsbc796] The work is also known in English through the translation and commentary by Karl Brunnhölzl, which presents it together with a commentary by the Third Karmapa, Rangjung Dorje.[^wikidharmadhatu]
@@ -33,5 +25,3 @@ The hymn is traditionally attributed to Nāgārjuna, although Wikipedia notes th
 [^dsbc798]: University of the West. (n.d.). *धर्मधातुस्तव*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/798
 [^84000toh1118]: 84000. (n.d.). *Praise of the Dharmadhātu* (Toh 1118). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh1118.html
 [^wikidharmadhatu]: Wikipedia contributors. (n.d.). Dharmadhātu. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Dharmadhātu
-[^dsbc147]: University of the West. (n.d.). *Dharmadhātunāmastavaḥ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/147
-[^dsbc649]: University of the West. (n.d.). *धर्मधातुनामस्तवः*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/649

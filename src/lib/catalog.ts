@@ -12,6 +12,10 @@ export interface Edition {
 	/** A machine transliteration (Aksharamukha) of the Devanāgarī edition `transliteratedFrom` of the same source. */
 	transliterated?: boolean;
 	transliteratedFrom?: string;
+	/** The edition the script switch opens: the same text from the same source where there is one. */
+	counterpart?: string;
+	/** Publisher of this edition, where it differs between the editions of a source. */
+	publisher?: string;
 	title: string;
 	/** Reader page path segment: "<source>/<sourceId>", see readerUrl(). */
 	slug: string;

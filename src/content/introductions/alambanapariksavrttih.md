@@ -1,6 +1,6 @@
 ---
-title: Ālambanaparīkṣāvṛttiḥ
-englishTitle: Investigation of the Percept (Autocommentary)
+title: Ālambanaparīkṣā
+englishTitle: Investigation of the Percept
 refs:
   - dsbc:284
   - dsbc:502
@@ -8,7 +8,7 @@ refs:
   - dsbc:283
   - dsbc:501
   - gretil:sa_AlambanaparIkSA-comm
-summary: Dignāga's own prose commentary on his short Ālambanaparīkṣā, a Buddhist epistemological work examining what serves as the object (ālambana) of cognition; the Sanskrit is lost and survives in Tibetan and Chinese.
+summary: Dignāga's short verse treatise on what can be the object (ālambana) of cognition, with his own prose commentary; the original Sanskrit is lost and the work is preserved in Tibetan and Chinese translation.
 editions:
   - ref: dsbc:284
     history: >-
@@ -28,16 +28,16 @@ editions:
   - ref: gretil:sa_AlambanaparIkSA-comm
     history: >-
       The GRETIL file gives its source as N. Aiyaswami Shastri's edition (Madras: The Adyar Library, 1942). The text was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, with later normalisation and TEI conversion by Reinhold Grünendahl and Maximilian Mehner.[^gretil-alambana][^wiki-dignaga]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
-The *Ālambanaparīkṣāvṛtti* is the prose autocommentary on the *Ālambanaparīkṣā* ("Investigation of the Object of Cognition", rendered in a recent English volume as "Investigation of the Percept"), a short treatise by the Buddhist logician Dignāga.[^eob][^duckworth2016] The root text is a brief set of verses; the commentary, of about three pages in the English volume, explains and defends them.[^duckworth2016] The digital text opens with Dignāga's verse on whether atoms can be the object of the sense-consciousnesses.[^dsbc284]
+The *Ālambanaparīkṣāvṛtti* is the prose autocommentary on the *Ālambanaparīkṣā* ("Investigation of the Object of Cognition", rendered in a recent English volume as "Investigation of the Percept"), a short treatise by the Buddhist logician Dignāga.[^eob][^duckworth2016] The root text is a brief set of eight verses; the commentary, of about three pages in the English volume, explains and defends them.[^duckworth2016] In the texts of the root verses, the first verse after the homage is Dignāga's verse on whether atoms can be the object of the sense-consciousnesses; the texts with the commentary introduce it with a short passage of prose.[^dsbc283][^dsbc284]
 
-The work examines what can count as the *ālambana*, the objective support, of cognition. The commentary considers the view of those who hold that an external object is the support of visual and other cognition, and asks whether this could be atoms or aggregates of atoms; the opening verse argues that atoms, although they may cause a cognition, do not resemble it and so cannot be its object.[^dsbc284] The treatise belongs to the epistemological (*pramāṇa*) literature and is generally read as supporting the Yogācāra position that cognition is aware of its own appearance rather than of external things.[^duckworth2016]
+The work examines what can count as the *ālambana*, the objective support, of cognition. The commentary considers the view of those who hold that an external object is the support of visual and other cognition, and asks whether this could be atoms or aggregates of atoms; the opening verse argues that atoms, although they may cause a cognition, do not resemble it and so cannot be its object.[^dsbc284] An aggregate, conversely, may appear in the cognition but, lacking a substantial existence of its own, cannot be its cause, like the double moon seen by a person with defective vision.[^gretil-alambana] The treatise belongs to the epistemological (*pramāṇa*) literature and is generally read as supporting the Yogācāra position that cognition is aware of its own appearance rather than of external things.[^duckworth2016]
 
-Dignāga is dated to about 480–540 CE in the publisher's description of the 2016 volume.[^duckworth2016] The Sanskrit original of both verses and commentary is no longer extant; the work is preserved in Tibetan and Chinese translation.[^eob] Four Chinese translations of the commentary are known, the earliest by Paramārtha (mid-sixth century), followed by that of Xuanzang (657) and a version by Yijing.[^lin2007] Modern Sanskrit versions are reconstructions, including one by Aiyaswami Shastri and another by Yamaguchi from the Tibetan.[^east]
+Dignāga is dated to about 480–540 CE in the publisher's description of the 2016 volume.[^duckworth2016] The Sanskrit original of both verses and commentary is no longer extant; the work is preserved in Tibetan (*dMigs pa brtag pa*) and Chinese (*Guan suoyuan yuan lun*) translation.[^eob] Four Chinese translations of the commentary are known, the earliest by Paramārtha (mid-sixth century), followed by that of Xuanzang (657) and a version by Yijing.[^lin2007] Modern Sanskrit versions are reconstructions, including one by Aiyaswami Shastri and another by Yamaguchi from the Tibetan.[^east] Yamaguchi Susumu's, with the Tibetan text, was published in 1953.[^eob]
 
-Vinītadeva wrote a subcommentary (*Ālambanaparīkṣāṭīkā*), and Dharmapāla is also credited with a commentary preserved in Chinese.[^eob][^east] The 2016 volume offers the first comprehensive study of the text and its Indian and Tibetan commentarial tradition, including Tibetan editions and translations.[^duckworth2016] Earlier translations exist in German, French and Japanese; sources consulted here could not be checked in detail on these.
+Vinītadeva wrote a subcommentary (*Ālambanaparīkṣāṭīkā*), and Dharmapāla is also credited with a commentary preserved in Chinese.[^eob][^east] The work was later studied in Tibet, including by Dge lugs scholars.[^eob][^duckworth2016] The 2016 volume offers the first comprehensive study of the text and its Indian and Tibetan commentarial tradition, including Tibetan editions and translations.[^duckworth2016] Earlier translations exist in German, French and Japanese; sources consulted here could not be checked in detail on these.
 
 [^eob]: Encyclopedia of Buddhism. (n.d.). *Ālambanaparīkṣā*. Retrieved November 13, 2026, from https://encyclopediaofbuddhism.org/wiki/%C4%80lambana-par%C4%ABk%E1%B9%A3%C4%81
 [^duckworth2016]: Duckworth, D., Eckel, M. D., Garfield, J. L., Powers, J., Thabkhas, Y., & Thakchoe, S. (2016). *Dignāga's investigation of the percept: A philosophical legacy in India and Tibet*. Oxford University Press. https://readingreligion.org/books/dign%25C4%2581gas-investigation-percept

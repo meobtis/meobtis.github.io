@@ -28,10 +28,12 @@ editions:
   - ref: dsbc:417
     history: >-
       The Devanagari version of the same text, with the same twelve chapters; its record gives no separate bibliographic details.[^dsbc417]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 The *Vimalakīrtinirdeśa* ("The Teaching of Vimalakīrti") is a Mahāyāna sūtra that, in the Sanskrit text available here, opens in the usual way with "Thus have I heard": the Buddha is staying at Vaiśālī in the Āmrapālī grove, surrounded by a great assembly of monks, bodhisattvas, Brahmās and Śakras. The Licchavi youth Ratnākara then approaches with a retinue of other young men and offers jewelled parasols, which by the Buddha's power merge into a single great parasol covering the world system.[^gretil-vkn] The work is named after the lay bodhisattva Vimalakīrti, whose name appears in the title of every edition listed here.
+
+The Sanskrit text published at Sarnath in 1981 is divided into twelve chapters, beginning with the "introduction on the purification of buddha-fields" (*buddhakṣetrapariśuddhinidāna*). There Ratnākara comes with five hundred companions; after the Buddha merges their parasols into one, Ratnākara asks how a bodhisattva's buddha-field is purified, and the Buddha's reply begins the teaching, stating that the beings to be trained are the bodhisattva's buddha-field.[^dsbc35]
 
 Little further is documented in the sources consulted for this entry. It was not possible to verify the date, authorship, Tibetan and Chinese translations or the circumstances of the manuscript discovery against scholarly reference works, so none are asserted here. What the edition records themselves establish is that the text exists in two distinct Sanskrit forms: a modern edition of a manuscript found at the Potala Palace, published in Tokyo in 2006 by the Study Group on Buddhist Sanskrit Literature,[^gretil-vkn][^dsbc61] and a reconstructed Sanskrit version published in Sarnath in 1981, which presumably predates the manuscript's publication and works back from other-language versions.[^gretil-vkn-sutra]
 

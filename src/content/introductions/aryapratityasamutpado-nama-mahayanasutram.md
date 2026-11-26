@@ -1,5 +1,6 @@
 ---
 title: Āryapratītyasamutpādo nāma mahāyānasūtram
+englishTitle: The Dependent Origination Mahāyāna Sūtra
 refs:
   - dsbc:28
   - dsbc:414
@@ -15,15 +16,16 @@ editions:
   - ref: gretil:sa_pratItyasamutpAdamahAyAnasUtra
     history: >-
       The GRETIL text is based on P. L. Vaidya's edition in the Mahāyāna-sūtra-saṃgrahaḥ, Part 1 (Darbhanga: Mithila Institute, 1961; Buddhist Sanskrit Texts 17), where it appears as item 119. The data were entered by members of the Digital Sanskrit Buddhist Canon Input Project and later normalised and converted to TEI markup for GRETIL.[^gretil-pratitya]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 The *Āryapratītyasamutpāda* ("The Noble Sūtra of Dependent Origination") is a very brief Mahāyāna sūtra, a single short chapter. It is found in the Digital Sanskrit Buddhist Canon in a printing of Vaidya's 1961 collection of Mahāyāna sūtras.[^dsbc28]
 
 The text opens in the usual way ("Thus have I heard"), with the Buddha on a rock in the heaven of the Thirty-Three gods, surrounded by great disciples, bodhisattvas such as Maitreya, Avalokiteśvara and Vajrapāṇi, and gods including Brahmā, Śakra and Pañcaśikha. Avalokiteśvara asks the Buddha to teach the assembly, and the Buddha answers with the well-known verse beginning *ye dharmā hetuprabhavā* ("of those phenomena that arise from a cause, the Tathāgata has stated the cause, and also their cessation"). He then declares that dependent origination is the Dharma-body of the Tathāgatas, that whoever sees it sees the Tathāgata, and that a devotee who recites the verse while making a miniature caitya, tree or parasol will gain merit and be reborn in the Brahmā world and later among the Pure Abode gods. The assembly then rejoices.[^dsbc28]
 
-Little reliable information on the authorship, date, translations or manuscripts of this particular short text could be found in the sources consulted, and none is asserted here. The same verse is widely known in Buddhist literature as a free-standing formula, but its history is not documented in the sources used for this introduction.
+Little reliable information on the authorship, date, translations or manuscripts of this particular short text could be found in the sources consulted, and none is asserted here. The verse itself, also called the *Pratītyasamutpāda-gāthā*, is known in Sanskrit and Pali and was widely treated as a protective formula; it was inscribed on caityas, stūpas and images and placed inside them.[^wiki-gatha] The sūtra thus presents a Mahāyāna framing for this widespread devotional verse.
 
 [^dsbc28]: University of the West. (n.d.). *Āryapratītyasamutpādo nāma mahāyānasūtram* [Romanised text; source edition: Vaidya, P. L. (Ed.), *Mahāyāna-sūtra-saṃgrahaḥ*, Pt. 1, Mithila Institute, 1961]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/28
 [^dsbc414]: University of the West. (n.d.). *आर्यप्रतीत्यसमुत्पादो नाम महायानसूत्रम्* [Devanāgarī text]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/414
 [^gretil-pratitya]: Göttingen State and University Library. (n.d.). *Pratītyasamutpādamahāyānasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratItyasamutpAdamahAyAnasUtra.xml
+[^wiki-gatha]: Wikipedia contributors. (n.d.). Pratītyasamutpāda gāthā. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da_g%C4%81th%C4%81

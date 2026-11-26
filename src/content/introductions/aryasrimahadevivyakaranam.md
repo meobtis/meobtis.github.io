@@ -15,10 +15,10 @@ editions:
   - ref: gretil:sa_zrImahAdevIvyAkaraNa
     history: >-
       The GRETIL text is based on Nalinaksa Dutt's edition of the Gilgit manuscripts (vol. I, Delhi: Sri Satguru Publications, 1984, pp. 91–100). It was keyed in by members of the Digital Sanskrit Buddhist Canon Input Project, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner; the GRETIL file is dated 31 July 2020.[^gretil-smdv]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
-The *Āryaśrīmahādevīvyākaraṇa* ("The Prophecy concerning the Noble Glorious Great Goddess") is a short Sanskrit text of one chapter. The Digital Sanskrit Buddhist Canon files it under the dhāraṇī texts of the sūtra collection, and gives the Gilgit Manuscripts, edited by Nalinaksa Dutt, as its source.[^dsbc11] The Gilgit manuscripts are birch-bark Buddhist texts in Sanskrit found in Gilgit in 1931 and generally dated to roughly the fifth to sixth centuries, although later material has also been grouped with them.[^wiki-gilgit]
+The *Āryaśrīmahādevīvyākaraṇa* ("The Prophecy concerning the Noble Glorious Great Goddess") is a short Sanskrit text of one chapter. The Digital Sanskrit Buddhist Canon files it under the dhāraṇī texts of the sūtra collection, and gives the Gilgit Manuscripts, edited by Nalinaksa Dutt, as its source.[^dsbc11] The GRETIL record also preserves the alternative title *Dvādaśadaṇḍakanāmāṣṭaśatavimalīkaraṇā*.[^gretil-smdv] The Gilgit manuscripts are birch-bark Buddhist texts in Sanskrit found in Gilgit in 1931 and generally dated to roughly the fifth to sixth centuries, although later material has also been grouped with them.[^wiki-gilgit]
 
 The text opens in the usual sūtra manner, with the Buddha staying in Sukhāvatī among a large assembly of bodhisattvas led by Avalokiteśvara. The goddess Śrī (Mahādevī) approaches the Buddha, who tells Avalokiteśvara of the benefits for anyone who keeps her one-hundred-and-eight-name praise. The text then lists a series of tathāgata names, announces that Śrī will in the future become a buddha in a world system called Śrīmahāratnapratimaṇḍitā, and gives a long list of epithets of the goddess followed by mantras ending in *svāhā*. Recitation is said to bring protection, prosperity and success.[^dsbc11] I found little reliable scholarly documentation on the date, authorship, Tibetan or Chinese translations or reception of this text, so these are left unstated here.
 

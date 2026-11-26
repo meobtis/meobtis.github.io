@@ -32,16 +32,16 @@ editions:
   - ref: dsbc:534
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text; its record carries no separate bibliographic data.[^dsbc534]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
-The *Mūlamadhyamakakārikā* ("Root Verses on the Middle Way"), also known simply as the *Madhyamakakārikā*, is a philosophical treatise in Sanskrit verse ascribed to Nāgārjuna. The Stanford Encyclopedia of Philosophy counts it as 450 stanzas and calls it Nāgārjuna's most important work, the central text of the "philosophy of the Middle Way", in which his thought is set out in full.[^sep] The verses are cited by chapter and verse, and the digital texts here follow that scheme (for example 1.1 is the opening verse of the first chapter, on conditions).[^gretil-mmk]
+The *Mūlamadhyamakakārikā* ("Root Verses on the Middle Way"), also known simply as the *Madhyamakakārikā* and in English as the *Fundamental Wisdom of the Middle Way*, is a philosophical treatise in Sanskrit verse ascribed to Nāgārjuna. The Stanford Encyclopedia of Philosophy counts it as 450 stanzas and calls it Nāgārjuna's most important work, the central text of the "philosophy of the Middle Way", in which his thought is set out in full.[^sep] The verses are cited by chapter and verse, and the digital texts here follow that scheme (for example 1.1 is the opening verse of the first chapter, on conditions).[^gretil-mmk] The editions based on Vaidya's divide it into 27 chapters (*prakaraṇa*), the first being the "Examination of Conditions" (*Pratyayaparīkṣā*).[^dsbc242]
 
 The treatise examines, in turn, central notions such as causation, motion, the self, and knowledge, and argues that none of them can be sustained if things are assumed to possess an independent, intrinsic nature (*svabhāva*). Its focus is emptiness (*śūnyatā*), understood as the absence of such intrinsic nature.[^sep] The Sanskrit opens with a dedicatory verse praising the Buddha as the teacher of dependent origination (*pratītyasamutpāda*), the "pacification of conceptual proliferation".[^dsbc931]
 
 Nāgārjuna is placed by modern scholarship roughly between 150 and 250 CE, probably mainly in southern India. The same entry cautions that several authors named Nāgārjuna may have existed, though it describes the attribution of this text to him as largely uncontested.[^sep]
 
-The work has attracted a large body of later commentary. Among those available in English translation, the Stanford Encyclopedia lists commentaries by Buddhapālita, Bhāvaviveka (chapters 1 to 12 only) and Tsongkhapa.[^sep] The same source recommends the English translations by Garfield (2005) and by Siderits and Katsura (2013), and cites an edition of the Sanskrit, Tibetan and Chinese recensions published in Beijing by Ye (2011).[^sep] The detailed history of the Sanskrit transmission and of the Tibetan and Chinese versions is not covered by the sources consulted here.
+The work has attracted a large body of later commentary. Among those available in English translation, the Stanford Encyclopedia lists commentaries by Buddhapālita, Bhāvaviveka (chapters 1 to 12 only) and Tsongkhapa.[^sep] Other commentators include Candrakīrti and, in Tibet, Mabja Jangchub Tsöndrü.[^sep] The same source recommends the English translations by Garfield (2005) and by Siderits and Katsura (2013), and cites an edition of the Sanskrit, Tibetan and Chinese recensions published in Beijing by Ye (2011).[^sep] The detailed history of the Sanskrit transmission and of the Tibetan and Chinese versions is not covered by the sources consulted here.
 
 [^sep]: Westerhoff, J. C. (2026). Nāgārjuna. In *Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/nagarjuna/
 [^gretil-mmk]: Göttingen State and University Library. (n.d.). *Mūlamadhyamakakārikā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-mUlamadhyamakakArikA.xml

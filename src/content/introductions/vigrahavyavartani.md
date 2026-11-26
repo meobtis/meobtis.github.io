@@ -9,7 +9,7 @@ refs:
   - bdrc:P5CE8E219
   - bdrc:PF99896BF
   - gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA
-summary: A short Madhyamaka treatise attributed to Nāgārjuna, available here in several Sanskrit editions based on the printed texts of Yonezawa (2008) and Vaidya (1960).
+summary: A short Madhyamaka treatise attributed to Nāgārjuna, a debate with an objector who argues that a statement lacking intrinsic nature cannot negate intrinsic nature; here in several Sanskrit editions, some with the verses only.
 editions:
   - ref: gretil:sa_nAgArjuna-vigrahavyAvartanI
     history: >-
@@ -29,11 +29,13 @@ editions:
   - ref: gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA
     history: >-
       The GRETIL text names Nāgārjuna as author. Its record credits Richard Mahoney with the data entry and with the contribution to GRETIL, Reinhold Grünendahl with the initial normalisation and conversion to legacy GRETIL formats, and Maximilian Mehner with the conversion to TEI-conformant markup.[^gretil-vvk] The record available to this site does not name the printed edition on which the keying was based.
-updated: 2026-11-26
+updated: 2026-11-27
 ---
-The *Vigrahavyāvartanī* is a work attributed to Nāgārjuna and classified in the digital collections under Madhyamaka philosophy (*śāstra*). The GRETIL record names Nāgārjuna as its author,[^gretil-vv] and the DSBC file belongs to its Madhyamaka section of the treatise canon.[^dsbc254] Little further information could be verified from the sources consulted for this entry, so details of its contents, date, and translations are not given here.
+The *Vigrahavyāvartanī* is a work attributed to Nāgārjuna and classified in the digital collections under Madhyamaka philosophy (*śāstra*). The GRETIL record names Nāgārjuna as its author,[^gretil-vv] and the DSBC file belongs to its Madhyamaka section of the treatise canon.[^dsbc254] Little further information could be verified from the sources consulted for this entry, so details of its date and translations are not given here.
 
-The work survives in Sanskrit and is available in this collection in several digital editions. One follows Yoshiyasu Yonezawa's 2008 edition, which presents the Sanskrit alongside the Tibetan translation,[^gretil-vv] while the others derive from P. L. Vaidya's 1960 edition of Nāgārjuna's Madhyamaka works in the Buddhist Sanskrit Texts series.[^gretil-vv-alt][^dsbc254] Readers should consult scholarly translations and studies of the text for its argument and historical context.
+The opening verses show how the work proceeds, as a debate between an objector and a respondent. In the first verse the objector states that if no entity anywhere possesses intrinsic nature (*svabhāva*), then the speaker's own statement must also lack it and so cannot negate intrinsic nature. The following verses examine this charge, take up the status of the speaker's own thesis, and discuss perception (*pratyakṣa*) and inference (*anumāna*) as means of knowledge.[^gretil-vvk]
+
+The work survives in Sanskrit and is available in this collection in several digital editions. Among them, one GRETIL text and the text in the Nāgārjuna editions follow Yoshiyasu Yonezawa's 2008 edition, which presents the Sanskrit alongside the Tibetan translation;[^gretil-vv][^yonezawa2008] the GRETIL alternative version of the verses and the Digital Sanskrit Buddhist Canon text derive from P. L. Vaidya's 1960 edition of Nāgārjuna's Madhyamaka works in the Buddhist Sanskrit Texts series;[^gretil-vv-alt][^dsbc254] and the record of the other GRETIL file of the verses names no printed edition.[^gretil-vvk] Readers should consult scholarly translations and studies of the text for its argument and historical context.
 
 [^gretil-vv]: Göttingen State and University Library. (n.d.). *Vigrahavyāvartanī* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanI.xml
 [^gretil-vv-alt]: Göttingen State and University Library. (n.d.). *Vigrahavyāvartanī* (karikas only, alternative version) [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_nAgArjuna-vigrahavyAvartanI-alt.xml

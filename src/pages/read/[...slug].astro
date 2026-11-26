@@ -33,13 +33,9 @@ const { work, edition } = Astro.props;
 const source = sourceById[edition.source];
 const place = categoryOf(work);
 const others = work.editions.filter((e) => e !== edition);
-// Switches: the editions in the current script, and the same text in the other script (same source first).
+// Switches: the editions in the current script, and the text in the other script that the catalogue pairs with this one.
 const sameScript = work.editions.filter((e) => e.script === edition.script);
-const otherScript = (edition.script === 'deva' ? 'iast' : 'deva') as 'iast' | 'deva';
-const counterpart =
-	work.editions.find((e) => e.script === otherScript && e.source === edition.source && (e.transliteratedFrom === edition.ref || edition.transliteratedFrom === e.ref)) ??
-	work.editions.find((e) => e.script === otherScript && e.source === edition.source) ??
-	work.editions.find((e) => e.script === otherScript);
+const counterpart = work.editions.find((e) => e.ref === edition.counterpart);
 const scripts = [
 	{ id: 'iast', label: 'IAST', lang: 'sa-Latn' },
 	{ id: 'deva', label: 'देवनागरी', lang: 'sa-Deva' },
@@ -71,7 +67,7 @@ const jsonLd = {
 	bookFormat: 'https://schema.org/EBook',
 	isAccessibleForFree: true,
 	provider: { '@type': 'Organization', name: source.name, url: source.homepage },
-	publisher: { '@type': 'Organization', name: source.publisher },
+	publisher: { '@type': 'Organization', name: edition.publisher ?? source.publisher },
 	creditText: source.credit,
 	usageInfo: source.termsUrl,
 	isBasedOn: edition.originalUrl,

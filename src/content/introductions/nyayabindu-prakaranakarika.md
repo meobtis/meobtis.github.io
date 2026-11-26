@@ -1,12 +1,12 @@
 ---
-title: Nyāyabindu prakaraṇakārikā
+title: Nyāyabindu
 englishTitle: Drop of Reasoning
 refs:
   - dsbc:294
   - dsbc:513
   - gretil:sa_dharmakIrti-nyAyabindu
   - gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm
-summary: A Sanskrit text of the Nyāyabindu, Dharmakīrti's short Buddhist treatise on perception and inference, given in three chapters, as digitised from a 1994 Bauddha Bharati edition.
+summary: Dharmakīrti's short Buddhist treatise on perception and inference in three chapters, the Drop of Reasoning; one edition here adds the commentaries of Vinītadeva and Dharmottara.
 editions:
   - ref: dsbc:294
     history: >-
@@ -19,17 +19,20 @@ editions:
       The GRETIL text is keyed from D. Malvania's Patna edition (second edition, 1971) of Dharmakīrti's *Nyāyabindu* with Dharmottara's commentary in the abridged form of Durvekamiśra's *Dharmottarapradīpa*. Motoi Ono entered the data (the explanatory remarks in the file are dated August 1997), Reinhold Grünendahl normalised it, and Maximilian Mehner converted it to TEI markup on 31 July 2020.[^gretil-nyayabindu]
   - ref: gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm
     history: >-
-      The text follows Swami Dwarikadas Shastri's edition of the Nyāyabindu with the commentaries of Vinītadeva and Dharmottara (Varanasi, 1994, Bauddha Bhārati Series 18). It was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner.[^gretil-nyayabindu]
-updated: 2026-11-26
+      The text follows Swami Dwarikadas Shastri's edition of the Nyāyabindu with the commentaries of Vinītadeva and Dharmottara (Varanasi, 1994, Bauddha Bhārati Series 18). It was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner.[^gretil-nyayabindu-comm]
+updated: 2026-11-27
 ---
 
-The *Nyāyabindu* ("Drop of Reasoning") is a short treatise by the Buddhist epistemologist Dharmakīrti. In Erich Frauwallner's proposed order of Dharmakīrti's works, as summarised in the Stanford Encyclopedia of Philosophy, it follows the *Pramāṇavārttika* and *Pramāṇaviniścaya* and precedes the *Hetubindu* and the *Vādanyāya*.[^tillemans2011] The encyclopedia also notes that T. Stcherbatsky's study and translation, *Buddhist Logic* (1930/32), shaped the Western reception of this tradition.[^tillemans2011]
+The *Nyāyabindu* ("Drop of Reasoning") is a short treatise by the Buddhist epistemologist Dharmakīrti. In Erich Frauwallner's proposed order of Dharmakīrti's works, as summarised in the Stanford Encyclopedia of Philosophy, it follows the *Pramāṇavārttika* and *Pramāṇaviniścaya* and precedes the *Hetubindu* and the *Vādanyāya*.[^tillemans2011] The encyclopedia also notes that the work's chapter on perception, like that of the *Pramāṇaviniścaya*, explains yogic perception, and that T. Stcherbatsky's study and translation, *Buddhist Logic* (1930/32), which drew on this work, shaped the Western reception of this tradition and helped to popularise the label "logic" for the Buddhist theory of reasons.[^tillemans2011]
 
-The digital text is organised in three chapters, on perception (*pratyakṣa*), inference for oneself (*svārthānumāna*) and inference for others (*parārthānumāna*), and closes with the colophon "*nyāyabinduprakaraṇaṃ samāptam*". It is headed *Sūtrapāṭha*, and numbers its passages as a continuous sequence of short prose statements. It opens by stating that all human aims are accomplished through right cognition, which is of two kinds, perception and inference, and then defines perception as free from conceptual construction and non-erroneous.[^dsbc294] The title as it appears in the index, with the addition *prakaraṇakārikā*, comes from the edition's own catalogue record.[^dsbc294]
+The Digital Sanskrit Buddhist Canon text is organised in three chapters, on perception (*pratyakṣa*), inference for oneself (*svārthānumāna*) and inference for others (*parārthānumāna*), and closes with the colophon "*nyāyabinduprakaraṇaṃ samāptam*". It is headed *Sūtrapāṭha* and consists of short prose statements numbered afresh in each chapter. It opens by stating that all human aims are accomplished through right cognition, which is of two kinds, perception and inference, and then defines perception as free from conceptual construction and non-erroneous.[^dsbc294] The title *Nyāyabindu prakaraṇakārikā* is that of the Digital Sanskrit Buddhist Canon's own catalogue record.[^dsbc294]
 
-Little further reliable information about this particular edition, its transmission or the reasons for its title could be verified here, so it is not described further.
+Not every digital text here gives the root treatise alone. One GRETIL text combines the *Nyāyabindu* with two Sanskrit commentaries, the *Nyāyabinduvistaraṭīkā* (also called *Śiṣyahitā*), ascribed in the text to Ārya Vinītadeva, and the *Nyāyabinduṭīkā* of Dharmottara, and its chapters begin with the one on perception.[^gretil-nyayabindu-comm] Dharmottara is also named in the Stanford Encyclopedia of Philosophy among the later commentators on Dharmakīrti's thought.[^tillemans2011]
+
+Little further reliable information about the Digital Sanskrit Buddhist Canon edition, its transmission or the reasons for its title could be verified here, so it is not described further.
 
 [^tillemans2011]: Tillemans, T. (2011, revised 2026). Dharmakīrti. *Stanford Encyclopedia of Philosophy*. Retrieved November 13, 2026, from https://plato.stanford.edu/entries/dharmakiirti/
 [^dsbc294]: University of the West. (n.d.). *Nyāyabindu prakaraṇakārikā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/294
 [^dsbc513]: University of the West. (n.d.). *न्यायबिन्दुप्रकरणकारिका*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/513
 [^gretil-nyayabindu]: Göttingen State and University Library. (n.d.). *Nyāyabindu* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabindu.xml
+[^gretil-nyayabindu-comm]: Göttingen State and University Library. (n.d.). *Nyāyabinduprakaraṇa with Vinītadeva's Nyāyabinduvistaraṭīkā (Śiṣyahita) and Dharmottara's Nyāyabinduṭīkā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabinduprakaraNa-comm.xml

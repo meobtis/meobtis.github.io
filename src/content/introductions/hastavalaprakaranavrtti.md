@@ -1,12 +1,12 @@
 ---
-title: Hastavālaprakaraṇavṛtti
+title: Hastavālaprakaraṇa
 refs:
   - gretil:sa_hastavAlaprakaraNavRtti
   - dsbc:239
   - dsbc:547
   - dsbc:238
   - dsbc:546
-summary: A short Madhyamaka verse treatise (Hastavālaprakaraṇa) with its prose commentary, arguing that conventional things dissolve under analysis like a rope mistaken for a snake; its authorship is disputed between Āryadeva and Dignāga.
+summary: A short Madhyamaka verse treatise, given alone or with its prose commentary, arguing that conventional things dissolve under analysis like a rope mistaken for a snake; its authorship is disputed between Āryadeva and Dignāga.
 editions:
   - ref: gretil:sa_hastavAlaprakaraNavRtti
     history: >-
@@ -23,7 +23,7 @@ editions:
   - ref: dsbc:546
     history: >-
       This is the Devanāgarī version of the same text, listed in the DSBC record as the parallel of the romanized version.[^dsbc238]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 The *Hastavālaprakaraṇavṛtti* is the prose commentary (*vṛtti*) on the *Hastavālaprakaraṇa*, a brief Madhyamaka verse treatise. The Sanskrit text opens with homage to Mañjuśrī and states that the work was composed so that beings, who cling to the ultimate reality of what is merely conventional, may reach non-erroneous knowledge by examining the nature of things.[^dsbc239] Its first verse compares mistaking a rope for a snake with the way even the parts of the rope are, on examination, found to be only erroneous cognition; the commentary extends the analysis to jars, cloths and other everyday objects, which dissolve into their parts and so cannot be ultimately established.[^dsbc239]

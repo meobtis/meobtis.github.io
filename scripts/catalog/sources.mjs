@@ -259,7 +259,7 @@ export const SOURCES = [
 		name: 'Critical editions of works of Nāgārjuna (Ye Shaoyong; Li Xuezhu; Phurtsham; Yonezawa)',
 		homepage: 'https://github.com/meobtis/nagarjuna',
 		repo: 'meobtis/nagarjuna',
-		publisher: 'Zhongxi Book Company, Shanghai',
+		publisher: 'Zhongxi Book Company; Tibetan Classics Publishing House; Naritasan Institute for Buddhist Studies',
 		credit:
 			'Sanskrit text of the critical editions by Ye Shaoyong (Mūlamadhyamakakārikā, 2011) and Li Xuezhu and Ye Shaoyong ' +
 			'(Yuktiṣaṣṭikākārikā, 2014) in the Sanskrit–Tibetan–Chinese Buddhist Texts Series (Zhongxi Book Company, Shanghai), and by ' +
@@ -277,6 +277,11 @@ export const SOURCES = [
 				script: 'iast',
 				path,
 				originalUrl: 'https://github.com/meobtis/nagarjuna',
+				publisher: path.includes('ratnavali')
+					? 'Tibetan Classics Publishing House, Lhasa'
+					: path.includes('yonezawa')
+						? 'Naritasan Institute for Buddhist Studies'
+						: 'Zhongxi Book Company, Shanghai',
 				note: path.includes('fragments') ? 'Sanskrit fragments' : undefined,
 			}));
 		},

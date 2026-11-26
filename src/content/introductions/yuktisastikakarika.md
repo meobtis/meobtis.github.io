@@ -7,7 +7,7 @@ refs:
   - nagarjuna:yuktisastikakarika-li-ye-2014
   - dsbc:255
   - dsbc:540
-summary: A short Madhyamaka treatise of sixty verses attributed to Nāgārjuna, on emptiness and dependent origination, surviving mainly in Tibetan, with the Sanskrit partly reconstructed.
+summary: A short Madhyamaka treatise of sixty verses attributed to Nāgārjuna, on emptiness and dependent origination; the Sanskrit texts here include a modern reconstruction, a selection of verses and the verses that survive in Sanskrit.
 editions:
   - ref: gretil:sa_nAgArjuna-yuktiSaSTikakArikA
     history: >-
@@ -24,12 +24,12 @@ editions:
   - ref: dsbc:540
     history: >-
       The Devanāgarī version of the same text, listed by the DSBC as the parallel of the romanised record.[^dsbc255]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
-The *Yuktiṣaṣṭikā* ("Sixty Verses" or "Sixty Stanzas on Reasoning"; Tibetan *Rigs pa drug cu pa*) is a short verse treatise attributed to Nāgārjuna. It is catalogued in the Tibetan canon as Toh 3825 among the Middle Way (Madhyamaka) treatises, under the English title *Sixty Verses on Reasoning*.[^84000toh3825] The Stanford Encyclopedia of Philosophy lists it among Nāgārjuna's argumentative works and describes it as a shorter treatise discussing emptiness and dependent origination (*pratītyasamutpāda*).[^westerhoff2010]
+The *Yuktiṣaṣṭikā* ("Sixty Verses" or "Sixty Stanzas on Reasoning"; Tibetan *Rigs pa drug cu pa*) is a short verse treatise attributed to Nāgārjuna. It is catalogued in the Tibetan canon as Toh 3825 among the Middle Way (Madhyamaka) treatises, under the English title *Sixty Verses on Reasoning*.[^84000toh3825] The Stanford Encyclopedia of Philosophy lists it among Nāgārjuna's argumentative works and describes it as a shorter treatise discussing emptiness and dependent origination (*pratītyasamutpāda*).[^westerhoff2010] The Sanskrit of the Digital Sanskrit Buddhist Canon text opens with homage to the "chief of sages" as the teacher of dependent origination, and its first verses speak of a view that is free of both existence and non-existence.[^dsbc255]
 
-Its ascription to Nāgārjuna is described there as largely uncontested,[^westerhoff2010] and Candrakīrti is reported to name it among eight works of Nāgārjuna.[^wiki-nagarjuna] Little else is documented in the sources consulted here about its date, its Chinese translation or its Sanskrit manuscripts, and no claim is made on those points. The digital Sanskrit texts below are modern reconstructions or partial recoveries rather than a transmitted manuscript text: one is reconstructed from the Tibetan on the basis of a critical edition, the other gives only a handful of verses.[^gretil-yukti][^gretil-frag]
+The Stanford Encyclopedia of Philosophy describes its ascription to Nāgārjuna as largely uncontested,[^westerhoff2010] and Candrakīrti is reported to name it among eight works of Nāgārjuna.[^wiki-nagarjuna] Modern scholars such as Christian Lindtner and David Burton are reported to count it among the works most securely his, the "reasoning" (*yukti*) corpus, which defends emptiness against substantialist views.[^wiki-nagarjuna] Little else is documented in the sources consulted here about its date, its Chinese translation or its Sanskrit manuscripts, and no claim is made on those points. The digital Sanskrit texts differ in kind: one GRETIL file is a reconstruction based on B. Kumar's critical edition,[^gretil-yukti] the Digital Sanskrit Buddhist Canon text also cites an edition by Kumar,[^dsbc255] a second GRETIL file gives only a selection of verses,[^gretil-frag] and Li and Ye's edition gives the Sanskrit that survives, about thirty-eight verses and part of the dedicatory verse.[^li2014]
 
 [^84000toh3825]: 84000. (n.d.). *Sixty verses on reasoning* (Toh 3825). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh3825.html
 [^westerhoff2010]: Westerhoff, J. C. (2010). Nāgārjuna. In E. N. Zalta & U. Nodelman (Eds.), *The Stanford encyclopedia of philosophy* (Rev. May 31, 2026). Stanford University. Retrieved November 13, 2026, from https://plato.stanford.edu/entries/nagarjuna/

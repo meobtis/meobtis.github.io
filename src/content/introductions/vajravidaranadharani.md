@@ -6,7 +6,7 @@ refs:
   - dsbc:12
   - dsbc:382
   - gretil:sa_vajravidAraNIdhAraNI
-summary: A short dhāraṇī text in which Vajrapāṇi proclaims protective mantras of Vajravidāraṇā, followed by verses on their benefits and a brief purification rite.
+summary: A short Mahāyāna dhāraṇī text in which Vajrapāṇi, empowered by the Buddha, proclaims protective mantras of Vajravidāraṇā; known in English as the Vajra Conqueror.
 editions:
   - ref: gretil:sa_vajravidAraNAdhAraNI
     history: >-
@@ -20,7 +20,7 @@ editions:
   - ref: gretil:sa_vajravidAraNIdhAraNI
     history: >-
       The GRETIL text is based on Yutaka Iwamoto's edition in Kleinere Dhāraṇī Texte (Kyoto, 1937; Beiträge zur Indologie, 2), pp. 7–9. The data entry and contribution to GRETIL are credited to Klaus Wille, with later normalisation and TEI conversion by Reinhold Grünendahl and Maximilian Mehner.[^gretil-vajravidarani]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 The *Vajravidāraṇādhāraṇī* (*Āryavajravidāraṇā nāma dhāraṇī*), rendered in English as *Vajra Conqueror*, is a short Mahāyāna dhāraṇī text. It opens with the usual "Thus have I heard", set among the vajras, where Vajrapāṇi enters a vajra-concentration through the Buddha's power, and then presents mantras, verses and a short ritual.[^84000toh750] The Sanskrit text is only a few pages long in print.[^gretil-vvdh]

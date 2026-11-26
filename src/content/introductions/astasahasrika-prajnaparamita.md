@@ -5,6 +5,7 @@ refs:
   - gretil:sa_aSTasAhasrikA-prajJApAramitA
   - dsbc:68
   - dsbc:397
+  - iriab:astasahasrika-missing-portion
 summary: A Mahāyāna sūtra in 32 chapters, the "Perfection of Wisdom in Eight Thousand Lines", regarded as one of the earliest and most central works of the Prajñāpāramitā literature.
 editions:
   - ref: gretil:sa_aSTasAhasrikA-prajJApAramitA
@@ -16,10 +17,13 @@ editions:
   - ref: dsbc:397
     history: >-
       This is the Devanagari version of the same text in the Digital Sanskrit Buddhist Canon, with the same 32-chapter structure and opening as the romanised version; its own record gives no bibliographic details.[^dsbc397]
-updated: 2026-11-14
+  - ref: iriab:astasahasrika-missing-portion
+    history: >-
+      The passage lacking in the printed editions of Mitra, Wogihara and Vaidya, quoted by Seishi Karashima with his own readings from University of Tokyo Library palm-leaf manuscript no. 47 (folio 221 verso, line 4, to folio 222 verso, line 3), in ARIRIAB XVI (2013), pp. 189–192 (passage on p. 191). Only the quoted passage is reproduced.
+updated: 2026-11-27
 ---
 
-The *Aṣṭasāhasrikā prajñāpāramitā*, usually rendered in English as "The Perfection of Wisdom in Eight Thousand Lines" (the Padmakara Translation Group's 84000 version is titled *The Transcendent State of Wisdom in Eight Thousand Lines*), is a Mahāyāna sūtra in 32 chapters.[^84000toh12] It is counted among the Prajñāpāramitā ("perfection of wisdom") scriptures, and the 84000 introduction calls it a keystone of that literature and one of its "mother" texts.[^84000toh12] The Sanskrit opens, like many sūtras, in Rājagṛha on the Vulture Peak, where the Buddha asks Subhūti to speak on the perfection of wisdom, and the exposition unfolds mostly as a dialogue between Subhūti, Śāriputra and the Buddha (as the editions listed here show).
+The *Aṣṭasāhasrikā prajñāpāramitā*, usually rendered in English as "The Perfection of Wisdom in Eight Thousand Lines" (the Padmakara Translation Group's 84000 version is titled *The Transcendent State of Wisdom in Eight Thousand Lines*), is a Mahāyāna sūtra in 32 chapters.[^84000toh12] It is counted among the Prajñāpāramitā ("perfection of wisdom") scriptures, and the 84000 introduction calls it a keystone of that literature and one of its "mother" texts.[^84000toh12] The Sanskrit opens, like many sūtras, in Rājagṛha on the Vulture Peak, where the Buddha asks Subhūti to speak on the perfection of wisdom, and the exposition unfolds mostly as a dialogue between Subhūti, Śāriputra and the Buddha (as the GRETIL and Digital Sanskrit Buddhist Canon texts show).
 
 The sūtra is concerned with the bodhisattva's path and the practice of the perfection of wisdom. According to the 84000 introduction, its meaning is conveyed largely through dialogue, negation, paradox and repetition rather than systematic exposition, and emptiness is barely named in it.[^84000toh12] One modern summary divides the chapters into an introduction (chapters 1–2), training in the perfection of wisdom (3–16), the irreversible bodhisattva (17–29), and the story of the bodhisattva Sadāprarudita with the conclusion (30–32).[^wiki-asp] Edward Conze's English translation, *The Perfection of Wisdom in Eight Thousand Lines and Its Verse Summary*, made the work widely known to English readers.[^wiki-asp]
 
@@ -27,7 +31,7 @@ No author is named, and the text presents itself as the Buddha's teaching.[^8400
 
 The work was translated into Chinese several times. The 84000 introduction lists seven versions, the earliest attributed to Lokakṣema in 179 CE, and others to Zhi Qian, Kumārajīva, Xuanzang (in his *Great Prajñāpāramitā*) and Dānapāla.[^84000toh12] Karashima produced a critical edition of Lokakṣema's translation in 2011.[^karashima2011] The first Tibetan translation dates to the early imperial period and was later revised several times; the sūtra is Toh 12 in the Degé Kangyur.[^84000toh12]
 
-Modern Sanskrit editions rest on late Nepalese manuscripts: Rajendralala Mitra (1888), Unrai Wogihara (1932–35, with Haribhadra's commentary) and P. L. Vaidya (1960), the last being the basis of the digital texts here.[^84000toh12][^gretil-asp] The 84000 introduction lists among the commentaries Haribhadra's *Light on the Ornament* (ninth century) and Ratnākaraśānti's *Quintessence of the Eight Thousand* (eleventh century).[^84000toh12]
+Modern Sanskrit editions rest on late Nepalese manuscripts: Rajendralala Mitra (1888), Unrai Wogihara (1932–35, with Haribhadra's commentary) and P. L. Vaidya (1960), the last being the basis of the GRETIL and Digital Sanskrit Buddhist Canon texts here.[^84000toh12][^gretil-asp][^dsbc68] The passage lacking in the printed editions of Mitra, Wogihara and Vaidya is also listed here, as quoted by Seishi Karashima from a University of Tokyo palm-leaf manuscript. The 84000 introduction lists among the commentaries Haribhadra's *Light on the Ornament* (ninth century) and Ratnākaraśānti's *Quintessence of the Eight Thousand* (eleventh century).[^84000toh12]
 
 ### Manuscripts in the Schøyen Collection
 

@@ -15,14 +15,14 @@ editions:
   - ref: dsbc:553
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text, also in ten chapters; its record gives no bibliographic details of its own.[^dsbc553]
-updated: 2026-11-13
+updated: 2026-11-27
 ---
 
 The *Bodhicaryāvatārapañjikā* is a Sanskrit commentary by Prajñākaramati on Śāntideva's *Bodhicaryāvatāra* ("Entering the Conduct of Awakening"), a verse text on the path of the bodhisattva. The commentary quotes the root verses and explains them in turn, beginning with the opening homage and the announcement of the work's subject, purpose and relation to its source. In the editions indexed here it is arranged in ten chapters, following the root text.[^gretil-bcp][^dsbc259]
 
 Prajñākaramati is placed at the Buddhist university of Vikramaśīla; Tāranātha's history and the *Blue Annals* are reported to name him as a gatekeeper there, differing on which gate. His work is described as the only commentary on the *Bodhicaryāvatāra* still extant in Sanskrit.[^kretschmar] Little else about his dates or the work's transmission could be verified from the sources consulted, so those questions are left open here.
 
-The printed edition behind all three digital texts is P. L. Vaidya's, published at Darbhanga by the Mithila Institute in 1960 as volume 12 of the Buddhist Sanskrit Texts series.[^oeaw]
+The printed edition behind the GRETIL and Digital Sanskrit Buddhist Canon texts is P. L. Vaidya's, published at Darbhanga by the Mithila Institute in 1960 as volume 12 of the Buddhist Sanskrit Texts series.[^oeaw]
 
 [^gretil-bcp]: Göttingen State and University Library. (n.d.). *Bodhicaryāvatārapañjikā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prajJAkaramati-bodhicaryAvatArapaJjikA.xml
 [^dsbc259]: University of the West. (n.d.). *Bodhicaryāvatāraḥ (pañjikā)*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/259

@@ -1,9 +1,9 @@
 ---
-title: Ahorātravratakathā-prose
+title: Ahorātravratakathā
 refs:
   - gretil:sa_ahoratravratakathA-prose
   - gretil:sa_ahoratravratakathA
-summary: A Sanskrit Buddhist prose narrative on the day-and-night vow (ahorātravrata), framed as the Buddha's answer to a request from the monk Subhūti.
+summary: Sanskrit Buddhist narratives, in a prose version and one partly in verse, about the ahorātravrata, a day-and-night vow connected with stūpa (caitya) worship; the monk Subhūti raises the question of the observance.
 editions:
   - ref: gretil:sa_ahoratravratakathA-prose
     history: >-
@@ -11,10 +11,12 @@ editions:
   - ref: gretil:sa_ahoratravratakathA
     history: >-
       The GRETIL text is based on Ratna Handurukande's edition in *Three Sanskrit Texts on Caitya Worship in Relation to the Ahorātravrata* (Studia Philologica Buddhica, Monograph Series 16; Tokyo, 2000). Klaus Wille keyed the text and contributed it to GRETIL; Reinhold Grünendahl made the initial conversion to legacy GRETIL formats, and Maximilian Mehner the TEI-conformant markup.[^gretil-ahoratra]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
-The *Ahorātravratakathā* ("Story of the Day-and-Night Vow") is a short Sanskrit Buddhist narrative in prose, here distinguished as the prose version from a metrical one. It opens with homage to the *dharmadhātu* and a verse of salutation to the stūpa, and is set at Kapilavastu, where the monk Subhūti asks Vajradhara to request from the Buddha an exposition of the *ahorātravrata*, which he calls the best of vows; the Buddha then agrees and enters meditation before teaching.[^gretil-ahoratra-prose] No established English title was found.
+The *Ahorātravratakathā* ("Story of the Day-and-Night Vow") is a short Sanskrit Buddhist narrative on the *ahorātravrata*, a vow or observance kept for a day and a night. The prose version, distinguished from a metrical one, opens with homage to the *dharmadhātu* and a verse of salutation to the stūpa, and is set at Kapilavastu, where the monk Subhūti asks Vajradhara to request from the Buddha an exposition of the *ahorātravrata*, which he calls the best of vows; the Buddha then agrees and enters meditation before teaching.[^gretil-ahoratra-prose] No established English title was found.
+
+The other GRETIL text mixes prose and verse. It opens with a salutation to the *dharmadhātu* and a verse in honour of the stūpa; the Buddha is staying at Jetavana in Śrāvastī, the elder Subhūti asks him at what time the observance is performed and what its procedure is, and the Buddha answers in verse.[^gretil-ahoratra]
 
 Little appears to be documented about its authorship, date or place of composition. It was edited, with two other Sanskrit texts on caitya worship and English synopses, by Ratna Handurukande in 2000.[^handurukande2000][^cinii] A Nepalese manuscript catalogued by the Nepal-German Manuscript Cataloguing Project (NAK 1/1123, in Newari script, undated, incomplete and without colophon) contains a metrical version whose content is recorded as matching the prose version edited by Handurukande.[^ngmcp]
 

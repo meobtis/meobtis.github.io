@@ -15,14 +15,14 @@ editions:
   - ref: gretil:sa_grahamAtRkAdhAraNI
     history: >-
       The GRETIL text reproduces an edition of the *Āryagrahamātṛkā nāma dhāraṇī* printed in *Dhīḥ* 39 (2005), pp. 169–176. Klaus Wille keyed the text and contributed it to GRETIL, Reinhold Grünendahl made the first normalisation, and Maximilian Mehner converted it to TEI markup on 31 July 2020.[^gretil-grahamatrka]
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 The *Āryaśrīgrahamātṛkā nāma dhāraṇī* is a short Sanskrit Buddhist protective text. It opens with a salutation to the noble Grahamātṛkā and the formula "Thus have I heard", placing the Buddha in the great city of Aḍakavatī among gods, nāgas, yakṣas and the planetary deities, together with a great assembly of bodhisattvas headed by Vajrapāṇi.[^dsbc862]
 
-In the text Vajrapāṇi raises the problem of the harm that the *grahas* inflict on beings, and the Buddha responds with mantras for the nine planets, from the sun and moon to Rāhu and Ketu. Each deity is assigned a direction, a coloured lotus, a description of its form, and prescribed offerings of food and incense, so the text works as a short manual for worshipping the planets on a diagram (*maṇḍala*).[^dsbc862]
+In the text Vajrapāṇi raises the problem of the harm that the *grahas* inflict on beings, and the Buddha responds with mantras for the nine planets, from the sun and moon to Rāhu and Ketu. Each deity is assigned a direction, a coloured lotus, a description of its form, and prescribed offerings of food and incense, so the text works as a short manual for worshipping the planets on a diagram (*maṇḍala*).[^dsbc862] The planets, pacified, offer to protect the preacher of the Dharma.[^gretil-grahamatrka]
 
-Little reliable information on the work's date, authorship, transmission, translations into Tibetan or Chinese, or scholarly reception could be found in the sources consulted, so none is asserted here. The only printed edition identified is the Nepalese one named in the digital record.[^dsbc862]
+Little reliable information on the work's date, authorship, transmission, translations into Tibetan or Chinese, or scholarly reception could be found in the sources consulted, so none is asserted here. The printed editions identified are the Nepalese one named in the Digital Sanskrit Buddhist Canon record[^dsbc862] and one published in *Dhīḥ* in 2005.[^gretil-grahamatrka]
 
 [^dsbc862]: University of the West. (n.d.). *Āryaśrīgrahamātṛkā nāma dhāraṇī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/862
 [^dsbc863]: University of the West. (n.d.). *Āryaśrīgrahamātṛkā nāma dhāraṇī* [Devanagari version]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/863

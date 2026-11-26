@@ -8,6 +8,7 @@ refs:
   - dsbc:333
   - dsbc:572
   - dsbc:573
+  - gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-comm
 summary: A Yogācāra treatise in verse (kārikā) in twenty chapters on the Mahāyāna path, known in English as The Ornament of the Mahāyāna Sūtras and traditionally counted among the five works of Maitreya.
 editions:
   - ref: gretil:sa_asaGga-mahAyAnasUtrAlaMkAra
@@ -22,7 +23,10 @@ editions:
   - ref: dsbc:333
     history: >-
       The Digital Sanskrit Buddhist Canon lists this version as taken from S. Bagchi's edition published by the Central Institute of Higher Tibetan Studies (Sarnath, 2000); it is divided into twenty chapters (*adhikāra*).[^dsbc333]
-updated: 2026-11-13
+  - ref: gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-comm
+    history: >-
+      Based on Sylvain Lévi's edition (*Mahāyānasūtrālaṃkāra, Exposé de la doctrine du Grand Véhicule*, vol. I, Paris, 1907). The text was keyed in by Jens Braarvig, who contributed it to GRETIL, and was normalised and converted to TEI markup by Maximilian Mehner (2020).[^gretil-msa]
+updated: 2026-11-26
 ---
 
 The *Mahāyānasūtrālaṃkāra* ("The Ornament of the Mahāyāna Sūtras") is a Yogācāra treatise in verse that sets out the Mahāyāna path to awakening and introduces the foundational doctrines of the school. The Tibetan tradition counts it among the "Five Treatises of Maitreya", a group of works traditionally attributed to Maitreya.[^szanyi2024] The identity of Maitreya is itself uncertain: traditional sources identify him with the future Buddha, while modern scholarship treats him as a historical figure.[^szanyi2024] The editions on this site divide the work into twenty chapters, each called an *adhikāra*, and the first chapter begins with a salutation to all buddhas and bodhisattvas.[^dsbc333]

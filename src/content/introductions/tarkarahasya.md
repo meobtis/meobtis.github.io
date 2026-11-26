@@ -3,6 +3,7 @@ title: Tarkarahasya
 refs:
   - gretil:sa_tarkarahasya
   - sarit:tarkarahasya
+  - gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya
 summary: A Sanskrit work of Buddhist epistemology (pramāṇa) in verse and prose, preserved in a single incomplete manuscript and edited in the twentieth century; little is documented about it beyond its editions.
 editions:
   - ref: gretil:sa_tarkarahasya
@@ -11,7 +12,10 @@ editions:
   - ref: sarit:tarkarahasya
     history: >-
       The SARIT text is keyed from Hideomi Yaita's edition in *Three Sanskrit Texts from the Buddhist Pramāṇa-Tradition* (Narita: Naritasan Shinshoji, 2005), with data entry by Aurorachana (Auroville) and preparation for SARIT by Liudmila Olalde, funded by the German Research Foundation (DFG) project on digital text collections in Indology.[^sarit-tarkarahasya]
-updated: 2026-11-13
+  - ref: gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya
+    history: >-
+      The GRETIL text reproduces the Sanskrit edition printed in Hideomi Yaita's "Tarkarahasya kenyū (I)", Journal of Naritasan Institute for Buddhist Studies 12 (1988), pp. 82–98; the data entry and contribution to GRETIL are by Helmut Krasser, with later normalisation and TEI conversion by Reinhold Grünendahl and Maximilian Mehner.[^gretil-pratyaksalaksana]
+updated: 2026-11-26
 ---
 
 The *Tarkarahasya* ("The Secret of Reasoning") is a Sanskrit treatise in the Buddhist epistemological (*pramāṇa*) tradition. The digital texts open with an invocation to the Buddha and a verse announcing that the work examines the statements of the scriptures on doubtful points, and then begin with the definition of a means of knowledge (*pramāṇa*) as non-deceptive cognition, grounded in effective action (*arthakriyā*).[^gretil-tarkarahasya] The work mixes verse and prose and includes the editors' notes on variant readings and on the sources of its quotations.[^sarit-tarkarahasya]
@@ -20,3 +24,4 @@ The editions' own apparatus shows the milieu in which the work is placed: the re
 
 [^gretil-tarkarahasya]: Göttingen State and University Library. (n.d.). *Tarkarahasya* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_tarkarahasya.xml
 [^sarit-tarkarahasya]: SARIT: Search and Retrieval of Indic Texts. (n.d.). *Tarkarahasya* [TEI XML]. Retrieved November 13, 2026, from https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/tarkarahasya.xml
+[^gretil-pratyaksalaksana]: Göttingen State and University Library. (n.d.). *Pratyakṣalakṣaṇa of the Tarkarahasya* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratyakSalakSaNa-of-the-tarkarahasya.xml

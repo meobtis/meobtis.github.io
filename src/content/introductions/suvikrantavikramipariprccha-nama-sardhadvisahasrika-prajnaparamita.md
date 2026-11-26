@@ -4,6 +4,7 @@ englishTitle: The Questions of Suvikrāntavikrāmin
 refs:
   - dsbc:74
   - dsbc:405
+  - gretil:sa_suvikrAntavikrAmiparipRcchA
 summary: A short Prajñāpāramitā sūtra in seven chapters, the "Questions of Suvikrāntavikrāmin" in 2,500 lines, in which the bodhisattva Suvikrāntavikrāmin questions the Buddha about the perfection of wisdom.
 editions:
   - ref: dsbc:74
@@ -12,7 +13,10 @@ editions:
   - ref: dsbc:405
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text; its record gives no separate bibliographic details.[^dsbc405]
-updated: 2026-11-13
+  - ref: gretil:sa_suvikrAntavikrAmiparipRcchA
+    history: >-
+      The GRETIL text is keyed from P. L. Vaidya's edition in the Mahāyāna-sūtra-saṃgrahaḥ, part 1 (Darbhanga: Mithila Institute, 1961, pp. 1–74; Buddhist Sanskrit Texts 17). Its front matter credits data entry to members of the Digital Sanskrit Buddhist Canon Input Project, with normalisation and conversion by Reinhold Grünendahl and TEI markup by Maximilian Mehner.[^gretil-svp]
+updated: 2026-11-26
 ---
 
 The *Suvikrāntavikrāmiparipṛcchā nāma sārdhadvisāhasrikā prajñāpāramitā* is a Prajñāpāramitā sūtra whose title names its interlocutor, the bodhisattva Suvikrāntavikrāmin, and its length of two and a half thousand lines. In English it is known as "The Questions of Suvikrāntavikrāmin", the title under which the Tibetan version (Toh 14, classed in the Perfection of Wisdom section) is catalogued by 84000.[^84000toh14] The Sanskrit text in the Digital Sanskrit Buddhist Canon is divided into seven chapters: *nidāna*, *Ānanda*, *tathatā*, *aupamya*, *Subhūti*, *caryā* and *anuśaṃsā*.[^dsbc74]
@@ -23,3 +27,4 @@ The text opens in the usual sūtra manner: the Buddha is staying at the Bamboo G
 [^dsbc405]: University of the West. (n.d.). *सुविक्रान्तविक्रामिपरिपृच्छा नाम सार्धद्विसाहस्रिका प्रज्ञापारमिता*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/405
 [^84000toh14]: 84000. (n.d.). *The Perfection of Wisdom teachings "The Questions of Suvikrāntavikrāmin"* (Toh 14). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh14.html
 [^vaidya1961]: Vaidya, P. L. (Ed.). (1961). *Mahāyāna-sūtra-saṃgrahaḥ* (Pt. 1). Mithila Institute of Post-Graduate Studies and Research in Sanskrit Learning.
+[^gretil-svp]: Göttingen State and University Library. (n.d.). *Suvikrāntavikrāmiparipṛcchā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_suvikrAntavikrAmiparipRcchA.xml

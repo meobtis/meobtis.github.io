@@ -3,12 +3,27 @@ title: Abhidharmakośabhāṣya
 englishTitle: Commentary on the Treasury of Abhidharma
 refs:
   - gretil:sa_vasubandhu-abhidharmakozabhASya
+  - gretil:sa_vasubandhu-abhidharmakoza
+  - dsbc:96
+  - dsbc:460
 summary: Vasubandhu's prose commentary on his own verses, the Abhidharmakośa (Treasury of Abhidharma), the standard systematic account of Abhidharma doctrine for later Indian, Tibetan and East Asian Buddhism.
 editions:
   - ref: gretil:sa_vasubandhu-abhidharmakozabhASya
     history: >-
       The GRETIL text is keyed from P. Pradhan's edition (revised second edition, Patna: K. P. Jayaswal Research Institute, 1975) and from Swami Dwarikadas Shastri's edition with Yaśomitra's Sphuṭārthā commentary (Varanasi: Bauddha Bharati, 1998). Dan Lusthaus entered the data and contributed it to GRETIL; Reinhold Grünendahl normalised it into the legacy GRETIL formats and Maximilian Mehner converted it to TEI markup.[^gretil-akbh]
-updated: 2026-11-13
+  - ref: gretil:sa_vasubandhu-abhidharmakoza
+    history: >-
+      The GRETIL file contains the verses (kārikā) only, in the eight chapters, with the commentary kept in a separate file. Its header does not identify the source precisely and refers to P. Pradhan's edition of the Bhāṣya (revised by A. Haldar, Patna 1975) and to G. V. Gokhale's 1946 article on the text of the kārikā. The text was keyed by members of the Digital Sanskrit Buddhist Canon Input Project and converted to TEI by Maximilian Mehner in 2020.[^gretil-akk]
+  - ref: dsbc:96
+    history: >-
+      The romanized text carries the bibliographic note of Prahlad Pradhan's edition of the
+      Abhidharmakoṣabhāṣya (Patna: K. P. Jayaswal Research Institute, 1975), the revised
+      second edition of the Sanskrit text of the commentary first published in 1967, in which the verses are embedded.[^dsbc96][^mejor2024]
+  - ref: dsbc:460
+    history: >-
+      A Devanagari version of the same eight-chapter text. Its front matter gives no
+      bibliographic information of its own.[^dsbc460]
+updated: 2026-11-26
 ---
 
 The *Abhidharmakośabhāṣya* is the prose auto-commentary (*bhāṣya*) that Vasubandhu wrote on his own root verses, the *Abhidharmakośakārikā*, the "Treasury of Abhidharma".[^gold2021] The verses set out the doctrines of the Kashmiri Vaibhāṣika branch of the Sarvāstivāda school in about 600 stanzas arranged in eight chapters, and the commentary adds a ninth chapter in prose that refutes the Pudgalavāda notion of a "person".[^tbe] The commentary is often known simply as the *Kośa*.
@@ -23,3 +38,6 @@ The work was translated into Chinese twice, by Paramārtha in the sixth century 
 [^tbe]: Tibetan Buddhist Encyclopedia. (2021). The Abhidharmakośakārikā or verses on the treasury of Abhidharma. Retrieved November 13, 2026, from https://www.tibetanbuddhistencyclopedia.com/en/index.php?title=The_Abhidharmako%C5%9Bak%C4%81rik%C4%81_or_Verses_on_the_Treasury_of_Abhidharma
 [^mejor2024]: Mejor, M. (2024). Rāhula Sāṃkṛtyāyana's edition of Vasubandhu's *Abhidharmakośa* [Bibliography]. *Acta Asiatica Varsoviensia, 37*, 123–152. https://doi.org/10.60018/AcAsVa.ngyv2208
 [^gretil-akbh]: Göttingen State and University Library. (n.d.). *Abhidharmakośabhāṣya* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-abhidharmakozabhASya.xml
+[^gretil-akk]: Göttingen State and University Library. (2020). *Abhidharmakośa* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-abhidharmakoza.xml
+[^dsbc460]: University of the West. (n.d.). *अभिधर्मकोशकारिका*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/460
+[^dsbc96]: University of the West. (n.d.). *Abhidharmakoṣakārikā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/96

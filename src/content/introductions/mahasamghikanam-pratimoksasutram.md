@@ -4,6 +4,8 @@ englishTitle: The Mahāsāṃghika Prātimokṣa Sūtra
 refs:
   - dsbc:90
   - dsbc:453
+  - gretil:sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika
+  - gretil:sa_prAtimokSasUtra-of-the-mahAsAMghikas
 summary: The Sanskrit Prātimokṣa Sūtra of the Mahāsāṃghika monastic order, the code of monastic rules recited at the fortnightly confession ceremony.
 editions:
   - ref: dsbc:90
@@ -12,7 +14,13 @@ editions:
   - ref: dsbc:453
     history: >-
       The Devanāgarī version is the parallel of the romanized text, produced in the same 2004 input project by DSBC staff and proofread by Miroj Shakya. Its own record gives no bibliographic details of the printed source.[^dsbc453]
-updated: 2026-11-13
+  - ref: gretil:sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika
+    history: >-
+      The text was keyed in by Klaus Wille from N. Tatia's edition, *Pratimoksasutram of the Lokottaravadimahasanghika School* (Patna, 1976; Tibetan Sanskrit Works Series 16). Reinhold Grünendahl made the initial normalisation and conversion, and Maximilian Mehner produced the TEI-conformant markup, dated 31 July 2020.[^gretil-prmo]
+  - ref: gretil:sa_prAtimokSasUtra-of-the-mahAsAMghikas
+    history: >-
+      The digital text is based on W. Pachow and R. Mishra's edition, *The Prātimokṣa-Sūtra of the Mahāsāṅghikās* (Allahabad, 1956). The data entry was done by members of the Digital Sanskrit Buddhist Canon Input Project, and the text was later normalised and converted to TEI markup for GRETIL by Reinhold Grünendahl and Maximilian Mehner.[^gretil-pratimoksa-ma]
+updated: 2026-11-26
 ---
 
 The *Mahāsāṃghika Prātimokṣa Sūtra* is the Sanskrit recension of the code of monastic rules (*prātimokṣa*) belonging to the Mahāsāṃghika order. In Buddhist monastic practice a prātimokṣa is the list of training rules recited by the assembled community of monks, and several such codes, belonging to different ordination lineages, survive.[^wiki-pratimoksa] The text opens with a short verse section in praise of the Buddha and the recitation of the rules, followed by the rules themselves.[^dsbc90]
@@ -23,3 +31,5 @@ The Mahāsāṃghika school's complete Vinaya survives in Chinese translation as
 [^dsbc453]: University of the West. (n.d.). *Mahāsāṃghikānāṃ prātimokṣasūtram* [Devanāgarī version]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/453
 [^wiki-pratimoksa]: Wikipedia contributors. (n.d.). Prātimokṣa. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Prātimokṣa
 [^wiki-mahasamghika]: Wikipedia contributors. (n.d.). Mahāsāṃghika. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Mahāsāṃghika
+[^gretil-prmo]: Göttingen State and University Library. (n.d.). *Prātimokṣasūtra of the Lokottaravādimahāsaṅghika* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika.xml
+[^gretil-pratimoksa-ma]: Göttingen State and University Library. (n.d.). *Prātimokṣasūtra of the Mahāsāṃghikas* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-mahAsAMghikas.xml

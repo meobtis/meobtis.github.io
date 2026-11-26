@@ -5,6 +5,7 @@ refs:
   - gretil:sa_vasubandhu-triMzikAvijJaptikArikA
   - dsbc:337
   - dsbc:563
+  - gretil:sa_vasubandhu-triMzikAvijJaptikArikA-comm
 summary: Vasubandhu's short verse treatise on Yogācāra, usually called the Thirty Verses, summarising the transformations of consciousness and the Yogācāra path.
 editions:
   - ref: gretil:sa_vasubandhu-triMzikAvijJaptikArikA
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:563
     history: >-
       The Devanāgarī version is the parallel of the romanized DSBC text (book 337); its record gives no separate bibliographic details.[^dsbc563]
-updated: 2026-11-13
+  - ref: gretil:sa_vasubandhu-triMzikAvijJaptikArikA-comm
+    history: >-
+      The text is based on Hartmut Buescher's critical edition of the Sanskrit text and its Tibetan translation (Vienna, 2007; Österreichische Akademie der Wissenschaften, Sitzungsberichte 786). According to its record, the data were entered by Takamichi Fukita, who also contributed it to GRETIL, and it was normalised and converted to TEI markup by Maximilian Mehner.[^gretil-tvbh]
+updated: 2026-11-26
 ---
 
 The *Triṃśikāvijñaptikārikā* ("Verses on the Representation-Only in Thirty [Stanzas]"), usually called the Thirty Verses, is a brief poetic treatise by the Indian Buddhist monk Vasubandhu. Together with his *Viṃśatikā* (Twenty Verses) it is regarded as a standard summary of his Yogācāra thought.[^wiki-tvm] The Stanford Encyclopedia of Philosophy lists it among his best-known concise Yogācāra syntheses and describes it as a short, poetic work that includes a complete treatment of the Buddhist path from a Yogācāra perspective.[^sep-vasubandhu] The text keyed in the digital editions opens with a reverence and a statement that the work is by the teacher Vasubandhu, and its stanzas are numbered in the usual way.[^gretil-tvk]
@@ -33,3 +37,4 @@ According to the Wikipedia article on the work, it was translated into Chinese b
 [^wiki-tvm]: Wikipedia contributors. (n.d.). *Triṃśikā-vijñaptimātratā*. Wikipedia. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Tri%E1%B9%83%C5%9Bik%C4%81-vij%C3%B1aptim%C4%81trat%C4%81
 [^sep-vasubandhu]: Stanford Encyclopedia of Philosophy. (2021). Vasubandhu. In *The Stanford Encyclopedia of Philosophy*. Retrieved November 13, 2026, from https://plato.stanford.edu/entries/vasubandhu/
 [^jaini1985]: Jaini, P. S. (1985). The Sanskrit fragments of Vinītadeva's *Triṃśikā-ṭīkā*. *Bulletin of the School of Oriental and African Studies, 48*(3), 470–492. https://doi.org/10.1017/S0041977X00038441
+[^gretil-tvbh]: Göttingen State and University Library. (n.d.). *Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-triMzikAvijJaptikArikA-comm.xml

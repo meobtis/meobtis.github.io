@@ -7,6 +7,8 @@ refs:
   - dsbc:537
   - dsbc:852
   - dsbc:853
+  - dsbc:887
+  - dsbc:888
 summary: Candrakīrti's verse treatise on the bodhisattva path and Madhyamaka philosophy, preserved in Tibetan translation; the Sanskrit editions here are modern Sanskrit versions of it with its commentary.
 editions:
   - ref: gretil:sa_madhyamakAvatAra-1-5
@@ -24,6 +26,12 @@ editions:
   - ref: dsbc:853
     history: >-
       A Devanagari version of the same text, with the same input details (Miroj Shakya, 2019; Nagarjuna Institute of Buddhist Studies; University of the West) but no bibliographic information of its own.[^dsbc853]
+  - ref: dsbc:887
+    history: >-
+      The DSBC record gives the source as the edition of chapters 1 to 5 prepared by Horst Lasic, Xuezhu Li and Anna Macdonald (Beijing–Vienna: China Tibetology Research Center and Austrian Academy of Sciences, 2022). The romanized text was input and proof-read by Miroj Shakya in 2022, supplied by the Nagarjuna Institute of Buddhist Studies and sponsored by the University of the West.[^dsbc887]
+  - ref: dsbc:888
+    history: >-
+      The Devanagari version of the same DSBC text, derived from the romanized edition.[^dsbc888]
 updated: 2026-11-26
 ---
 
@@ -42,3 +50,5 @@ Little further detail on the Sanskrit editions could be verified from the source
 [^dsbc537]: University of the West. (n.d.). *मध्यमकावतारः*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/537
 [^dsbc852]: University of the West. (n.d.). *Madhyamakāvatārakārikā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/852
 [^dsbc853]: University of the West. (n.d.). *मध्यमकावतार-कारिका*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/853
+[^dsbc887]: University of the West. (n.d.). *Madhyamakāvatārabhāṣya*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/887
+[^dsbc888]: University of the West. (n.d.). *Madhyamakāvatārabhāṣya* [Devanagari]. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/888

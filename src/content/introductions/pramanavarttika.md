@@ -5,6 +5,7 @@ refs:
   - gretil:sa_pramANavArttika
   - dsbc:298
   - dsbc:514
+  - gretil:sa_dharmakIrti-pramANavArttikakArikA
 summary: Dharmakīrti's verse treatise on epistemology and logic, a commentary on Dignāga's Pramāṇasamuccaya and a foundational work of Buddhist pramāṇa theory.
 editions:
   - ref: gretil:sa_pramANavArttika
@@ -16,6 +17,9 @@ editions:
   - ref: dsbc:514
     history: >-
       The Devanagari text has the same four-chapter structure as the romanised version; its record gives no bibliographic details of its own.[^dsbc514]
+  - ref: gretil:sa_dharmakIrti-pramANavArttikakArikA
+    history: >-
+      The text is keyed from Y. Miyasaka's edition of the *Pramāṇavārttika-kārikā* (Sanskrit and Tibetan) in *Acta Indologica* 2 (1971/72), pp. 1–206; the GRETIL header notes that its chapters II and III correspond to Miyasaka's I and II. Motoi Ono entered the data and contributed it to GRETIL, Reinhold Grünendahl made the initial normalisation, and Maximilian Mehner converted it to TEI markup.[^gretil-pv][^sep-dharmakirti]
 updated: 2026-11-26
 ---
 
@@ -31,3 +35,4 @@ Dharmakīrti wrote an autocommentary, the *Pramāṇavārttikasvavṛtti*, and t
 [^gretil-pv]: Göttingen State and University Library. (n.d.). *Pramāṇavārttika* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pramANavArttika.xml
 [^dsbc298]: University of the West. (n.d.). *Pramāṇavārtikam*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/298
 [^dsbc514]: University of the West. (n.d.). *प्रमाणवार्तिकम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/514
+[^sep-dharmakirti]: Tillemans, T. (2026). Dharmakīrti. In *Stanford Encyclopedia of Philosophy*. Stanford University. Retrieved November 13, 2026, from https://plato.stanford.edu/entries/dharmakiirti/

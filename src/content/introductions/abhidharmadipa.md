@@ -5,6 +5,9 @@ refs:
   - gretil:sa_vimalamitra-abhidharmadIpa-1-383
   - dsbc:94
   - dsbc:461
+  - gretil:sa_vimalamitra-abhidharmadIpa-comm
+  - dsbc:95
+  - dsbc:462
 summary: A Sanskrit Abhidharma treatise in verse, with a prose commentary (Vibhāṣāprabhāvṛtti), known from a single incomplete palm-leaf manuscript from Tibet and usually read as a Vaibhāṣika reply to Vasubandhu.
 editions:
   - ref: gretil:sa_vimalamitra-abhidharmadIpa
@@ -19,7 +22,16 @@ editions:
   - ref: dsbc:461
     history: >-
       The Devanāgarī counterpart of the same Digital Sanskrit Buddhist Canon text, also in five chapters and also without a stated printed source.[^dsbc461]
-updated: 2026-11-13
+  - ref: gretil:sa_vimalamitra-abhidharmadIpa-comm
+    history: >-
+      The text is keyed from P. S. Jaini's edition (Patna, 1959; Tibetan Sanskrit Works Series 4), entered by members of the Digital Sanskrit Buddhist Canon Input Project, and later normalised and converted to TEI markup for GRETIL by Reinhold Grünendahl and Maximilian Mehner.[^gretil-comm]
+  - ref: dsbc:95
+    history: >-
+      The Digital Sanskrit Buddhist Canon records the source as Jaini's edition published by the K. P. Jayaswal Research Institute, Patna, in 1977, which catalogues describe as the second edition of the work first issued in 1959.[^dsbc95][^oeaw-jaini]
+  - ref: dsbc:462
+    history: >-
+      The same DSBC text in Devanagari script, based on the same Patna edition.[^dsbc95]
+updated: 2026-11-26
 ---
 
 The *Abhidharmadīpa* ("Lamp of Abhidharma") is a Sanskrit Buddhist treatise on Abhidharma, consisting of verses (*kārikā*) and a prose autocommentary, the *Vibhāṣāprabhāvṛtti*. It was unknown, in the original or in Chinese or Tibetan translation, until photographs of an incomplete palm-leaf manuscript taken in Tibet by Rāhula Sāṅkṛtyāyana were published.[^jaini1977] The edition on which the digital texts rest is Padmanabh S. Jaini's critical edition, published at Patna in 1959 by the Kashi Prasad Jayaswal Research Institute and based on that manuscript; it grew out of the editor's University of London thesis and was reprinted as a second edition in 1977.[^cinii-jaini] The manuscript is incomplete, and the photographs of it were also incomplete.[^jaini1977]
@@ -36,3 +48,6 @@ Little else about the digital texts is documented. The database records for the 
 [^gretil-adi383]: Göttingen State and University Library. (n.d.). *Abhidharmadīpa 1-383* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalamitra-abhidharmadIpa-1-383.xml
 [^dsbc94]: University of the West. (n.d.). *Abhidharmadīpaḥ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/94
 [^dsbc461]: University of the West. (n.d.). *अभिधर्मदीपः*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/461
+[^dsbc95]: University of the West. (n.d.). *Abhidharmadīpaṭīkā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/95
+[^gretil-comm]: Göttingen State and University Library. (n.d.). *Abhidharmadīpa with auto(?)entary Vibhāṣāprabhāvṛtti* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalamitra-abhidharmadIpa-comm.xml
+[^oeaw-jaini]: Austrian Academy of Sciences Library. (n.d.). *Abhidharmadīpa with Vibhāshāprabhāvṛitti / critically edited with notes and introduction by Padmanabh S. Jaini* [Library catalogue record]. Retrieved November 13, 2026, from https://oeaw.ac.at/resources/Record/990003173810504498

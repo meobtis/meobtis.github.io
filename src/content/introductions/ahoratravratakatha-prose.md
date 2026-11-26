@@ -2,12 +2,16 @@
 title: Ahorātravratakathā-prose
 refs:
   - gretil:sa_ahoratravratakathA-prose
+  - gretil:sa_ahoratravratakathA
 summary: A Sanskrit Buddhist prose narrative on the day-and-night vow (ahorātravrata), framed as the Buddha's answer to a request from the monk Subhūti.
 editions:
   - ref: gretil:sa_ahoratravratakathA-prose
     history: >-
       The text follows Ratna Handurukande's edition in *Three Sanskrit Texts on Caitya Worship* (Tokyo, 2000; Studia Philologica Buddhica, Monograph Series 16).[^handurukande2000] The GRETIL record credits Klaus Wille with data entry, Reinhold Grünendahl with initial conversion and Maximilian Mehner with TEI markup.[^gretil-ahoratra-prose]
-updated: 2026-11-13
+  - ref: gretil:sa_ahoratravratakathA
+    history: >-
+      The GRETIL text is based on Ratna Handurukande's edition in *Three Sanskrit Texts on Caitya Worship in Relation to the Ahorātravrata* (Studia Philologica Buddhica, Monograph Series 16; Tokyo, 2000). Klaus Wille keyed the text and contributed it to GRETIL; Reinhold Grünendahl made the initial conversion to legacy GRETIL formats, and Maximilian Mehner the TEI-conformant markup.[^gretil-ahoratra]
+updated: 2026-11-26
 ---
 
 The *Ahorātravratakathā* ("Story of the Day-and-Night Vow") is a short Sanskrit Buddhist narrative in prose, here distinguished as the prose version from a metrical one. It opens with homage to the *dharmadhātu* and a verse of salutation to the stūpa, and is set at Kapilavastu, where the monk Subhūti asks Vajradhara to request from the Buddha an exposition of the *ahorātravrata*, which he calls the best of vows; the Buddha then agrees and enters meditation before teaching.[^gretil-ahoratra-prose] No established English title was found.
@@ -18,3 +22,4 @@ Little appears to be documented about its authorship, date or place of compositi
 [^cinii]: CiNii Books. (n.d.). *Three Sanskrit texts on caitya worship: In relation to the Ahorātravrata* [Catalogue record]. National Institute of Informatics. Retrieved November 13, 2026, from https://ci.nii.ac.jp/ncid/BA50383073
 [^gretil-ahoratra-prose]: Göttingen State and University Library. (n.d.). *Ahorātravratakathā-prose* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ahoratravratakathA-prose.xml
 [^ngmcp]: Nepal-German Manuscript Cataloguing Project. (n.d.). *A 922-6(2) (Ahorātravratakathā)* [Manuscript record]. Universität Hamburg. Retrieved November 13, 2026, from https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_922-6%25282%2529_%2528Ahor%25C4%2581travratakath%25C4%2581%2529.html
+[^gretil-ahoratra]: Göttingen State and University Library. (n.d.). *Ahoratravratakathā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ahoratravratakathA.xml

@@ -2,12 +2,20 @@
 title: Sitātapatrā
 refs:
   - gretil:sa_sitAtapatrA
+  - dsbc:20
+  - dsbc:391
 summary: A Sanskrit dhāraṇī text of the protective goddess Sitātapatrā, "White Parasol", set in the Trāyastriṃśa heaven and consisting of a long mantra of protection (pratyaṅgirā) that issues from the Buddha's uṣṇīṣa.
 editions:
   - ref: gretil:sa_sitAtapatrA
     history: >-
       The GRETIL text is based on an edition by Ngawang Samten and Janardan Pandey in the Dhīḥ journal (vol. 33, Sarnath: Central Institute of Higher Tibetan Studies, 2002, pp. 145–154). It was keyed by members of the Digital Sanskrit Buddhist Canon Input Project and later normalised and converted to TEI by Reinhold Grünendahl and Maximilian Mehner.[^gretil-sitatapatra]
-updated: 2026-11-13
+  - ref: dsbc:20
+    history: >-
+      Romanised text keyed from the Sanskrit printed in the journal Dhīḥ, vol. 33, edited by Ngawang Samten and Janardan Pandey (Central Institute of Higher Tibetan Studies, Sarnath, 2002). It was input by DSBC staff in 2004, proof-read by Milan Shakya, and supplied by the Nagarjuna Institute of Exact Methods with sponsorship from the University of the West.[^dsbc20]
+  - ref: dsbc:391
+    history: >-
+      The Devanāgarī counterpart of the romanised text, with the same input date (2004), proof-reader and supplier. The record gives no separate bibliographic details of its own.[^dsbc391]
+updated: 2026-11-26
 ---
 
 *Sitātapatrā* is a short Sanskrit text in the dhāraṇī genre. It opens with the usual "Thus have I heard" and places the Buddha in the Trāyastriṃśa heaven, in the assembly hall of the gods, where he enters a concentration called *uṣṇīṣāvalokita*; from the middle of his uṣṇīṣa the words of a mantra then issue forth.[^gretil-sitatapatra]
@@ -21,3 +29,5 @@ Little further is documented here about the particular recension of this edition
 [^gretil-sitatapatra]: Göttingen State and University Library. (n.d.). *Sitātapatrā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sitAtapatrA.xml
 [^watt2020]: Watt, J. (2020). *Buddhist deity: Sitatapatra main page*. Himalayan Art Resources. Retrieved November 13, 2026, from https://www.himalayanart.org/search/set.cfm?setID=354
 [^84000toh591]: Samye Translations (Trans.). (n.d.). *The supreme accomplishment of invincible averting, Sitātapatrā born from the uṣṇīṣa of the Tathāgata* (Toh 591). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh591.html
+[^dsbc20]: University of the West. (n.d.). *Sitātapatrā dhāraṇī*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/20
+[^dsbc391]: University of the West. (n.d.). *सितातपत्राधारणी*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/391

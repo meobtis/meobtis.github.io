@@ -27,7 +27,6 @@
 						"note": "The Catuḥśatikā, followed by the Hastavālaprakaraṇa, whose authorship is disputed between Āryadeva and Dignāga.",
 						"works": [
 							{ "ref": "gretil:sa_Aryadeva-catuHzatikA" },
-							{ "ref": "dsbc:238" },
 							{ "ref": "gretil:sa_hastavAlaprakaraNavRtti" }
 						]
 					},
@@ -41,7 +40,6 @@
 						"note": "The Prasannapadā is a commentary on Nāgārjuna's root verses and is best read with them; the Madhyamakāvatāra then presents the same view as part of the bodhisattva path.",
 						"works": [
 							{ "ref": "gretil:sa_candrakIrti-prasannapada" },
-							{ "ref": "dsbc:887" },
 							{ "ref": "gretil:sa_madhyamakAvatAra-1-5" }
 						]
 					},

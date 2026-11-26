@@ -33,6 +33,38 @@ export const MERGE = [
 	['gretil:sa_nAgArjuna-vigrahavyAvartanI', 'gretil:sa_nAgArjuna-vigrahavyAvartanIkArikA', 'bdrc:P98A58F6F', 'bdrc:P4464A6F8', 'bdrc:P5BD5FA4B'], // Vigrahavyāvartanī (kārikā and vṛtti)
 	['gretil:sa_nAgArjuna-yuktiSaSTikakArikA', 'dsbc:255', 'dsbc:540', 'bdrc:P0653D4E8'], // Yuktiṣaṣṭikākārikā
 	['iriab:catuhstotravivarana-fols-1v-5v', 'iriab:catuhstotravivarana-part-xxvi'], // Catuḥstotravivaraṇa
+	// Editions of the same text packaged differently (with commentary, kārikā only, fragments, manuscripts)
+	['gretil:sa_vimalamitra-abhidharmadIpa', 'gretil:sa_vimalamitra-abhidharmadIpa-1-383', 'dsbc:94', 'dsbc:461', 'bdrc:P0EB5A807', 'bdrc:PB14494EF', 'gretil:sa_vimalamitra-abhidharmadIpa-comm', 'dsbc:95', 'dsbc:462', 'bdrc:P1B296122', 'bdrc:P2C4DE236'], // Abhidharmadīpa
+	['gretil:sa_vasubandhu-abhidharmakoza', 'bdrc:P954ECCAF', 'gretil:sa_vasubandhu-abhidharmakozabhASya', 'bdrc:P59CC15AD', 'bdrc:P046BC64C', 'bdrc:P46FA5001', 'dsbc:96', 'dsbc:460'], // Abhidharmakośa
+	['gretil:sa_zAntideva-bodhicaryAvatAra', 'gretil:sa_zAntideva-bodhicaryAvatAra-alt', 'dsbc:258', 'dsbc:552', 'bdrc:P244D5F57', 'bdrc:PB997E889', 'bdrc:PF0E2ADC8', 'bdrc:I1187C7C4-iast', 'bdrc:I1187C7C4', 'bdrc:P0066CC81', 'bdrc:P414BEB44', 'bdrc:PA6676F62-iast', 'bdrc:PA6676F62'], // Bodhicaryāvatāra
+	['gretil:sa_asaGga-mahAyAnasUtrAlaMkAra', 'gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-alt', 'dsbc:332', 'dsbc:333', 'dsbc:572', 'dsbc:573', 'bdrc:P135698C4', 'bdrc:P9808EA80', 'bdrc:PA55D5512', 'bdrc:PADF677B3', 'gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-comm'], // Mahāyānasūtrālaṃkāra
+	['gretil:sa_vasubandhu-triMzikAvijJaptikArikA', 'dsbc:337', 'dsbc:563', 'bdrc:P5BE54056', 'bdrc:P3AA43AE4', 'bdrc:PBD202F4D', 'gretil:sa_vasubandhu-triMzikAvijJaptikArikA-comm', 'bdrc:P90C4A964'], // Triṃśikāvijñaptikārikā
+	['gretil:sa_dharmakIrti-nyAyabindu', 'bdrc:PBC16A862', 'dsbc:294', 'dsbc:513', 'bdrc:PB4FBD6C9', 'bdrc:PE645854C', 'gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm', 'bdrc:PE6C8C44B'], // Nyāyabindu
+	['bdrc:P19D13FC9', 'bdrc:P01118D5D'], // Sāṃkhyakārikā
+	['gretil:sa_AlambanaparIkSA', 'dsbc:283', 'dsbc:501', 'gretil:sa_AlambanaparIkSA-comm', 'bdrc:PB7271BD1', 'dsbc:284', 'dsbc:502', 'bdrc:P6706F664'], // Ālambanaparīkṣā
+	['dsbc:238', 'dsbc:546', 'gretil:sa_hastavAlaprakaraNavRtti', 'dsbc:239', 'dsbc:547'], // Hastavālaprakaraṇa
+	['gretil:sa_pramANavArttika', 'dsbc:298', 'dsbc:514', 'bdrc:P18524656', 'bdrc:PB59065EA', 'gretil:sa_dharmakIrti-pramANavArttikakArikA', 'bdrc:P4C58E54A'], // Pramāṇavārttika
+	['gretil:sa_madhyamakAvatAra-1-5', 'dsbc:243', 'dsbc:852', 'dsbc:537', 'dsbc:853', 'bdrc:P4085FE01', 'bdrc:P78188E74', 'bdrc:PCF2F5F50', 'bdrc:P7DB27B29-iast', 'bdrc:P7DB27B29', 'dsbc:887', 'dsbc:888'], // Madhyamakāvatāra
+	['iriab:karmavibhanga-cambridge-excerpts', 'iriab:karmavibhanga-ms-b-notebook-ix', 'iriab:karmavibhanga-ms-b-first-folios-ix', 'iriab:karmavibhanga-schoyen-fragments', 'iriab:karmavibhanga-ms-e-part-ix', 'iriab:karmavibhanga-ms-e-part-x'], // Karmavibhaṅga
+	['gretil:sa_mahAkarmavibhaGga', 'iriab:mahakarmavibhanga-part-vi', 'iriab:mahakarmavibhanga-part-II', 'iriab:mahakarmavibhanga-part-III', 'iriab:mahakarmavibhanga-part-IV', 'iriab:mahakarmavibhanga-part-V'], // Mahākarmavibhaṅga
+	['gretil:sa_saddharmapuNDarIkasUtra', 'dsbc:54', 'dsbc:441', 'iriab:gilgit-saddharmapundarika-or11878bg', 'iriab:saddharmapundarika-mannerheim-fragment', 'iriab:saddharmapundarikasutra-sackler-fragment-1', 'bdrc:P85CAE8AD', 'bdrc:P6054AA51', 'iriab:karashima-trilingual-lotus-sutra-part-vii', 'iriab:karashima-trilingual-lotus-sutra-part-viii', 'iriab:karashima-trilingual-lotus-sutra-part-ix', 'iriab:saddharmapundarika-petrovsky-si-p-68', 'iriab:saddharmapundarika-petrovsky-si-p-67-2', 'iriab:saddharmapundarika-british-library-fragments-wille', 'iriab:karashima-trilingual-lotus-sutra-part-vi'], // Saddharmapuṇḍarīkasūtra
+	['gretil:sa_saMghATasUtra', 'gretil:sa_saMghATasUtra-alt', 'dsbc:31', 'dsbc:418', 'bdrc:PCFF0E4D8', 'iriab:samghatasutra-group-c', 'iriab:samghatasutra-group-f'], // Saṃghāṭasūtra
+	['gretil:sa_aSTasAhasrikA-prajJApAramitA', 'dsbc:68', 'dsbc:397', 'bdrc:P7EA81115', 'bdrc:P329666C5', 'iriab:astasahasrika-missing-portion'], // Aṣṭasāhasrikā prajñāpāramitā
+	['gretil:sa_paJcaviMzatisAhasrikA-prajJApAramitA', 'gretil:sa_paJcaviMzatisAhasrikA-prajJApAramitA1', 'gretil:sa_paJcaviMzatisAhasrikA-prajJApAramitA1-8', 'iriab:mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments'], // Pañcaviṃśatisāhasrikā Prajñāpāramitā
+	['gretil:sa_ratnaguNasaMcayagAthA', 'dsbc:72', 'dsbc:402', 'bdrc:PB2B2CB2B', 'iriab:prajnaparamitaratnagunasamcayagatha-turfan-blockprint'], // Ratnaguṇasaṃcayagāthā
+	['gretil:sa_avadAnazataka', 'dsbc:361-iast', 'dsbc:361', 'iriab:avadanasataka-supriya-gilgit-fe3281'], // Avadānaśataka
+	['gretil:sa_sumAgadhAvadAna', 'iriab:sumagadhavadana-gilgit-xx', 'iriab:sumagadha-avadana-gilgit-ms-a'], // Sumāgadhāvadāna
+	['gretil:sa_ahoratravratakathA', 'gretil:sa_ahoratravratakathA-prose'], // Ahoratravratakathā
+	['gretil:sa_haribhaTTa-jAtakamAlA1-8--11-12--19-20--22--24--26--32--35', 'iriab:jatakamala-haribhatta-gilgit-fragment'], // Jātakamālā (Haribhaṭṭa)
+	['iriab:sarvarthasiddhajataka', 'iriab:sakyasimhajataka-straube-xxi'], // Sarvārthasiddhajātaka
+	['gretil:sa_kSaNabhaGgasiddhi', 'dsbc:292', 'dsbc:505', 'bdrc:PE9E096E9', 'gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA', 'gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt', 'dsbc:293', 'dsbc:506', 'bdrc:PBB50F23D', 'bdrc:PBBA685D6'], // Kṣaṇabhaṅgasiddhi
+	['gretil:sa_dharmakIrti-subandhaparIkSA-1-25', 'dsbc:919', 'dsbc:918', 'bdrc:P7170188A'], // Sambandhaparīkṣā
+	['gretil:sa_sitAtapatrA', 'dsbc:20', 'dsbc:391', 'bdrc:PA8ABFAA0'], // Sitātapatrā
+	['gretil:sa_prAtimokSasUtra-of-the-mahAsAMghikas', 'iriab:pratimoksasutra-mahasamghika-fragments-part-xi', 'iriab:pratimoksasutra-mahasamghika-fragments-part-xvi', 'dsbc:90', 'dsbc:453', 'bdrc:PADCF4F6D', 'gretil:sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika'], // Prātimokṣasūtra of the Mahāsāṃghikas
+	['dsbc:232', 'dsbc:481', 'bdrc:P4C667BBD', 'bdrc:PA7706902'], // Mahāvyutpatti
+	['gretil:sa_tarkarahasya', 'sarit:tarkarahasya', 'bdrc:P0ECE60D7', 'gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya', 'bdrc:PA99912AF'], // Tarkarahasya
+	['gretil:sa_suvikrAntavikrAmiparipRcchA', 'dsbc:74', 'dsbc:405'], // Suvikrāntavikrāmiparipṛcchā
+	['gretil:sa_abhisamayAlaMkAra', 'bdrc:P2EE03CD4', 'gretil:sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra'], // Abhisamayālaṃkāra
 	// Duplicates found by comparing titles across the whole catalogue
 	['gretil:sa_asaGga-abhidharmasamuccaya', 'bdrc:PA7F751C2'], // Abhidharmasamuccaya
 	['gretil:sa_aparimitAyuHsUtra', 'dsbc:24', 'dsbc:409', 'bdrc:P24B2B44D'], // Aparimitāyuḥsūtra
@@ -425,6 +457,14 @@ export const CATEGORY_OVERRIDES = {
 
 /** Display title for an edition's work. */
 export const TITLE_OVERRIDES = {
+	'gretil:sa_vimalamitra-abhidharmadIpa': 'Abhidharmadīpa',
+	'gretil:sa_vasubandhu-abhidharmakozabhASya': 'Abhidharmakośa',
+	'gretil:sa_hastavAlaprakaraNavRtti': 'Hastavālaprakaraṇa',
+	'gretil:sa_dharmakIrti-pramANavArttikakArikA': 'Pramāṇavārttika',
+	'gretil:sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika': 'Prātimokṣasūtra of the Mahāsāṃghikas',
+	'gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya': 'Tarkarahasya',
+	'iriab:sakyasimhajataka-straube-xxi': 'Sarvārthasiddhajātaka',
+	'bdrc:P01118D5D': 'Sāṃkhyakārikā',
 	'gretil:sa_gopadatta-jAtakamAlA': 'Jātakamālā (Gopadatta)',
 	'gretil:sa_haribhaTTa-jAtakamAlA1-8--11-12--19-20--22--24--26--32--35': 'Jātakamālā (Haribhaṭṭa)',
 	'gretil:sa_mahAvastu-avAdana': 'Mahāvastu Avadāna',

@@ -4,6 +4,8 @@ englishTitle: Drop of Reasoning
 refs:
   - dsbc:294
   - dsbc:513
+  - gretil:sa_dharmakIrti-nyAyabindu
+  - gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm
 summary: A Sanskrit text of the Nyāyabindu, Dharmakīrti's short Buddhist treatise on perception and inference, given in three chapters, as digitised from a 1994 Bauddha Bharati edition.
 editions:
   - ref: dsbc:294
@@ -12,7 +14,13 @@ editions:
   - ref: dsbc:513
     history: >-
       The Devanagari counterpart of the same Digital Sanskrit Buddhist Canon text, in a different script.[^dsbc513]
-updated: 2026-11-13
+  - ref: gretil:sa_dharmakIrti-nyAyabindu
+    history: >-
+      The GRETIL text is keyed from D. Malvania's Patna edition (second edition, 1971) of Dharmakīrti's *Nyāyabindu* with Dharmottara's commentary in the abridged form of Durvekamiśra's *Dharmottarapradīpa*. Motoi Ono entered the data (the explanatory remarks in the file are dated August 1997), Reinhold Grünendahl normalised it, and Maximilian Mehner converted it to TEI markup on 31 July 2020.[^gretil-nyayabindu]
+  - ref: gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm
+    history: >-
+      The text follows Swami Dwarikadas Shastri's edition of the Nyāyabindu with the commentaries of Vinītadeva and Dharmottara (Varanasi, 1994, Bauddha Bhārati Series 18). It was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner.[^gretil-nyayabindu]
+updated: 2026-11-26
 ---
 
 The *Nyāyabindu* ("Drop of Reasoning") is a short treatise by the Buddhist epistemologist Dharmakīrti. In Erich Frauwallner's proposed order of Dharmakīrti's works, as summarised in the Stanford Encyclopedia of Philosophy, it follows the *Pramāṇavārttika* and *Pramāṇaviniścaya* and precedes the *Hetubindu* and the *Vādanyāya*.[^tillemans2011] The encyclopedia also notes that T. Stcherbatsky's study and translation, *Buddhist Logic* (1930/32), shaped the Western reception of this tradition.[^tillemans2011]
@@ -24,3 +32,4 @@ Little further reliable information about this particular edition, its transmiss
 [^tillemans2011]: Tillemans, T. (2011, revised 2026). Dharmakīrti. *Stanford Encyclopedia of Philosophy*. Retrieved November 13, 2026, from https://plato.stanford.edu/entries/dharmakiirti/
 [^dsbc294]: University of the West. (n.d.). *Nyāyabindu prakaraṇakārikā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/294
 [^dsbc513]: University of the West. (n.d.). *न्यायबिन्दुप्रकरणकारिका*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/513
+[^gretil-nyayabindu]: Göttingen State and University Library. (n.d.). *Nyāyabindu* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabindu.xml

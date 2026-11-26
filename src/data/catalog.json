@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-25T20:36:36.531Z",
+	"generated": "2026-11-26T03:10:02.319Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -14,7 +14,7 @@
 			"skipped": 415,
 			"url": "https://github.com/meobtis/gretil",
 			"editions": 351,
-			"works": 313
+			"works": 301
 		},
 		{
 			"id": "dsbc",
@@ -28,7 +28,7 @@
 			"termsUrl": "https://www.dsbcproject.org/pages/usage-policy",
 			"url": "https://github.com/meobtis/dsbc",
 			"editions": 912,
-			"works": 450
+			"works": 445
 		},
 		{
 			"id": "sarit",
@@ -85,7 +85,7 @@
 			"termsUrl": "https://github.com/meobtis/iriab",
 			"url": "https://github.com/meobtis/iriab",
 			"editions": 122,
-			"works": 91
+			"works": 76
 		},
 		{
 			"id": "bdrc",
@@ -99,7 +99,7 @@
 			"termsUrl": "https://www.bdrc.io",
 			"url": "https://github.com/meobtis/bdrc",
 			"editions": 636,
-			"works": 277
+			"works": 265
 		},
 		{
 			"id": "schoyen",
@@ -126,37 +126,37 @@
 					"id": "agama",
 					"label": "Āgama",
 					"description": "Early discourses from the Āgama collections.",
-					"count": 28
+					"count": 22
 				},
 				{
 					"id": "mahayana-sutra",
 					"label": "Mahāyāna sūtras",
 					"description": "Mahāyāna sūtras other than the Prajñāpāramitā.",
-					"count": 71
+					"count": 61
 				},
 				{
 					"id": "prajnaparamita",
 					"label": "Prajñāpāramitā",
 					"description": "The Perfection of Wisdom sūtras.",
-					"count": 22
+					"count": 19
 				},
 				{
 					"id": "dharani",
 					"label": "Dhāraṇī",
 					"description": "Dhāraṇī and protective (rakṣā) texts.",
-					"count": 33
+					"count": 32
 				},
 				{
 					"id": "avadana",
 					"label": "Avadāna",
 					"description": "Edifying narratives of deeds and their fruits, including later Nepalese avadānas and vrata stories.",
-					"count": 39
+					"count": 36
 				},
 				{
 					"id": "jataka",
 					"label": "Jātaka",
 					"description": "Stories of the Buddha’s previous lives.",
-					"count": 6
+					"count": 4
 				},
 				{
 					"id": "buddha-life",
@@ -165,7 +165,7 @@
 					"count": 0
 				}
 			],
-			"count": 199
+			"count": 174
 		},
 		{
 			"id": "vinaya",
@@ -176,7 +176,7 @@
 					"id": "pratimoksa",
 					"label": "Prātimokṣa and karmavācanā",
 					"description": "Codes of monastic rules and the formulas for monastic procedures.",
-					"count": 9
+					"count": 7
 				},
 				{
 					"id": "vinayavastu",
@@ -191,7 +191,7 @@
 					"count": 15
 				}
 			],
-			"count": 42
+			"count": 40
 		},
 		{
 			"id": "sastra",
@@ -202,37 +202,37 @@
 					"id": "abhidharma",
 					"label": "Abhidharma",
 					"description": "Abhidharma treatises, including the Abhidharmakośa and its commentaries.",
-					"count": 24
+					"count": 20
 				},
 				{
 					"id": "madhyamaka",
 					"label": "Madhyamaka",
 					"description": "Works of the Middle Way school.",
-					"count": 33
+					"count": 31
 				},
 				{
 					"id": "yogacara",
 					"label": "Yogācāra",
 					"description": "Works of the Yogācāra (Vijñānavāda) school.",
-					"count": 30
+					"count": 27
 				},
 				{
 					"id": "madhyamaka-yogacara",
 					"label": "Madhyamaka–Yogācāra",
 					"description": "Works synthesising Madhyamaka and Yogācāra, and treatises on the bodhisattva path.",
-					"count": 21
+					"count": 20
 				},
 				{
 					"id": "pramana",
 					"label": "Pramāṇa",
 					"description": "Epistemology and logic (pramāṇa, hetuvidyā).",
-					"count": 65
+					"count": 58
 				},
 				{
 					"id": "prajnaparamita-sastra",
 					"label": "Prajñāpāramitā commentaries",
 					"description": "Commentaries on the Perfection of Wisdom, including the Abhisamayālaṅkāra literature.",
-					"count": 14
+					"count": 13
 				},
 				{
 					"id": "lekha",
@@ -244,10 +244,10 @@
 					"id": "sastra-other",
 					"label": "Other treatises",
 					"description": "Treatises that do not fit the categories above.",
-					"count": 3
+					"count": 2
 				}
 			],
-			"count": 208
+			"count": 189
 		},
 		{
 			"id": "tantra",
@@ -530,6 +530,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalamitra-abhidharmadIpa.xml"
 				},
 				{
+					"ref": "gretil:sa_vimalamitra-abhidharmadIpa-comm",
+					"source": "gretil",
+					"sourceId": "sa_vimalamitra-abhidharmadIpa-comm",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Abhidharmadīpa with autoentary Vibhāṣāprabhāvṛtti",
+					"slug": "gretil/sa_vimalamitra-abhidharmadIpa-comm",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/Abhidharmad%C4%ABpa%20with%20auto(_)entary%20Vibh%C4%81%E1%B9%A3%C4%81prabh%C4%81v%E1%B9%9Btti.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/Abhidharmad%C4%ABpa%20with%20auto(_)entary%20Vibh%C4%81%E1%B9%A3%C4%81prabh%C4%81v%E1%B9%9Btti.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalamitra-abhidharmadIpa-comm.xml"
+				},
+				{
 					"ref": "gretil:sa_vimalamitra-abhidharmadIpa-1-383",
 					"source": "gretil",
 					"sourceId": "sa_vimalamitra-abhidharmadIpa-1-383",
@@ -554,6 +566,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/94"
 				},
 				{
+					"ref": "dsbc:95",
+					"source": "dsbc",
+					"sourceId": "95",
+					"label": "DSBC 2",
+					"script": "iast",
+					"title": "Abhidharmadīpaṭīkā",
+					"slug": "dsbc/95",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmad%C4%ABpa%E1%B9%AD%C4%ABk%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmad%C4%ABpa%E1%B9%AD%C4%ABk%C4%81.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/95"
+				},
+				{
 					"ref": "dsbc:461",
 					"source": "dsbc",
 					"sourceId": "461",
@@ -566,6 +590,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/461"
 				},
 				{
+					"ref": "dsbc:462",
+					"source": "dsbc",
+					"sourceId": "462",
+					"label": "DSBC देवनागरी 2",
+					"script": "deva",
+					"title": "अभिधर्मदीपटीका विभासाप्रभावृत्ति",
+					"slug": "dsbc/462",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE%20%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE%20%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/462"
+				},
+				{
 					"ref": "bdrc:P0EB5A807",
 					"source": "bdrc",
 					"sourceId": "P0EB5A807",
@@ -576,62 +612,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0EB5A807.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0EB5A807.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0EB5A807"
-				},
-				{
-					"ref": "bdrc:PB14494EF",
-					"source": "bdrc",
-					"sourceId": "PB14494EF",
-					"label": "BDRC (via GRETIL)",
-					"script": "iast",
-					"title": "Abhidharmadīpa",
-					"slug": "bdrc/PB14494EF",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB14494EF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB14494EF.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PB14494EF"
-				}
-			]
-		},
-		{
-			"title": "Abhidharmadīpa with Vibhāṣāprabhāvṛtti",
-			"titleDeva": "अभिधर्मदीपटीका विभासाप्रभावृत्ति",
-			"author": "Vimalamitra",
-			"category": "sastra/abhidharma",
-			"editions": [
-				{
-					"ref": "gretil:sa_vimalamitra-abhidharmadIpa-comm",
-					"source": "gretil",
-					"sourceId": "sa_vimalamitra-abhidharmadIpa-comm",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Abhidharmadīpa with autoentary Vibhāṣāprabhāvṛtti",
-					"slug": "gretil/sa_vimalamitra-abhidharmadIpa-comm",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/Abhidharmad%C4%ABpa%20with%20auto(_)entary%20Vibh%C4%81%E1%B9%A3%C4%81prabh%C4%81v%E1%B9%9Btti.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/Abhidharmad%C4%ABpa%20with%20auto(_)entary%20Vibh%C4%81%E1%B9%A3%C4%81prabh%C4%81v%E1%B9%9Btti.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vimalamitra-abhidharmadIpa-comm.xml"
-				},
-				{
-					"ref": "dsbc:95",
-					"source": "dsbc",
-					"sourceId": "95",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Abhidharmadīpaṭīkā",
-					"slug": "dsbc/95",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmad%C4%ABpa%E1%B9%AD%C4%ABk%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmad%C4%ABpa%E1%B9%AD%C4%ABk%C4%81.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/95"
-				},
-				{
-					"ref": "dsbc:462",
-					"source": "dsbc",
-					"sourceId": "462",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "अभिधर्मदीपटीका विभासाप्रभावृत्ति",
-					"slug": "dsbc/462",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE%20%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%A6%E0%A5%80%E0%A4%AA%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE%20%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B5%E0%A5%83%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/462"
 				},
 				{
 					"ref": "bdrc:P1B296122",
@@ -656,42 +636,24 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2C4DE236.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2C4DE236.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P2C4DE236"
+				},
+				{
+					"ref": "bdrc:PB14494EF",
+					"source": "bdrc",
+					"sourceId": "PB14494EF",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Abhidharmadīpa",
+					"slug": "bdrc/PB14494EF",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB14494EF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB14494EF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PB14494EF"
 				}
 			]
 		},
 		{
 			"title": "Abhidharmakośa",
-			"author": "Vasubandhu",
-			"category": "sastra/abhidharma",
-			"editions": [
-				{
-					"ref": "gretil:sa_vasubandhu-abhidharmakoza",
-					"source": "gretil",
-					"sourceId": "sa_vasubandhu-abhidharmakoza",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Abhidharmakośa",
-					"slug": "gretil/sa_vasubandhu-abhidharmakoza",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Ba.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Ba.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-abhidharmakoza.xml"
-				},
-				{
-					"ref": "bdrc:P954ECCAF",
-					"source": "bdrc",
-					"sourceId": "P954ECCAF",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Abhidharmakośa",
-					"slug": "bdrc/P954ECCAF",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P954ECCAF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P954ECCAF.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P954ECCAF"
-				}
-			]
-		},
-		{
-			"title": "Abhidharmakośabhāṣya",
+			"titleDeva": "अभिधर्मकोशकारिका",
 			"author": "Vasubandhu",
 			"category": "sastra/abhidharma",
 			"editions": [
@@ -706,6 +668,42 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Babh%C4%81%E1%B9%A3ya.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Babh%C4%81%E1%B9%A3ya.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-abhidharmakozabhASya.xml"
+				},
+				{
+					"ref": "gretil:sa_vasubandhu-abhidharmakoza",
+					"source": "gretil",
+					"sourceId": "sa_vasubandhu-abhidharmakoza",
+					"label": "GRETIL (Karikas only)",
+					"script": "iast",
+					"title": "Abhidharmakośa",
+					"slug": "gretil/sa_vasubandhu-abhidharmakoza",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Ba.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/Abhidharmako%C5%9Ba.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-abhidharmakoza.xml"
+				},
+				{
+					"ref": "dsbc:96",
+					"source": "dsbc",
+					"sourceId": "96",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Abhidharmakoṣakārikā",
+					"slug": "dsbc/96",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%E1%B9%A3ak%C4%81rik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%E1%B9%A3ak%C4%81rik%C4%81.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/96"
+				},
+				{
+					"ref": "dsbc:460",
+					"source": "dsbc",
+					"sourceId": "460",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "अभिधर्मकोशकारिका",
+					"slug": "dsbc/460",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/460"
 				},
 				{
 					"ref": "bdrc:P59CC15AD",
@@ -742,37 +740,18 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P46FA5001.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P46FA5001.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P46FA5001"
-				}
-			]
-		},
-		{
-			"title": "Abhidharmakoṣakārikā",
-			"titleDeva": "अभिधर्मकोशकारिका",
-			"category": "sastra/abhidharma",
-			"editions": [
-				{
-					"ref": "dsbc:96",
-					"source": "dsbc",
-					"sourceId": "96",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Abhidharmakoṣakārikā",
-					"slug": "dsbc/96",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%E1%B9%A3ak%C4%81rik%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/abhidharma/Abhidharmako%E1%B9%A3ak%C4%81rik%C4%81.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/96"
 				},
 				{
-					"ref": "dsbc:460",
-					"source": "dsbc",
-					"sourceId": "460",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "अभिधर्मकोशकारिका",
-					"slug": "dsbc/460",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B%E0%A4%B6%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/460"
+					"ref": "bdrc:P954ECCAF",
+					"source": "bdrc",
+					"sourceId": "P954ECCAF",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Abhidharmakośa",
+					"slug": "bdrc/P954ECCAF",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P954ECCAF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P954ECCAF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P954ECCAF"
 				}
 			]
 		},
@@ -1194,6 +1173,7 @@
 		},
 		{
 			"title": "Abhisamayālaṃkāra",
+			"author": "Maitreyanātha",
 			"category": "sastra/prajnaparamita-sastra",
 			"editions": [
 				{
@@ -1209,6 +1189,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_abhisamayAlaMkAra.xml"
 				},
 				{
+					"ref": "gretil:sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
+					"source": "gretil",
+					"sourceId": "sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Abhisamayālaṃkaranāmaprajñāpāramitopadeśaśāstra",
+					"slug": "gretil/sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/a/Abhisamay%C4%81la%E1%B9%83karan%C4%81mapraj%C3%B1%C4%81p%C4%81ramitopade%C5%9Ba%C5%9B%C4%81stra.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/a/Abhisamay%C4%81la%E1%B9%83karan%C4%81mapraj%C3%B1%C4%81p%C4%81ramitopade%C5%9Ba%C5%9B%C4%81stra.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra.xml"
+				},
+				{
 					"ref": "bdrc:P2EE03CD4",
 					"source": "bdrc",
 					"sourceId": "P2EE03CD4",
@@ -1219,25 +1211,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P2EE03CD4.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P2EE03CD4.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P2EE03CD4"
-				}
-			]
-		},
-		{
-			"title": "Abhisamayālaṃkaranāmaprajñāpāramitopadeśaśāstra",
-			"author": "Maitreyanātha",
-			"category": "sastra/prajnaparamita-sastra",
-			"editions": [
-				{
-					"ref": "gretil:sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
-					"source": "gretil",
-					"sourceId": "sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Abhisamayālaṃkaranāmaprajñāpāramitopadeśaśāstra",
-					"slug": "gretil/sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/a/Abhisamay%C4%81la%E1%B9%83karan%C4%81mapraj%C3%B1%C4%81p%C4%81ramitopade%C5%9Ba%C5%9B%C4%81stra.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/a/Abhisamay%C4%81la%E1%B9%83karan%C4%81mapraj%C3%B1%C4%81p%C4%81ramitopade%C5%9Ba%C5%9B%C4%81stra.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra.xml"
 				}
 			]
 		},
@@ -2089,18 +2062,12 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/a/Ahoratravratakath%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/a/Ahoratravratakath%C4%81.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ahoratravratakathA.xml"
-				}
-			]
-		},
-		{
-			"title": "Ahoratravratakathā-prose",
-			"category": "sutra/avadana",
-			"editions": [
+				},
 				{
 					"ref": "gretil:sa_ahoratravratakathA-prose",
 					"source": "gretil",
 					"sourceId": "sa_ahoratravratakathA-prose",
-					"label": "GRETIL",
+					"label": "GRETIL 2",
 					"script": "iast",
 					"title": "Ahoratravratakathā-prose",
 					"slug": "gretil/sa_ahoratravratakathA-prose",
@@ -2258,6 +2225,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AlambanaparIkSA.xml"
 				},
 				{
+					"ref": "gretil:sa_AlambanaparIkSA-comm",
+					"source": "gretil",
+					"sourceId": "sa_AlambanaparIkSA-comm",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti",
+					"slug": "gretil/sa_AlambanaparIkSA-comm",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81%20with%20%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81%20with%20%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AlambanaparIkSA-comm.xml"
+				},
+				{
 					"ref": "dsbc:283",
 					"source": "dsbc",
 					"sourceId": "283",
@@ -2270,6 +2249,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/283"
 				},
 				{
+					"ref": "dsbc:284",
+					"source": "dsbc",
+					"sourceId": "284",
+					"label": "DSBC 2",
+					"script": "iast",
+					"title": "Ālambanaparīkṣāvṛttiḥ",
+					"slug": "dsbc/284",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti%E1%B8%A5.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti%E1%B8%A5.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/284"
+				},
+				{
 					"ref": "dsbc:501",
 					"source": "dsbc",
 					"sourceId": "501",
@@ -2280,61 +2271,12 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%86%E0%A4%B2%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%86%E0%A4%B2%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/501"
-				}
-			]
-		},
-		{
-			"title": "Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti",
-			"category": "sastra/yogacara",
-			"editions": [
-				{
-					"ref": "gretil:sa_AlambanaparIkSA-comm",
-					"source": "gretil",
-					"sourceId": "sa_AlambanaparIkSA-comm",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti",
-					"slug": "gretil/sa_AlambanaparIkSA-comm",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81%20with%20%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81%20with%20%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AlambanaparIkSA-comm.xml"
-				},
-				{
-					"ref": "bdrc:PB7271BD1",
-					"source": "bdrc",
-					"sourceId": "PB7271BD1",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti",
-					"slug": "bdrc/PB7271BD1",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB7271BD1.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB7271BD1.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PB7271BD1"
-				}
-			]
-		},
-		{
-			"title": "Ālambanaparīkṣāvṛttiḥ",
-			"titleDeva": "आलम्बनपरीक्षावृत्तिः",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "dsbc:284",
-					"source": "dsbc",
-					"sourceId": "284",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Ālambanaparīkṣāvṛttiḥ",
-					"slug": "dsbc/284",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti%E1%B8%A5.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/%C4%80lambanapar%C4%ABk%E1%B9%A3%C4%81v%E1%B9%9Btti%E1%B8%A5.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/284"
 				},
 				{
 					"ref": "dsbc:502",
 					"source": "dsbc",
 					"sourceId": "502",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "आलम्बनपरीक्षावृत्तिः",
 					"slug": "dsbc/502",
@@ -2346,13 +2288,25 @@
 					"ref": "bdrc:P6706F664",
 					"source": "bdrc",
 					"sourceId": "P6706F664",
-					"label": "BDRC",
+					"label": "BDRC (via DSBC)",
 					"script": "iast",
 					"title": "Ālambanaparīkṣāvṛttiḥ",
 					"slug": "bdrc/P6706F664",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6706F664.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6706F664.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6706F664"
+				},
+				{
+					"ref": "bdrc:PB7271BD1",
+					"source": "bdrc",
+					"sourceId": "PB7271BD1",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti",
+					"slug": "bdrc/PB7271BD1",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PB7271BD1.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PB7271BD1.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PB7271BD1"
 				}
 			]
 		},
@@ -3143,6 +3097,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/397"
 				},
 				{
+					"ref": "iriab:astasahasrika-missing-portion",
+					"source": "iriab",
+					"sourceId": "astasahasrika-missing-portion",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Aṣṭasāhasrikā Prajñāpāramitā, the “missing” portion (Mitra 1887–88, p. 464/465 = Vaidya 1960, p. 229)",
+					"slug": "iriab/astasahasrika-missing-portion",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/astasahasrika-missing-portion.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/astasahasrika-missing-portion.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P7EA81115",
 					"source": "bdrc",
 					"sourceId": "P7EA81115",
@@ -3165,24 +3131,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P329666C5.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P329666C5.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P329666C5"
-				}
-			]
-		},
-		{
-			"title": "Aṣṭasāhasrikā Prajñāpāramitā, the “missing” portion",
-			"category": "sutra/prajnaparamita",
-			"editions": [
-				{
-					"ref": "iriab:astasahasrika-missing-portion",
-					"source": "iriab",
-					"sourceId": "astasahasrika-missing-portion",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Aṣṭasāhasrikā Prajñāpāramitā, the “missing” portion (Mitra 1887–88, p. 464/465 = Vaidya 1960, p. 229)",
-					"slug": "iriab/astasahasrika-missing-portion",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/astasahasrika-missing-portion.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/astasahasrika-missing-portion.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -3363,6 +3311,7 @@
 		{
 			"title": "Avadānaśataka",
 			"titleDeva": "अवदानशतकम्",
+			"author": "unknown (Avadānaśataka)",
 			"category": "sutra/avadana",
 			"editions": [
 				{
@@ -3402,14 +3351,7 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A4%A4%E0%A4%95%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8/%E0%A4%85%E0%A4%B5%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%B6%E0%A4%A4%E0%A4%95%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/361"
-				}
-			]
-		},
-		{
-			"title": "Avadānaśataka § 72 Supriyā",
-			"author": "unknown (Avadānaśataka)",
-			"category": "sutra/avadana",
-			"editions": [
+				},
 				{
 					"ref": "iriab:avadanasataka-supriya-gilgit-fe3281",
 					"source": "iriab",
@@ -5476,6 +5418,30 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P244D5F57"
 				},
 				{
+					"ref": "bdrc:P0066CC81",
+					"source": "bdrc",
+					"sourceId": "P0066CC81",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
+					"slug": "bdrc/P0066CC81",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0066CC81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0066CC81.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P0066CC81"
+				},
+				{
+					"ref": "bdrc:P414BEB44",
+					"source": "bdrc",
+					"sourceId": "P414BEB44",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
+					"slug": "bdrc/P414BEB44",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P414BEB44.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P414BEB44.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P414BEB44"
+				},
+				{
 					"ref": "bdrc:PB997E889",
 					"source": "bdrc",
 					"sourceId": "PB997E889",
@@ -5514,53 +5480,10 @@
 					"originalUrl": "https://github.com/Openpecha-Data/I1187C7C4"
 				},
 				{
-					"ref": "bdrc:I1187C7C4",
-					"source": "bdrc",
-					"sourceId": "I1187C7C4",
-					"label": "BDRC देवनागरी",
-					"script": "deva",
-					"title": "7E92",
-					"slug": "bdrc/I1187C7C4",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/I1187C7C4.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/I1187C7C4.md",
-					"originalUrl": "https://github.com/Openpecha-Data/I1187C7C4"
-				}
-			]
-		},
-		{
-			"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
-			"titleDeva": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
-			"category": "sastra/madhyamaka-yogacara",
-			"editions": [
-				{
-					"ref": "bdrc:P0066CC81",
-					"source": "bdrc",
-					"sourceId": "P0066CC81",
-					"label": "BDRC (via DSBC)",
-					"script": "iast",
-					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
-					"slug": "bdrc/P0066CC81",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0066CC81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0066CC81.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P0066CC81"
-				},
-				{
-					"ref": "bdrc:P414BEB44",
-					"source": "bdrc",
-					"sourceId": "P414BEB44",
-					"label": "BDRC (via DSBC)",
-					"script": "iast",
-					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
-					"slug": "bdrc/P414BEB44",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P414BEB44.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P414BEB44.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P414BEB44"
-				},
-				{
 					"ref": "bdrc:PA6676F62-iast",
 					"source": "bdrc",
 					"sourceId": "PA6676F62-iast",
-					"label": "BDRC (transliterated)",
+					"label": "BDRC (transliterated) (via DSBC)",
 					"script": "iast",
 					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
 					"transliterated": true,
@@ -5571,10 +5494,22 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PA6676F62"
 				},
 				{
+					"ref": "bdrc:I1187C7C4",
+					"source": "bdrc",
+					"sourceId": "I1187C7C4",
+					"label": "BDRC देवनागरी",
+					"script": "deva",
+					"title": "7E92",
+					"slug": "bdrc/I1187C7C4",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/I1187C7C4.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/I1187C7C4.md",
+					"originalUrl": "https://github.com/Openpecha-Data/I1187C7C4"
+				},
+				{
 					"ref": "bdrc:PA6676F62",
 					"source": "bdrc",
 					"sourceId": "PA6676F62",
-					"label": "BDRC देवनागरी",
+					"label": "BDRC देवनागरी (via DSBC)",
 					"script": "deva",
 					"title": "Bodhicaryāvatāra of Śāntideva with the Commentary Panjika of Prajnakaramati",
 					"slug": "bdrc/PA6676F62",
@@ -10136,25 +10071,6 @@
 			]
 		},
 		{
-			"title": "Haribhaṭṭa's Jātakamālā: fragment among the Gilgit manuscripts, stanzas 79–91",
-			"author": "Haribhaṭṭa",
-			"category": "sutra/jataka",
-			"editions": [
-				{
-					"ref": "iriab:jatakamala-haribhatta-gilgit-fragment",
-					"source": "iriab",
-					"sourceId": "jatakamala-haribhatta-gilgit-fragment",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Haribhaṭṭa's Jātakamālā (Siṃhajātaka, Jātakamālā 32): fragment among the Gilgit manuscripts, stanzas 79–91",
-					"slug": "iriab/jatakamala-haribhatta-gilgit-fragment",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Hārītīstotra",
 			"titleDeva": "हारीतीस्तोत्रम्",
 			"category": "stotra/stotra-deity",
@@ -10192,37 +10108,6 @@
 			"category": "sastra/madhyamaka",
 			"editions": [
 				{
-					"ref": "dsbc:238",
-					"source": "dsbc",
-					"sourceId": "238",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Hastavālaprakaraṇa",
-					"slug": "dsbc/238",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Hastav%C4%81laprakara%E1%B9%87a.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Hastav%C4%81laprakara%E1%B9%87a.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/238"
-				},
-				{
-					"ref": "dsbc:546",
-					"source": "dsbc",
-					"sourceId": "546",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "हस्तवालप्रकरण",
-					"slug": "dsbc/546",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%B0%E0%A4%A3.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%B0%E0%A4%A3.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/546"
-				}
-			]
-		},
-		{
-			"title": "Hastavālaprakaraṇavṛtti",
-			"titleDeva": "हस्तवालप्रकरणवृत्तिः",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
 					"ref": "gretil:sa_hastavAlaprakaraNavRtti",
 					"source": "gretil",
 					"sourceId": "sa_hastavAlaprakaraNavRtti",
@@ -10235,10 +10120,22 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_hastavAlaprakaraNavRtti.xml"
 				},
 				{
+					"ref": "dsbc:238",
+					"source": "dsbc",
+					"sourceId": "238",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Hastavālaprakaraṇa",
+					"slug": "dsbc/238",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Hastav%C4%81laprakara%E1%B9%87a.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Hastav%C4%81laprakara%E1%B9%87a.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/238"
+				},
+				{
 					"ref": "dsbc:239",
 					"source": "dsbc",
 					"sourceId": "239",
-					"label": "DSBC",
+					"label": "DSBC 2",
 					"script": "iast",
 					"title": "Hastavālaprakaraṇavṛttiḥ",
 					"slug": "dsbc/239",
@@ -10247,10 +10144,22 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/239"
 				},
 				{
+					"ref": "dsbc:546",
+					"source": "dsbc",
+					"sourceId": "546",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "हस्तवालप्रकरण",
+					"slug": "dsbc/546",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%B0%E0%A4%A3.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%B9%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%B0%E0%A4%A3.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/546"
+				},
+				{
 					"ref": "dsbc:547",
 					"source": "dsbc",
 					"sourceId": "547",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "हस्तवालप्रकरणवृत्तिः",
 					"slug": "dsbc/547",
@@ -10922,6 +10831,18 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/j/J%C4%81takam%C4%81l%C4%81%2C%201-8%2C%2011-12%2C%2019-20%2C%2022%2C%2024%2C%2026%2C%2032%2C%2035.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/j/J%C4%81takam%C4%81l%C4%81%2C%201-8%2C%2011-12%2C%2019-20%2C%2022%2C%2024%2C%2026%2C%2032%2C%2035.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_haribhaTTa-jAtakamAlA1-8--11-12--19-20--22--24--26--32--35.xml"
+				},
+				{
+					"ref": "iriab:jatakamala-haribhatta-gilgit-fragment",
+					"source": "iriab",
+					"sourceId": "jatakamala-haribhatta-gilgit-fragment",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Haribhaṭṭa's Jātakamālā (Siṃhajātaka, Jātakamālā 32): fragment among the Gilgit manuscripts, stanzas 79–91",
+					"slug": "iriab/jatakamala-haribhatta-gilgit-fragment",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/jatakamala-haribhatta-gilgit-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -11672,81 +11593,45 @@
 		},
 		{
 			"title": "Karmavibhaṅga",
+			"author": "Anonymous (Karmavibhaṅga)",
 			"category": "sutra/agama",
 			"editions": [
 				{
 					"ref": "iriab:karmavibhanga-cambridge-excerpts",
 					"source": "iriab",
 					"sourceId": "karmavibhanga-cambridge-excerpts",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (XXIII (2020), pp. 229–230)",
 					"script": "iast",
 					"title": "Karmavibhaṅga (Cambridge manuscript, two excerpts)",
 					"slug": "iriab/karmavibhanga-cambridge-excerpts",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-cambridge-excerpts.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-cambridge-excerpts.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Karmavibhaṅga, first three folios of Manuscript B",
-			"category": "sutra/agama",
-			"editions": [
+				},
 				{
 					"ref": "iriab:karmavibhanga-ms-b-first-folios-ix",
 					"source": "iriab",
 					"sourceId": "karmavibhanga-ms-b-first-folios-ix",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (IX (2006), pp. 35–42 (article 'The First Three Folios of Manuscript B of the Karmavibhaṅga', pp. 33–42))",
 					"script": "iast",
 					"title": "Karmavibhaṅga(sūtra), first three folios of Manuscript B",
 					"slug": "iriab/karmavibhanga-ms-b-first-folios-ix",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-b-first-folios-ix.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-b-first-folios-ix.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Karmavibhaṅga, Hemraj Sharman's notebook transcription of MS B",
-			"category": "sutra/agama",
-			"editions": [
+				},
 				{
 					"ref": "iriab:karmavibhanga-ms-b-notebook-ix",
 					"source": "iriab",
 					"sourceId": "karmavibhanga-ms-b-notebook-ix",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (IX (2006), pp. 298–300 (Brief Communication 'A notebook transcribing manuscript B of the Karmavibhaṅga formerly belonging to the private collection of Hemraj Sharman', pp. 297–300))",
 					"script": "iast",
 					"title": "Karmavibhaṅga, Hemraj Sharman's notebook transcription of MS B (romanized text of fourth folio, pp. 1 and 3 of the notebook)",
 					"slug": "iriab/karmavibhanga-ms-b-notebook-ix",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-b-notebook-ix.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-b-notebook-ix.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Karmavibhaṅga: Sanskrit fragments in the Schøyen Collection",
-			"author": "Anonymous (Karmavibhaṅga)",
-			"category": "sutra/agama",
-			"editions": [
-				{
-					"ref": "iriab:karmavibhanga-schoyen-fragments",
-					"source": "iriab",
-					"sourceId": "karmavibhanga-schoyen-fragments",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Karmavibhaṅga: Sanskrit fragments in the Schøyen Collection (SC 2382/49a, 176, 252, 255, 258a, uf1/1b, uf19/1b)",
-					"slug": "iriab/karmavibhanga-schoyen-fragments",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Karmavibhaṅgasūtra, Manuscript E",
-			"category": "sutra/agama",
-			"editions": [
+				},
 				{
 					"ref": "iriab:karmavibhanga-ms-e-part-ix",
 					"source": "iriab",
@@ -11769,6 +11654,18 @@
 					"slug": "iriab/karmavibhanga-ms-e-part-x",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-ms-e-part-x.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-ms-e-part-x.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karmavibhanga-schoyen-fragments",
+					"source": "iriab",
+					"sourceId": "karmavibhanga-schoyen-fragments",
+					"label": "ARIRIAB (XXI (2018), pp. 491–508 (article in Japanese; Sanskrit transliterations and reconstructed text on pp. 493–500))",
+					"script": "iast",
+					"title": "Karmavibhaṅga: Sanskrit fragments in the Schøyen Collection (SC 2382/49a, 176, 252, 255, 258a, uf1/1b, uf19/1b)",
+					"slug": "iriab/karmavibhanga-schoyen-fragments",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karmavibhanga-schoyen-fragments.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
@@ -12332,6 +12229,7 @@
 		{
 			"title": "Kṣaṇabhaṅgasiddhi",
 			"titleDeva": "क्षणभङ्गसिद्धिः",
+			"author": "Ratnakīrti",
 			"category": "sastra/pramana",
 			"editions": [
 				{
@@ -12347,6 +12245,30 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kSaNabhaGgasiddhi.xml"
 				},
 				{
+					"ref": "gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
+					"source": "gretil",
+					"sourceId": "sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Kṣaṇabhaṅgasiddhi vyatirekātmikā",
+					"slug": "gretil/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.xml"
+				},
+				{
+					"ref": "gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
+					"source": "gretil",
+					"sourceId": "sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
+					"label": "GRETIL 3",
+					"script": "iast",
+					"title": "Kṣaṇabhaṅgasiddhi vyatirekātmikā",
+					"slug": "gretil/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.xml"
+				},
+				{
 					"ref": "dsbc:292",
 					"source": "dsbc",
 					"sourceId": "292",
@@ -12357,6 +12279,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%E1%B8%A5.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%E1%B8%A5.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/292"
+				},
+				{
+					"ref": "dsbc:293",
+					"source": "dsbc",
+					"sourceId": "293",
+					"label": "DSBC 2",
+					"script": "iast",
+					"title": "Kṣaṇabhaṅgasidviḥ vyatirekātmikā",
+					"slug": "dsbc/293",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasidvi%E1%B8%A5%20vyatirek%C4%81tmik%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasidvi%E1%B8%A5%20vyatirek%C4%81tmik%C4%81.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/293"
 				},
 				{
 					"ref": "dsbc:505",
@@ -12371,66 +12305,10 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/505"
 				},
 				{
-					"ref": "bdrc:PE9E096E9",
-					"source": "bdrc",
-					"sourceId": "PE9E096E9",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Kṣaṇabhaṅgasiddhi",
-					"slug": "bdrc/PE9E096E9",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE9E096E9.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE9E096E9.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PE9E096E9"
-				}
-			]
-		},
-		{
-			"title": "Kṣaṇabhaṅgasiddhi vyatirekātmikā",
-			"titleDeva": "क्षणभङ्गसिद्धिः व्यतिरेकात्मिका",
-			"author": "Ratnakīrti",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
-					"source": "gretil",
-					"sourceId": "sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Kṣaṇabhaṅgasiddhi vyatirekātmikā",
-					"slug": "gretil/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA.xml"
-				},
-				{
-					"ref": "gretil:sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
-					"source": "gretil",
-					"sourceId": "sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
-					"label": "GRETIL 2",
-					"script": "iast",
-					"title": "Kṣaṇabhaṅgasiddhi vyatirekātmikā",
-					"slug": "gretil/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/k/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasiddhi%20vyatirek%C4%81tmik%C4%81_sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ratnakIrti-kSaNabhaGgasiddhi-vyatirekAtmikA-alt.xml"
-				},
-				{
-					"ref": "dsbc:293",
-					"source": "dsbc",
-					"sourceId": "293",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Kṣaṇabhaṅgasidviḥ vyatirekātmikā",
-					"slug": "dsbc/293",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasidvi%E1%B8%A5%20vyatirek%C4%81tmik%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/pram%C4%81%E1%B9%87a/K%E1%B9%A3a%E1%B9%87abha%E1%B9%85gasidvi%E1%B8%A5%20vyatirek%C4%81tmik%C4%81.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/293"
-				},
-				{
 					"ref": "dsbc:506",
 					"source": "dsbc",
 					"sourceId": "506",
-					"label": "DSBC देवनागरी",
+					"label": "DSBC देवनागरी 2",
 					"script": "deva",
 					"title": "क्षणभङ्गसिद्धिः व्यतिरेकात्मिका",
 					"slug": "dsbc/506",
@@ -12461,6 +12339,18 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBBA685D6.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBBA685D6.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PBBA685D6"
+				},
+				{
+					"ref": "bdrc:PE9E096E9",
+					"source": "bdrc",
+					"sourceId": "PE9E096E9",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Kṣaṇabhaṅgasiddhi",
+					"slug": "bdrc/PE9E096E9",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE9E096E9.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE9E096E9.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PE9E096E9"
 				}
 			]
 		},
@@ -13130,6 +13020,18 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/852"
 				},
 				{
+					"ref": "dsbc:887",
+					"source": "dsbc",
+					"sourceId": "887",
+					"label": "DSBC 3",
+					"script": "iast",
+					"title": "Madhyamakāvatārabhāṣya",
+					"slug": "dsbc/887",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rabh%C4%81%E1%B9%A3ya.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/887"
+				},
+				{
 					"ref": "dsbc:537",
 					"source": "dsbc",
 					"sourceId": "537",
@@ -13152,6 +13054,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/853"
+				},
+				{
+					"ref": "dsbc:888",
+					"source": "dsbc",
+					"sourceId": "888",
+					"label": "DSBC देवनागरी 3",
+					"script": "deva",
+					"title": "मध्यमकावतारभाष्य",
+					"slug": "dsbc/888",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/888"
 				},
 				{
 					"ref": "bdrc:P4085FE01",
@@ -13214,37 +13128,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/P7DB27B29.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/P7DB27B29.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P7DB27B29"
-				}
-			]
-		},
-		{
-			"title": "Madhyamakāvatārabhāṣya",
-			"titleDeva": "मध्यमकावतारभाष्य",
-			"category": "sastra/madhyamaka",
-			"editions": [
-				{
-					"ref": "dsbc:887",
-					"source": "dsbc",
-					"sourceId": "887",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Madhyamakāvatārabhāṣya",
-					"slug": "dsbc/887",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rabh%C4%81%E1%B9%A3ya.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/%C5%9B%C4%81strapi%E1%B9%ADaka/madhyamaka/Madhyamak%C4%81vat%C4%81rabh%C4%81%E1%B9%A3ya.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/887"
-				},
-				{
-					"ref": "dsbc:888",
-					"source": "dsbc",
-					"sourceId": "888",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "मध्यमकावतारभाष्य",
-					"slug": "dsbc/888",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95/%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A4%95%E0%A4%BE%E0%A4%B5%E0%A4%A4%E0%A4%BE%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/888"
 				}
 			]
 		},
@@ -13544,6 +13427,7 @@
 		},
 		{
 			"title": "Mahākarmavibhaṅga",
+			"author": "Anonymous",
 			"category": "sutra/agama",
 			"editions": [
 				{
@@ -13557,32 +13441,7 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81karmavibha%E1%B9%85ga.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81karmavibha%E1%B9%85ga.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAkarmavibhaGga.xml"
-				}
-			]
-		},
-		{
-			"title": "Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS and MS transliterations",
-			"category": "sutra/agama",
-			"editions": [
-				{
-					"ref": "iriab:mahakarmavibhanga-part-vi",
-					"source": "iriab",
-					"sourceId": "mahakarmavibhanga-part-vi",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS[B] and MS[A] transliterations",
-					"slug": "iriab/mahakarmavibhanga-part-vi",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-vi.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-vi.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Mahākarmavibhaṅga and Karmavibhaṅgasūtra",
-			"author": "Anonymous",
-			"category": "sutra/agama",
-			"editions": [
+				},
 				{
 					"ref": "iriab:mahakarmavibhanga-part-II",
 					"source": "iriab",
@@ -13629,6 +13488,18 @@
 					"slug": "iriab/mahakarmavibhanga-part-V",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-V.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-V.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:mahakarmavibhanga-part-vi",
+					"source": "iriab",
+					"sourceId": "mahakarmavibhanga-part-vi",
+					"label": "ARIRIAB (VI (2003), pp. 19–84 (The Mahākarmavibhaṅga and the Karmavibhaṅgasūtra (5): Transliterations of the Original Manuscripts Preserved in the National Archives of Nepal; the edition continues in later volumes); Brief Communication pp. 361–362)",
+					"script": "iast",
+					"title": "Mahākarmavibhaṅga / Karmavibhaṅgasūtra, MS[B] and MS[A] transliterations",
+					"slug": "iriab/mahakarmavibhanga-part-vi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/mahakarmavibhanga-part-vi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/mahakarmavibhanga-part-vi.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
@@ -14150,49 +14021,6 @@
 			]
 		},
 		{
-			"title": "Mahāsāṃghikānāṃ prātimokṣasūtram",
-			"titleDeva": "महासांघिकानां प्रातिमोक्षसूत्रम्",
-			"category": "vinaya/pratimoksa",
-			"editions": [
-				{
-					"ref": "dsbc:90",
-					"source": "dsbc",
-					"sourceId": "90",
-					"label": "DSBC",
-					"script": "iast",
-					"title": "Mahāsāṃghikānāṃ prātimokṣasūtram",
-					"slug": "dsbc/90",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/vinayapi%E1%B9%ADaka/Mah%C4%81s%C4%81%E1%B9%83ghik%C4%81n%C4%81%E1%B9%83%20pr%C4%81timok%E1%B9%A3as%C5%ABtram.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/vinayapi%E1%B9%ADaka/Mah%C4%81s%C4%81%E1%B9%83ghik%C4%81n%C4%81%E1%B9%83%20pr%C4%81timok%E1%B9%A3as%C5%ABtram.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/90"
-				},
-				{
-					"ref": "dsbc:453",
-					"source": "dsbc",
-					"sourceId": "453",
-					"label": "DSBC देवनागरी",
-					"script": "deva",
-					"title": "महासांघिकानां प्रातिमोक्षसूत्रम्",
-					"slug": "dsbc/453",
-					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%98%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%82%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%98%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%82%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
-					"originalUrl": "https://www.dsbcproject.org/canon-text/book/453"
-				},
-				{
-					"ref": "bdrc:PADCF4F6D",
-					"source": "bdrc",
-					"sourceId": "PADCF4F6D",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Pratimoksa sutra of Mahasanghikas",
-					"slug": "bdrc/PADCF4F6D",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PADCF4F6D.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PADCF4F6D.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PADCF4F6D"
-				}
-			]
-		},
-		{
 			"title": "Mahāsaṃnipātaratnaketudhāraṇīsūtra or Ratnaketuparivarta",
 			"titleDeva": "महासन्निपातरत्नकेतुधारणी सूत्रम्",
 			"category": "sutra/dharani",
@@ -14515,7 +14343,7 @@
 		{
 			"title": "Mahāvyutpatti",
 			"titleDeva": "महाव्युत्पत्ति",
-			"category": "sastra/abhidharma",
+			"category": "sciences/vyakarana",
 			"editions": [
 				{
 					"ref": "dsbc:232",
@@ -14542,24 +14370,6 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/481"
 				},
 				{
-					"ref": "bdrc:P4C667BBD",
-					"source": "bdrc",
-					"sourceId": "P4C667BBD",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Bibliotheca Buddhica (Mahāvyutpatti)",
-					"slug": "bdrc/P4C667BBD",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4C667BBD.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4C667BBD.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P4C667BBD"
-				}
-			]
-		},
-		{
-			"title": "Mahāvyutpatti with sGra sbyor bam po gñis pa",
-			"category": "sciences/vyakarana",
-			"editions": [
-				{
 					"ref": "bdrc:PA7706902",
 					"source": "bdrc",
 					"sourceId": "PA7706902",
@@ -14570,6 +14380,18 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA7706902.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA7706902.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PA7706902"
+				},
+				{
+					"ref": "bdrc:P4C667BBD",
+					"source": "bdrc",
+					"sourceId": "P4C667BBD",
+					"label": "BDRC (via DSBC)",
+					"script": "iast",
+					"title": "Bibliotheca Buddhica (Mahāvyutpatti)",
+					"slug": "bdrc/P4C667BBD",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4C667BBD.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4C667BBD.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4C667BBD"
 				}
 			]
 		},
@@ -14972,6 +14794,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_asaGga-mahAyAnasUtrAlaMkAra-alt.xml"
 				},
 				{
+					"ref": "gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
+					"source": "gretil",
+					"sourceId": "sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
+					"label": "GRETIL (Bhāṣya)",
+					"script": "iast",
+					"title": "Mahāyānasūtrālaṃkāra with Vasubandhu's commentary (Bhāṣya)",
+					"slug": "gretil/sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81y%C4%81nas%C5%ABtr%C4%81la%E1%B9%83k%C4%81ra%20with%20Vasubandhu's%20commentary%20(Bh%C4%81%E1%B9%A3ya)%20%3D%20Msa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81y%C4%81nas%C5%ABtr%C4%81la%E1%B9%83k%C4%81ra%20with%20Vasubandhu's%20commentary%20(Bh%C4%81%E1%B9%A3ya)%20%3D%20Msa.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_asaGga-mahAyAnasUtrAlaMkAra-comm.xml"
+				},
+				{
 					"ref": "dsbc:332",
 					"source": "dsbc",
 					"sourceId": "332",
@@ -15066,25 +14900,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PADF677B3.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PADF677B3.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PADF677B3"
-				}
-			]
-		},
-		{
-			"title": "Mahāyānasūtrālaṃkāra with Vasubandhu's commentary",
-			"author": "Asaṅga",
-			"category": "sastra/yogacara",
-			"editions": [
-				{
-					"ref": "gretil:sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
-					"source": "gretil",
-					"sourceId": "sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Mahāyānasūtrālaṃkāra with Vasubandhu's commentary (Bhāṣya)",
-					"slug": "gretil/sa_asaGga-mahAyAnasUtrAlaMkAra-comm",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/m/Mah%C4%81y%C4%81nas%C5%ABtr%C4%81la%E1%B9%83k%C4%81ra%20with%20Vasubandhu's%20commentary%20(Bh%C4%81%E1%B9%A3ya)%20%3D%20Msa.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/m/Mah%C4%81y%C4%81nas%C5%ABtr%C4%81la%E1%B9%83k%C4%81ra%20with%20Vasubandhu's%20commentary%20(Bh%C4%81%E1%B9%A3ya)%20%3D%20Msa.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_asaGga-mahAyAnasUtrAlaMkAra-comm.xml"
 				}
 			]
 		},
@@ -17180,6 +16995,7 @@
 		},
 		{
 			"title": "Nyāyabindu",
+			"titleDeva": "न्यायबिन्दुप्रकरणकारिका",
 			"author": "Dharmakīrti",
 			"category": "sastra/pramana",
 			"editions": [
@@ -17196,24 +17012,17 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabindu.xml"
 				},
 				{
-					"ref": "bdrc:PBC16A862",
-					"source": "bdrc",
-					"sourceId": "PBC16A862",
-					"label": "BDRC",
+					"ref": "gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm",
+					"source": "gretil",
+					"sourceId": "sa_dharmakIrti-nyAyabinduprakaraNa-comm",
+					"label": "GRETIL (Śiṣyahita)",
 					"script": "iast",
-					"title": "Nyāyabindu",
-					"slug": "bdrc/PBC16A862",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBC16A862.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBC16A862.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PBC16A862"
-				}
-			]
-		},
-		{
-			"title": "Nyāyabindu prakaraṇakārikā",
-			"titleDeva": "न्यायबिन्दुप्रकरणकारिका",
-			"category": "sastra/pramana",
-			"editions": [
+					"title": "Nyāyabinduprakaraṇa with Vinītadeva's Nyāyabinduvistaraṭīkā (Śiṣyahita) and Dharmottara's Nyāyabinduṭīkā",
+					"slug": "gretil/sa_dharmakIrti-nyAyabinduprakaraNa-comm",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/n/Ny%C4%81yabinduprakara%E1%B9%87a%20with%20Vin%C4%ABtadeva's%20Ny%C4%81yabinduvistara%E1%B9%AD%C4%ABk%C4%81%20(%C5%9Ai%E1%B9%A3yahita)%20and%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/n/Ny%C4%81yabinduprakara%E1%B9%87a%20with%20Vin%C4%ABtadeva's%20Ny%C4%81yabinduvistara%E1%B9%AD%C4%ABk%C4%81%20(%C5%9Ai%E1%B9%A3yahita)%20and%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabinduprakaraNa-comm.xml"
+				},
 				{
 					"ref": "dsbc:294",
 					"source": "dsbc",
@@ -17251,6 +17060,18 @@
 					"originalUrl": "https://github.com/Openpecha-Data/PB4FBD6C9"
 				},
 				{
+					"ref": "bdrc:PBC16A862",
+					"source": "bdrc",
+					"sourceId": "PBC16A862",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Nyāyabindu",
+					"slug": "bdrc/PBC16A862",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBC16A862.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBC16A862.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PBC16A862"
+				},
+				{
 					"ref": "bdrc:PE645854C",
 					"source": "bdrc",
 					"sourceId": "PE645854C",
@@ -17261,31 +17082,12 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PE645854C.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PE645854C.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PE645854C"
-				}
-			]
-		},
-		{
-			"title": "Nyāyabinduprakaraṇa with Vinītadeva's Nyāyabinduvistaraṭīkā and Dharmottara's Nyāyabinduṭīkā",
-			"author": "Dharmakīrti",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_dharmakIrti-nyAyabinduprakaraNa-comm",
-					"source": "gretil",
-					"sourceId": "sa_dharmakIrti-nyAyabinduprakaraNa-comm",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Nyāyabinduprakaraṇa with Vinītadeva's Nyāyabinduvistaraṭīkā (Śiṣyahita) and Dharmottara's Nyāyabinduṭīkā",
-					"slug": "gretil/sa_dharmakIrti-nyAyabinduprakaraNa-comm",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/n/Ny%C4%81yabinduprakara%E1%B9%87a%20with%20Vin%C4%ABtadeva's%20Ny%C4%81yabinduvistara%E1%B9%AD%C4%ABk%C4%81%20(%C5%9Ai%E1%B9%A3yahita)%20and%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/n/Ny%C4%81yabinduprakara%E1%B9%87a%20with%20Vin%C4%ABtadeva's%20Ny%C4%81yabinduvistara%E1%B9%AD%C4%ABk%C4%81%20(%C5%9Ai%E1%B9%A3yahita)%20and%20Dharmottara's%20Ny%C4%81yabindu%E1%B9%AD%C4%ABk%C4%81.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-nyAyabinduprakaraNa-comm.xml"
 				},
 				{
 					"ref": "bdrc:PE6C8C44B",
 					"source": "bdrc",
 					"sourceId": "PE6C8C44B",
-					"label": "BDRC",
+					"label": "BDRC (via GRETIL)",
 					"script": "iast",
 					"title": "Nyāyabinduprakaraṇa with Vinītadeva's Nyāyabinduvistaraṭīkā (Śiṣyahita) and",
 					"slug": "bdrc/PE6C8C44B",
@@ -17904,13 +17706,7 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Pa%C3%B1cavi%E1%B9%83%C5%9Batis%C4%81hasrik%C4%81%20Praj%C3%B1%C4%81p%C4%81ramit%C4%81%2C%201-8.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Pa%C3%B1cavi%E1%B9%83%C5%9Batis%C4%81hasrik%C4%81%20Praj%C3%B1%C4%81p%C4%81ramit%C4%81%2C%201-8.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_paJcaviMzatisAhasrikA-prajJApAramitA1-8.xml"
-				}
-			]
-		},
-		{
-			"title": "Pañcaviṃśatisāhasrikā Prajñāpāramitā, Mannerheim Fragments Nos. 7 and",
-			"category": "sutra/prajnaparamita",
-			"editions": [
+				},
 				{
 					"ref": "iriab:mannerheim-pancavimsatisahasrika-pancaparamitanirdesa-fragments",
 					"source": "iriab",
@@ -18925,24 +18721,6 @@
 			]
 		},
 		{
-			"title": "Prajñāpāramitāratnaguṇasaṃcayagāthā XIV 4–8, Indic blockprint fragment from Turfan",
-			"category": "sutra/prajnaparamita",
-			"editions": [
-				{
-					"ref": "iriab:prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
-					"source": "iriab",
-					"sourceId": "prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Prajñāpāramitāratnaguṇasaṃcayagāthā (Rgs) XIV 4–8, Indic blockprint fragment from Turfan",
-					"slug": "iriab/prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Prajñāpāramitāratnaguṇasaṃcayagāthāvyākhyā",
 			"author": "Haribhadra",
 			"category": "sutra/prajnaparamita",
@@ -19187,13 +18965,26 @@
 		{
 			"title": "Pramāṇavārttika",
 			"titleDeva": "प्रमाणवार्तिकम्",
+			"author": "Dharmakīrti",
 			"category": "sastra/pramana",
 			"editions": [
+				{
+					"ref": "gretil:sa_dharmakIrti-pramANavArttikakArikA",
+					"source": "gretil",
+					"sourceId": "sa_dharmakIrti-pramANavArttikakArikA",
+					"label": "GRETIL (without the svārthānumāna-chapter)",
+					"script": "iast",
+					"title": "Pramāṇavārttikakārikā (without the svārthānumāna-chapter)",
+					"slug": "gretil/sa_dharmakIrti-pramANavArttikakArikA",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-pramANavArttikakArikA.xml"
+				},
 				{
 					"ref": "gretil:sa_pramANavArttika",
 					"source": "gretil",
 					"sourceId": "sa_pramANavArttika",
-					"label": "GRETIL",
+					"label": "GRETIL 2",
 					"script": "iast",
 					"title": "Pramāṇavārttika",
 					"slug": "gretil/sa_pramANavArttika",
@@ -19236,6 +19027,18 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P18524656.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P18524656.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P18524656"
+				},
+				{
+					"ref": "bdrc:P4C58E54A",
+					"source": "bdrc",
+					"sourceId": "P4C58E54A",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Pramāṇavārttikakārikā (without the svārthānumāna-chapter)",
+					"slug": "bdrc/P4C58E54A",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4C58E54A.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4C58E54A.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P4C58E54A"
 				},
 				{
 					"ref": "bdrc:PB59065EA",
@@ -19282,37 +19085,6 @@
 					"url": "https://github.com/meobtis/sarit/blob/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/sarit/main/texts/devanagari/Pram%C4%81%E1%B9%87av%C4%81rttika%20Pari%C5%9Bi%E1%B9%A3%E1%B9%ADa%201.md",
 					"originalUrl": "https://github.com/sarit/SARIT-corpus/blob/1eac9ee0b055c8d11147edac4a75c76008ccc363/pramanavarttikaparisista-1.xml"
-				}
-			]
-		},
-		{
-			"title": "Pramāṇavārttikakārikā",
-			"author": "Dharmakīrti",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_dharmakIrti-pramANavArttikakArikA",
-					"source": "gretil",
-					"sourceId": "sa_dharmakIrti-pramANavArttikakArikA",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Pramāṇavārttikakārikā (without the svārthānumāna-chapter)",
-					"slug": "gretil/sa_dharmakIrti-pramANavArttikakArikA",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pram%C4%81%E1%B9%87av%C4%81rttikak%C4%81rik%C4%81%20(without%20the%20sv%C4%81rth%C4%81num%C4%81na-chapter).md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_dharmakIrti-pramANavArttikakArikA.xml"
-				},
-				{
-					"ref": "bdrc:P4C58E54A",
-					"source": "bdrc",
-					"sourceId": "P4C58E54A",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Pramāṇavārttikakārikā (without the svārthānumāna-chapter)",
-					"slug": "bdrc/P4C58E54A",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P4C58E54A.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P4C58E54A.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P4C58E54A"
 				}
 			]
 		},
@@ -19673,7 +19445,9 @@
 			]
 		},
 		{
-			"title": "Prātimokṣasūtra of the Lokottaravādimahāsaṅghika",
+			"title": "Prātimokṣasūtra of the Mahāsāṃghikas",
+			"titleDeva": "महासांघिकानां प्रातिमोक्षसूत्रम्",
+			"author": "unknown (Vinaya text of the Mahāsāṃghika-Lokottaravādins)",
 			"category": "vinaya/pratimoksa",
 			"editions": [
 				{
@@ -19687,25 +19461,42 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Lokottarav%C4%81dimah%C4%81sa%E1%B9%85ghika.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Lokottarav%C4%81dimah%C4%81sa%E1%B9%85ghika.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-lokottaravAdimahAsaGghika.xml"
-				}
-			]
-		},
-		{
-			"title": "Prātimokṣasūtra of the Mahāsāṃghikas",
-			"author": "unknown (Vinaya text of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "vinaya/pratimoksa",
-			"editions": [
+				},
 				{
 					"ref": "gretil:sa_prAtimokSasUtra-of-the-mahAsAMghikas",
 					"source": "gretil",
 					"sourceId": "sa_prAtimokSasUtra-of-the-mahAsAMghikas",
-					"label": "GRETIL",
+					"label": "GRETIL 2",
 					"script": "iast",
 					"title": "Prātimokṣasūtra of the Mahāsāṃghikas",
 					"slug": "gretil/sa_prAtimokSasUtra-of-the-mahAsAMghikas",
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Mah%C4%81s%C4%81%E1%B9%83ghikas.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/Pr%C4%81timok%E1%B9%A3as%C5%ABtra%20of%20the%20Mah%C4%81s%C4%81%E1%B9%83ghikas.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prAtimokSasUtra-of-the-mahAsAMghikas.xml"
+				},
+				{
+					"ref": "dsbc:90",
+					"source": "dsbc",
+					"sourceId": "90",
+					"label": "DSBC",
+					"script": "iast",
+					"title": "Mahāsāṃghikānāṃ prātimokṣasūtram",
+					"slug": "dsbc/90",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/romanized/vinayapi%E1%B9%ADaka/Mah%C4%81s%C4%81%E1%B9%83ghik%C4%81n%C4%81%E1%B9%83%20pr%C4%81timok%E1%B9%A3as%C5%ABtram.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/romanized/vinayapi%E1%B9%ADaka/Mah%C4%81s%C4%81%E1%B9%83ghik%C4%81n%C4%81%E1%B9%83%20pr%C4%81timok%E1%B9%A3as%C5%ABtram.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/90"
+				},
+				{
+					"ref": "dsbc:453",
+					"source": "dsbc",
+					"sourceId": "453",
+					"label": "DSBC देवनागरी",
+					"script": "deva",
+					"title": "महासांघिकानां प्रातिमोक्षसूत्रम्",
+					"slug": "dsbc/453",
+					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%98%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%82%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%AF%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B8%E0%A4%BE%E0%A4%82%E0%A4%98%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A4%BE%E0%A4%82%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%A4%E0%A4%BF%E0%A4%AE%E0%A5%8B%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D.md",
+					"originalUrl": "https://www.dsbcproject.org/canon-text/book/453"
 				},
 				{
 					"ref": "iriab:pratimoksasutra-mahasamghika-fragments-part-xi",
@@ -19730,6 +19521,18 @@
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xvi.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pratimoksasutra-mahasamghika-fragments-part-xvi.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "bdrc:PADCF4F6D",
+					"source": "bdrc",
+					"sourceId": "PADCF4F6D",
+					"label": "BDRC",
+					"script": "iast",
+					"title": "Pratimoksa sutra of Mahasanghikas",
+					"slug": "bdrc/PADCF4F6D",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PADCF4F6D.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PADCF4F6D.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PADCF4F6D"
 				}
 			]
 		},
@@ -20086,36 +19889,6 @@
 			]
 		},
 		{
-			"title": "Pratyakṣalakṣaṇa of the Tarkarahasya",
-			"category": "sastra/pramana",
-			"editions": [
-				{
-					"ref": "gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya",
-					"source": "gretil",
-					"sourceId": "sa_pratyakSalakSaNa-of-the-tarkarahasya",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Pratyakṣalakṣaṇa of the Tarkarahasya",
-					"slug": "gretil/sa_pratyakSalakSaNa-of-the-tarkarahasya",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pratyak%E1%B9%A3alak%E1%B9%A3a%E1%B9%87a%20of%20the%20Tarkarahasya.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pratyak%E1%B9%A3alak%E1%B9%A3a%E1%B9%87a%20of%20the%20Tarkarahasya.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratyakSalakSaNa-of-the-tarkarahasya.xml"
-				},
-				{
-					"ref": "bdrc:PA99912AF",
-					"source": "bdrc",
-					"sourceId": "PA99912AF",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Pratyakṣalakṣaṇa of the Tarkarahasya",
-					"slug": "bdrc/PA99912AF",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA99912AF.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA99912AF.md",
-					"originalUrl": "https://github.com/Openpecha-Data/PA99912AF"
-				}
-			]
-		},
-		{
 			"title": "Pravāraṇāvastu",
 			"category": "vinaya/vinayavastu",
 			"editions": [
@@ -20441,6 +20214,18 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE/%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%A8%E0%A4%97%E0%A5%81%E0%A4%A3%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%AF%E0%A4%97%E0%A4%BE%E0%A4%A5%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B8%E0%A5%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BE/%E0%A4%B0%E0%A4%A4%E0%A5%8D%E0%A4%A8%E0%A4%97%E0%A5%81%E0%A4%A3%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%AF%E0%A4%97%E0%A4%BE%E0%A4%A5%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/402"
+				},
+				{
+					"ref": "iriab:prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"source": "iriab",
+					"sourceId": "prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"label": "ARIRIAB",
+					"script": "iast",
+					"title": "Prajñāpāramitāratnaguṇasaṃcayagāthā (Rgs) XIV 4–8, Indic blockprint fragment from Turfan",
+					"slug": "iriab/prajnaparamitaratnagunasamcayagatha-turfan-blockprint",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/prajnaparamitaratnagunasamcayagatha-turfan-blockprint.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				},
 				{
 					"ref": "bdrc:PB2B2CB2B",
@@ -21090,6 +20875,66 @@
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				},
 				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-ix",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-ix",
+					"label": "ARIRIAB (IX (2006), pp. 79–88 (A Trilingual Edition of the Lotus Sutra (4); Sanskrit parts only, pp. 79–80). Parts (1)–(3) are in ARIRIAB VI, VII and VIII.)",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, ch. XIV (Utsāhaparivarta) § 1 (KN 297.1–11): Sanskrit versions G/N, O, Khā, F",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-ix",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vi",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-vi",
+					"label": "ARIRIAB (VI (2003), pp. 89–124 (article 'A Trilingual Edition of the Lotus Sutra — New editions of the Sanskrit, Tibetan and Chinese versions', pp. 85–182; continued in ARIRIAB VII (2004), VIII (2005), IX (2006)))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions): chapter XIII Sukhavihāra-parivarta, §§ 1–12 (KN.275.1–282.8)",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vii",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-vii",
+					"label": "ARIRIAB (VII (2004), pp. 33–55 (Sanskrit parts of 'A Trilingual Edition of the Lotus Sutra — New editions of the Sanskrit, Tibetan and Chinese versions (2)', pp. 33–104))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions), XIII §§ 13–18 (KN. 282.9–287.10)",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:karashima-trilingual-lotus-sutra-part-viii",
+					"source": "iriab",
+					"sourceId": "karashima-trilingual-lotus-sutra-part-viii",
+					"label": "ARIRIAB (VIII (2005), pp. 105–142 (A Trilingual Edition of the Lotus Sutra (3); Sanskrit parts only). Parts (1), (2) and (4) are in ARIRIAB VI, VII and IX.)",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, ch. XIII (Sukhavihāraparivarta) §§ 19–25 (KN 287.11–296.3): Sanskrit versions G/N, O, Khā, F",
+					"slug": "iriab/karashima-trilingual-lotus-sutra-part-viii",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:saddharmapundarika-british-library-fragments-wille",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-british-library-fragments-wille",
+					"label": "ARIRIAB (VII (2004), pp. 139–146)",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, recently identified fragments in the British Library (London)",
+					"slug": "iriab/saddharmapundarika-british-library-fragments-wille",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "iriab:saddharmapundarika-mannerheim-fragment",
 					"source": "iriab",
 					"sourceId": "saddharmapundarika-mannerheim-fragment",
@@ -21099,6 +20944,30 @@
 					"slug": "iriab/saddharmapundarika-mannerheim-fragment",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-mannerheim-fragment.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-mannerheim-fragment.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:saddharmapundarika-petrovsky-si-p-67-2",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-petrovsky-si-p-67-2",
+					"label": "ARIRIAB (XI (2008), pp. 91–94)",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, fragments SI P/67(2) (Petrovsky collection, St. Petersburg)",
+					"slug": "iriab/saddharmapundarika-petrovsky-si-p-67-2",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:saddharmapundarika-petrovsky-si-p-68",
+					"source": "iriab",
+					"sourceId": "saddharmapundarika-petrovsky-si-p-68",
+					"label": "ARIRIAB (X (2007), pp. 57–66 (transliteration p. 58; restoration pp. 59–64))",
+					"script": "iast",
+					"title": "Saddharmapuṇḍarīkasūtra, chapter II (Upāyakauśalyaparivarta), verses 35–43, fragment SI P/68",
+					"slug": "iriab/saddharmapundarika-petrovsky-si-p-68",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				},
 				{
@@ -21136,133 +21005,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P6054AA51.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P6054AA51.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P6054AA51"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, ch. XIII §§ 19–25: Sanskrit versions G/N, O, Khā, F",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:karashima-trilingual-lotus-sutra-part-viii",
-					"source": "iriab",
-					"sourceId": "karashima-trilingual-lotus-sutra-part-viii",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra, ch. XIII (Sukhavihāraparivarta) §§ 19–25 (KN 287.11–296.3): Sanskrit versions G/N, O, Khā, F",
-					"slug": "iriab/karashima-trilingual-lotus-sutra-part-viii",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-viii.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, ch. XIV § 1: Sanskrit versions G/N, O, Khā, F",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:karashima-trilingual-lotus-sutra-part-ix",
-					"source": "iriab",
-					"sourceId": "karashima-trilingual-lotus-sutra-part-ix",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra, ch. XIV (Utsāhaparivarta) § 1 (KN 297.1–11): Sanskrit versions G/N, O, Khā, F",
-					"slug": "iriab/karashima-trilingual-lotus-sutra-part-ix",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-ix.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, chapter II, verses 35–43, fragment SI P/68",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:saddharmapundarika-petrovsky-si-p-68",
-					"source": "iriab",
-					"sourceId": "saddharmapundarika-petrovsky-si-p-68",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra, chapter II (Upāyakauśalyaparivarta), verses 35–43, fragment SI P/68",
-					"slug": "iriab/saddharmapundarika-petrovsky-si-p-68",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-68.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, fragments SI P/67",
-			"author": "unknown (Mahāyāna sūtra)",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:saddharmapundarika-petrovsky-si-p-67-2",
-					"source": "iriab",
-					"sourceId": "saddharmapundarika-petrovsky-si-p-67-2",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra, fragments SI P/67(2) (Petrovsky collection, St. Petersburg)",
-					"slug": "iriab/saddharmapundarika-petrovsky-si-p-67-2",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-petrovsky-si-p-67-2.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, recently identified fragments in the British Library",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:saddharmapundarika-british-library-fragments-wille",
-					"source": "iriab",
-					"sourceId": "saddharmapundarika-british-library-fragments-wille",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra, recently identified fragments in the British Library (London)",
-					"slug": "iriab/saddharmapundarika-british-library-fragments-wille",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/saddharmapundarika-british-library-fragments-wille.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra, XIII §§ 13–18",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vii",
-					"source": "iriab",
-					"sourceId": "karashima-trilingual-lotus-sutra-part-vii",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions), XIII §§ 13–18 (KN. 282.9–287.10)",
-					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vii",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vii.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saddharmapuṇḍarīkasūtra: chapter XIII Sukhavihāra-parivarta, §§ 1–12",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:karashima-trilingual-lotus-sutra-part-vi",
-					"source": "iriab",
-					"sourceId": "karashima-trilingual-lotus-sutra-part-vi",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saddharmapuṇḍarīkasūtra (Trilingual Edition, Sanskrit versions): chapter XIII Sukhavihāra-parivarta, §§ 1–12 (KN.275.1–282.8)",
-					"slug": "iriab/karashima-trilingual-lotus-sutra-part-vi",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/karashima-trilingual-lotus-sutra-part-vi.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -21508,25 +21250,6 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%AE%E0%A5%8D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%BF%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A4%BE/%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BF%E0%A4%AD%E0%A5%81%E0%A4%9C%E0%A4%B9%E0%A5%87%E0%A4%B5%E0%A4%9C%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%AE%E0%A5%8D.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/924"
-				}
-			]
-		},
-		{
-			"title": "Śākyasiṃhajātaka / Sarvārthasiddhajātaka, stanzas 36–53 with reworked prose",
-			"author": "Haribhaṭṭa",
-			"category": "sutra/jataka",
-			"editions": [
-				{
-					"ref": "iriab:sakyasimhajataka-straube-xxi",
-					"source": "iriab",
-					"sourceId": "sakyasimhajataka-straube-xxi",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Śākyasiṃhajātaka / Sarvārthasiddhajātaka (Haribhaṭṭa, Jātakamālā 35), stanzas 36–53 with reworked prose",
-					"slug": "iriab/sakyasimhajataka-straube-xxi",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -22429,13 +22152,7 @@
 					"url": "https://github.com/meobtis/dsbc/blob/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/dsbc/main/texts/devanagari/%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AA%E0%A4%BF%E0%A4%9F%E0%A4%95/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3/%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%AA%E0%A4%B0%E0%A5%80%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE.md",
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/918"
-				}
-			]
-		},
-		{
-			"title": "Sambandhaparīkṣā of Dharmakirti",
-			"category": "sastra/pramana",
-			"editions": [
+				},
 				{
 					"ref": "bdrc:P7170188A",
 					"source": "bdrc",
@@ -22554,6 +22271,30 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/418"
 				},
 				{
+					"ref": "iriab:samghatasutra-group-c",
+					"source": "iriab",
+					"sourceId": "samghatasutra-group-c",
+					"label": "ARIRIAB (24, Supplement (2021), pp. 1–128 (left/single pages; Ms C pp. 2–100, Ms B/C pp. 100–128))",
+					"script": "iast",
+					"title": "Saṃghāṭasūtra, Gilgit vulgate: manuscript C with manuscripts ABDEHIK (editio maior, synoptic edition, left pages)",
+					"slug": "iriab/samghatasutra-group-c",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-c.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-c.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:samghatasutra-group-f",
+					"source": "iriab",
+					"sourceId": "samghatasutra-group-f",
+					"label": "ARIRIAB (24, Supplement (2021), pp. 2–105 (right pages))",
+					"script": "iast",
+					"title": "Saṃghāṭasūtra: manuscript F with manuscripts AG (editio maior, synoptic edition, right pages)",
+					"slug": "iriab/samghatasutra-group-f",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-f.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-f.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:PCFF0E4D8",
 					"source": "bdrc",
 					"sourceId": "PCFF0E4D8",
@@ -22568,74 +22309,32 @@
 			]
 		},
 		{
-			"title": "Saṃghāṭasūtra, Gilgit vulgate: manuscript C with manuscripts ABDEHIK",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:samghatasutra-group-c",
-					"source": "iriab",
-					"sourceId": "samghatasutra-group-c",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saṃghāṭasūtra, Gilgit vulgate: manuscript C with manuscripts ABDEHIK (editio maior, synoptic edition, left pages)",
-					"slug": "iriab/samghatasutra-group-c",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-c.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-c.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Saṃghāṭasūtra: manuscript F with manuscripts AG",
-			"category": "sutra/mahayana-sutra",
-			"editions": [
-				{
-					"ref": "iriab:samghatasutra-group-f",
-					"source": "iriab",
-					"sourceId": "samghatasutra-group-f",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Saṃghāṭasūtra: manuscript F with manuscripts AG (editio maior, synoptic edition, right pages)",
-					"slug": "iriab/samghatasutra-group-f",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/samghatasutra-group-f.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/samghatasutra-group-f.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Sāṃkhyakārikā",
-			"category": "sastra/sastra-other",
-			"editions": [
-				{
-					"ref": "bdrc:P19D13FC9",
-					"source": "bdrc",
-					"sourceId": "P19D13FC9",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Sāṃkhyakārikā",
-					"slug": "bdrc/P19D13FC9",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P19D13FC9.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P19D13FC9.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P19D13FC9"
-				}
-			]
-		},
-		{
-			"title": "Sāṃkhyakārikā with Māṭhara's commentary Māṭharavṛtti",
 			"category": "sastra/sastra-other",
 			"editions": [
 				{
 					"ref": "bdrc:P01118D5D",
 					"source": "bdrc",
 					"sourceId": "P01118D5D",
-					"label": "BDRC",
+					"label": "BDRC (via GRETIL)",
 					"script": "iast",
 					"title": "Sāṃkhyakārikā with Māṭhara's commentary Māṭharavṛtti",
 					"slug": "bdrc/P01118D5D",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P01118D5D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P01118D5D.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P01118D5D"
+				},
+				{
+					"ref": "bdrc:P19D13FC9",
+					"source": "bdrc",
+					"sourceId": "P19D13FC9",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Sāṃkhyakārikā",
+					"slug": "bdrc/P19D13FC9",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P19D13FC9.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P19D13FC9.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P19D13FC9"
 				}
 			]
 		},
@@ -23789,10 +23488,22 @@
 			"category": "sutra/jataka",
 			"editions": [
 				{
+					"ref": "iriab:sakyasimhajataka-straube-xxi",
+					"source": "iriab",
+					"sourceId": "sakyasimhajataka-straube-xxi",
+					"label": "ARIRIAB (XXI (2018), pp. 245–258 (Sanskrit text on pp. 251–256))",
+					"script": "iast",
+					"title": "Śākyasiṃhajātaka / Sarvārthasiddhajātaka (Haribhaṭṭa, Jātakamālā 35), stanzas 36–53 with reworked prose",
+					"slug": "iriab/sakyasimhajataka-straube-xxi",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sakyasimhajataka-straube-xxi.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "iriab:sarvarthasiddhajataka",
 					"source": "iriab",
 					"sourceId": "sarvarthasiddhajataka",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (XXIX (2026), pp. 139–181 (Sanskrit text on pp. 156–180))",
 					"script": "iast",
 					"title": "Sarvārthasiddhajātaka (Jātakamālā 35)",
 					"slug": "iriab/sarvarthasiddhajataka",
@@ -24773,6 +24484,7 @@
 		},
 		{
 			"title": "Sitātapatrā",
+			"titleDeva": "सितातपत्राधारणी",
 			"category": "sutra/dharani",
 			"editions": [
 				{
@@ -24786,14 +24498,7 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/Sit%C4%81tapatr%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/Sit%C4%81tapatr%C4%81.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sitAtapatrA.xml"
-				}
-			]
-		},
-		{
-			"title": "Sitātapatrā dhāraṇī",
-			"titleDeva": "सितातपत्राधारणी",
-			"category": "sutra/dharani",
-			"editions": [
+				},
 				{
 					"ref": "dsbc:20",
 					"source": "dsbc",
@@ -25810,7 +25515,7 @@
 		},
 		{
 			"title": "Sumāgadhāvadāna",
-			"author": "Anonymous (avadāna)",
+			"author": "unknown (Sumāgadhāvadāna)",
 			"category": "sutra/avadana",
 			"editions": [
 				{
@@ -25826,34 +25531,27 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sumAgadhAvadAna.xml"
 				},
 				{
-					"ref": "iriab:sumagadhavadana-gilgit-xx",
-					"source": "iriab",
-					"sourceId": "sumagadhavadana-gilgit-xx",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Sumāgadhāvadāna (Gilgit version)",
-					"slug": "iriab/sumagadhavadana-gilgit-xx",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Sumāgadhāvadāna, Manuscript A",
-			"author": "unknown (Sumāgadhāvadāna)",
-			"category": "sutra/avadana",
-			"editions": [
-				{
 					"ref": "iriab:sumagadha-avadana-gilgit-ms-a",
 					"source": "iriab",
 					"sourceId": "sumagadha-avadana-gilgit-ms-a",
-					"label": "ARIRIAB",
+					"label": "ARIRIAB (XIX (2016), pp. 333–341 (transliteration of Manuscript A; article pp. 319–343, in Japanese))",
 					"script": "iast",
 					"title": "Sumāgadhāvadāna (Gilgit version), Manuscript A",
 					"slug": "iriab/sumagadha-avadana-gilgit-ms-a",
 					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sumagadha-avadana-gilgit-ms-a.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sumagadha-avadana-gilgit-ms-a.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:sumagadhavadana-gilgit-xx",
+					"source": "iriab",
+					"sourceId": "sumagadhavadana-gilgit-xx",
+					"label": "ARIRIAB (XX (2017), pp. 289–310 (Manuscripts B and C with Srinagar fragments; the first instalment, Manuscript A etc., is in ARIRIAB XIX (2016)))",
+					"script": "iast",
+					"title": "Sumāgadhāvadāna (Gilgit version)",
+					"slug": "iriab/sumagadhavadana-gilgit-xx",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sumagadhavadana-gilgit-xx.md",
 					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
@@ -26152,7 +25850,8 @@
 		},
 		{
 			"title": "Suvikrāntavikrāmiparipṛcchā",
-			"category": "sutra/mahayana-sutra",
+			"titleDeva": "सुविक्रान्तविक्रामिपरिपृच्छा नाम सार्धद्विसाहस्रिका प्रज्ञापारमिता",
+			"category": "sutra/prajnaparamita",
 			"editions": [
 				{
 					"ref": "gretil:sa_suvikrAntavikrAmiparipRcchA",
@@ -26165,14 +25864,7 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/s/Suvikr%C4%81ntavikr%C4%81miparip%E1%B9%9Bcch%C4%81.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/s/Suvikr%C4%81ntavikr%C4%81miparip%E1%B9%9Bcch%C4%81.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_suvikrAntavikrAmiparipRcchA.xml"
-				}
-			]
-		},
-		{
-			"title": "Suvikrāntavikrāmiparipṛcchā nāma sārdhadvisāhasrikā prajñāpāramitā",
-			"titleDeva": "सुविक्रान्तविक्रामिपरिपृच्छा नाम सार्धद्विसाहस्रिका प्रज्ञापारमिता",
-			"category": "sutra/prajnaparamita",
-			"editions": [
+				},
 				{
 					"ref": "dsbc:74",
 					"source": "dsbc",
@@ -26995,10 +26687,22 @@
 			"category": "sastra/pramana",
 			"editions": [
 				{
+					"ref": "gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya",
+					"source": "gretil",
+					"sourceId": "sa_pratyakSalakSaNa-of-the-tarkarahasya",
+					"label": "GRETIL",
+					"script": "iast",
+					"title": "Pratyakṣalakṣaṇa of the Tarkarahasya",
+					"slug": "gretil/sa_pratyakSalakSaNa-of-the-tarkarahasya",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/p/Pratyak%E1%B9%A3alak%E1%B9%A3a%E1%B9%87a%20of%20the%20Tarkarahasya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/p/Pratyak%E1%B9%A3alak%E1%B9%A3a%E1%B9%87a%20of%20the%20Tarkarahasya.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pratyakSalakSaNa-of-the-tarkarahasya.xml"
+				},
+				{
 					"ref": "gretil:sa_tarkarahasya",
 					"source": "gretil",
 					"sourceId": "sa_tarkarahasya",
-					"label": "GRETIL",
+					"label": "GRETIL 2",
 					"script": "iast",
 					"title": "Tarkarahasya",
 					"slug": "gretil/sa_tarkarahasya",
@@ -27022,13 +26726,25 @@
 					"ref": "bdrc:P0ECE60D7",
 					"source": "bdrc",
 					"sourceId": "P0ECE60D7",
-					"label": "BDRC",
+					"label": "BDRC (via GRETIL)",
 					"script": "iast",
 					"title": "Tarkarahasya",
 					"slug": "bdrc/P0ECE60D7",
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P0ECE60D7.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P0ECE60D7.md",
 					"originalUrl": "https://github.com/Openpecha-Data/P0ECE60D7"
+				},
+				{
+					"ref": "bdrc:PA99912AF",
+					"source": "bdrc",
+					"sourceId": "PA99912AF",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Pratyakṣalakṣaṇa of the Tarkarahasya",
+					"slug": "bdrc/PA99912AF",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PA99912AF.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PA99912AF.md",
+					"originalUrl": "https://github.com/Openpecha-Data/PA99912AF"
 				}
 			]
 		},
@@ -27688,6 +27404,18 @@
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-triMzikAvijJaptikArikA.xml"
 				},
 				{
+					"ref": "gretil:sa_vasubandhu-triMzikAvijJaptikArikA-comm",
+					"source": "gretil",
+					"sourceId": "sa_vasubandhu-triMzikAvijJaptikArikA-comm",
+					"label": "GRETIL 2",
+					"script": "iast",
+					"title": "Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya",
+					"slug": "gretil/sa_vasubandhu-triMzikAvijJaptikArikA-comm",
+					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/t/Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptik%C4%81rik%C4%81%20with%20Sthiramati's%20Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptibh%C4%81%E1%B9%A3ya.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/t/Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptik%C4%81rik%C4%81%20with%20Sthiramati's%20Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptibh%C4%81%E1%B9%A3ya.md",
+					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-triMzikAvijJaptikArikA-comm.xml"
+				},
+				{
 					"ref": "dsbc:337",
 					"source": "dsbc",
 					"sourceId": "337",
@@ -27736,6 +27464,18 @@
 					"originalUrl": "https://github.com/Openpecha-Data/P3AA43AE4"
 				},
 				{
+					"ref": "bdrc:P90C4A964",
+					"source": "bdrc",
+					"sourceId": "P90C4A964",
+					"label": "BDRC (via GRETIL)",
+					"script": "iast",
+					"title": "Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya",
+					"slug": "bdrc/P90C4A964",
+					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P90C4A964.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P90C4A964.md",
+					"originalUrl": "https://github.com/Openpecha-Data/P90C4A964"
+				},
+				{
 					"ref": "bdrc:PBD202F4D",
 					"source": "bdrc",
 					"sourceId": "PBD202F4D",
@@ -27746,37 +27486,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/PBD202F4D.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/PBD202F4D.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PBD202F4D"
-				}
-			]
-		},
-		{
-			"title": "Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya",
-			"author": "Vasubandhu",
-			"category": "sastra/yogacara",
-			"editions": [
-				{
-					"ref": "gretil:sa_vasubandhu-triMzikAvijJaptikArikA-comm",
-					"source": "gretil",
-					"sourceId": "sa_vasubandhu-triMzikAvijJaptikArikA-comm",
-					"label": "GRETIL",
-					"script": "iast",
-					"title": "Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya",
-					"slug": "gretil/sa_vasubandhu-triMzikAvijJaptikArikA-comm",
-					"url": "https://github.com/meobtis/gretil/blob/main/texts/sastra/philosophy/buddhist/t/Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptik%C4%81rik%C4%81%20with%20Sthiramati's%20Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptibh%C4%81%E1%B9%A3ya.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/sastra/philosophy/buddhist/t/Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptik%C4%81rik%C4%81%20with%20Sthiramati's%20Tri%E1%B9%83%C5%9Bik%C4%81vij%C3%B1aptibh%C4%81%E1%B9%A3ya.md",
-					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vasubandhu-triMzikAvijJaptikArikA-comm.xml"
-				},
-				{
-					"ref": "bdrc:P90C4A964",
-					"source": "bdrc",
-					"sourceId": "P90C4A964",
-					"label": "BDRC",
-					"script": "iast",
-					"title": "Triṃśikāvijñaptikārikā with Sthiramati's Triṃśikāvijñaptibhāṣya",
-					"slug": "bdrc/P90C4A964",
-					"url": "https://github.com/meobtis/bdrc/blob/main/texts/romanized/P90C4A964.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/romanized/P90C4A964.md",
-					"originalUrl": "https://github.com/Openpecha-Data/P90C4A964"
 				}
 			]
 		},

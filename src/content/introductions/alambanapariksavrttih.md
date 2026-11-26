@@ -4,6 +4,10 @@ englishTitle: Investigation of the Percept (Autocommentary)
 refs:
   - dsbc:284
   - dsbc:502
+  - gretil:sa_AlambanaparIkSA
+  - dsbc:283
+  - dsbc:501
+  - gretil:sa_AlambanaparIkSA-comm
 summary: Dignāga's own prose commentary on his short Ālambanaparīkṣā, a Buddhist epistemological work examining what serves as the object (ālambana) of cognition; the Sanskrit is lost and survives in Tibetan and Chinese.
 editions:
   - ref: dsbc:284
@@ -12,7 +16,19 @@ editions:
   - ref: dsbc:502
     history: >-
       The Devanāgarī counterpart of the romanised text, input at the same time (2004) by DSBC staff and proofread by Milan Shakya; its record gives no separate bibliographic data.[^dsbc502]
-updated: 2026-11-13
+  - ref: gretil:sa_AlambanaparIkSA
+    history: >-
+      The GRETIL file gives its source as N. Aiyaswami Shastri's edition (Madras: The Adyar Library, 1942). Its header credits data entry to members of the Digital Sanskrit Buddhist Canon Input Project, with conversion to TEI by Maximilian Mehner.[^gretil-ap]
+  - ref: dsbc:283
+    history: >-
+      The romanized text is based on the same edition by N. Aiyaswami Shastri (Madras: The Adyar Library, 1942). It was input by DSBC staff in 2004 and proofread by Milan Shakya, with the Nagarjuna Institute of Exact Methods as supplier and the University of the West as sponsor.[^dsbc283]
+  - ref: dsbc:501
+    history: >-
+      The Devanāgarī version is the parallel of the romanized DSBC text.[^dsbc283]
+  - ref: gretil:sa_AlambanaparIkSA-comm
+    history: >-
+      The GRETIL file gives its source as N. Aiyaswami Shastri's edition (Madras: The Adyar Library, 1942). The text was keyed by members of the Digital Sanskrit Buddhist Canon Input Project, with later normalisation and TEI conversion by Reinhold Grünendahl and Maximilian Mehner.[^gretil-alambana][^wiki-dignaga]
+updated: 2026-11-26
 ---
 
 The *Ālambanaparīkṣāvṛtti* is the prose autocommentary on the *Ālambanaparīkṣā* ("Investigation of the Object of Cognition", rendered in a recent English volume as "Investigation of the Percept"), a short treatise by the Buddhist logician Dignāga.[^eob][^duckworth2016] The root text is a brief set of verses; the commentary, of about three pages in the English volume, explains and defends them.[^duckworth2016] The digital text opens with Dignāga's verse on whether atoms can be the object of the sense-consciousnesses.[^dsbc284]
@@ -29,3 +45,7 @@ Vinītadeva wrote a subcommentary (*Ālambanaparīkṣāṭīkā*), and Dharmap�
 [^east]: Early Buddhist Texts, Doctrines and Sources (EAST). (n.d.). *Ālambanaparīkṣāvṛtti by Dignāga*. Austrian Academy of Sciences. Retrieved November 13, 2026, from https://east.ikga.oeaw.ac.at/data/1/3
 [^dsbc284]: University of the West. (n.d.). *Ālambanaparīkṣāvṛttiḥ*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/284
 [^dsbc502]: University of the West. (n.d.). *आलम्बनपरीक्षावृत्तिः*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/502
+[^dsbc283]: University of the West. (n.d.). *Ālambanaparīkṣā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/283
+[^gretil-alambana]: Göttingen State and University Library. (n.d.). *Ālambanaparīkṣā with Ālambanaparīkṣāvṛtti* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AlambanaparIkSA-comm.xml
+[^gretil-ap]: Göttingen State and University Library. (n.d.). *Ālambanaparīkṣā* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_AlambanaparIkSA.xml
+[^wiki-dignaga]: Wikipedia contributors. (n.d.). Dignāga. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Dign%C4%81ga

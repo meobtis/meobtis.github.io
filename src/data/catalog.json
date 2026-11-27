@@ -1,5 +1,5 @@
 {
-	"generated": "2026-11-26T21:55:24.500Z",
+	"generated": "2026-11-27T04:19:45.607Z",
 	"sources": [
 		{
 			"id": "gretil",
@@ -74,6 +74,20 @@
 			"works": 5
 		},
 		{
+			"id": "mahavastu",
+			"label": "Marciniak",
+			"name": "The Mahāvastu: A New Edition (Katarzyna Marciniak)",
+			"homepage": "https://github.com/meobtis/mahavastu",
+			"repo": "meobtis/mahavastu",
+			"publisher": "International Research Institute for Advanced Buddhology, Soka University",
+			"credit": "Sanskrit text of Katarzyna Marciniak's new edition of the Mahāvastu, Vols. II (2020) and III (2019), Bibliotheca Philologica et Philosophica Buddhica XIV (International Research Institute for Advanced Buddhology, Soka University). The readings are the work of the editor; the introduction, apparatus and footnotes are not reproduced.",
+			"terms": "The edition is in copyright; the Sanskrit text is offered for research and study. Cite the printed volumes.",
+			"termsUrl": "https://github.com/meobtis/mahavastu",
+			"url": "https://github.com/meobtis/mahavastu",
+			"editions": 2,
+			"works": 1
+		},
+		{
 			"id": "iriab",
 			"label": "ARIRIAB",
 			"name": "Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments",
@@ -85,7 +99,7 @@
 			"termsUrl": "https://github.com/meobtis/iriab",
 			"url": "https://github.com/meobtis/iriab",
 			"editions": 122,
-			"works": 76
+			"works": 70
 		},
 		{
 			"id": "bdrc",
@@ -150,7 +164,7 @@
 					"id": "avadana",
 					"label": "Avadāna",
 					"description": "Edifying narratives of deeds and their fruits, including later Nepalese avadānas and vrata stories.",
-					"count": 36
+					"count": 30
 				},
 				{
 					"id": "jataka",
@@ -165,7 +179,7 @@
 					"count": 0
 				}
 			],
-			"count": 173
+			"count": 167
 		},
 		{
 			"id": "vinaya",
@@ -386,10 +400,10 @@
 					"id": "miscellaneous",
 					"label": "Miscellaneous",
 					"description": "Works not classified elsewhere.",
-					"count": 11
+					"count": 10
 				}
 			],
-			"count": 14
+			"count": 13
 		}
 	],
 	"works": [
@@ -10714,24 +10728,6 @@
 			]
 		},
 		{
-			"title": "Hastinī-jātaka and Hastinī-parikalpa",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:hastini-mahavastu",
-					"source": "iriab",
-					"sourceId": "hastini-mahavastu",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Hastinī-jātaka and Hastinī-parikalpa (Mahāvastu)",
-					"slug": "iriab/hastini-mahavastu",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/hastini-mahavastu.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/hastini-mahavastu.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Hayagrīvavidyā",
 			"titleDeva": "हयग्रीवविद्या",
 			"category": "sutra/dharani",
@@ -15141,6 +15137,123 @@
 					"originalUrl": "https://www.dsbcproject.org/canon-text/book/886"
 				},
 				{
+					"ref": "mahavastu:mahavastu-vol-2-marciniak-2020",
+					"source": "mahavastu",
+					"sourceId": "mahavastu-vol-2-marciniak-2020",
+					"label": "Marciniak (Vol II)",
+					"script": "iast",
+					"title": "Mahāvastu (Vol II)",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "mahavastu/mahavastu-vol-2-marciniak-2020",
+					"url": "https://github.com/meobtis/mahavastu/blob/main/texts/romanized/mahavastu-vol-2-marciniak-2020.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/mahavastu/main/texts/romanized/mahavastu-vol-2-marciniak-2020.md",
+					"originalUrl": "https://github.com/meobtis/mahavastu"
+				},
+				{
+					"ref": "mahavastu:mahavastu-vol-3-marciniak-2019",
+					"source": "mahavastu",
+					"sourceId": "mahavastu-vol-3-marciniak-2019",
+					"label": "Marciniak (Vol III)",
+					"script": "iast",
+					"title": "Mahāvastu (Vol III)",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "mahavastu/mahavastu-vol-3-marciniak-2019",
+					"url": "https://github.com/meobtis/mahavastu/blob/main/texts/romanized/mahavastu-vol-3-marciniak-2019.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/mahavastu/main/texts/romanized/mahavastu-vol-3-marciniak-2019.md",
+					"originalUrl": "https://github.com/meobtis/mahavastu"
+				},
+				{
+					"ref": "iriab:hastini-mahavastu",
+					"source": "iriab",
+					"sourceId": "hastini-mahavastu",
+					"label": "ARIRIAB (Hastinī-jātaka)",
+					"script": "iast",
+					"title": "Hastinī-jātaka and Hastinī-parikalpa (Mahāvastu)",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/hastini-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/hastini-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/hastini-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:nalakaprasna-mahavastu",
+					"source": "iriab",
+					"sourceId": "nalakaprasna-mahavastu",
+					"label": "ARIRIAB (Nālakapraśnāḥ)",
+					"script": "iast",
+					"title": "Nālakapraśnāḥ (The Questions of Nālaka), Mahāvastu",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/nalakaprasna-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/nalakaprasna-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/nalakaprasna-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:padumavatiye-jataka",
+					"source": "iriab",
+					"sourceId": "padumavatiye-jataka",
+					"label": "ARIRIAB (Padumāvatī-jātaka)",
+					"script": "iast",
+					"title": "Padumāvatīye jātakaṃ (Mahāvastu)",
+					"counterpart": "dsbc:884",
+					"slug": "iriab/padumavatiye-jataka",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-jataka.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-jataka.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:padumavatiye-parikalpa",
+					"source": "iriab",
+					"sourceId": "padumavatiye-parikalpa",
+					"label": "ARIRIAB (Padumāvatī-parikalpa)",
+					"script": "iast",
+					"title": "Padumāvatīye parikalpaḥ (Mahāvastu)",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/padumavatiye-parikalpa",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-parikalpa.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-parikalpa.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:pancavanijasata-mahavastu-prose",
+					"source": "iriab",
+					"sourceId": "pancavanijasata-mahavastu-prose",
+					"label": "ARIRIAB (Pañca vāṇijaśatā, prose)",
+					"script": "iast",
+					"title": "Pañca vāṇijaśatā (Mahāvastu), prose version",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/pancavanijasata-mahavastu-prose",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:pancavanijasata-mahavastu-verse",
+					"source": "iriab",
+					"sourceId": "pancavanijasata-mahavastu-verse",
+					"label": "ARIRIAB (Pañca vāṇijaśatā, verse)",
+					"script": "iast",
+					"title": "Pañca vāṇijaśatā (Mahāvastu), verse version",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/pancavanijasata-mahavastu-verse",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
+					"ref": "iriab:sabhika-vastu-mahavastu",
+					"source": "iriab",
+					"sourceId": "sabhika-vastu-mahavastu",
+					"label": "ARIRIAB (Sabhika-vastu)",
+					"script": "iast",
+					"title": "Sabhika-vastu (Mahāvastu)",
+					"counterpart": "bdrc:P853E7A5C",
+					"slug": "iriab/sabhika-vastu-mahavastu",
+					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sabhika-vastu-mahavastu.md",
+					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sabhika-vastu-mahavastu.md",
+					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
+				},
+				{
 					"ref": "bdrc:P040BF068",
 					"source": "bdrc",
 					"sourceId": "P040BF068",
@@ -17460,25 +17573,6 @@
 			]
 		},
 		{
-			"title": "Nālakapraśnāḥ, Mahāvastu",
-			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "other/miscellaneous",
-			"editions": [
-				{
-					"ref": "iriab:nalakaprasna-mahavastu",
-					"source": "iriab",
-					"sourceId": "nalakaprasna-mahavastu",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Nālakapraśnāḥ (The Questions of Nālaka), Mahāvastu",
-					"slug": "iriab/nalakaprasna-mahavastu",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/nalakaprasna-mahavastu.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/nalakaprasna-mahavastu.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Nālandādahanam",
 			"titleDeva": "नालन्दादहनम्",
 			"category": "literature/nataka",
@@ -18279,44 +18373,6 @@
 			]
 		},
 		{
-			"title": "Padumāvatīye jātakaṃ",
-			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:padumavatiye-jataka",
-					"source": "iriab",
-					"sourceId": "padumavatiye-jataka",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Padumāvatīye jātakaṃ (Mahāvastu)",
-					"slug": "iriab/padumavatiye-jataka",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-jataka.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-jataka.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Padumāvatīye parikalpaḥ",
-			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:padumavatiye-parikalpa",
-					"source": "iriab",
-					"sourceId": "padumavatiye-parikalpa",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Padumāvatīye parikalpaḥ (Mahāvastu)",
-					"slug": "iriab/padumavatiye-parikalpa",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/padumavatiye-parikalpa.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/padumavatiye-parikalpa.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
 			"title": "Pāṃśupradāna-avadāna",
 			"category": "sutra/avadana",
 			"editions": [
@@ -18331,44 +18387,6 @@
 					"url": "https://github.com/meobtis/gretil/blob/main/texts/religious-literature/buddhist/p/P%C4%81%E1%B9%83%C5%9Buprad%C4%81na-avad%C4%81na.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/gretil/main/texts/religious-literature/buddhist/p/P%C4%81%E1%B9%83%C5%9Buprad%C4%81na-avad%C4%81na.md",
 					"originalUrl": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_pAMzupradAna-avadAna.xml"
-				}
-			]
-		},
-		{
-			"title": "Pañca vāṇijaśatā, prose version",
-			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:pancavanijasata-mahavastu-prose",
-					"source": "iriab",
-					"sourceId": "pancavanijasata-mahavastu-prose",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Pañca vāṇijaśatā (Mahāvastu), prose version",
-					"slug": "iriab/pancavanijasata-mahavastu-prose",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-prose.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
-				}
-			]
-		},
-		{
-			"title": "Pañca vāṇijaśatā, verse version",
-			"author": "Anonymous (Mahāvastu of the Mahāsāṃghika-Lokottaravādins)",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:pancavanijasata-mahavastu-verse",
-					"source": "iriab",
-					"sourceId": "pancavanijasata-mahavastu-verse",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Pañca vāṇijaśatā (Mahāvastu), verse version",
-					"slug": "iriab/pancavanijasata-mahavastu-verse",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/pancavanijasata-mahavastu-verse.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},
@@ -21871,24 +21889,6 @@
 					"url": "https://github.com/meobtis/bdrc/blob/main/texts/devanagari/PD4DACE6C.md",
 					"rawUrl": "https://raw.githubusercontent.com/meobtis/bdrc/main/texts/devanagari/PD4DACE6C.md",
 					"originalUrl": "https://github.com/Openpecha-Data/PD4DACE6C"
-				}
-			]
-		},
-		{
-			"title": "Sabhika-vastu",
-			"category": "sutra/avadana",
-			"editions": [
-				{
-					"ref": "iriab:sabhika-vastu-mahavastu",
-					"source": "iriab",
-					"sourceId": "sabhika-vastu-mahavastu",
-					"label": "ARIRIAB",
-					"script": "iast",
-					"title": "Sabhika-vastu (Mahāvastu)",
-					"slug": "iriab/sabhika-vastu-mahavastu",
-					"url": "https://github.com/meobtis/iriab/blob/main/texts/romanized/sabhika-vastu-mahavastu.md",
-					"rawUrl": "https://raw.githubusercontent.com/meobtis/iriab/main/texts/romanized/sabhika-vastu-mahavastu.md",
-					"originalUrl": "https://list.indology.info/pipermail/indology/2019-May/050105.html"
 				}
 			]
 		},

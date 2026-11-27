@@ -287,6 +287,30 @@ export const SOURCES = [
 		},
 	},
 	{
+		id: 'mahavastu',
+		label: 'Marciniak',
+		name: 'The Mahāvastu: A New Edition (Katarzyna Marciniak)',
+		homepage: 'https://github.com/meobtis/mahavastu',
+		repo: 'meobtis/mahavastu',
+		publisher: 'International Research Institute for Advanced Buddhology, Soka University',
+		credit:
+			"Sanskrit text of Katarzyna Marciniak's new edition of the Mahāvastu, Vols. II (2020) and III (2019), Bibliotheca " +
+			'Philologica et Philosophica Buddhica XIV (International Research Institute for Advanced Buddhology, Soka University). The ' +
+			'readings are the work of the editor; the introduction, apparatus and footnotes are not reproduced.',
+		terms: 'The edition is in copyright; the Sanskrit text is offered for research and study. Cite the printed volumes.',
+		termsUrl: 'https://github.com/meobtis/mahavastu',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'mahavastu',
+				sourceId: path.replace(/^.*\//, '').replace(/\.md$/, ''),
+				title: String(data.title).trim(),
+				script: 'iast',
+				path,
+				originalUrl: 'https://github.com/meobtis/mahavastu',
+			}));
+		},
+	},
+	{
 		id: 'iriab',
 		label: 'ARIRIAB',
 		name: 'Annual Report of the International Research Institute for Advanced Buddhology (ARIRIAB) and St Petersburg Sanskrit Fragments',

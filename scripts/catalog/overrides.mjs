@@ -67,6 +67,8 @@ export const MERGE = [
 	['gretil:sa_tarkarahasya', 'sarit:tarkarahasya', 'bdrc:P0ECE60D7', 'gretil:sa_pratyakSalakSaNa-of-the-tarkarahasya', 'bdrc:PA99912AF'], // Tarkarahasya
 	['gretil:sa_suvikrAntavikrAmiparipRcchA', 'dsbc:74', 'dsbc:405'], // Suvikrāntavikrāmiparipṛcchā
 	['gretil:sa_abhisamayAlaMkAra', 'bdrc:P2EE03CD4', 'gretil:sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra'], // Abhisamayālaṃkāra
+	// Mahāvastu: Marciniak's new edition and the sections published ahead of it in ARIRIAB
+	['gretil:sa_mahAvastu-avAdana', 'mahavastu:mahavastu-vol-2-marciniak-2020', 'mahavastu:mahavastu-vol-3-marciniak-2019', 'iriab:padumavatiye-parikalpa', 'iriab:padumavatiye-jataka', 'iriab:pancavanijasata-mahavastu-prose', 'iriab:pancavanijasata-mahavastu-verse', 'iriab:nalakaprasna-mahavastu', 'iriab:hastini-mahavastu', 'iriab:sabhika-vastu-mahavastu'],
 	// Duplicates found by comparing titles across the whole catalogue
 	['gretil:sa_asaGga-abhidharmasamuccaya', 'bdrc:PA7F751C2'], // Abhidharmasamuccaya
 	['gretil:sa_aparimitAyuHsUtra', 'dsbc:24', 'dsbc:409', 'bdrc:P24B2B44D'], // Aparimitāyuḥsūtra
@@ -266,6 +268,14 @@ export const EDITION_NOTES = {
 	// Ajitasenavyākaraṇa
 	'iriab:ajitasenavyakarana': 'StPSF I, St Petersburg MS',
 	'iriab:ajitasenavyakarana-gilgit': 'StPSF I, Gilgit MS',
+	// Mahāvastu: sections published in ARIRIAB
+	'iriab:padumavatiye-parikalpa': 'Padumāvatī-parikalpa',
+	'iriab:padumavatiye-jataka': 'Padumāvatī-jātaka',
+	'iriab:pancavanijasata-mahavastu-prose': 'Pañca vāṇijaśatā, prose',
+	'iriab:pancavanijasata-mahavastu-verse': 'Pañca vāṇijaśatā, verse',
+	'iriab:nalakaprasna-mahavastu': 'Nālakapraśnāḥ',
+	'iriab:hastini-mahavastu': 'Hastinī-jātaka',
+	'iriab:sabhika-vastu-mahavastu': 'Sabhika-vastu',
 	// Texts moved to the work they contain
 	'bdrc:PB4FBD6C9': 'via DSBC, Vyatirekātmikā',
 	'bdrc:P5D55E3DF': 'chapters I–VII',

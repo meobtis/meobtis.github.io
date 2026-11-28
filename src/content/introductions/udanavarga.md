@@ -3,12 +3,16 @@ title: Udānavarga
 englishTitle: The Udānavarga
 refs:
   - gretil:sa_udAnavarga
+  - titus:udanav
 summary: A large Sarvāstivāda anthology of Dharmapada-type verses attributed to the Buddha, arranged by theme in 33 chapters, closely parallel to the Pali Dhammapada and Udāna.
 editions:
   - ref: gretil:sa_udAnavarga
     history: >-
       The GRETIL text is based on Franz Bernhard's Göttingen edition of 1965. The file header credits data entry and contribution to GRETIL to Muneo Tokunaga, initial normalisation and conversion to Reinhold Grünendahl, and conversion to TEI-conformant markup to Maximilian Mehner.[^gretil-udanavarga][^bernhard1965]
-updated: 2026-11-13
+  - ref: titus:udanav
+    history: >-
+      Based on Franz Bernhard's *Udānavarga*, Band I (Göttingen, 1965), electronically prepared by J. Gippert and K. Kupfer (Frankfurt, 1996–1998; TITUS version by Jost Gippert).[^titus-udanavarga][^bernhard1965]
+updated: 2026-11-28
 ---
 
 The *Udānavarga* ("Chapters of Inspired Utterances") is a collection of Dharmapada-type verses arranged by theme in 33 chapters (*varga*), running from the first chapter on impermanence (*anitya*) to the last on the brahmin (*brāhmaṇa*).[^anandajoti-index] It is the largest extant collection of its kind: the edition on which Ānandajoti Bhikkhu's recent translation is based contains 1061 verses, counting variants that cannot be reconciled.[^anandajoti-intro] Its verses, many of them well-known maxims on craving, heedfulness, speech, the path and nirvāṇa, have numerous parallels in the Pali *Dhammapada* (423 verses in 26 chapters) and the Patna *Dharmapada* (414 verses in 22 chapters), and the same translator's concordance traces hundreds of Pali parallels, including some 451 from the *Dhammapada* and 101 from the *Udāna*.[^anandajoti-intro]
@@ -21,3 +25,4 @@ The Tibetan version, found in the Kangyur (*mdo sde*, volume *sa*), was translat
 [^anandajoti-intro]: Ānandajoti Bhikkhu. (2025). Introduction. In *Udānavarga: The exalted chapters*. Ancient Buddhist Texts. Retrieved November 13, 2026, from https://www.ancient-buddhist-texts.net/Texts-and-Translations/Udanavarga/00-Introduction.htm
 [^bernhard1965]: Bernhard, F. (Ed.). (1965). *Udānavarga*. Vandenhoeck & Ruprecht.
 [^gretil-udanavarga]: Göttingen State and University Library. (n.d.). *Udānavarga* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_udAnavarga.xml
+[^titus-udanavarga]: Gippert, J., & Kupfer, K. (Eds.). (1998). *Udānavarga* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/udanav/udana.htm

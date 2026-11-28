@@ -1,0 +1,182 @@
+---
+// Displays a Sanskrit-to-English translation with an accessible switch to toggle
+// between the English translation and the four-line interlinear view.
+interface Props {
+	enHtml: string;
+	interlinearHtml?: string;
+}
+
+const { enHtml, interlinearHtml } = Astro.props;
+const switchId = 'interlinear-switch';
+---
+
+<meobtis-translation>
+	{
+		interlinearHtml && (
+			<div class="view-controls not-content">
+				<div class="switch-row">
+					<input id={switchId} type="checkbox" switch />
+					<label for={switchId}>Show interlinear (Sanskrit, grammar, and word-by-word gloss)</label>
+				</div>
+			</div>
+		)
+	}
+
+	<article class="translation-en sl-markdown-content" lang="en" set:html={enHtml} />
+
+	{
+		interlinearHtml && (
+			<article class="translation-interlinear sl-markdown-content" lang="en" hidden set:html={interlinearHtml} />
+		)
+	}
+</meobtis-translation>
+
+<script>
+	class MeobtisTranslation extends HTMLElement {
+		connectedCallback() {
+			const input = this.querySelector<HTMLInputElement>('input[type="checkbox"][switch]');
+			const en = this.querySelector<HTMLElement>('.translation-en');
+			const il = this.querySelector<HTMLElement>('.translation-interlinear');
+			if (!input || !en || !il) return;
+
+			if (!('switch' in HTMLInputElement.prototype)) {
+				input.classList.add('switch-fallback');
+				input.setAttribute('role', 'switch');
+			}
+
+			const apply = (showInterlinear: boolean, syncUrl: boolean) => {
+				input.checked = showInterlinear;
+				if (input.hasAttribute('role')) {
+					input.setAttribute('aria-checked', String(showInterlinear));
+				}
+				en.hidden = showInterlinear;
+				il.hidden = !showInterlinear;
+
+				if (syncUrl) {
+					const url = new URL(window.location.href);
+					if (showInterlinear) url.searchParams.set('view', 'interlinear');
+					else url.searchParams.delete('view');
+					window.history.replaceState(null, '', url);
+				}
+			};
+
+			const initial = new URLSearchParams(window.location.search).get('view') === 'interlinear';
+			apply(initial, false);
+
+			input.addEventListener('change', () => {
+				apply(input.checked, true);
+			});
+		}
+	}
+
+	customElements.define('meobtis-translation', MeobtisTranslation);
+</script>
+
+<style>
+	meobtis-translation {
+		display: block;
+		margin-top: 1.5rem;
+	}
+	.view-controls {
+		margin-bottom: 1.5rem;
+		padding: 0.75rem 1rem;
+		border: 1px solid var(--sl-color-hairline);
+		border-radius: 0.5rem;
+		background: var(--sl-color-bg-nav);
+	}
+	.switch-row {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.75rem;
+		min-block-size: 2.5rem;
+	}
+	.switch-row label {
+		cursor: pointer;
+		font-size: var(--sl-text-sm);
+		font-weight: 600;
+		color: var(--sl-color-white);
+		user-select: none;
+	}
+	input[type='checkbox'][switch] {
+		accent-color: var(--sl-color-accent);
+		margin: 0;
+		cursor: pointer;
+		flex-shrink: 0;
+	}
+	input[type='checkbox'][switch]:focus-visible {
+		outline: 3px solid var(--sl-color-accent-high);
+		outline-offset: 4px;
+	}
+	/* Fallback pill switch for browsers without native <input type="checkbox" switch> */
+	input[type='checkbox'][switch].switch-fallback {
+		appearance: none;
+		width: 2.75rem;
+		height: 1.5rem;
+		border-radius: 999px;
+		background: var(--sl-color-gray-5);
+		border: 1px solid var(--sl-color-gray-4);
+		position: relative;
+		transition: background-color 0.15s ease, border-color 0.15s ease;
+	}
+	input[type='checkbox'][switch].switch-fallback::before {
+		content: '';
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		width: 1.125rem;
+		height: 1.125rem;
+		border-radius: 50%;
+		background: var(--sl-color-white);
+		transition: transform 0.15s ease;
+	}
+	input[type='checkbox'][switch].switch-fallback:checked {
+		background: var(--sl-color-accent);
+		border-color: var(--sl-color-accent);
+	}
+	input[type='checkbox'][switch].switch-fallback:checked::before {
+		transform: translateX(1.25rem);
+		background: var(--sl-color-black);
+	}
+
+	.translation-en,
+	.translation-interlinear {
+		overflow-wrap: anywhere;
+	}
+	.translation-interlinear :global(.il-block) {
+		padding: 0.875rem 0;
+		border-bottom: 1px solid var(--sl-color-hairline);
+		content-visibility: auto;
+		contain-intrinsic-block-size: auto 7rem;
+	}
+	.translation-interlinear :global(.il-block:last-child) {
+		border-bottom: none;
+	}
+	.translation-interlinear :global(.il-block p) {
+		margin: 0.25rem 0;
+	}
+	.translation-interlinear :global(.il-sa) {
+		font-weight: 600;
+		color: var(--sl-color-white);
+	}
+	.translation-interlinear :global(.il-morph) {
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+	}
+	.translation-interlinear :global(.il-gloss) {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+		font-style: italic;
+	}
+	.translation-interlinear :global(.il-en) {
+		margin-top: 0.5rem;
+		color: var(--sl-color-white);
+	}
+	@media print {
+		.view-controls {
+			display: none;
+		}
+		.translation-interlinear :global(.il-block) {
+			content-visibility: visible;
+		}
+	}
+</style>

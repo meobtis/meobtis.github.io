@@ -5,6 +5,7 @@ refs:
   - gretil:sa_divyAvadAna
   - dsbc:364-iast
   - dsbc:364
+  - titus:divyavad
 summary: A Sanskrit anthology of thirty-eight Buddhist avadāna narratives, many connected with the Mūlasarvāstivāda tradition, explaining through past-life stories how deeds bring their results.
 editions:
   - ref: gretil:sa_divyAvadAna
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:364-iast
     history: >-
       A machine transliteration into IAST of the DSBC Devanāgarī text, so it shares that edition's thirty-eight sections and the absence of stated bibliographic details.[^dsbc364]
-updated: 2026-11-13
+  - ref: titus:divyavad
+    history: >-
+      Based on P. L. Vaidya's 1959 Darbhanga edition, digitized by Kensuke Okamoto (Kyōto, ca. 1995) and adapted for TITUS from the Unicode-encoded GRETIL version by Jost Gippert.[^titus-divy]
+updated: 2026-11-28
 ---
 
 The *Divyāvadāna* ("Divine Narratives", known in English as *Divine Stories*) is a Sanskrit anthology of Buddhist *avadāna* tales, which the DSBC and GRETIL texts divide into thirty-eight numbered stories.[^dsbc364][^wiki-divy] Many of the stories are drawn from Mūlasarvāstivādin *vinaya* literature. In them the Buddha typically explains how a person's earlier actions led to their present fortunes, with particular emphasis on the merit of offerings to awakened beings and at stūpas.[^wiki-divy] The collection opens with the Koṭikarṇāvadāna, a tale set in Śrāvastī at the Jetavana monastery.[^gretil-divy]
@@ -28,3 +32,4 @@ The first Western edition, by Cowell and Neil (1886), was prepared from Nepalese
 [^wiki-divy]: Wikipedia contributors. (n.d.). Divyavadana. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Divyavadana
 [^gretil-divy]: Göttingen State and University Library. (n.d.). *Divyāvadāna* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_divyAvadAna.xml
 [^dsbc364]: University of the West. (n.d.). *Divyāvadānam*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/364
+[^titus-divy]: Okamoto, K., & Gippert, J. (Eds.). (n.d.). *Divyāvadāna* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/divyavad/divya.htm

@@ -6,6 +6,7 @@ refs:
   - gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11
   - dsbc:17
   - dsbc:388
+  - titus:sannipat
 summary: A Mahāyāna sūtra combining dhāraṇī and prophecy, also called the Ratnaketuparivarta, from the Mahāsaṃnipāta (Great Collection), on the Buddha's defeat of Māra's attempt to destroy the Dharma; the Sanskrit survives incompletely.
 editions:
   - ref: gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra
@@ -20,7 +21,10 @@ editions:
   - ref: dsbc:388
     history: >-
       The Devanagari version of the same Digital Sanskrit Buddhist Canon text.[^dsbc388] It is a transliteration of the romanized edition and shares its source.
-updated: 2026-11-27
+  - ref: titus:sannipat
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 4 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-sannipat]
+updated: 2026-11-28
 ---
 
 The *Mahāsaṃnipātaratnaketudhāraṇīsūtra*, also called the *Ratnaketuparivarta* (abbreviated RKP in one GRETIL text), is a Sanskrit Buddhist text that combines narrative sūtra material with dhāraṇī formulae. The edition that one GRETIL text reproduces is a critical edition of the Sanskrit manuscript text published in Kyoto in 1978, and the transcription records that the first four folios of the manuscript are lost.[^gretil-rkp] The other digital texts are based on Nalinaksha Dutt's edition of the Gilgit manuscripts: a second GRETIL file, limited to chapters 1–6 and 10–11,[^gretil-rkp-dutt] and the Digital Sanskrit Buddhist Canon text, in which the work is set out in eleven chapters (*parivarta*) and opens with a dhāraṇī and homage to buddhas.[^dsbc17]
@@ -43,3 +47,4 @@ Fragments of the *Ratnaketuparivarta* in the Schøyen Collection were published 
 [^dsbc388]: University of the West. (n.d.). *महासन्निपातरत्नकेतुधारणी सूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/388
 [^84000toh138]: Dharmachakra Translation Committee. (n.d.). *The Ratnaketu dhāraṇī* (Toh 138). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh138
 [^gretil-rkp-dutt]: Göttingen State and University Library. (n.d.). *Mahāsaṃnipātaratnaketudhāraṇīsūtra, 1-6, 10-11* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11.xml
+[^titus-sannipat]: Degener, A., & Gippert, J. (Eds.). (2003). *Mahāsannipātaratnaketusūtram* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/sannipat/sanni.htm

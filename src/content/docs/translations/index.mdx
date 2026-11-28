@@ -1,0 +1,148 @@
+---
+title: Translations
+description: Selected Buddhist Sanskrit texts translated into English, with an option on each page to show the interlinear grammatical analysis.
+tableOfContents: false
+sidebar:
+  label: Overview
+  order: 0
+---
+
+import { getCollection } from 'astro:content';
+import { readerUrl, sourceById } from '../../../lib/catalog';
+import { introductions } from '../../../lib/introductions';
+import { translationsBySlug } from '../../../lib/translations';
+
+export const docPages = (await getCollection('docs'))
+	.filter((d) => d.id.startsWith('translations/') && d.id !== 'translations')
+	.sort((a, b) => (a.data.sidebar?.order ?? Infinity) - (b.data.sidebar?.order ?? Infinity));
+
+export const itemsBySlug = await translationsBySlug();
+export const intros = await introductions();
+
+Selected Sanskrit-to-English translations from the [meobtis-en](https://github.com/meobtis/meobtis-en) repository,
+listed in reading order. Each page displays the English translation and includes a switch to show the four-line
+interlinear view (Sanskrit, grammatical analysis, word-by-word gloss, and translation).
+
+<ol class="works not-content">
+	{
+		docPages.map((doc, idx) => {
+			const slug = doc.id.replace(/^translations\//, '');
+			const item = itemsBySlug.get(slug);
+			const intro = item?.work ? intros.get(item.work) : undefined;
+			const source = item?.edition ? sourceById[item.edition.source] : undefined;
+			return (
+				<li class="work">
+					<div class="work-main">
+						<div class="work-title">
+							<span class="badge">{idx + 1}</span>
+							<span class="iast" lang="sa-Latn">
+								{doc.data.title}
+							</span>
+							{item?.work?.titleDeva && (
+								<span class="deva" lang="sa-Deva">
+									{item.work.titleDeva}
+								</span>
+							)}
+						</div>
+						{intro?.data.englishTitle && <div class="english">{intro.data.englishTitle}</div>}
+						{intro && <p class="summary">{intro.data.summary}</p>}
+						<div class="work-meta">
+							{source && <span>{source.label}</span>}
+							{item?.edition && <a href={readerUrl(item.edition)}>Sanskrit edition</a>}
+							{item?.interlinear && <span>Interlinear available</span>}
+						</div>
+					</div>
+					<a class="read" href={`/${doc.id}/`} aria-label={`Read translation of ${doc.data.title}`}>
+						Read
+					</a>
+				</li>
+			);
+		})
+	}
+</ol>
+
+<style>{`
+	.works {
+		list-style: none;
+		padding: 0;
+		margin: 1.5rem 0 0;
+		display: grid;
+		gap: 0;
+	}
+	.work {
+		padding: 1rem 0;
+		border-bottom: 1px solid var(--sl-color-hairline);
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1.5rem;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.work-main {
+		flex: 1 1 20rem;
+		min-width: 0;
+	}
+	.work-title {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.25rem 0.75rem;
+	}
+	.badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 1.625rem;
+		padding: 0.1rem 0.45rem;
+		border-radius: 0.375rem;
+		border: 1px solid var(--sl-color-accent);
+		font-size: var(--sl-text-xs);
+		font-weight: 600;
+		color: var(--sl-color-accent-high);
+	}
+	.iast {
+		font-weight: 600;
+		font-size: var(--sl-text-lg);
+		color: var(--sl-color-white);
+	}
+	.deva {
+		font-size: var(--sl-text-base);
+		color: var(--sl-color-gray-2);
+	}
+	.english {
+		font-size: var(--sl-text-sm);
+		font-style: italic;
+		color: var(--sl-color-gray-2);
+		margin-top: 0.15rem;
+	}
+	.summary {
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-2);
+		margin: 0.35rem 0 0;
+	}
+	.work-meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1rem;
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+		margin-top: 0.4rem;
+	}
+	.read {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 2.5rem;
+		padding: 0 1.125rem;
+		border-radius: 0.5rem;
+		background: var(--sl-color-accent);
+		color: var(--sl-color-black);
+		font-weight: 600;
+		font-size: var(--sl-text-sm);
+		text-decoration: none;
+	}
+	.read:hover,
+	.read:focus-visible {
+		background: var(--sl-color-accent-high);
+	}
+`}</style>

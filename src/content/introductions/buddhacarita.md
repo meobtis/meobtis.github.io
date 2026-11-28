@@ -6,6 +6,7 @@ refs:
   - gretil:sa_azvaghoSa-buddhacarita-alt
   - dsbc:222
   - dsbc:471
+  - titus:bcar
 summary: The Buddhacarita ("Acts of the Buddha") is a Sanskrit court epic (mahākāvya) by Aśvaghoṣa on the life of the Buddha, among the earliest surviving works of Sanskrit kāvya literature.
 editions:
   - ref: gretil:sa_azvaghoSa-buddhacarita
@@ -20,7 +21,10 @@ editions:
   - ref: dsbc:471
     history: >-
       The Devanagari version of the Digital Sanskrit Buddhist Canon text of the same work.[^dsbc471]
-updated: 2026-11-13
+  - ref: titus:bcar
+    history: >-
+      Arranged interlinearly from E. H. Johnston's edition (Calcutta, 1935) and Edward B. Cowell's edition, electronically prepared by Peter Schreiner (1990) with secondary passages entered by Jost Gippert, Tatsushi Tamai, and Katharina Kupfer (Frankfurt, 1995–2000).[^titus-bcar]
+updated: 2026-11-28
 ---
 
 The Buddhacarita (*Buddhacarita*, "Acts of the Buddha"; also rendered "Life of the Buddha") is a Sanskrit poem on the life of the Buddha attributed to the Buddhist monk Aśvaghoṣa. Its publisher's description calls it the earliest surviving text of the Sanskrit literary genre of kāvya, and places its composition in the first or second century CE, probably in Ayodhya.[^olivelle2008] The Sanskrit editions available here run to fourteen cantos, beginning with the king Śuddhodana, the queen Māyā and the birth of the future Buddha.[^dsbc222][^gretil-bc-alt]
@@ -34,3 +38,4 @@ Johnston's 1935 edition and Cowell's 1893 edition are the printed sources named 
 [^gretil-bc-alt]: Göttingen State and University Library. (n.d.). *Buddhacarita* (alternative version) [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_azvaghoSa-buddhacarita-alt.xml
 [^dsbc222]: University of the West. (n.d.). *Buddhacarita*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/222
 [^dsbc471]: University of the West. (n.d.). *बुद्धचरित*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/471
+[^titus-bcar]: Schreiner, P., Gippert, J., Tamai, T., & Kupfer, K. (Eds.). (2000). *Buddhacarita* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/bcar/bcar.htm

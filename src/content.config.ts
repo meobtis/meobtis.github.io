@@ -57,4 +57,20 @@ export const collections = {
 			updated: z.coerce.date(),
 		}),
 	}),
+
+	/**
+	 * Translations: English and interlinear translations of selected Sanskrit texts
+	 * in a flat folder (NN-<slug>.md and NN-<slug>.interlinear.md), ordered by filename.
+	 */
+	translations: defineCollection({
+		loader: glob({ base: './src/content/translations', pattern: '*.md' }),
+		schema: z
+			.object({
+				title: z.string(),
+				book_id: z.union([z.number(), z.string()]).optional(),
+				gretil_id: z.string().optional(),
+				source_url: z.string().optional(),
+			})
+			.passthrough(),
+	}),
 };

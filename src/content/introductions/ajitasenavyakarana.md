@@ -6,6 +6,7 @@ refs:
   - gretil:sa_ajitasenavyAkaraNa-alt
   - dsbc:23
   - dsbc:408
+  - titus:ajitasen
 summary: A short Mahāyāna sūtra, known from a Gilgit manuscript, in which the monk Nandimitra guides King Ajitasena of Magadha and prophecies of future Buddhahood are given.
 editions:
   - ref: gretil:sa_ajitasenavyAkaraNa
@@ -20,7 +21,10 @@ editions:
   - ref: dsbc:408
     history: >-
       The parallel Devanāgarī version of the same DSBC input, also dated 2004 and proof-read by Miroj Shakya.[^dsbc408]
-updated: 2026-11-13
+  - ref: titus:ajitasen
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-asv]
+updated: 2026-11-28
 ---
 
 The *Ajitasenavyākaraṇa* ("Prophecy of Ajitasena"; its full title is given as *Ajitasenavyākaraṇanirdeśa*) is a short sūtra usually classed as Mahāyāna, preserved in Sanskrit in a manuscript found near Gilgit in 1931, which is dated to roughly the sixth or seventh century.[^wiki-ajitasena] The English name "Ajitasena Sūtra" is the one used in encyclopaedic descriptions of the work; no widely used translated title appears to exist.
@@ -37,3 +41,4 @@ The Sanskrit text was edited from the Gilgit manuscript by Nalinaksha Dutt in th
 [^gretil-asv-alt]: Göttingen State and University Library. (n.d.). *Ajitasenavyākaraṇa* [TEI XML, alternative version]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ajitasenavyAkaraNa-alt.xml
 [^dsbc23]: University of the West. (n.d.). *Ajitasenavyākaraṇam*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/23
 [^dsbc408]: University of the West. (n.d.). *अजितसेनव्याकरणम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/408
+[^titus-asv]: Degener, A., & Gippert, J. (Eds.). (2003). *Ajitasenavyākaraṇam* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/ajitasen/ajita.htm

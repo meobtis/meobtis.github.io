@@ -136,6 +136,10 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Translations',
+					items: [{ autogenerate: { directory: 'translations' } }],
+				},
+				{
 					label: 'Texts',
 					items: [
 						{ label: 'Overview', link: '/texts/' },

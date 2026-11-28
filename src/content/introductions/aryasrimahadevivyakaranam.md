@@ -4,6 +4,7 @@ refs:
   - dsbc:11
   - dsbc:383
   - gretil:sa_zrImahAdevIvyAkaraNa
+  - titus:mahadevi
 summary: A short Sanskrit Mahāyāna text, classed as a dhāraṇī, in which the Buddha announces the future buddhahood of the goddess Śrī and teaches a list of tathāgata names and goddess names for protection and prosperity.
 editions:
   - ref: dsbc:11
@@ -15,7 +16,10 @@ editions:
   - ref: gretil:sa_zrImahAdevIvyAkaraNa
     history: >-
       The GRETIL text is based on Nalinaksa Dutt's edition of the Gilgit manuscripts (vol. I, Delhi: Sri Satguru Publications, 1984, pp. 91–100). It was keyed in by members of the Digital Sanskrit Buddhist Canon Input Project, normalised by Reinhold Grünendahl and converted to TEI markup by Maximilian Mehner; the GRETIL file is dated 31 July 2020.[^gretil-smdv]
-updated: 2026-11-27
+  - ref: titus:mahadevi
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-mahadevi]
+updated: 2026-11-28
 ---
 
 The *Āryaśrīmahādevīvyākaraṇa* ("The Prophecy concerning the Noble Glorious Great Goddess") is a short Sanskrit text of one chapter. The Digital Sanskrit Buddhist Canon files it under the dhāraṇī texts of the sūtra collection, and gives the Gilgit Manuscripts, edited by Nalinaksa Dutt, as its source.[^dsbc11] The GRETIL record also preserves the alternative title *Dvādaśadaṇḍakanāmāṣṭaśatavimalīkaraṇā*.[^gretil-smdv] The Gilgit manuscripts are birch-bark Buddhist texts in Sanskrit found in Gilgit in 1931 and generally dated to roughly the fifth to sixth centuries, although later material has also been grouped with them.[^wiki-gilgit]
@@ -25,3 +29,4 @@ The text opens in the usual sūtra manner, with the Buddha staying in Sukhāvat�
 [^dsbc11]: University of the West. (n.d.). *Āryaśrīmahādevīvyākaraṇam*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/11
 [^wiki-gilgit]: Wikipedia contributors. (n.d.). Gilgit manuscripts. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Gilgit_manuscripts
 [^gretil-smdv]: Göttingen State and University Library. (n.d.). *Śrīmahādevīvyākaraṇa* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zrImahAdevIvyAkaraNa.xml
+[^titus-mahadevi]: Degener, A., & Gippert, J. (Eds.). (2003). *Āryaśrīmahādevīvyākaraṇam* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/mahadevi/mahad.htm

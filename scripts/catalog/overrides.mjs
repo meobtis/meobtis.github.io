@@ -76,7 +76,8 @@ export const MERGE = [
 	['gretil:sa_zrImahAdevIvyAkaraNa', 'dsbc:11', 'dsbc:383'], // Mahādevīvyākaraṇa
 	['gretil:sa_grahamAtRkAdhAraNI', 'dsbc:862', 'dsbc:863'], // Grahamātṛkādhāraṇī
 	['gretil:sa_mahApratisarAvidyAdhAraNI', 'gretil:sa_mahApratisarAmahAvidyArAjJI', 'dsbc:381', 'dsbc:381-iast', 'iriab:mahapratisara-vidyarajni-gilgit-fe3119'], // Mahāpratisarā
-	['gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra', 'gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11', 'dsbc:17', 'dsbc:388'], // Ratnaketudhāraṇī
+	['gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra', 'gretil:sa_mahAsaMnipAtaratnaketudhAraNIsUtra1-610-11', 'dsbc:17', 'dsbc:388', 'titus:sannipat'], // Ratnaketudhāraṇī
+	['gretil:sa_sarvatathAgatAdhiSThAnavyUhasUtra', 'titus:sarvatat'], // Sarvatathāgatādhiṣṭhānavyūhasūtra
 	['gretil:sa_pramANavArttika', 'dsbc:298', 'dsbc:514', 'bdrc:P18524656'], // Pramāṇavārttika
 	['gretil:sa_pratItyasamutpAdamahAyAnasUtra', 'dsbc:28', 'dsbc:414'], // Pratītyasamutpādamahāyānasūtra
 	['gretil:sa_vajravidAraNAdhAraNI', 'gretil:sa_vajravidAraNIdhAraNI', 'dsbc:12', 'dsbc:382'], // Vajravidāraṇā

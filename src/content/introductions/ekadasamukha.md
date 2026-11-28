@@ -5,6 +5,7 @@ refs:
   - gretil:sa_ekAdazamukha
   - dsbc:15
   - dsbc:385
+  - titus:ekadasa
 summary: A short dhāraṇī text in which Avalokiteśvara teaches the "heart" of his eleven-faced form, with its benefits and a set of ritual mantras, preserved in a Sanskrit manuscript from Gilgit.
 editions:
   - ref: gretil:sa_ekAdazamukha
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:385
     history: >-
       The Devanāgarī version of the same DSBC text, listed by the project as the parallel of the romanised edition.[^dsbc15]
-updated: 2026-11-13
+  - ref: titus:ekadasa
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984, pp. 35–40), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-ekadasa]
+updated: 2026-11-28
 ---
 
 The *Ekādaśamukha* is a short dhāraṇī text, called in English the Eleven-Faced Avalokiteśvara Heart Dhāraṇī Sūtra, in which the bodhisattva Avalokiteśvara presents to the Buddha a "heart" (*hṛdaya*) formula associated with his eleven-faced form.[^wiki-ekadasamukha] In the Sanskrit text the Buddha is staying at Śrāvastī when Avalokiteśvara approaches him, recalls hearing the formula from earlier buddhas, and then recites it. The text goes on to list benefits of reciting it and gives a series of further mantras for ritual uses such as bathing, offerings, a fire rite and dismissal of the deity.[^gretil-ekadasamukha]
@@ -27,3 +31,4 @@ The Sanskrit text survives in a manuscript from Gilgit, discovered in 1931 and d
 [^dutt1939]: Dutt, N. (1939). *Gilgit manuscripts* (Vol. 1). Calcutta Oriental Press. Retrieved November 13, 2026, from https://archive.org/details/in.ernet.dli.2015.281050
 [^gretil-ekadasamukha]: Göttingen State and University Library. (n.d.). *Ekādaśamukha* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_ekAdazamukha.xml
 [^dsbc15]: University of the West. (n.d.). *Ekādaśamukham*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/15
+[^titus-ekadasa]: Degener, A., & Gippert, J. (Eds.). (2003). *Ekādaśamukham* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/ekadasa/ekada.htm

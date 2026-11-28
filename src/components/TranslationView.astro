@@ -1,0 +1,99 @@
+---
+// Renders the metadata header and TranslationReader for a Starlight translation doc page.
+import TranslationReader from './TranslationReader.astro';
+import { categoryOf, categoryUrl, readerUrl, sourceById } from '../lib/catalog';
+import { introductions } from '../lib/introductions';
+import { getTranslation, renderInterlinearHtml, renderTranslationHtml } from '../lib/translations';
+
+interface Props {
+	slug: string;
+	englishTitle?: string;
+}
+
+const { slug, englishTitle } = Astro.props;
+const item = await getTranslation(slug);
+const intros = await introductions();
+const intro = item.work ? intros.get(item.work) : undefined;
+const english = englishTitle ?? intro?.data.englishTitle;
+const source = item.edition ? sourceById[item.edition.source] : undefined;
+const place = item.work ? categoryOf(item.work) : undefined;
+const sourceUrl = typeof item.en.data.source_url === 'string' ? item.en.data.source_url : undefined;
+
+const enHtml = await renderTranslationHtml(item.en.body ?? '');
+const interlinearHtml = item.interlinear ? await renderInterlinearHtml(item.interlinear.body ?? '') : undefined;
+---
+
+<div class="meta not-content" data-pagefind-ignore>
+	{english && <p class="english-title">{english}</p>}
+	{item.work?.titleDeva && <p class="deva" lang="sa-Deva">{item.work.titleDeva}</p>}
+	<dl>
+		{
+			source && (
+				<>
+					<dt>Source</dt>
+					<dd>{source.name}</dd>
+				</>
+			)
+		}
+		{
+			place && (
+				<>
+					<dt>Category</dt>
+					<dd>
+						<a href="/texts/">Texts</a> › {place.group.label} ›{' '}
+						<a href={categoryUrl(place.group, place.category)}>{place.category.label}</a>
+					</dd>
+				</>
+			)
+		}
+		{
+			(item.edition || sourceUrl) && (
+				<>
+					<dt>Links</dt>
+					<dd>
+						{item.edition && <a href={readerUrl(item.edition)}>Sanskrit edition</a>}
+						{item.edition && sourceUrl && ' · '}
+						{sourceUrl && <a href={sourceUrl}>Original source</a>}
+					</dd>
+				</>
+			)
+		}
+	</dl>
+</div>
+
+<TranslationReader enHtml={enHtml} interlinearHtml={interlinearHtml} />
+
+<style>
+	.meta .english-title {
+		font-size: var(--sl-text-xl);
+		font-style: italic;
+		margin: 0;
+	}
+	.meta .deva {
+		font-size: var(--sl-text-xl);
+		color: var(--sl-color-gray-2);
+		margin-top: 0;
+	}
+	.meta dl {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.25rem 1rem;
+		font-size: var(--sl-text-sm);
+		margin-top: 0.75rem;
+	}
+	.meta dt {
+		color: var(--sl-color-gray-3);
+	}
+	.meta dt,
+	.meta dd {
+		margin: 0;
+	}
+	@media (max-width: 30rem) {
+		.meta dl {
+			grid-template-columns: 1fr;
+		}
+		.meta dd {
+			margin-bottom: 0.5rem;
+		}
+	}
+</style>

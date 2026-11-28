@@ -2,7 +2,7 @@
   "name": "meobtis.github.io",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@12.18.0",
+  "packageManager": "pnpm@12.23.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,13 +10,16 @@
     "preview": "astro preview",
     "astro": "astro",
     "catalog": "node scripts/catalog/build.mjs",
-    "intros": "node scripts/introductions.mjs"
+    "intros": "node scripts/introductions.mjs",
+    "translations": "node scripts/translations.mjs",
+    "clean": "rm -rf dist .astro node_modules .netlify",
+    "refresh": "pnpm dlx @astrojs/upgrade; pnpm up -L"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.42.10",
-    "astro": "^7.4.11",
-    "dompurify": "^3.4.17",
-    "marked": "^18.2.0",
+    "@astrojs/starlight": "0.43.2",
+    "astro": "7.4.13",
+    "dompurify": "^3.5.0",
+    "marked": "^18.3.0",
     "marked-footnote": "^1.4.0",
     "sharp": "^0.35.5",
     "yaml": "^2.9.1"

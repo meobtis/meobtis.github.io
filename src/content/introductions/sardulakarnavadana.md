@@ -2,12 +2,16 @@
 title: Śārdūlakarṇāvadāna
 refs:
   - gretil:sa_zArdUlakarNAvadAna
+  - titus:sardulak
 summary: A Sanskrit Buddhist avadāna, the thirty-third story of the Divyāvadāna, in which a low-caste girl uses her mother's spells to draw Ānanda to her home and the Buddha intervenes.
 editions:
   - ref: gretil:sa_zArdUlakarNAvadAna
     history: >-
       The digital text is based on Sujitkumar Mukhopadhyaya's edition of the Śārdūlakarṇāvadāna (Calcutta: Visvabharati Publishing Department, 1954). The data entry was by Mizue Sugita, with initial normalisation by Reinhold Grünendahl and conversion to TEI markup by Maximilian Mehner.[^gretil-sardula]
-updated: 2026-11-14
+  - ref: titus:sardulak
+    history: >-
+      Based on Sujitkumar Mukhopadhyaya's edition (*The Śārdūlakarṇāvadāna*, Visvabharati Publishing Department), digitized by Mizue Sugita (Kyōtō, 1998; TITUS version by Jost Gippert).[^titus-sardula]
+updated: 2026-11-28
 ---
 
 The Śārdūlakarṇāvadāna is an *avadāna*, a narrative of the past and present deeds of Buddhist figures, and it is transmitted as the thirty-third of the thirty-eight stories in the Sanskrit collection known as the *Divyāvadāna*.[^wiki-divy] The GRETIL record presents it as a separate text, "Avadāna 33 of the Divyāvadāna".[^gretil-sardula] Like the other avadānas of the collection, it opens with the usual formula, placing the Buddha at Śrāvastī in Anāthapiṇḍada's park, the Jetavana.[^gretil-sardula]
@@ -19,3 +23,4 @@ The Divyāvadāna as a whole has been edited by Cowell and Neil (1886) and by P.
 [^gretil-sardula]: Göttingen State and University Library. (n.d.). *Śārdūlakarṇāvadāna [= Avadāna 33 of the Divyāvadāna]* [TEI XML]. GRETIL. Retrieved November 14, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zArdUlakarNAvadAna.xml
 [^wiki-divy]: Wikipedia contributors. (n.d.). Divyavadana. In *Wikipedia*. Retrieved November 14, 2026, from https://en.wikipedia.org/wiki/Divyavadana
 [^wiki-ananda]: Wikipedia contributors. (n.d.). Ananda. In *Wikipedia*. Retrieved November 14, 2026, from https://en.wikipedia.org/wiki/Ananda
+[^titus-sardula]: Sugita, M., & Gippert, J. (Eds.). (1998). *Śārdūlakarṇāvadāna* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/sardulak/sardu.htm

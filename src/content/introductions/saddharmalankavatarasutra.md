@@ -5,6 +5,7 @@ refs:
   - gretil:sa_saddharmalaGkAvatArasUtra
   - dsbc:53
   - dsbc:442
+  - titus:lankavat
 summary: A Mahāyāna sūtra, the Laṅkāvatāra Sūtra, in which the Buddha teaches the bodhisattva Mahāmati on Laṅkā, setting out Yogācāra themes such as mind-only, the ālaya consciousness and buddha-nature.
 editions:
   - ref: gretil:sa_saddharmalaGkAvatArasUtra
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:442
     history: >-
       This is the Devanāgarī version of the same Digital Sanskrit Buddhist Canon text, which is based on Vaidya's 1963 edition.[^dsbc442]
-updated: 2026-11-13
+  - ref: titus:lankavat
+    history: >-
+      Based on Bunyiu Nanjio's 1923 Kyoto edition (*The Laṅkāvatāra-Sūtra*, Otani University Press), electronically prepared by Almuth Degener (Mainz, 2002–2003; TITUS version by Jost Gippert).[^titus-lanka]
+updated: 2026-11-28
 ---
 
 The *Saddharmalaṅkāvatārasūtra*, usually called the Laṅkāvatāra Sūtra in English ("The Sūtra on the Descent into Laṅka" in the 84000 catalogue, Toh 107), is a Mahāyāna sūtra in which the Buddha teaches the bodhisattva Mahāmati.[^84000toh107][^wiki-lanka] The Sanskrit text used here is divided into ten chapters (*parivarta*), the first being the request of Rāvaṇa (*rāvaṇādhyeṣaṇāparivarta*).[^dsbc53]
@@ -25,10 +29,11 @@ The setting is the mythical city of Laṅkā, whose lord Rāvaṇa invites the B
 
 Its date and composition are debated. Summarising the scholarship, the general view is that the core was compiled around 350–400 CE, with the opening and final two chapters probably added later, while others argue for an earlier core influencing Nāgārjuna and Āryadeva, or for composition in Sri Lanka in the early fifth century.[^wiki-lanka] These dates are scholarly hypotheses and no firm consensus is documented in the sources consulted here.
 
-Four Chinese translations are reported (about 420–704 CE), of which three survive: by Guṇabhadra (Taishō 670, 443 CE), Bodhiruci (Taishō 671, 513 CE) and Śikṣānanda's team (Taishō 672, completed 704 CE). Two Tibetan translations are also reported, one from Sanskrit and one probably from Guṇabhadra's Chinese. Only one Sanskrit manuscript tradition, from Nepal, is known, and Bunyiu Nanjio's 1923 edition (Kyoto) was based on Nepalese manuscripts.[^wiki-lanka] The digital editions in this index follow instead the 1963 Darbhanga edition of P. L. Vaidya.[^gretil-lanka][^dsbc53]
+Four Chinese translations are reported (about 420–704 CE), of which three survive: by Guṇabhadra (Taishō 670, 443 CE), Bodhiruci (Taishō 671, 513 CE) and Śikṣānanda's team (Taishō 672, completed 704 CE). Two Tibetan translations are also reported, one from Sanskrit and one probably from Guṇabhadra's Chinese. Only one Sanskrit manuscript tradition, from Nepal, is known, and Bunyiu Nanjio's 1923 edition (Kyoto) was based on Nepalese manuscripts (followed by the TITUS edition here),[^wiki-lanka][^titus-lanka] while the GRETIL and DSBC editions follow the 1963 Darbhanga edition of P. L. Vaidya.[^gretil-lanka][^dsbc53]
 
 [^84000toh107]: 84000. (n.d.). *The sūtra on the descent into Laṅka* (Toh 107). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://84000.co/translation/toh107
 [^wiki-lanka]: Wikipedia contributors. (n.d.). Laṅkāvatāra Sūtra. In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Lankavatara_Sutra
 [^gretil-lanka]: Göttingen State and University Library. (n.d.). *Saddharmalaṅkāvatārasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_saddharmalaGkAvatArasUtra.xml
 [^dsbc53]: University of the West. (n.d.). *Saddharmalaṅkāvatārasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/53
 [^dsbc442]: University of the West. (n.d.). *सद्धर्मलङ्कावतारसूत्रम्*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/442
+[^titus-lanka]: Degener, A., & Gippert, J. (Eds.). (2003). *Laṅkāvatārasūtra* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/lankavat/lanka.htm

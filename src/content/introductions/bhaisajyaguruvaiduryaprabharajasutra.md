@@ -5,6 +5,7 @@ refs:
   - gretil:sa_bhaiSajyaguruvaidUryaprabharAjasUtra
   - dsbc:36
   - dsbc:431
+  - titus:bhaisajy
 summary: A Mahāyāna sūtra on the Buddha Bhaiṣajyaguru ("Master of Medicine"), his twelve vows, his lapis-lazuli buddhafield and the benefits of hearing and keeping his name.
 editions:
   - ref: gretil:sa_bhaiSajyaguruvaidUryaprabharAjasUtra
@@ -16,7 +17,10 @@ editions:
   - ref: dsbc:431
     history: >-
       The Devanāgarī counterpart of the DSBC romanised text, which the DSBC record lists as its parallel version.[^dsbc36]
-updated: 2026-11-13
+  - ref: titus:bhaisajy
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-bhaisajy]
+updated: 2026-11-28
 ---
 
 The Medicine Buddha Sūtra (*Bhaiṣajyaguruvaidūryaprabharājasūtra*) is a Mahāyāna sūtra set in Vaiśālī, in which Śākyamuni tells Mañjuśrī about the buddha Bhaiṣajyaguruvaidūryaprabha. The Tibetan version, classed as an Action tantra in the Kangyur (Toh 504), is rendered in English as *The Detailed Account of the Previous Aspirations of the Blessed Bhaiṣajyaguruvaiḍūryaprabha*.[^84000toh504]
@@ -28,3 +32,4 @@ The text survives in Sanskrit in manuscripts from Gilgit, dated to the fifth and
 [^84000toh504]: Dharmachakra Translation Committee. (n.d.). *The detailed account of the previous aspirations of the blessed Bhaiṣajyaguruvaiḍūryaprabha* (Toh 504). 84000: Translating the Words of the Buddha. Retrieved November 13, 2026, from https://www.84000.co/translation/toh504
 [^gretil-bhaisajya]: Göttingen State and University Library. (n.d.). *Bhaiṣajyaguruvaidūryaprabharājasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_bhaiSajyaguruvaidUryaprabharAjasUtra.xml
 [^dsbc36]: University of the West. (n.d.). *Bhaiṣajyaguruvaidūryaprabharājasūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/36
+[^titus-bhaisajy]: Degener, A., & Gippert, J. (Eds.). (2003). *Bhaiṣajyaguruvaiḍūryaprabharājasūtra* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/bhaisajy/bhais.htm

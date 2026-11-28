@@ -4,6 +4,7 @@ refs:
   - gretil:sa_sarvatathAgatAdhiSThAnavyUhasUtra
   - dsbc:57
   - dsbc:444
+  - titus:sarvatat
 summary: A short Mahāyāna sūtra preserved in Sanskrit in the Gilgit manuscripts, in which the Buddha teaches a samādhi and dhāraṇī-mantras at Avalokiteśvara's abode on Mount Potalaka.
 editions:
   - ref: gretil:sa_sarvatathAgatAdhiSThAnavyUhasUtra
@@ -15,7 +16,10 @@ editions:
   - ref: dsbc:444
     history: >-
       The Devanāgarī version is the parallel of the romanised DSBC text (book 57), based on the same printed edition.[^dsbc57]
-updated: 2026-11-13
+  - ref: titus:sarvatat
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-sarvatat]
+updated: 2026-11-28
 ---
 
 The *Sarvatathāgatādhiṣṭhānavyūhasūtra* is a short Mahāyāna sūtra transmitted in Buddhist Sanskrit. The digital editions here reproduce the text as printed in Nalinaksa Dutt's edition of the Gilgit manuscripts (pp. 49–89 of volume I), which marks the page breaks of that edition within the text.[^gretil-sarvatathagata] The title can be rendered roughly as the "array of the empowerment of all the tathāgatas"; no established English title was found in the sources consulted.
@@ -27,3 +31,4 @@ Little reliable information on the date, authorship, Tibetan or Chinese translat
 [^gretil-sarvatathagata]: Göttingen State and University Library. (n.d.). *Sarvatathāgatādhiṣṭhānavyūhasūtra* [TEI XML]. GRETIL. Retrieved November 13, 2026, from https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_sarvatathAgatAdhiSThAnavyUhasUtra.xml
 [^dsbc57]: University of the West. (n.d.). *Sarvatathāgatādhiṣṭhānavyūham sūtram*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/57
 [^unesco-gilgit]: UNESCO. (n.d.). *Gilgit manuscript*. Memory of the World. Retrieved November 13, 2026, from https://www.unesco.org/en/memory-world/gilgit-manuscript
+[^titus-sarvatat]: Degener, A., & Gippert, J. (Eds.). (2003). *Sarvatathāgatādhiṣṭhānasattvāvalokabuddhakṣetrasandarśanavyūham* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/sarvatat/sarva.htm

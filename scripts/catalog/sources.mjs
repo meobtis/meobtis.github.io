@@ -395,4 +395,28 @@ export const SOURCES = [
 			}));
 		},
 	},
+	{
+		id: 'titus',
+		label: 'TITUS',
+		name: 'Thesaurus Indogermanischer Text- und Sprachmaterialien',
+		homepage: 'https://titus.uni-frankfurt.de/texte/texte2.htm#buskt',
+		repo: 'meobtis/titus',
+		publisher: 'Goethe-Universität Frankfurt am Main',
+		credit:
+			'Text from TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien), Goethe-Universität Frankfurt am Main, ' +
+			'with the data-entry contributors named in the edition details.',
+		terms: 'For scholarly research and study; no parts may be republished without permission from the TITUS project.',
+		termsUrl: 'https://titus.uni-frankfurt.de/texte/texte2.htm#buskt',
+		load(dir) {
+			return readTexts(dir).map(({ path, data }) => ({
+				source: 'titus',
+				sourceId: String(data.titus_id),
+				title: String(data.title).trim(),
+				author: data.author ? String(data.author).trim() : undefined,
+				script: 'iast',
+				path,
+				originalUrl: data.source_url,
+			}));
+		},
+	},
 ];

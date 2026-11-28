@@ -4,6 +4,7 @@ refs:
   - gretil:sa_hayagrIvavidyA
   - dsbc:16
   - dsbc:392
+  - titus:hayagriv
 summary: A short Sanskrit Buddhist dhāraṇī (vidyā) of the horse-headed Hayagrīva, spoken in the name of Avalokiteśvara, with brief instructions for its ritual use, known from the Gilgit manuscripts.
 editions:
   - ref: gretil:sa_hayagrIvavidyA
@@ -15,7 +16,10 @@ editions:
   - ref: dsbc:392
     history: >-
       This is the Devanāgarī version of the same Digital Sanskrit Buddhist Canon text, which the romanised record names as its parallel.[^dsbc16]
-updated: 2026-11-13
+  - ref: titus:hayagriv
+    history: >-
+      Digitized from Nalinaksha Dutt's *Gilgit Manuscripts*, vol. 1 (Delhi: Sri Satguru Publication, 1984), electronically prepared by Almuth Degener (Mainz, 2003; TITUS version by Jost Gippert).[^titus-hayagriva]
+updated: 2026-11-28
 ---
 
 The *Hayagrīvavidyā* is a very short Sanskrit text of the dhāraṇī (protective incantation) type, found in the edition of the Gilgit manuscripts prepared by Nalinaksha Dutt. The digital texts open with homage to the Three Jewels and to Avalokiteśvara, and then introduce the "heart" (*hṛdaya*) of Hayagrīva as spoken from the mouth of Avalokiteśvara and held by Vajradhara, said to accomplish every purpose and to destroy poisons and harmful spirits. A mantra follows, invoking Hayagrīva as a destroyer of poison, demons and hostile spells and ending with *phaṭ* and *svāhā*. A closing prose passage gives rules for its use: protective recitation, binding a five-coloured thread with knots, rites at eclipses, and a sandalwood image group of Lokeśvara flanked by Vajradhara and Avalokiteśvara.[^gretil-hayagriva]
@@ -26,3 +30,4 @@ Hayagrīva ("horse-necked") is a wrathful figure in Buddhism, described in gener
 [^dsbc16]: University of the West. (n.d.). *Hayagrīvavidyā*. Digital Sanskrit Buddhist Canon. Retrieved November 13, 2026, from https://www.dsbcproject.org/canon-text/book/16
 [^wiki-hayagriva]: Hayagriva (Buddhism). (n.d.). In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Hayagriva_(Buddhism)
 [^wiki-gilgit]: Gilgit manuscripts. (n.d.). In *Wikipedia*. Retrieved November 13, 2026, from https://en.wikipedia.org/wiki/Gilgit_manuscripts
+[^titus-hayagriva]: Degener, A., & Gippert, J. (Eds.). (2003). *Hayagrīvavidyā* [TITUS text]. Goethe-Universität Frankfurt am Main. Retrieved November 28, 2026, from https://titus.uni-frankfurt.de/texte/etcs/ind/aind/bskt/hayagriv/hayag.htm
